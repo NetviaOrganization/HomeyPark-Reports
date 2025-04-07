@@ -38,6 +38,7 @@
 | Versión   | Fecha       | Autor      | Descripción |
 |-----------|-------------|------------|-------------|
 | 1.0       | 05/04/2025 | Adriano Cruz | Creación de la estructura del informe |
+| 1.0       | 06/04/2025 | Sebastian Cachis | Desarrollo de todo el capítulo I |
 
 ### Project Report Collaboration Insights
 
@@ -46,7 +47,7 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 
 | Integrante                            | Tareas Designadas       |
 |-----------------------------------|--------------------------|
-| [Nombre del integrante]           | [Tareas]                |
+| Sebastian Cachis           | Desarrollo de todo el capítulo I                |
 | [Nombre del integrante]           | [Tareas]                |
 | ...                               | ...                     |
 
@@ -165,15 +166,192 @@ Evidencias del Insights Contributos de los commits del informe:
 
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+
+SwapService es una startup innovadora que desarrolla una plataforma digital C2C (Consumer to Consumer) dedicada al intercambio de servicios y habilidades sin costo monetario. Fundada como una alternativa a la economía tradicional basada en dinero, SwapService permite a los usuarios intercambiar directamente sus conocimientos, habilidades y tiempo con otros miembros de la comunidad.
+
+La plataforma se sustenta en tres pilares fundamentales:
+
+1. **Accesibilidad:** Democratizar el acceso a servicios y conocimientos diversos, eliminando las barreras económicas.
+
+2. **Comunidad:** Fomentar conexiones significativas entre personas con habilidades complementarias, creando una red de apoyo mutuo.
+
+3. **Sostenibilidad:** Promover un modelo de consumo más consciente basado en el aprovechamiento de recursos existentes (habilidades y tiempo) en lugar de la producción continua de bienes materiales.
+
+SwapService surge como respuesta a desafíos contemporáneos como la desigualdad económica, el desaprovechamiento de talentos y la necesidad de construir comunidades más conectadas y resilientes.
+
+## Misión
+Facilitar el intercambio equitativo de habilidades y servicios entre personas, empoderando a las comunidades para crear valor compartido sin intermediación monetaria, promoviendo así una economía colaborativa basada en el talento y las conexiones humanas.
+
+## Visión
+Ser la plataforma líder global en intercambio de servicios peer-to-peer, transformando la manera en que las personas intercambian valor, fomentando una sociedad más colaborativa donde el acceso a servicios y conocimientos no esté limitado por restricciones económicas sino potenciado por el talento colectivo de la comunidad.
+
 ### 1.1.2. Perfiles de integrantes del equipo
+
+|                                                                                                                                                                                                          Descripción de los perfiles de los integrantes del equipo                                                                                                                                                                                                           |                                                              Foto del integrante                                                              |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|
+|  |   <img src="Assets/teamMembersPhotos/"/>   |
+| |   <img src="Assets/teamMembersPhotos/"/>   |
+|Mi nombre es **Amner Levi Llamo Sánchez**, soy estudiante del séptimo ciclo de ingeniería de software en la UPC. Me gusta jugar fútbol y videojuegos, por eso estoy constantemente investigando sobre nuevas tecnologías. Soy responsable con los trabajos que se me asignan; además soy tolerante y me adapto a las circunstancias del equipo.|<img src='Assets/teamMembersPhotos/'/>|
+|Mi nombre es **Sebastian Nicolas Cachis Gonzales**, soy estudiante de séptimo ciclo de ingeniería de software en la UPC. Me considero una persona proactiva, organizada, meticulosa y muy enfocada en mis estudios, tanto grupales como individuales. Tengo facilidad para entender y ejemplificar los distintos temas que vemos, teniendo soltura para explicar. | <img src='../Assets/teamMembersPhotos/sebastianCachis.png'/> |
+| | <img src='Assets/teamMembersPhotos/'/> |
+
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
+
+En la actualidad, nos enfrentamos a diversos desafíos socioeconómicos que afectan directamente a la forma en que las personas acceden a servicios y conocimientos:
+
+## Contexto actual
+
+- **Desigualdad económica creciente**: El acceso a servicios profesionales y conocimientos especializados está condicionado por la capacidad económica, creando brechas significativas entre diferentes segmentos de la población.
+
+- **Talento infrautilizado**: Muchas personas poseen habilidades valiosas que no pueden monetizar efectivamente en el mercado laboral tradicional, o que quedan sin aprovecharse por falta de oportunidades.
+
+- **Economía hiperconsumista**: El modelo económico predominante incentiva el consumo continuo y la acumulación, generando problemas de sostenibilidad ambiental y social.
+
+- **Fragmentación comunitaria**: La industrialización y digitalización han debilitado los lazos comunitarios tradicionales donde el intercambio de favores y habilidades era una práctica común.
+
+## Problemáticas específicas
+
+1. **Barrera económica para acceder a servicios**: Muchas personas no pueden permitirse contratar servicios profesionales que necesitan, mientras que quienes ofrecen estos servicios enfrentan periodos de inactividad.
+
+2. **Falta de reconocimiento de habilidades no convencionales**: El sistema económico actual reconoce y valora principalmente habilidades estandarizadas y certificadas formalmente, dejando de lado otras capacidades valiosas.
+
+3. **Ausencia de plataformas efectivas**: Las soluciones existentes para el intercambio de servicios suelen ser:
+   - Demasiado locales y de alcance limitado
+   - Carentes de sistemas de confianza robustos
+   - Sin mecanismos efectivos para equiparar el valor de diferentes servicios
+   - Con interfaces poco intuitivas que dificultan las conexiones eficientes
+
+4. **Dependencia excesiva del dinero como único medio de intercambio**: Esta dependencia limita las posibilidades de intercambio cuando hay escasez de recursos monetarios, aun cuando existe abundancia de talentos y tiempo disponible.
+
+SwapService surge como respuesta a estas problemáticas, buscando crear un ecosistema donde el valor se genere y comparta a través del intercambio directo de habilidades y servicios, democratizando el acceso a estos recursos y fortaleciendo el tejido social comunitario.
+
 ### 1.2.2. Lean UX Process
+
+El desarrollo de SwapService sigue la metodología Lean UX, que combina el pensamiento Lean Startup con el diseño centrado en el usuario. Este enfoque nos permite validar rápidamente nuestras hipótesis de valor y crear soluciones adaptadas a las necesidades reales de los usuarios con el mínimo de recursos.
+
+## Principios Lean UX aplicados a SwapService
+
+- **Enfoque en los problemas, no en las características**: Priorizamos entender profundamente los problemas de los usuarios antes de diseñar soluciones.
+- **Iteraciones pequeñas y rápidas**: Desarrollamos MVP (Producto Mínimo Viable) que podemos poner a prueba rápidamente.
+- **Validación continua**: Cada decisión de diseño y desarrollo se valida con usuarios reales.
+- **Colaboración multidisciplinaria**: Equipos integrados por diseñadores, desarrolladores y stakeholders.
+- **Medición de resultados**: Definimos métricas claras para evaluar el éxito de cada iteración.
+
 #### 1.2.2.1. Lean UX Problem Statements
+
+Los Problem Statements nos permiten definir claramente los problemas que buscamos resolver, centrándonos en las necesidades de los usuarios y no en características específicas del producto.
+
+## Problem Statement 1: Acceso a servicios
+
+**Hemos observado que** personas con recursos económicos limitados **tienen dificultades para** acceder a servicios profesionales que necesitan (como clases particulares, asesoría legal básica, diseño gráfico, etc.), **lo que provoca** que renuncien a estos servicios o busquen alternativas subóptimas, **afectando** su desarrollo personal y profesional.
+
+## Problem Statement 2: Aprovechamiento de habilidades
+
+**Hemos observado que** profesionales y personas con habilidades específicas **tienen dificultades para** encontrar canales donde ofrecer sus servicios cuando enfrentan periodos de baja demanda o cuando sus habilidades no son fácilmente monetizables, **lo que provoca** desaprovechamiento de talentos y periodos de inactividad, **afectando** sus oportunidades de desarrollo y networking.
+
+## Problem Statement 3: Confianza en intercambios
+
+**Hemos observado que** las personas interesadas en intercambios no monetarios **tienen dificultades para** establecer relaciones de confianza con desconocidos y para acordar el valor equivalente de servicios diferentes, **lo que provoca** que muchos intercambios potenciales no se materialicen, **afectando** la viabilidad de las economías colaborativas.
+
+## Problem Statement 4: Comunidad y conexión
+
+**Hemos observado que** individuos en entornos urbanos modernos **tienen dificultades para** establecer conexiones significativas basadas en el intercambio de valor con su comunidad más cercana, **lo que provoca** aislamiento y falta de apoyo mutuo, **afectando** la cohesión social y la resiliencia comunitaria.
+
 #### 1.2.2.2. Lean UX Assumptions
+
+Las asunciones nos permiten explicitar las creencias que tenemos sobre nuestros usuarios, sus necesidades y el valor que nuestra solución puede aportar.
+
+## Asunciones sobre los usuarios
+
+1. Creemos que nuestros usuarios principales son:
+   - Profesionales independientes con periodos de disponibilidad variable
+   - Estudiantes y jóvenes profesionales con habilidades pero recursos limitados
+   - Personas con habilidades no convencionales difíciles de monetizar
+   - Individuos interesados en economías alternativas y consumo responsable
+
+2. Creemos que los usuarios valoran:
+   - Acceder a servicios que de otro modo no podrían permitirse
+   - La posibilidad de aplicar sus habilidades y conocimientos
+   - Experiencias de conexión humana significativas
+   - Alternativas al modelo económico tradicional
+
+3. Creemos que los principales problemas de los usuarios son:
+   - Falta de recursos económicos para acceder a ciertos servicios
+   - Dificultad para encontrar personas que valoren sus habilidades específicas
+   - Establecer confianza en intercambios fuera de los canales convencionales
+   - Cuantificar el valor de servicios dispares para realizar intercambios justos
+
+## Asunciones sobre la solución
+
+1. Creemos que una plataforma digital facilitará conexiones eficientes entre personas con necesidades y habilidades complementarias.
+
+2. Creemos que un sistema de valoración y reseñas resolverá gran parte del problema de confianza entre desconocidos.
+
+3. Creemos que el establecimiento de categorías y estándares de tiempo ayudará a equiparar el valor de diferentes servicios.
+
+4. Creemos que la experiencia de usuario debe priorizar:
+   - Facilidad para describir habilidades y necesidades
+   - Sistemas de búsqueda inteligente para sugerir coincidencias potenciales
+   - Herramientas de comunicación integradas
+   - Mecanismos de verificación y construcción de reputación
+
+## Asunciones sobre el valor para el negocio
+
+1. Creemos que podremos sostener la plataforma mediante:
+   - Un modelo freemium con funcionalidades avanzadas de pago
+   - Alianzas con entidades educativas y municipalidades interesadas en fomentar economías colaborativas
+   - Datos anónimos sobre tendencias de intercambio de servicios
+
+2. Creemos que el crecimiento ocurrirá principalmente a través de:
+   - Marketing boca a boca entre usuarios satisfechos
+   - Construcción de comunidades locales activas
+   - Alianzas estratégicas con organizaciones afines
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+Las hipótesis conectan nuestras asunciones con resultados medibles, permitiéndonos validar o refutar nuestras creencias en cada iteración.
+
+## Hipótesis 1: Registro y onboarding
+
+**Creemos que** un proceso de registro que permita a los usuarios categorizar detalladamente sus habilidades y necesidades **ayudará a** los usuarios a encontrar coincidencias relevantes **lo que mediremos** por el porcentaje de usuarios que completan al menos un intercambio en los primeros 30 días tras su registro.
+
+## Hipótesis 2: Sistema de reputación
+
+**Creemos que** implementar un sistema de verificación de identidad y reseñas detalladas **ayudará a** incrementar la confianza entre usuarios **lo que mediremos** por la tasa de intercambios exitosos completados vs. intercambios inicialmente propuestos, y por las evaluaciones positivas de la experiencia.
+
+## Hipótesis 3: Valoración de servicios
+
+**Creemos que** establecer un sistema basado en tiempo y categorización de complejidad para equiparar diferentes servicios **ayudará a** los usuarios a acordar intercambios percibidos como justos por ambas partes **lo que mediremos** por la satisfacción reportada tras el intercambio y la tasa de disputas por inequidad.
+
+## Hipótesis 4: Búsqueda inteligente
+
+**Creemos que** un algoritmo de coincidencia que sugiera proactivamente intercambios potenciales basados en las habilidades y necesidades declaradas **ayudará a** aumentar el número de intercambios realizados **lo que mediremos** por la tasa de adopción de sugerencias automáticas vs. búsquedas manuales.
+
+## Hipótesis 5: Comunidades locales
+
+**Creemos que** fomentar intercambios geográficamente cercanos con funcionalidades específicas **ayudará a** crear comunidades más cohesionadas y aumentará la retención de usuarios **lo que mediremos** por la frecuencia de uso y la tasa de intercambios repetidos entre los mismos usuarios.
+
+## Hipótesis 6: Gamificación
+
+**Creemos que** implementar elementos de gamificación como insignias por habilidades verificadas y reconocimientos por intercambios exitosos **ayudará a** aumentar el compromiso de los usuarios **lo que mediremos** por la frecuencia de visitas a la plataforma y la participación activa en la comunidad.
+
 #### 1.2.2.4. Lean UX Canvas
+
+<img src='../Assets/LeanUXCanva.png'/>
+
 ## 1.3. Segmentos objetivo
+
+### 1.3. Segmentos Objetivo
+
+La plataforma EzPark está dirigida principalmente a dos segmentos clave dentro del entorno urbano: los conductores que buscan estacionamiento de forma rápida y segura, y los propietarios de viviendas que desean aprovechar espacios libres en sus garajes.
+
+En primer lugar, el segmento de **conductores urbanos en búsqueda de estacionamiento** comprende a personas que se desplazan regularmente en automóvil, ya sea por motivos laborales, académicos o personales. Estos usuarios suelen enfrentar dificultades al momento de encontrar espacios para estacionar en zonas residenciales, lo que genera pérdida de tiempo, frustración y un aumento del tráfico. EzPark busca brindarles una solución eficiente mediante una aplicación que les permita localizar, reservar y pagar estacionamientos disponibles en garajes particulares cercanos a su destino, garantizando seguridad y comodidad durante su experiencia de uso.
+
+Por otro lado, el segmento de **propietarios de viviendas con garajes disponibles** está compuesto por personas que cuentan con un espacio de estacionamiento en su hogar, pero que permanece desocupado durante ciertos momentos del día. Este grupo encuentra en EzPark una oportunidad para generar ingresos pasivos al poner a disposición su garaje de manera flexible y segura. La plataforma les permite gestionar el horario de disponibilidad, recibir pagos de manera automática y mantener el control sobre quién utiliza su espacio, todo ello desde una interfaz amigable y confiable.
+
+Ambos segmentos se benefician mutuamente dentro del ecosistema de EzPark, promoviendo una solución colaborativa a los problemas de estacionamiento en entornos urbanos residenciales.
+
 
 <h1 id="capitulo-ii-requirements-elicitation--analysis">Capítulo II: Requirements Elicitation & Analysis</h1>
 
