@@ -342,16 +342,11 @@ Las hipótesis conectan nuestras asunciones con resultados medibles, permitiénd
 
 ## 1.3. Segmentos objetivo
 
-### 1.3. Segmentos Objetivo
+SwapService está dirigido a dos segmentos principales de usuarios que comparten un interés en el intercambio de bienes, conocimientos y servicios, aunque cada grupo presenta características, motivaciones y necesidades distintas según su contexto.
 
-La plataforma EzPark está dirigida principalmente a dos segmentos clave dentro del entorno urbano: los conductores que buscan estacionamiento de forma rápida y segura, y los propietarios de viviendas que desean aprovechar espacios libres en sus garajes.
+El primer segmento está compuesto por jóvenes universitarios y recién egresados, usualmente entre los 18 y 28 años, que viven en entornos urbanos o zonas cercanas a centros de estudio. Este grupo tiene un alto dominio del entorno digital, utiliza frecuentemente aplicaciones móviles y redes sociales, y cuenta con un presupuesto limitado, lo que los lleva a buscar alternativas económicas para adquirir productos o servicios. Además de intercambiar objetos físicos como ropa, libros o accesorios, estos usuarios también encuentran valor en compartir conocimientos prácticos, como tutorías, ayuda con tareas, o asesorías básicas en tecnología y diseño. Valoran la sostenibilidad, el ahorro y la pertenencia a comunidades colaborativas, y ven en el trueque de conocimientos una forma enriquecedora de aportar y aprender.
 
-En primer lugar, el segmento de **conductores urbanos en búsqueda de estacionamiento** comprende a personas que se desplazan regularmente en automóvil, ya sea por motivos laborales, académicos o personales. Estos usuarios suelen enfrentar dificultades al momento de encontrar espacios para estacionar en zonas residenciales, lo que genera pérdida de tiempo, frustración y un aumento del tráfico. EzPark busca brindarles una solución eficiente mediante una aplicación que les permita localizar, reservar y pagar estacionamientos disponibles en garajes particulares cercanos a su destino, garantizando seguridad y comodidad durante su experiencia de uso.
-
-Por otro lado, el segmento de **propietarios de viviendas con garajes disponibles** está compuesto por personas que cuentan con un espacio de estacionamiento en su hogar, pero que permanece desocupado durante ciertos momentos del día. Este grupo encuentra en EzPark una oportunidad para generar ingresos pasivos al poner a disposición su garaje de manera flexible y segura. La plataforma les permite gestionar el horario de disponibilidad, recibir pagos de manera automática y mantener el control sobre quién utiliza su espacio, todo ello desde una interfaz amigable y confiable.
-
-Ambos segmentos se benefician mutuamente dentro del ecosistema de EzPark, promoviendo una solución colaborativa a los problemas de estacionamiento en entornos urbanos residenciales.
-
+El segundo segmento está conformado por adultos jóvenes emprendedores o freelancers, con edades entre 25 y 40 años, que gestionan de forma independiente sus recursos y actividades profesionales. Son personas que buscan intercambiar sus habilidades o productos por otros servicios útiles, como asesorías, diseño, reparación de equipos, marketing, entre otros. En este segmento, el interés en el intercambio de conocimientos y servicios es aún más estratégico: ven en SwapService una oportunidad para ampliar su red profesional, potenciar colaboraciones y acceder a soluciones sin requerir inversión económica directa. Su motivación principal es aprovechar al máximo sus talentos y recursos, mientras crean relaciones de valor dentro de una comunidad dinámica y confiable.
 
 <h1 id="capitulo-ii-requirements-elicitation--analysis">Capítulo II: Requirements Elicitation & Analysis</h1>
 
