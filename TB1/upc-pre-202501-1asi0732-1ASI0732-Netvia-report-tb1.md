@@ -193,7 +193,7 @@ Ser la plataforma líder global en intercambio de servicios peer-to-peer, transf
 | |   <img src="Assets/teamMembersPhotos/"/>   |
 |Mi nombre es **Amner Levi Llamo Sánchez**, soy estudiante del séptimo ciclo de ingeniería de software en la UPC. Me gusta jugar fútbol y videojuegos, por eso estoy constantemente investigando sobre nuevas tecnologías. Soy responsable con los trabajos que se me asignan; además soy tolerante y me adapto a las circunstancias del equipo.|<img src='Assets/teamMembersPhotos/'/>|
 |Mi nombre es **Sebastian Nicolas Cachis Gonzales**, soy estudiante de séptimo ciclo de ingeniería de software en la UPC. Me considero una persona proactiva, organizada, meticulosa y muy enfocada en mis estudios, tanto grupales como individuales. Tengo facilidad para entender y ejemplificar los distintos temas que vemos, teniendo soltura para explicar. | <img src='../Assets/teamMembersPhotos/sebastianCachis.png'/> |
-| | <img src='Assets/teamMembersPhotos/'/> |
+|Mi nombre es **Adriano Sebastian Cruz Palomino**, tengo 20 años, soy alumno de Ingeniería de Software en la UPC, actualmente estoy cursando el 7mo ciclo. Soy una persona curiosa, responsable, y comprometida con mis estudios, siempre busco aprender más y mejorar mis habilidades.| <img src='../Assets/teamMembersPhotos/AdrianoCruz.png/'/> |
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
@@ -238,7 +238,7 @@ El desarrollo de SwapService sigue la metodología Lean UX, que combina el pensa
 - **Colaboración multidisciplinaria**: Equipos integrados por diseñadores, desarrolladores y stakeholders.
 - **Medición de resultados**: Definimos métricas claras para evaluar el éxito de cada iteración.
 
-#### 1.2.2.1. Lean UX Problem Statements
+### 1.2.2.1. Lean UX Problem Statements
 
 Los Problem Statements nos permiten definir claramente los problemas que buscamos resolver, centrándonos en las necesidades de los usuarios y no en características específicas del producto.
 
@@ -258,7 +258,7 @@ Los Problem Statements nos permiten definir claramente los problemas que buscamo
 
 **Hemos observado que** individuos en entornos urbanos modernos **tienen dificultades para** establecer conexiones significativas basadas en el intercambio de valor con su comunidad más cercana, **lo que provoca** aislamiento y falta de apoyo mutuo, **afectando** la cohesión social y la resiliencia comunitaria.
 
-#### 1.2.2.2. Lean UX Assumptions
+### 1.2.2.2. Lean UX Assumptions
 
 Las asunciones nos permiten explicitar las creencias que tenemos sobre nuestros usuarios, sus necesidades y el valor que nuestra solución puede aportar.
 
@@ -308,7 +308,7 @@ Las asunciones nos permiten explicitar las creencias que tenemos sobre nuestros 
    - Construcción de comunidades locales activas
    - Alianzas estratégicas con organizaciones afines
 
-#### 1.2.2.3. Lean UX Hypothesis Statements
+### 1.2.2.3. Lean UX Hypothesis Statements
 
 Las hipótesis conectan nuestras asunciones con resultados medibles, permitiéndonos validar o refutar nuestras creencias en cada iteración.
 
@@ -336,21 +336,9 @@ Las hipótesis conectan nuestras asunciones con resultados medibles, permitiénd
 
 **Creemos que** implementar elementos de gamificación como insignias por habilidades verificadas y reconocimientos por intercambios exitosos **ayudará a** aumentar el compromiso de los usuarios **lo que mediremos** por la frecuencia de visitas a la plataforma y la participación activa en la comunidad.
 
-#### 1.2.2.4. Lean UX Canvas
-
-<img src='../Assets/LeanUXCanva.png'/>
+### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
-
-### 1.3. Segmentos Objetivo
-
-La plataforma EzPark está dirigida principalmente a dos segmentos clave dentro del entorno urbano: los conductores que buscan estacionamiento de forma rápida y segura, y los propietarios de viviendas que desean aprovechar espacios libres en sus garajes.
-
-En primer lugar, el segmento de **conductores urbanos en búsqueda de estacionamiento** comprende a personas que se desplazan regularmente en automóvil, ya sea por motivos laborales, académicos o personales. Estos usuarios suelen enfrentar dificultades al momento de encontrar espacios para estacionar en zonas residenciales, lo que genera pérdida de tiempo, frustración y un aumento del tráfico. EzPark busca brindarles una solución eficiente mediante una aplicación que les permita localizar, reservar y pagar estacionamientos disponibles en garajes particulares cercanos a su destino, garantizando seguridad y comodidad durante su experiencia de uso.
-
-Por otro lado, el segmento de **propietarios de viviendas con garajes disponibles** está compuesto por personas que cuentan con un espacio de estacionamiento en su hogar, pero que permanece desocupado durante ciertos momentos del día. Este grupo encuentra en EzPark una oportunidad para generar ingresos pasivos al poner a disposición su garaje de manera flexible y segura. La plataforma les permite gestionar el horario de disponibilidad, recibir pagos de manera automática y mantener el control sobre quién utiliza su espacio, todo ello desde una interfaz amigable y confiable.
-
-Ambos segmentos se benefician mutuamente dentro del ecosistema de EzPark, promoviendo una solución colaborativa a los problemas de estacionamiento en entornos urbanos residenciales.
 
 
 <h1 id="capitulo-ii-requirements-elicitation--analysis">Capítulo II: Requirements Elicitation & Analysis</h1>
@@ -385,8 +373,8 @@ Ambos segmentos se benefician mutuamente dentro del ecosistema de EzPark, promov
 ### 4.1.1. General Style Guidelines
 ### 4.1.2. Web Style Guidelines
 ### 4.1.3. Mobile Style Guidelines
-#### 4.1.3.1. iOS Mobile Style Guidelines
-#### 4.1.3.2. Android Mobile Style Guidelines
+### 4.1.3.1. iOS Mobile Style Guidelines
+### 4.1.3.2. Android Mobile Style Guidelines
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
 ### 4.2.2. Labeling Systems
