@@ -379,12 +379,14 @@ Para obtener una comprensión profunda de las necesidades y expectativas de los 
 - ¿Qué tipo de servicios o habilidades estarías dispuesto a ofrecer en una plataforma como SwapService?
 - ¿Qué barreras encuentras actualmente para acceder a servicios profesionales que necesitas?
 - ¿Cómo evalúas la confianza y seguridad en una plataforma de intercambio de servicios?
+
 **Preguntas para Jóvenes Universitarios y Recién Egresados**
 - ¿Con qué frecuencia buscas alternativas económicas para acceder a servicios o productos?
 - ¿Qué tipo de servicios o conocimientos te gustaría intercambiar con otros estudiantes o profesionales?
 - ¿Cómo te sientes acerca de la idea de intercambiar tiempo y habilidades en lugar de dinero?
 - ¿Qué características consideras importantes en una plataforma que facilite el intercambio de servicios entre estudiantes?
 - ¿Cómo crees que una plataforma como SwapService podría ayudarte en tu desarrollo personal y profesional?
+
 **Preguntas para Jóvenes Emprendedores o Freelancers**
 - ¿Qué desafíos enfrentas actualmente en la monetización de tus habilidades o servicios?
 - ¿Cómo gestionas los periodos de baja demanda en tu trabajo freelance?
