@@ -167,17 +167,13 @@ Evidencias del Insights Contributos de los commits del informe:
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 
-SwapService es una startup innovadora que desarrolla una plataforma digital C2C (Consumer to Consumer) dedicada al intercambio de servicios y habilidades sin costo monetario. Fundada como una alternativa a la economía tradicional basada en dinero, SwapService permite a los usuarios intercambiar directamente sus conocimientos, habilidades y tiempo con otros miembros de la comunidad.
+Netvia es una startup tecnológica orientada a diseñar soluciones digitales inteligentes que transformen la manera en que las personas interactúan con los servicios urbanos en el mundo moderno. Fundada por un equipo multidisciplinario con enfoque en innovación, desarrollo escalable y experiencia de usuario, Netvia se posiciona como un agente disruptivo en el sector Tech4UrbanLife (tecnología para la vida urbana), creando plataformas que combinan accesibilidad, eficiencia y sostenibilidad.
 
-La plataforma se sustenta en tres pilares fundamentales:
+Nuestro propósito como empresa es identificar necesidades reales de la vida cotidiana y resolverlas mediante productos tecnológicos que puedan escalar globalmente sin perder el enfoque local. Apostamos por modelos centrados en el usuario, arquitectura modular, y un profundo compromiso con la usabilidad y la confiabilidad de nuestros productos.
 
-1. **Accesibilidad:** Democratizar el acceso a servicios y conocimientos diversos, eliminando las barreras económicas.
+En Netvia, creemos que la tecnología debe servir como puente entre las personas y las oportunidades de su entorno. Por ello, nuestras soluciones están construidas con principios de diseño ágil, desarrollo basado en microservicios y herramientas modernas que permiten una rápida adaptación a los cambios del mercado.
 
-2. **Comunidad:** Fomentar conexiones significativas entre personas con habilidades complementarias, creando una red de apoyo mutuo.
-
-3. **Sostenibilidad:** Promover un modelo de consumo más consciente basado en el aprovechamiento de recursos existentes (habilidades y tiempo) en lugar de la producción continua de bienes materiales.
-
-SwapService surge como respuesta a desafíos contemporáneos como la desigualdad económica, el desaprovechamiento de talentos y la necesidad de construir comunidades más conectadas y resilientes.
+SwapService, nuestro producto insignia actual, refleja esta filosofía: una plataforma que facilita la reserva inteligente de espacios de estacionamiento en garajes residenciales. SwapService representa nuestra visión de movilidad urbana conectada, aprovechando los recursos existentes y transformándolos en valor real para la comunidad.
 
 ## Misión
 Facilitar el intercambio equitativo de habilidades y servicios entre personas, empoderando a las comunidades para crear valor compartido sin intermediación monetaria, promoviendo así una economía colaborativa basada en el talento y las conexiones humanas.
