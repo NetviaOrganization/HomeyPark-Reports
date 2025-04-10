@@ -394,6 +394,18 @@ Para obtener una comprensión profunda de las necesidades y expectativas de los 
 - ¿Cómo evalúas el valor de tus servicios cuando consideras un intercambio no monetario?
 - ¿Qué beneficios esperas obtener al participar en una comunidad de intercambio de servicios como SwapService?
 ### 2.2.2. Registro de entrevistas
+
+***Jóvenes Universitarios y Recién Egresados***
+
+|Nombre entrevistado|Augusto Granados|
+|-|-|
+|Edad|20 años|
+|Departamento|Lima, Lima|
+|<img src="../Assets/interviewsPhotos/augustogranados.png">|Augusto Granados no cuenta con el pasar del tiempo, la necesidad de conocer herramientas y métodos estadísticos son muy importantes para poder seguir con su carrera una vez ya egresado. Como el saber programación para la manipulación de datos estadísticos. El contar con una aplicación que le permita intercambiar conocimientos de forma gratuita es de mucha ayuda y factible para quienes no posean con los recursos, pero si tengan la intención de querer seguir aprendiendo y cuente algo que ofrecer |
+|Duración entrevista: 00:00-09:27    |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/EUu1idGzQANCuxR4aUX4dLEBM9jZrfD_o_Am6yvitXcUpQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sVtiCe]|
+
+***Jóvenes Emprendedores o Freelancers***
+
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
