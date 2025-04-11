@@ -171,9 +171,9 @@ Netvia es una startup tecnológica orientada a diseñar soluciones digitales int
 
 Nuestro propósito como empresa es identificar necesidades reales de la vida cotidiana y resolverlas mediante productos tecnológicos que puedan escalar globalmente sin perder el enfoque local. Apostamos por modelos centrados en el usuario, arquitectura modular, y un profundo compromiso con la usabilidad y la confiabilidad de nuestros productos.
 
-En Netvia, creemos que la tecnología debe servir como puente entre las personas y las oportunidades de su entorno. Por ello, nuestras soluciones están construidas con principios de diseño ágil, desarrollo basado en microservicios y herramientas modernas que permiten una rápida adaptación a los cambios del mercado.
+Creemos que la tecnología debe estar al servicio de las personas, facilitando experiencias seguras, intuitivas y transparentes. Bajo esta visión, nace nuestro producto principal: SwapService, una aplicación web y mobile diseñada para permitir el trueque de bienes, conocimientos y servicios entre individuos, impulsando una red confiable de usuarios con intereses compartidos.
 
-SwapService, nuestro producto insignia actual, refleja esta filosofía: una plataforma que facilita la reserva inteligente de espacios de estacionamiento en garajes residenciales. SwapService representa nuestra visión de movilidad urbana conectada, aprovechando los recursos existentes y transformándolos en valor real para la comunidad.
+En Netvia, trabajamos con pasión, creatividad y enfoque ágil para ofrecer productos que generen impacto social, fomenten el desarrollo sostenible y transformen la forma en que las personas interactúan en el entorno digital.
 
 ## Misión
 Facilitar el intercambio equitativo de habilidades y servicios entre personas, empoderando a las comunidades para crear valor compartido sin intermediación monetaria, promoviendo así una economía colaborativa basada en el talento y las conexiones humanas.
