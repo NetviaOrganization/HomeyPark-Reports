@@ -2,7 +2,7 @@
 
 # Universidad Peruana de Ciencias Aplicadas
 ### INFORME DEL TRABAJO 1 (TB1)
-![image](../Assets/Logo-UPC.png)
+<img src="../Assets/Logo-UPC.png">
 
 **Curso:** Diseño de Experimentos de Ingeniería de Software
 
@@ -418,7 +418,7 @@ Para obtener una comprensión profunda de las necesidades y expectativas de los 
 ### 2.3.1. User Personas
 **User Persona: Usuario Joven Universitario**
 
-![image](/Assets/UserPersonaCarlosLópez.png)
+<img src="../Assets/UserPersonaCarlosLópez.png">
 
 
 ### 2.3.2. User Task Matrix
