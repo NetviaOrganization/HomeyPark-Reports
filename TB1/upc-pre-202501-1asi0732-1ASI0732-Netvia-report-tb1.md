@@ -416,6 +416,8 @@ Para obtener una comprensión profunda de las necesidades y expectativas de los 
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+A continuación, se presentan los perfiles de usuario para los dos segmentos objetivo de SwapService: jóvenes universitarios y freelancers. Estos perfiles representan a individuos que buscan maximizar sus recursos y habilidades a través de una plataforma colaborativa, valorando la conexión y el intercambio de conocimientos.
+
 ### **User Persona: Usuario Joven Universitario**
 
 <img src="../Assets/UserPersonaCarlosLópez.png">
