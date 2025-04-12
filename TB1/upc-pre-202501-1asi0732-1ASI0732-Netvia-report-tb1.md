@@ -433,6 +433,32 @@ A continuación, se presentan los perfiles de usuario para los dos segmentos obj
 ### 2.3.5. As-is Scenario Mapping
 ## 2.4. Ubiquitous Language
 
+El Ubiquitous Language es un conjunto de términos y conceptos que comparten los desarrolladores y los expertos del dominio (en este caso, los usuarios de SwapService) para describir el sistema. Su objetivo es reducir la ambigüedad y facilitar la comunicación entre todos los involucrados en el proyecto. A continuación, se presenta un Ubiquitous Language inicial para SwapService:
+
+- Swap: Término principal que define la acción de intercambiar bienes, servicios o conocimientos entre usuarios de la plataforma, sin involucrar dinero directamente.    
+
+- Servicio: Habilidad o conocimiento ofrecido por un usuario a otro a cambio de otro servicio o bien. Ejemplos incluyen clases particulares, asesoría legal, diseño gráfico, marketing, reparación de equipos, etc.    
+
+- Habilidad: Aptitud o destreza que un usuario posee y puede ofrecer como servicio en la plataforma.    
+
+- Conocimiento: Información o experiencia que un usuario comparte o intercambia con otros usuarios.    
+
+- Bien: Artículo u objeto físico que un usuario ofrece para intercambiar. Ejemplos incluyen ropa, libros, accesorios, etc.    
+
+- Intercambio: Acción de transferir un servicio, habilidad, conocimiento o bien entre dos usuarios.    
+
+- Usuario: Persona que utiliza la plataforma SwapService, ya sea para ofrecer o recibir servicios, habilidades, conocimientos o bienes.    
+
+- Perfil: Conjunto de datos que identifican a un usuario en la plataforma, incluyendo sus habilidades, servicios ofrecidos, servicios requeridos, información de contacto, etc.    
+
+- Necesidad: Requerimiento de un usuario por un servicio, habilidad, conocimiento o bien.    
+
+- Oferta: Servicio, habilidad, conocimiento o bien que un usuario pone a disposición de otros usuarios para el intercambio.    
+
+- Valoración: Proceso de evaluar la calidad de un servicio, habilidad, conocimiento o bien intercambiado.    
+
+- Reputación: Conjunto de valoraciones y comentarios que un usuario recibe por sus intercambios, que refleja su confiabilidad y calidad como proveedor o receptor.    
+
 
 <h1 id="capitulo-iii-requirements-specification">Capítulo III: Requirements Specification</h1>
 
