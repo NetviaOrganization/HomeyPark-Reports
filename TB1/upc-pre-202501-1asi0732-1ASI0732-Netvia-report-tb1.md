@@ -416,10 +416,14 @@ Para obtener una comprensión profunda de las necesidades y expectativas de los 
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
-**User Persona: Usuario Joven Universitario**
+### **User Persona: Usuario Joven Universitario**
 
 <img src="../Assets/UserPersonaCarlosLópez.png">
 
+
+### **User Persona: Joven Freelancer**
+
+<img src="../Assets/UserPersonaMaríaFernández.png">
 
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
