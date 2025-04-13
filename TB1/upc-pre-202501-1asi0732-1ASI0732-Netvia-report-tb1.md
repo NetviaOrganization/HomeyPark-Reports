@@ -158,8 +158,8 @@ Evidencias del Insights Contributos de los commits del informe:
 
 | Criterio específico | Acciones Realizadas | Conclusiones |
 |---------------------|----------------------|--------------|
-| [Criterio específico] | [Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas]<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas] | <b>TB1</b><br> [Conclusiones del equipo sobre el criterio específico] |
-| [Criterio específico] | [Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas]<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas] | <b>TB1</b><br> [Conclusiones del equipo sobre el criterio específico] |
+| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software | [Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas]<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas] | <b>TB1</b><br> [Conclusiones del equipo sobre el criterio específico] |
+| Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | [Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas]<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas] | <b>TB1</b><br> [Conclusiones del equipo sobre el criterio específico] |
 
 
 <h1 id="capitulo-i-introduccion">Capítulo I: Introducción</h1>
