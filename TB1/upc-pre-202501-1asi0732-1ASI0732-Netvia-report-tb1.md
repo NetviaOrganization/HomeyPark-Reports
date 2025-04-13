@@ -419,18 +419,18 @@ A continuación, se presentan los perfiles de usuario para los dos segmentos obj
 
 ### **User Persona: Usuario Joven Universitario**
 
-<img src="../Assets/UserPersonaCarlosLópez.png">
+<img src="../Assets/chapter2/UserPersonaCarlosLópez.png">
 
 
 ### **User Persona: Joven Freelancer**
 
-<img src="../Assets/UserPersonaMaríaFernández.png">
+<img src="../Assets/chapter2/UserPersonaMaríaFernández.png">
 
 ### 2.3.2. User Task Matrix
 
 A continuación, se presenta el User Task Matrix para los segmentos de jóvenes universitarios y freelancers, destacando las tareas que realizan para cumplir sus objetivos en la plataforma SwapService.
 
-### **User Persona: Usuario Joven Universitario**
+### **Segmento Jovenes Universitario**
 
 <table><tr><th rowspan="2" valign="top">Actividades</th><th colspan="2" valign="top">Carlos López</th></tr>
 <tr><td valign="top">Frecuencia</td><td valign="top">Importancia</td></tr>
@@ -441,7 +441,7 @@ A continuación, se presenta el User Task Matrix para los segmentos de jóvenes 
 <tr><td valign="bottom">Participar en eventos de networking</td><td valign="bottom">Media</td><td valign="bottom">Alta</td></tr>
 </table>
 
-### **User Persona: Joven Freelancer**
+### **Segmento Jovenes Freelancer**
 
 <table><tr><th rowspan="2" valign="top">Actividades</th><th colspan="2" valign="top">María Fernández</th></tr>
 <tr><td valign="top">Frecuencia</td><td valign="top">Importancia</td></tr>
@@ -454,16 +454,33 @@ A continuación, se presenta el User Task Matrix para los segmentos de jóvenes 
 
 ### 2.3.3. User Journey Mapping
 
-### **User Persona: Usuario Joven Universitario**
+A continuación, se presentan los User Journey Mapping para los segmentos de jóvenes universitarios y freelancers, ilustrando sus experiencias al interactuar con SwapService.
 
-<img src= "../Assets/UserJourneyMappingCarlosLópez.png">
+### **Segmento Jovenes Universitario**
 
-### **User Persona: Joven Freelancer**
+<img src= "../Assets/chapter2/UserJourneyMappingCarlosLópez.png">
 
-<img src="../Assets/UserJourneyMappingMaríaFernandéz.png">
+### **Segmento Jovenes Freelancer**
+
+<img src="../Assets/chapter2/UserJourneyMappingMaríaFernandéz.png">
 
 ### 2.3.4. Empathy Mapping
+
+Aquí se muestran los Empathy Map para los segmentos de jóvenes universitarios y freelancers, ofreciendo una visión detallada de sus pensamientos, sentimientos y necesidades.
+
+### **Segmento Jovenes Universitario**
+
+<img src="../Assets/chapter2/EmpathyMapCarlosLópez.png">
+
+### **Segmento Jovenes Freelancer**
+
+<img src="../Assets/chapter2/EmpathyMapMaríaFernandéz.png">
+
+
 ### 2.3.5. As-is Scenario Mapping
+
+# Falta
+
 ## 2.4. Ubiquitous Language
 
 El Ubiquitous Language es un conjunto de términos y conceptos que comparten los desarrolladores y los expertos del dominio (en este caso, los usuarios de SwapService) para describir el sistema. Su objetivo es reducir la ambigüedad y facilitar la comunicación entre todos los involucrados en el proyecto. A continuación, se presenta un Ubiquitous Language inicial para SwapService:
