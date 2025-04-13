@@ -453,6 +453,15 @@ A continuación, se presenta el User Task Matrix para los segmentos de jóvenes 
 </table>
 
 ### 2.3.3. User Journey Mapping
+
+### **User Persona: Usuario Joven Universitario**
+
+<img src= "../Assets/UserJourneyMappingCarlosLópez.png">
+
+### **User Persona: Joven Freelancer**
+
+<img src="../Assets/UserJourneyMappingMaríaFernandéz.png">
+
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
 ## 2.4. Ubiquitous Language
