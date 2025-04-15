@@ -158,8 +158,8 @@ Evidencias del Insights Contributos de los commits del informe:
 
 | Criterio específico | Acciones Realizadas | Conclusiones |
 |---------------------|----------------------|--------------|
-| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software | [Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas]<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas] | <b>TB1</b><br> [Conclusiones del equipo sobre el criterio específico] |
-| Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | [Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas]<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas] | <b>TB1</b><br> [Conclusiones del equipo sobre el criterio específico] |
+| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software | Sebastian Nicolas Cachis Gonzales<br><b>TB1</b><br>Para esta entrega desarrolle el capitulo 1, hice entrevistas y tambien los diseños para la landingPage<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas] | <b>TB1</b><br> Designamos tareas a cada integrante para optimizar el tiempo de trabajo |
+| Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | Sebastian Nicolas Cachis Gonzales <br><b>TB1</b><br>Esto me ha permito tener una mejor vision de los limites y objetivos de nuestro proyecto asi como conocer las inquietudes de nuestros segmentos objetvios<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas] | <b>TB1</b><br> Hemos enfocado las habilidades de cada integrante en las areas de desarrollo que mejor dominen para una mejor linea de trabajo |
 
 
 <h1 id="capitulo-i-introduccion">Capítulo I: Introducción</h1>
