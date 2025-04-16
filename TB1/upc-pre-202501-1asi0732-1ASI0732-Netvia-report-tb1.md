@@ -166,11 +166,10 @@ Evidencias del Insights Contributos de los commits del informe:
 
 ### Student Outcome
 
-| Criterio específico | Acciones Realizadas | Conclusiones |
-|---------------------|----------------------|--------------|
-| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software | Sebastian Nicolas Cachis Gonzales<br><b>TB1</b><br>Para esta entrega desarrolle el capitulo 1, hice entrevistas y tambien los diseños para la landingPage<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas] | <b>TB1</b><br> Designamos tareas a cada integrante para optimizar el tiempo de trabajo |
+| Criterio específico                                                                                                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                | Conclusiones                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | Sebastian Nicolas Cachis Gonzales<br><b>TB1</b><br>Para esta entrega desarrolle el capitulo 1, hice entrevistas y tambien los diseños para la landingPage<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas]                                                     | <b>TB1</b><br> Designamos tareas a cada integrante para optimizar el tiempo de trabajo                                                        |
 | Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | Sebastian Nicolas Cachis Gonzales <br><b>TB1</b><br>Esto me ha permito tener una mejor vision de los limites y objetivos de nuestro proyecto asi como conocer las inquietudes de nuestros segmentos objetvios<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas] | <b>TB1</b><br> Hemos enfocado las habilidades de cada integrante en las areas de desarrollo que mejor dominen para una mejor linea de trabajo |
-
 
 <h1 id="capitulo-i-introduccion">Capítulo I: Introducción</h1>
 
@@ -531,7 +530,9 @@ Aquí se muestran los Empathy Map para los segmentos de jóvenes universitarios 
 
 ### 2.3.5. As-is Scenario Mapping
 
-# Falta
+El As-Is Scenario Mapping describe la experiencia actual de jóvenes freelancers y universitarios al intentar intercambiar servicios sin una plataforma. Usan redes sociales o contactos informales, enfrentando desorganización e inseguridad. Este mapeo ayuda a identificar puntos críticos antes de implementar la solución.
+
+<img src="../Assets/scenarioMapping/as-is-scenario.png">
 
 ## 2.4. Ubiquitous Language
 
@@ -565,7 +566,13 @@ El Ubiquitous Language es un conjunto de términos y conceptos que comparten los
 
 ## 3.1. To-Be Scenario Mapping
 
+A continuación, mostraremos la experiencia ideal de jóvenes freelancers y universitarios al usar la app de intercambio de servicios. Conectan fácilmente, acuerdan condiciones claras y reciben retroalimentación. La plataforma les brinda seguridad, estructura y oportunidades reales de colaboración.
+
+<img src="../Assets/scenarioMapping/to-be-scenario.png">
+
 ## 3.2. User Stories
+
+Las User Stories y Épicas permiten descomponer y organizar las funcionalidades del sistema desde la perspectiva del usuario. Las épicas agrupan funcionalidades clave, mientras que las user stories detallan necesidades específicas que guían el desarrollo de la plataforma de intercambio de servicios.
 
 **Epics**
 | ID | Título | Descripción |
@@ -637,6 +644,7 @@ El Ubiquitous Language es un conjunto de términos y conceptos que comparten los
 | TS-11 | Servicio de chat | Como desarrollador, necesito implementar endpoints y soporte de sockets para habilitar el chat entre usuarios | EP9 | 1. Dado que un developer envía un mensaje de chat, cuando el endpoint procesa la solicitud, entonces el mensaje se guarda en el historial y se transmite en tiempo real. <br>2. Dado que un developer solicita el historial de mensajes entre dos usuarios, cuando el endpoint procesa la solicitud, entonces retorna todos los mensajes en orden cronológico. |
 
 ## 3.3. Product Backlog
+El Product Backlog es una lista priorizada de funcionalidades, mejoras y requerimientos que guían el desarrollo del producto. Incluye todas las épicas, user stories y technical stories, sirviendo como base para la planificación y evolución continua de la plataforma de intercambio de servicios.
 
 | # Orden | User Story Id | Título                            | Descripción                                                                                                   | Story Points |
 | ------- | ------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------ |
