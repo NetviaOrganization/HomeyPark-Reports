@@ -208,43 +208,43 @@ conductores a nivel mundial. A su vez, aquellos que poseen espacios de estaciona
 áreas urbanas se enfrentan al desafío de no contar con una plataforma eficaz para rentabilizar estos
 recursos.
 
-What?
+**What?**
 
 Nuestro startup ha identificado como problemática principal la escasez de espacios de estacionamiento
 en entornos urbanos y la complejidad que representa actualmente encontrar un lugar para estacionar.
 Esto se debe a la elevada demanda de vehículos para las actividades cotidianas.
 
-When?
+**When?**
 
 Esta preocupación ha ido en aumento a lo largo del tiempo, ya que las ciudades han visto crecer su
 población, lo que ha resultado en un mayor número de vehículos en circulación. En los últimos años, la
 congestión del tráfico y la dificultad para encontrar estacionamiento se han vuelto problemas más
 urgentes.
 
-Where?
+**Where?**
 
 El problema se presenta principalmente en áreas urbanas densamente pobladas a nivel global, donde el
 espacio es limitado y la demanda de estacionamiento es alta.
 
-Who?
+**Who?**
 
 Los conductores son los principales afectados por este problema, ya que se enfrentan a dificultades
 para encontrar estacionamientos convenientes. Además, los propietarios de espacios de
 estacionamiento se ven en desventaja frente a grandes empresas del sector, lo que complica la
 promoción y alquiler de sus servicios.
 
-Why?
+**Why?**
 
 La causa principal radica en la insuficiencia de espacios de estacionamiento disponibles en áreas
 urbanas, lo que intensifica la congestión vehicular y dificulta que los conductores encuentren un lugar
 para estacionar en el momento oportuno.
 
-How?
+**How?**
 
 El problema ocurre cuando la congestión del tráfico, combinada con la falta de espacios de
 estacionamiento, impide que la población pueda estacionar de manera eficiente y conveniente.
 
-How much?
+**How much?**
 
 Este problema afecta de manera notable a Lima, la capital, donde según un estudio realizado por la
 ONG Luz Ámbar en 2016, existe una carencia de aproximadamente 45,000 espacios de
@@ -809,25 +809,212 @@ El Product Backlog es una lista priorizada de funcionalidades, mejoras y requeri
 
 ### 5.1.1. Software Development Environment Configuration
 
+### Project management
+
+**Discord.** Utilizamos esta aplicación como medio de comunicación para mantener una
+comunicación abierta entre el equipo y debido a su facilidad de uso para realizar
+llamadas, compartir pantalla y dividir por salas para una mejor organización.
+
+**Trello.** Usamos esta herramienta de gestión de tareas por tarjetas debido a su facilidad y
+mostrar visibilidad del progreso en el desarrollo de actividades del equipo por
+integrantes.
+**
+WhatsApp.** Principal medio de comunicación para mantenernos conectados por medio
+de mensajes de texto, imágenes y videos. Esta herramienta es utilizada con mayor
+frecuencia.
+
+### Requirements Management
+
+Trello. Aplicación web y/o móvil para organizar los requerimientos a llevar durantes los
+sprints del proyecto. También se utiliza para realizar seguimiento de las tareas o
+requerimientos de los integrantes.
+
+### Software Development
+
+**Android Studio.** IDE de desarrollo para aplicaciones móviles de múltiples plataformas
+soportado por el equipo de Google y basado en IntelliJ IDEA.
+
+**Figma.** Herramienta de desarrollo de interfaces para usuario (UI). Principal aplicación
+para desarrollar las interfaces y vistas de nuestros productos landing page y aplicación
+móvil.
+
+**IntelliJ IDEA.** IDE de desarrollo diseñado principalmente en soluciones software
+basadas en el lenguaje de programación Java. Esta herramienta la usamos para
+desarrollar servicios API REST con el framework de Spring Boot.
+
+**WebStorm.** IDE completo que incluye herramientas para crear, editar y depurar código en JavaScript, HTML, CSS, y otras tecnologías web.
+
+### Software Deployment
+
+Google Play Console. La plataforma de Google permite subir aplicaciones móviles en
+producción dentro del catálogo de Play Store.
+
 ### 5.1.2. Source Code Management
+
+Para llevar a cabo una mejor gestión y desarrollo en equipo trabajaremos bajo la
+metodología de Git Flow y convenciones para los commits, la cual se basa en desarrollo
+de tareas y requerimientos en ramas especiales sin afectar la rama principal de nuestro
+repositorio ni el progreso de los demás desarrolladores.
+
+### Flujo de trabajo en Git
+
+**Rama principal**
+
+- Rama donde se encontrará el código puesto en producción, listo para el uso de los
+usuarios finales.
+
+**Rama de desarrollo**
+
+- Rama donde estarán los últimos desarrollos de requerimientos listos para llevar a
+producción.
+
+**Ramas auxiliares**
+
+- Ramas de *features*: En esta rama se llevarán a cabo los requerimientos asignados por integrante sin
+repercutir en sus desarrollos.
+
+- Ramas de *hotfix*: En estas ramas se encargan principalmente de resolver bugs o incidencias en caliente.
+
+- Ramas de *release*: En estas ramas se lleva a cabo el último paso donde se validará y resolverá posibles
+incidencias antes de subir a producción el desarrollo.
+
+### Convenciones de commits
+
+Nuestro equipo de desarrolladores trabajará bajo las buenas prácticas de los commits
+para facilitar la redacción e identificación del impacto en nuestro producto software.
+
+`<type>(scope): <description>`
+
+**type**: Campo obligatorio donde se especifica el tipo de cambio realizado. Los tipos de
+commits son los siguientes:
+
+- **feat**: Introduce una nueva funcionalidad en el código.
+- **fix**: Soluciona un error en el código.
+- **style**: Modifica aspectos estéticos del proyecto, como formatear los archivos.
+- **refactor**: Mejora el código sin añadir nuevas funcionalidades. Esto puede incluir
+la implementación de buenas prácticas.
+- **docs**: Realiza cambios en la documentación sin impactar las funcionalidades del
+proyecto.
+- **build**: Ajusta la configuración del proyecto, como agregar, eliminar o modificar
+dependencias.
+
+**scope**: Campo opcional que indica el alcance del commit, incluyendo los identificadores
+de historias de usuario o requisitos.
+
+**description**: Campo obligatorio que ofrece un resumen breve del commit, en inglés y
+comenzando con un verbo en infinitivo.
+
+### Convenciones para versionamiento de lanzamientos
+
+Para el desarrollo del proyecto, se utilizará el modelo de versionamiento “Semantic
+Versioning 2.0.0” (https://semver.org/). Los commits y tags de los lanzamientos
+seguirán el siguiente formato:
+
+- Release vX.Y.Z 
+
+Donde:
+- X: Indica un cambio de versión mayor (MAJOR). Es usado principalmente para
+realizar cambios significativos con respecto a versiones anteriores.
+- Y: Indica un cambio de versión menor (MINOR). Este tipo de lanzamiento
+incluye funcionalidades adicionales o mejoras al producto final.
+- Z: Indica la versión del parche (PATCH). No alteran las funcionalidades del
+producto, solo se encarga de corregir errores.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+En la siguiente sección estaremos detallando las nomenclaturas para los siguientes
+lenguajes de programación y frameworks a utilizar a lo largo del proyecto.
+
+- Gherkin
+- Las especificaciones deben ser claras y fáciles de leer.
+- Evitar el uso de términos técnicos para asegurar una mejor comprensión entre los
+colaboradores.
+- Utilizar las palabras clave Given, When, Then, And, y But para describir el
+comportamiento del sistema.
+- Evitar la redundancia en la descripción de los escenarios.
+- Java
+- Uso de camelCase para nombre variables y métodos
+- Uso de PascalCase para nombrar clases, interfaces, record y otras estructuras.
+- Importaciones explícitas (evitar importaciones con *)
+- Estructura de clases, organizar y agrupar los atributos, constructores y métodos.
+- Usar indentación de dos espacios.
+- La longitud de una línea no debe superar los 100 caracteres.
+
 ### 5.1.4. Software Deployment Configuration
+
+Para el despliegue de nuestro servicio API REST usaremos la plataforma de alojamiento
+Render a través de contenedores de Docker para subir nuestras aplicaciones ubicadas en
+nuestro repositorio de GitHub.
+
+Enlace al repositorio: https://github.com/NetviaOrganization/SwapService-Web-Service
+
+1. Como primer paso, crearemos nuestro proyecto en un nuevo repositorio de GitHub llamado “HomeyPark-Web-Service”
+
+<img src="../Assets/HomeyPark-Web-Service.png"/>
+
+2. Seguido de ello, ingresamos a la plataforma de Render y crearemos un nuevo servicio web.
+
+<img src="../Assets/plataforma-Render-create.png"/>
+
+3. Configuraremos el nuevo servicio conectándolo con nuestro repositorio de GitHub e indicaremos trabajar con el lenguaje Docker, lo que nos permitirá usar contenedores con Java y Spring Boot.
+
+<img src="../Assets/deploying-web-service.png"/>
+
 
 ## 5.2. Product Implementation & Deployment
 
 ### 5.2.1. Sprint Backlogs
 
+| ID | Title | Title Task ID | Title | Description | Estimation (Hours) | Assigned To | Status (To-do, In Process, To Review, Done, Cancelled) |
+|----|-------|----------------|-------|-------------|---------------------|--------------|--------------------------------------------------------|
+| US- | Integrar mapa de Google Maps | TASK-001       |  |  | 2 | Sebastian Cachis | Done |
+| US- | Búsqueda de estacionamiento por dirección | TASK-002       |  |  | 2 | Adriano Cruz | Done |
+| US- | Usar ubicación de dispositivo para buscar en mapa | TASK-003       |  |  | 1 | Amner Llamo | Done |
+| US- | Ver espacios de estacionamientos cercanos | TASK-004       |  |  | 2 | Marcelo Garro | Done |
+| US- | Visualizar detalles de estacionamiento | TASK-005       |  |  | 2 | Lucio Yen | Done |
+| US- | Visualizar calificación de estacionamiento | TASK-006       |  |  | 2 | Sebastian Cachis | Done |
+| US- | Visualizar el entorno del estacionamiento | TASK-007       |  |  | 2 | Adriano Cruz | Done |
+| US- | Registrar una cochera | TASK-008       |  |  | 3 | Amner Llamo | Done |
+| US- | Visualizar cocheras registradas | TASK-009       |  |  | 2 | Marcelo Garro | Done |
+| US- | Modificar cochera registrada | TASK-010       |  |  | 2 | Lucio Yen | Done |
+| US- | Eliminar la cochera | TASK-011       |  |  | 1 | Sebastian Cachis | Done |
+
 ### 5.2.2. Implemented Landing Page Evidence
+
+Como resultado del primer sprint, se presenta el despliegue de la Landing Page
+
+<img src="../Assets/landingpage1.png"/>
+<img src="../Assets/landingpage2.png"/>
+<img src="../Assets/landingpage3.png"/>
+<img src="../Assets/landingpage4.png"/>
+<img src="../Assets/landingpage5.png"/>
+
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
+A continuación, se presentan las pantallas de nuestra aplicación móvil:
+
+<img src="../Assets/mobile-maps.png" width="250"/>
+
+<img src="../Assets/tu-garaje.png" width="250"/>
+
+<img src="../Assets/vehiculos.png" width="250"/>
+
+
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
+
+
 ### 5.2.6. RESTful API documentation
+
+En esta sección se presentan los endpoints desarrollados en el presente sprint y se adjuntan capturas de
+las acciones CRUD realizadas con OpenAPI. Dentro del alcance del sprint, se han desarrollado los
+bounded contexts de User Management, Parking Management, Reservation Management, Schedule
+Management, Location Management, y Vehicle Management.
+
+<img src="../Assets/backend.png" width="550"/>
 
 ### 5.2.7. Team Collaboration Insights
 
