@@ -18,7 +18,7 @@
 
 **Startup:** Netvia
 
-**Producto:** SwapService
+**Producto:** HomeyPark
 
 ### Integrantes:
 
@@ -41,7 +41,7 @@
 | Versión | Fecha      | Autor            | Descripción                           |
 | ------- | ---------- | ---------------- | ------------------------------------- |
 | 1.0     | 05/04/2025 | Adriano Cruz     | Creación de la estructura del informe |
-| 1.0     | 06/04/2025 | Sebastian Cachis | Desarrollo de todo el capítulo I      |
+| 1.0     | 06/04/2025 | Sebastian Cachis | Desarrollo del capítulo I      |
 
 ### Project Report Collaboration Insights
 
@@ -54,11 +54,6 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 | [Nombre del integrante] | [Tareas]                         |
 | ...                     | ...                              |
 
-Evidencias del Insights Contributos de los commits del informe:
-
-</div>
-
-![image](imagen)
 
 # Tabla de Contenidos
 
@@ -177,13 +172,12 @@ Evidencias del Insights Contributos de los commits del informe:
 
 ### 1.1.1. Descripción de la Startup
 
-Netvia es una startup tecnológica orientada a diseñar soluciones digitales inteligentes que transformen la manera en que las personas interactúan con los servicios urbanos en el mundo moderno. Fundada por un equipo multidisciplinario con enfoque en innovación, desarrollo escalable y experiencia de usuario, Netvia se posiciona como un agente disruptivo en el sector Tech4UrbanLife (tecnología para la vida urbana), creando plataformas que combinan accesibilidad, eficiencia y sostenibilidad.
-
-Nuestro propósito como empresa es identificar necesidades reales de la vida cotidiana y resolverlas mediante productos tecnológicos que puedan escalar globalmente sin perder el enfoque local. Apostamos por modelos centrados en el usuario, arquitectura modular, y un profundo compromiso con la usabilidad y la confiabilidad de nuestros productos.
-
-Creemos que la tecnología debe estar al servicio de las personas, facilitando experiencias seguras, intuitivas y transparentes. Bajo esta visión, nace nuestro producto principal: SwapService, una aplicación web y mobile diseñada para permitir el trueque de bienes, conocimientos y servicios entre individuos, impulsando una red confiable de usuarios con intereses compartidos.
-
-En Netvia, trabajamos con pasión, creatividad y enfoque ágil para ofrecer productos que generen impacto social, fomenten el desarrollo sostenible y transformen la forma en que las personas interactúan en el entorno digital.
+Nuestro equipo SwapService ha sido creado con el propósito de solucionar la preocupación por la
+escasez de espacios de estacionamiento en entornos urbanos. La congestión del tráfico y la ineficiente
+búsqueda de estacionamientos genera una gran frustración para el conductor. HomeyPark propone
+revolucionar la forma en que las personas encuentran y utilizan espacios de estacionamiento.
+Desarrollaremos una aplicación que ofrecerá una interfaz intuitiva, permitiendo a los usuarios buscar,
+reservar y pagar por estacionamientos de manera sencilla y rápida.
 
 ## Misión
 
@@ -207,147 +201,174 @@ Ser la plataforma líder global en intercambio de servicios peer-to-peer, transf
 
 ### 1.2.1. Antecedentes y problemática
 
-En la actualidad, nos enfrentamos a diversos desafíos socioeconómicos que afectan directamente a la forma en que las personas acceden a servicios y conocimientos:
+En la actualidad, la congestión vehicular ha ido en aumento debido al crecimiento constante de la
+población y al incremento del uso de vehículos. Este problema se ve agravado por la ineficiencia en la
+búsqueda de espacios de estacionamiento, lo que ha generado una experiencia frustrante para los
+conductores a nivel mundial. A su vez, aquellos que poseen espacios de estacionamiento sin utilizar en
+áreas urbanas se enfrentan al desafío de no contar con una plataforma eficaz para rentabilizar estos
+recursos.
 
-## Contexto actual
+What?
 
-- **Desigualdad económica creciente**: El acceso a servicios profesionales y conocimientos especializados está condicionado por la capacidad económica, creando brechas significativas entre diferentes segmentos de la población.
+Nuestro startup ha identificado como problemática principal la escasez de espacios de estacionamiento
+en entornos urbanos y la complejidad que representa actualmente encontrar un lugar para estacionar.
+Esto se debe a la elevada demanda de vehículos para las actividades cotidianas.
 
-- **Talento infrautilizado**: Muchas personas poseen habilidades valiosas que no pueden monetizar efectivamente en el mercado laboral tradicional, o que quedan sin aprovecharse por falta de oportunidades.
+When?
 
-- **Economía hiperconsumista**: El modelo económico predominante incentiva el consumo continuo y la acumulación, generando problemas de sostenibilidad ambiental y social.
+Esta preocupación ha ido en aumento a lo largo del tiempo, ya que las ciudades han visto crecer su
+población, lo que ha resultado en un mayor número de vehículos en circulación. En los últimos años, la
+congestión del tráfico y la dificultad para encontrar estacionamiento se han vuelto problemas más
+urgentes.
 
-- **Fragmentación comunitaria**: La industrialización y digitalización han debilitado los lazos comunitarios tradicionales donde el intercambio de favores y habilidades era una práctica común.
+Where?
 
-## Problemáticas específicas
+El problema se presenta principalmente en áreas urbanas densamente pobladas a nivel global, donde el
+espacio es limitado y la demanda de estacionamiento es alta.
 
-1. **Barrera económica para acceder a servicios**: Muchas personas no pueden permitirse contratar servicios profesionales que necesitan, mientras que quienes ofrecen estos servicios enfrentan periodos de inactividad.
+Who?
 
-2. **Falta de reconocimiento de habilidades no convencionales**: El sistema económico actual reconoce y valora principalmente habilidades estandarizadas y certificadas formalmente, dejando de lado otras capacidades valiosas.
+Los conductores son los principales afectados por este problema, ya que se enfrentan a dificultades
+para encontrar estacionamientos convenientes. Además, los propietarios de espacios de
+estacionamiento se ven en desventaja frente a grandes empresas del sector, lo que complica la
+promoción y alquiler de sus servicios.
 
-3. **Ausencia de plataformas efectivas**: Las soluciones existentes para el intercambio de servicios suelen ser:
+Why?
 
-   - Demasiado locales y de alcance limitado
-   - Carentes de sistemas de confianza robustos
-   - Sin mecanismos efectivos para equiparar el valor de diferentes servicios
-   - Con interfaces poco intuitivas que dificultan las conexiones eficientes
+La causa principal radica en la insuficiencia de espacios de estacionamiento disponibles en áreas
+urbanas, lo que intensifica la congestión vehicular y dificulta que los conductores encuentren un lugar
+para estacionar en el momento oportuno.
 
-4. **Dependencia excesiva del dinero como único medio de intercambio**: Esta dependencia limita las posibilidades de intercambio cuando hay escasez de recursos monetarios, aun cuando existe abundancia de talentos y tiempo disponible.
+How?
 
-SwapService surge como respuesta a estas problemáticas, buscando crear un ecosistema donde el valor se genere y comparta a través del intercambio directo de habilidades y servicios, democratizando el acceso a estos recursos y fortaleciendo el tejido social comunitario.
+El problema ocurre cuando la congestión del tráfico, combinada con la falta de espacios de
+estacionamiento, impide que la población pueda estacionar de manera eficiente y conveniente.
+
+How much?
+
+Este problema afecta de manera notable a Lima, la capital, donde según un estudio realizado por la
+ONG Luz Ámbar en 2016, existe una carencia de aproximadamente 45,000 espacios de
+estacionamiento en cinco distritos. Sin embargo, esta cifra es insuficiente en comparación con la
+cantidad de vehículos en la ciudad, que alcanza aproximadamente 1 millón 800,000 unidades. Esta
+discrepancia entre la cantidad de vehículos y la disponibilidad de estacionamientos contribuye
+significativamente a la congestión vehicular y al desafío constante de encontrar un lugar adecuado para
+estacionar.
 
 ### 1.2.2. Lean UX Process
 
-El desarrollo de SwapService sigue la metodología Lean UX, que combina el pensamiento Lean Startup con el diseño centrado en el usuario. Este enfoque nos permite validar rápidamente nuestras hipótesis de valor y crear soluciones adaptadas a las necesidades reales de los usuarios con el mínimo de recursos.
-
-## Principios Lean UX aplicados a SwapService
-
-- **Enfoque en los problemas, no en las características**: Priorizamos entender profundamente los problemas de los usuarios antes de diseñar soluciones.
-- **Iteraciones pequeñas y rápidas**: Desarrollamos MVP (Producto Mínimo Viable) que podemos poner a prueba rápidamente.
-- **Validación continua**: Cada decisión de diseño y desarrollo se valida con usuarios reales.
-- **Colaboración multidisciplinaria**: Equipos integrados por diseñadores, desarrolladores y stakeholders.
-- **Medición de resultados**: Definimos métricas claras para evaluar el éxito de cada iteración.
-
 ### 1.2.2.1. Lean UX Problem Statements
 
-Los Problem Statements nos permiten definir claramente los problemas que buscamos resolver, centrándonos en las necesidades de los usuarios y no en características específicas del producto.
+El desarrollo de HomeyPark sigue la metodología Lean UX, que combina el pensamiento Lean Startup con el diseño centrado en el usuario. Este enfoque nos permite validar rápidamente nuestras hipótesis de valor y crear soluciones adaptadas a las necesidades reales de los usuarios con el mínimo de recursos.
 
-## Problem Statement 1: Acceso a servicios
+**Problem Statement 1: Usuarios de parking**
 
-**Hemos observado que** personas con recursos económicos limitados **tienen dificultades para** acceder a servicios profesionales que necesitan (como clases particulares, asesoría legal básica, diseño gráfico, etc.), **lo que provoca** que renuncien a estos servicios o busquen alternativas subóptimas, **afectando** su desarrollo personal y profesional.
+En la actualidad, muchos ciudadanos de las zonas urbanas del Perú requieren de un vehículo
+motorizado para realizar tramos largos de viaje. Debido a su alta demanda, el diario “El Comercio”
+(2024) revela que el 51% de conductores de la ciudad de Lima consideran necesario incrementar la
+cantidad de espacios para estacionar.
 
-## Problem Statement 2: Aprovechamiento de habilidades
+Hemos encontrado que los conductores presentan dificultades para encontrar espacios de
+estacionamiento disponibles, tomando un aproximado de 10 horas totales al mes para conseguir uno.
 
-**Hemos observado que** profesionales y personas con habilidades específicas **tienen dificultades para** encontrar canales donde ofrecer sus servicios cuando enfrentan periodos de baja demanda o cuando sus habilidades no son fácilmente monetizables, **lo que provoca** desaprovechamiento de talentos y periodos de inactividad, **afectando** sus oportunidades de desarrollo y networking.
+¿Cómo podemos buscar o proporcionar más espacios de estacionamiento para los usuarios de forma
+eficiente y rápida para sus vehículos motorizados?
 
-## Problem Statement 3: Confianza en intercambios
+**Problem Statement 2: Anfitriones**
 
-**Hemos observado que** las personas interesadas en intercambios no monetarios **tienen dificultades para** establecer relaciones de confianza con desconocidos y para acordar el valor equivalente de servicios diferentes, **lo que provoca** que muchos intercambios potenciales no se materialicen, **afectando** la viabilidad de las economías colaborativas.
+Nuestra aplicación permitirá a los usuarios poder promocionar sus garajes para obtener una fuente de
+ingresos adicional sin interrupción en sus actividades del día a día. Esto favorecerá a las comunidades
+para la reducción de la congestión vehicular.
 
-## Problem Statement 4: Comunidad y conexión
+Hemos encontrado que muchos propietarios no están dispuestos a ofrecer su garaje en alquiler debido
+al anonimato de los clientes, lo cual genera una sensación de inseguridad en estas entidades.
 
-**Hemos observado que** individuos en entornos urbanos modernos **tienen dificultades para** establecer conexiones significativas basadas en el intercambio de valor con su comunidad más cercana, **lo que provoca** aislamiento y falta de apoyo mutuo, **afectando** la cohesión social y la resiliencia comunitaria.
+¿Cómo podemos implementar un sistema de seguridad que vele por la integridad, bienes y bienes
+inmobiliarios de nuestros usuarios de la aplicación?
 
 ### 1.2.2.2. Lean UX Assumptions
 
-Las asunciones nos permiten explicitar las creencias que tenemos sobre nuestros usuarios, sus necesidades y el valor que nuestra solución puede aportar.
+**Business Assumptions**
 
-## Asunciones sobre los usuarios
+1. Creo que mis usuarios necesitan una mejor opción de encontrar estacionamientos y, de ser
+posible, reservarlos.
 
-1. Creemos que nuestros usuarios principales son:
+2. Estas necesidades se pueden resolver con una aplicación móvil que les permita a los
+conductores reservar en los garajes de la ciudad, debido a que la mayoría del tiempo se
+encuentran disponibles.
 
-   - Profesionales independientes con periodos de disponibilidad variable
-   - Estudiantes y jóvenes profesionales con habilidades pero recursos limitados
-   - Personas con habilidades no convencionales difíciles de monetizar
-   - Individuos interesados en economías alternativas y consumo responsable
+3. Mis clientes iniciales son las personas que cuenten con un vehículo y que tengan dificultades
+de encontrar algún estacionamiento disponible.
 
-2. Creemos que los usuarios valoran:
+4. El valor #1 que el cliente requiere de mi servicio es encontrar y reservar espacios para
+estacionar en un corto periodo de tiempo de forma segura.
 
-   - Acceder a servicios que de otro modo no podrían permitirse
-   - La posibilidad de aplicar sus habilidades y conocimientos
-   - Experiencias de conexión humana significativas
-   - Alternativas al modelo económico tradicional
+5. Voy a adquirir a mis clientes a través de estrategias de marketing en diversas redes sociales,
+mostrando todos los beneficios que da nuestra aplicación móvil.
 
-3. Creemos que los principales problemas de los usuarios son:
-   - Falta de recursos económicos para acceder a ciertos servicios
-   - Dificultad para encontrar personas que valoren sus habilidades específicas
-   - Establecer confianza en intercambios fuera de los canales convencionales
-   - Cuantificar el valor de servicios dispares para realizar intercambios justos
+6. Mi competencia en el mercado serán las empresas que se dedican a ofrecer sus servicios de
+estacionamiento.
 
-## Asunciones sobre la solución
+7. Los venceremos debido a que ofrecemos a los usuarios poder generar ingresos de manera
+pasiva al rentar sus garajes como estacionamiento.
 
-1. Creemos que una plataforma digital facilitará conexiones eficientes entre personas con necesidades y habilidades complementarias.
+8. Mis mayores riesgos del producto es no encontrar una manera de brindar seguridad a los
+conductores como a los propietarios de los garajes.
 
-2. Creemos que un sistema de valoración y reseñas resolverá gran parte del problema de confianza entre desconocidos.
+9. Resolveremos esto con la incorporación de un sistema que se encargue de validar los
+parámetros de seguridad de los conductores y los garajes en alquiler para ofrecer una mejor
+seguridad al público.
 
-3. Creemos que el establecimiento de categorías y estándares de tiempo ayudará a equiparar el valor de diferentes servicios.
+**User Assumptions**
 
-4. Creemos que la experiencia de usuario debe priorizar:
-   - Facilidad para describir habilidades y necesidades
-   - Sistemas de búsqueda inteligente para sugerir coincidencias potenciales
-   - Herramientas de comunicación integradas
-   - Mecanismos de verificación y construcción de reputación
+*Usuarios de parking*
 
-## Asunciones sobre el valor para el negocio
+**¿Quién es el usuario?** Conductores que en su día a día necesitan encontrar estacionamiento para sus
+vehículos.
 
-1. Creemos que podremos sostener la plataforma mediante:
+**¿Dónde encaja nuestro servicio?** Nuestro servicio encaja tanto para su trabajo como para sus
+actividades diarias.
 
-   - Un modelo freemium con funcionalidades avanzadas de pago
-   - Alianzas con entidades educativas y municipalidades interesadas en fomentar economías colaborativas
-   - Datos anónimos sobre tendencias de intercambio de servicios
+**¿Qué problema tiene nuestro servicio y cómo se resuelve?** El problema es sobre la posible
+inseguridad del usuario al alquilar en una cochera de cualquier persona desconocida. Se puede resolver
+mediante un sistema de filtros que garanticen al usuario la seguridad de la cochera y contar con bases
+legales para la publicación del producto.
 
-2. Creemos que el crecimiento ocurrirá principalmente a través de:
-   - Marketing boca a boca entre usuarios satisfechos
-   - Construcción de comunidades locales activas
-   - Alianzas estratégicas con organizaciones afines
+**¿Cuándo y cómo es usado nuestro producto?** Nuestro producto será usado mayormente cuando el
+usuario necesite encontrar algún estacionamiento para realizar cualquier actividad. La aplicación móvil
+se podrá usar como un sistema de búsqueda y reserva de cocheras.
+
+*Anfitriones*
+
+**¿Quién es el usuario?** Personas con garajes que desean poner en alquiler para generar ingresos.
+
+**¿Dónde encaja nuestro servicio?** Nuestro servicio encaja en su vida porque pueden poner en alquiler
+sus garajes mientras realizan cualquier actividad.
+
+**¿Qué problema tiene nuestro servicio y cómo se resuelve?** El problema será el proceso para poder
+registrar sus cocheras, debido a que puede llegar a ser confuso o tedioso para el anfitrión. Lo podemos
+resolver mediante capacitación sobre el proceso de filtros para facilitar al usuario el registro.
+
+**¿Cuándo y cómo es usado nuestro producto?** Nuestra aplicación es usada principalmente cuando el
+anfitrión dispone de cualquier garaje disponible que desee poner en alquiler para generar ingresos.
+Nuestro producto es usado como un gestor de cocheras sobre reservas, estados, recibos, etc. 
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
-Las hipótesis conectan nuestras asunciones con resultados medibles, permitiéndonos validar o refutar nuestras creencias en cada iteración.
+1. Creemos que la función de reservar cocheras facilitará al usuario conseguir un espacio para
+estacionamiento. Sabremos que tendremos éxito cuando la mayoría de los usuarios demoren
+en conseguir estacionamiento en un plazo máximo de 5 minutos.
 
-## Hipótesis 1: Registro y onboarding
+2. Creemos que la implementación del mapa de Google Maps permitirá al usuario una mejor
+búsqueda de cocheras. Sabremos que estaremos en lo cierto cuando el 100% de nuestros
+usuarios no presentan dificultades para encontrar cocheras.
 
-**Creemos que** un proceso de registro que permita a los usuarios categorizar detalladamente sus habilidades y necesidades **ayudará a** los usuarios a encontrar coincidencias relevantes **lo que mediremos** por el porcentaje de usuarios que completan al menos un intercambio en los primeros 30 días tras su registro.
+3. Creemos que proporcionar al usuario registrar sus cocheras aumentará la cantidad de
+estacionamientos. Sabremos que estaremos en lo cierto cuando el índice de escasez de
+estacionamientos se reduzca en un 20%.
 
-## Hipótesis 2: Sistema de reputación
-
-**Creemos que** implementar un sistema de verificación de identidad y reseñas detalladas **ayudará a** incrementar la confianza entre usuarios **lo que mediremos** por la tasa de intercambios exitosos completados vs. intercambios inicialmente propuestos, y por las evaluaciones positivas de la experiencia.
-
-## Hipótesis 3: Valoración de servicios
-
-**Creemos que** establecer un sistema basado en tiempo y categorización de complejidad para equiparar diferentes servicios **ayudará a** los usuarios a acordar intercambios percibidos como justos por ambas partes **lo que mediremos** por la satisfacción reportada tras el intercambio y la tasa de disputas por inequidad.
-
-## Hipótesis 4: Búsqueda inteligente
-
-**Creemos que** un algoritmo de coincidencia que sugiera proactivamente intercambios potenciales basados en las habilidades y necesidades declaradas **ayudará a** aumentar el número de intercambios realizados **lo que mediremos** por la tasa de adopción de sugerencias automáticas vs. búsquedas manuales.
-
-## Hipótesis 5: Comunidades locales
-
-**Creemos que** fomentar intercambios geográficamente cercanos con funcionalidades específicas **ayudará a** crear comunidades más cohesionadas y aumentará la retención de usuarios **lo que mediremos** por la frecuencia de uso y la tasa de intercambios repetidos entre los mismos usuarios.
-
-## Hipótesis 6: Gamificación
-
-**Creemos que** implementar elementos de gamificación como insignias por habilidades verificadas y reconocimientos por intercambios exitosos **ayudará a** aumentar el compromiso de los usuarios **lo que mediremos** por la frecuencia de visitas a la plataforma y la participación activa en la comunidad.
+4. Creemos que implementar un sistema de notificaciones alertará a los usuarios sobre la
+disponibilidad de las cocheras. Sabremos que tendremos éxito cuando al menos el 80% de los
+usuarios aprovechen estas alertas para asegurar un espacio de estacionamiento.
 
 ### 1.2.2.4. Lean UX Canvas
 
@@ -355,11 +376,13 @@ Las hipótesis conectan nuestras asunciones con resultados medibles, permitiénd
 
 ## 1.3. Segmentos objetivo
 
-SwapService está dirigido a dos segmentos principales de usuarios que comparten un interés en el intercambio de bienes, conocimientos y servicios, aunque cada grupo presenta características, motivaciones y necesidades distintas según su contexto.
+Nuestro segmento objetivo está compuesto por dos usuarios:
 
-El primer segmento está compuesto por jóvenes universitarios y recién egresados, usualmente entre los 18 y 28 años, que viven en entornos urbanos o zonas cercanas a centros de estudio. Este grupo tiene un alto dominio del entorno digital, utiliza frecuentemente aplicaciones móviles y redes sociales, y cuenta con un presupuesto limitado, lo que los lleva a buscar alternativas económicas para adquirir productos o servicios. Además de intercambiar objetos físicos como ropa, libros o accesorios, estos usuarios también encuentran valor en compartir conocimientos prácticos, como tutorías, ayuda con tareas, o asesorías básicas en tecnología y diseño. Valoran la sostenibilidad, el ahorro y la pertenencia a comunidades colaborativas, y ven en el trueque de conocimientos una forma enriquecedora de aportar y aprender.
+**Usuarios de parking:** Persona que busca alguna solución para su necesidad que es buscar un
+estacionamiento en entornos urbanos para su vehículo
 
-El segundo segmento está conformado por adultos jóvenes emprendedores o freelancers, con edades entre 25 y 40 años, que gestionan de forma independiente sus recursos y actividades profesionales. Son personas que buscan intercambiar sus habilidades o productos por otros servicios útiles, como asesorías, diseño, reparación de equipos, marketing, entre otros. En este segmento, el interés en el intercambio de conocimientos y servicios es aún más estratégico: ven en SwapService una oportunidad para ampliar su red profesional, potenciar colaboraciones y acceder a soluciones sin requerir inversión económica directa. Su motivación principal es aprovechar al máximo sus talentos y recursos, mientras crean relaciones de valor dentro de una comunidad dinámica y confiable.
+**Anfitrión:** Propietario de una vivienda que cuente con una cochera privada que busque sacar
+provecho de forma efectiva.
 
 <h1 id="capitulo-ii-requirements-elicitation--analysis">Capítulo II: Requirements Elicitation & Analysis</h1>
 
