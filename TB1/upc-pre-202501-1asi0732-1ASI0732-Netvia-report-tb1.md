@@ -174,7 +174,7 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 
 ### 1.1.1. Descripción de la Startup
 
-Nuestro equipo SwapService ha sido creado con el propósito de solucionar la preocupación por la
+Nuestro equipo Netvia ha sido creado con el propósito de solucionar la preocupación por la
 escasez de espacios de estacionamiento en entornos urbanos. La congestión del tráfico y la ineficiente
 búsqueda de estacionamientos genera una gran frustración para el conductor. HomeyPark propone
 revolucionar la forma en que las personas encuentran y utilizan espacios de estacionamiento.
