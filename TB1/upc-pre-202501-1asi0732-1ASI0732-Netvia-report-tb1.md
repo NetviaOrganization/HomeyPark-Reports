@@ -42,6 +42,8 @@
 | ------- | ---------- | ---------------- | ------------------------------------- |
 | 1.0     | 05/04/2025 | Adriano Cruz     | Creación de la estructura del informe |
 | 1.0     | 06/04/2025 | Sebastian Cachis | Desarrollo del capítulo I      |
+| 1.4     | 19/04/2025 | Adriano Cruz | Desarrollo del capítulo IV      |
+
 
 ### Project Report Collaboration Insights
 
