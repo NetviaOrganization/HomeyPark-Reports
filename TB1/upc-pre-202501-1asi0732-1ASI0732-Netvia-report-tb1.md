@@ -741,13 +741,114 @@ El Product Backlog es una lista priorizada de funcionalidades, mejoras y requeri
 
 ## 4.2. Information Architecture
 
+Centrados en el objetivo de HomeyPark, buscamos ofrecer una interfaz amigable e intuitiva que
+inspire confianza y seguridad a los usuarios. Dado que nuestra plataforma facilita la búsqueda y
+reserva de espacios de estacionamiento, estas características deben prevalecer en toda la experiencia
+de usuario. Un componente crucial para lograrlo es la arquitectura de información, diseñada para
+guiar a los usuarios a través de la plataforma de manera eficiente. A continuación, se detalla el plan
+de arquitectura de información implementado en HomeyPark.
+1. Página de Inicio:
+
+**Home**
+
+Sección que resalta el valor principal de HomeyPark, además explica brevemente cómo la plataforma
+facilita el proceso de encontrar y gestionar estacionamientos. Esta sección invita a los usuarios a
+explorar las ventajas de la plataforma y los anima a registrarse con el botón presente que los redirige
+a la página de registro.
+
+**Why Choose Us?**
+
+Sección que resalta los beneficios y características clave de HomeyPark, explicando por qué los
+usuarios deben elegir nuestra plataforma para encontrar estacionamiento.
+
+**How It Works:**
+
+Descripción clara y concisa del funcionamiento de la plataforma, explicando los pasos simples para
+registrarse, buscar y reservar un lugar de estacionamiento.
+
+**Testimonials:**
+
+Sección que presenta opiniones y experiencias de usuarios que ya han utilizado HomeyPark,
+destacando la facilidad y comodidad que ofrece la plataforma.
+
+**Pricing:**
+
+Información sobre los planes de precios de HomeyPark, proporcionando detalles transparentes y
+claros para que los usuarios sepan lo que pueden esperar.
+
+**Formulario de Contacto:**
+
+Al final de la página, se incluye un formulario de contacto para que los usuarios puedan enviar
+consultas o pedir asistencia.
+
+2. Registro:
+
+**Registro de Usuarios:**
+
+Formulario que permite a los usuarios crear una cuenta en HomeyPark, solicitando información
+básica como nombre, correo electrónico y una contraseña segura.
+
+**Inicio de Sesión:**
+
+Opción para que los usuarios ya registrados puedan acceder a su cuenta introduciendo su correo
+electrónico y contraseña.
+
 ### 4.2.1. Organization Systems
+
+El sistema de organización en HomeyPark está diseñado para brindar una experiencia clara y
+eficiente, permitiendo a los usuarios navegar fácilmente por la plataforma. Nuestro enfoque está
+centrado en facilitar el acceso a la información y las funcionalidades clave, lo que permite a los
+usuarios registrarse, conocer los beneficios, y contactar rápidamente con nosotros.
+
+1. Categorización de la Información:
+- Why Choose Us?
+
+  Presenta los beneficios clave de la plataforma para los usuarios, como facilidad de uso,
+  seguridad y conveniencia.
+
+- How It Works
+
+  Categorizada en pasos simples para que los usuarios puedan entender rápidamente el
+  funcionamiento del proceso de búsqueda y reserva de estacionamientos.
+2. Filtros y Búsqueda:
+
+- Filtros
+
+  Aunque no se muestran opciones de búsqueda avanzadas en la landing page, los
+  usuarios podrán aplicar filtros en la plataforma principal para ajustar sus
+  preferencias, como ubicación y disponibilidad de espacios de estacionamiento.
 
 ### 4.2.2. Labeling Systems
 
+Para el contenido, se ha priorizado la claridad y brevedad en los textos, enfocándonos en destacar los
+beneficios clave de la plataforma para los usuarios. El diseño de botones sigue un estilo minimalista
+con colores principales y bordes redondeados.
+
+En cuanto a los íconos, se emplean elementos visuales sencillos y los colores del sistema de diseño
+del equipo para facilitar la navegación y comprensión rápida.
+
+
 ### 4.2.3. SEO Tags and Meta Tags
 
+Para asegurar una correcta indexación y visibilidad en los motores de búsqueda, es fundamental la implementación estratégica de SEO Tags y Meta Tags en la estructura HTML de nuestras páginas web. La siguiente imagen ilustra la configuración de estos elementos clave
+
+<img src = "../Assets/SEO-Tags.png">
+
 ### 4.2.4. Searching Systems
+
+El sistema de búsqueda en HomeyPark facilitará a los usuarios encontrar la información que
+necesitan para utilizar la plataforma, centrándose principalmente en cómo funciona el sistema,
+precios y opiniones de otros usuarios.
+
+**Búsqueda por Características de Servicio:**
+
+Los usuarios podrán buscar información sobre cómo funciona la plataforma, las ventajas de elegir
+HomeyPark, y testimonios de usuarios.
+
+**Búsqueda por Precio:**
+
+Los usuarios podrán encontrar fácilmente la sección de precios para obtener información detallada
+sobre las tarifas.
 
 ### 4.2.5. Navigation Systems
 
