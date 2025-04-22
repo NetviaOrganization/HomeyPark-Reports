@@ -6,15 +6,15 @@
 
 <img src="../Assets/Logo-UPC.png">
 
-**Curso:** Diseño de Experimentos de Ingeniería de Software
+**Curso:** Diseño de Experimentos de Ingeniería de Software - 1ASI0732
 
-**Sección:** 1ASI0732
+**NRC:** 4438 
 
 **Profesor:** Julio Manuel Noriega Melendez
 
 **Carrera:** Nombre de la carrera
 
-**Ciclo:** 2025-01
+**Ciclo:** 202510
 
 **Startup:** Netvia
 
@@ -42,8 +42,9 @@
 | ------- | ---------- | ---------------- | ------------------------------------- |
 | 1.0     | 05/04/2025 | Adriano Cruz     | Creación de la estructura del informe |
 | 1.0     | 06/04/2025 | Sebastian Cachis | Desarrollo del capítulo I      |
-| 1.4     | 19/04/2025 | Adriano Cruz | Desarrollo del capítulo IV      |
  1.2     | 06/04/2025 | Sebastian Cachis | Desarrollo del capítulo V      |
+ 1.4|19/04/2025| Adriano Cruz| Desarrollo del capítulo IV  |
+ |1.5|22/04/2025|Lucio Yen|Desarrollo del capítulo IV
 
 
 ### Project Report Collaboration Insights
@@ -55,7 +56,7 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 | ----------------------- | -------------------------------- |
 | Sebastian Cachis        | Desarrollo de todo el capítulo I y V |
 | [Nombre del integrante] | [Tareas]                         |
-| ...                     | ...                              |
+| Lucio Yen               | Desarrollo parcial del capítulo IV |
 
 
 # Tabla de Contenidos
