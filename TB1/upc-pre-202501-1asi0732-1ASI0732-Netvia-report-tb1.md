@@ -18,7 +18,7 @@
 
 **Startup:** Netvia
 
-**Producto:** SwapService
+**Producto:** HomeyPark
 
 ### Integrantes:
 
@@ -41,7 +41,10 @@
 | Versión | Fecha      | Autor            | Descripción                           |
 | ------- | ---------- | ---------------- | ------------------------------------- |
 | 1.0     | 05/04/2025 | Adriano Cruz     | Creación de la estructura del informe |
-| 1.0     | 06/04/2025 | Sebastian Cachis | Desarrollo de todo el capítulo I      |
+| 1.0     | 06/04/2025 | Sebastian Cachis | Desarrollo del capítulo I      |
+| 1.4     | 19/04/2025 | Adriano Cruz | Desarrollo del capítulo IV      |
+ 1.2     | 06/04/2025 | Sebastian Cachis | Desarrollo del capítulo V      |
+
 
 ### Project Report Collaboration Insights
 
@@ -50,15 +53,10 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 
 | Integrante              | Tareas Designadas                |
 | ----------------------- | -------------------------------- |
-| Sebastian Cachis        | Desarrollo de todo el capítulo I |
+| Sebastian Cachis        | Desarrollo de todo el capítulo I y V |
 | [Nombre del integrante] | [Tareas]                         |
 | ...                     | ...                              |
 
-Evidencias del Insights Contributos de los commits del informe:
-
-</div>
-
-![image](imagen)
 
 # Tabla de Contenidos
 
@@ -177,13 +175,12 @@ Evidencias del Insights Contributos de los commits del informe:
 
 ### 1.1.1. Descripción de la Startup
 
-Netvia es una startup tecnológica orientada a diseñar soluciones digitales inteligentes que transformen la manera en que las personas interactúan con los servicios urbanos en el mundo moderno. Fundada por un equipo multidisciplinario con enfoque en innovación, desarrollo escalable y experiencia de usuario, Netvia se posiciona como un agente disruptivo en el sector Tech4UrbanLife (tecnología para la vida urbana), creando plataformas que combinan accesibilidad, eficiencia y sostenibilidad.
-
-Nuestro propósito como empresa es identificar necesidades reales de la vida cotidiana y resolverlas mediante productos tecnológicos que puedan escalar globalmente sin perder el enfoque local. Apostamos por modelos centrados en el usuario, arquitectura modular, y un profundo compromiso con la usabilidad y la confiabilidad de nuestros productos.
-
-Creemos que la tecnología debe estar al servicio de las personas, facilitando experiencias seguras, intuitivas y transparentes. Bajo esta visión, nace nuestro producto principal: SwapService, una aplicación web y mobile diseñada para permitir el trueque de bienes, conocimientos y servicios entre individuos, impulsando una red confiable de usuarios con intereses compartidos.
-
-En Netvia, trabajamos con pasión, creatividad y enfoque ágil para ofrecer productos que generen impacto social, fomenten el desarrollo sostenible y transformen la forma en que las personas interactúan en el entorno digital.
+Nuestro equipo Netvia ha sido creado con el propósito de solucionar la preocupación por la
+escasez de espacios de estacionamiento en entornos urbanos. La congestión del tráfico y la ineficiente
+búsqueda de estacionamientos genera una gran frustración para el conductor. HomeyPark propone
+revolucionar la forma en que las personas encuentran y utilizan espacios de estacionamiento.
+Desarrollaremos una aplicación que ofrecerá una interfaz intuitiva, permitiendo a los usuarios buscar,
+reservar y pagar por estacionamientos de manera sencilla y rápida.
 
 ## Misión
 
@@ -207,147 +204,174 @@ Ser la plataforma líder global en intercambio de servicios peer-to-peer, transf
 
 ### 1.2.1. Antecedentes y problemática
 
-En la actualidad, nos enfrentamos a diversos desafíos socioeconómicos que afectan directamente a la forma en que las personas acceden a servicios y conocimientos:
+En la actualidad, la congestión vehicular ha ido en aumento debido al crecimiento constante de la
+población y al incremento del uso de vehículos. Este problema se ve agravado por la ineficiencia en la
+búsqueda de espacios de estacionamiento, lo que ha generado una experiencia frustrante para los
+conductores a nivel mundial. A su vez, aquellos que poseen espacios de estacionamiento sin utilizar en
+áreas urbanas se enfrentan al desafío de no contar con una plataforma eficaz para rentabilizar estos
+recursos.
 
-## Contexto actual
+**What?**
 
-- **Desigualdad económica creciente**: El acceso a servicios profesionales y conocimientos especializados está condicionado por la capacidad económica, creando brechas significativas entre diferentes segmentos de la población.
+Nuestro startup ha identificado como problemática principal la escasez de espacios de estacionamiento
+en entornos urbanos y la complejidad que representa actualmente encontrar un lugar para estacionar.
+Esto se debe a la elevada demanda de vehículos para las actividades cotidianas.
 
-- **Talento infrautilizado**: Muchas personas poseen habilidades valiosas que no pueden monetizar efectivamente en el mercado laboral tradicional, o que quedan sin aprovecharse por falta de oportunidades.
+**When?**
 
-- **Economía hiperconsumista**: El modelo económico predominante incentiva el consumo continuo y la acumulación, generando problemas de sostenibilidad ambiental y social.
+Esta preocupación ha ido en aumento a lo largo del tiempo, ya que las ciudades han visto crecer su
+población, lo que ha resultado en un mayor número de vehículos en circulación. En los últimos años, la
+congestión del tráfico y la dificultad para encontrar estacionamiento se han vuelto problemas más
+urgentes.
 
-- **Fragmentación comunitaria**: La industrialización y digitalización han debilitado los lazos comunitarios tradicionales donde el intercambio de favores y habilidades era una práctica común.
+**Where?**
 
-## Problemáticas específicas
+El problema se presenta principalmente en áreas urbanas densamente pobladas a nivel global, donde el
+espacio es limitado y la demanda de estacionamiento es alta.
 
-1. **Barrera económica para acceder a servicios**: Muchas personas no pueden permitirse contratar servicios profesionales que necesitan, mientras que quienes ofrecen estos servicios enfrentan periodos de inactividad.
+**Who?**
 
-2. **Falta de reconocimiento de habilidades no convencionales**: El sistema económico actual reconoce y valora principalmente habilidades estandarizadas y certificadas formalmente, dejando de lado otras capacidades valiosas.
+Los conductores son los principales afectados por este problema, ya que se enfrentan a dificultades
+para encontrar estacionamientos convenientes. Además, los propietarios de espacios de
+estacionamiento se ven en desventaja frente a grandes empresas del sector, lo que complica la
+promoción y alquiler de sus servicios.
 
-3. **Ausencia de plataformas efectivas**: Las soluciones existentes para el intercambio de servicios suelen ser:
+**Why?**
 
-   - Demasiado locales y de alcance limitado
-   - Carentes de sistemas de confianza robustos
-   - Sin mecanismos efectivos para equiparar el valor de diferentes servicios
-   - Con interfaces poco intuitivas que dificultan las conexiones eficientes
+La causa principal radica en la insuficiencia de espacios de estacionamiento disponibles en áreas
+urbanas, lo que intensifica la congestión vehicular y dificulta que los conductores encuentren un lugar
+para estacionar en el momento oportuno.
 
-4. **Dependencia excesiva del dinero como único medio de intercambio**: Esta dependencia limita las posibilidades de intercambio cuando hay escasez de recursos monetarios, aun cuando existe abundancia de talentos y tiempo disponible.
+**How?**
 
-SwapService surge como respuesta a estas problemáticas, buscando crear un ecosistema donde el valor se genere y comparta a través del intercambio directo de habilidades y servicios, democratizando el acceso a estos recursos y fortaleciendo el tejido social comunitario.
+El problema ocurre cuando la congestión del tráfico, combinada con la falta de espacios de
+estacionamiento, impide que la población pueda estacionar de manera eficiente y conveniente.
+
+**How much?**
+
+Este problema afecta de manera notable a Lima, la capital, donde según un estudio realizado por la
+ONG Luz Ámbar en 2016, existe una carencia de aproximadamente 45,000 espacios de
+estacionamiento en cinco distritos. Sin embargo, esta cifra es insuficiente en comparación con la
+cantidad de vehículos en la ciudad, que alcanza aproximadamente 1 millón 800,000 unidades. Esta
+discrepancia entre la cantidad de vehículos y la disponibilidad de estacionamientos contribuye
+significativamente a la congestión vehicular y al desafío constante de encontrar un lugar adecuado para
+estacionar.
 
 ### 1.2.2. Lean UX Process
 
-El desarrollo de SwapService sigue la metodología Lean UX, que combina el pensamiento Lean Startup con el diseño centrado en el usuario. Este enfoque nos permite validar rápidamente nuestras hipótesis de valor y crear soluciones adaptadas a las necesidades reales de los usuarios con el mínimo de recursos.
-
-## Principios Lean UX aplicados a SwapService
-
-- **Enfoque en los problemas, no en las características**: Priorizamos entender profundamente los problemas de los usuarios antes de diseñar soluciones.
-- **Iteraciones pequeñas y rápidas**: Desarrollamos MVP (Producto Mínimo Viable) que podemos poner a prueba rápidamente.
-- **Validación continua**: Cada decisión de diseño y desarrollo se valida con usuarios reales.
-- **Colaboración multidisciplinaria**: Equipos integrados por diseñadores, desarrolladores y stakeholders.
-- **Medición de resultados**: Definimos métricas claras para evaluar el éxito de cada iteración.
-
 ### 1.2.2.1. Lean UX Problem Statements
 
-Los Problem Statements nos permiten definir claramente los problemas que buscamos resolver, centrándonos en las necesidades de los usuarios y no en características específicas del producto.
+El desarrollo de HomeyPark sigue la metodología Lean UX, que combina el pensamiento Lean Startup con el diseño centrado en el usuario. Este enfoque nos permite validar rápidamente nuestras hipótesis de valor y crear soluciones adaptadas a las necesidades reales de los usuarios con el mínimo de recursos.
 
-## Problem Statement 1: Acceso a servicios
+**Problem Statement 1: Usuarios de parking**
 
-**Hemos observado que** personas con recursos económicos limitados **tienen dificultades para** acceder a servicios profesionales que necesitan (como clases particulares, asesoría legal básica, diseño gráfico, etc.), **lo que provoca** que renuncien a estos servicios o busquen alternativas subóptimas, **afectando** su desarrollo personal y profesional.
+En la actualidad, muchos ciudadanos de las zonas urbanas del Perú requieren de un vehículo
+motorizado para realizar tramos largos de viaje. Debido a su alta demanda, el diario “El Comercio”
+(2024) revela que el 51% de conductores de la ciudad de Lima consideran necesario incrementar la
+cantidad de espacios para estacionar.
 
-## Problem Statement 2: Aprovechamiento de habilidades
+Hemos encontrado que los conductores presentan dificultades para encontrar espacios de
+estacionamiento disponibles, tomando un aproximado de 10 horas totales al mes para conseguir uno.
 
-**Hemos observado que** profesionales y personas con habilidades específicas **tienen dificultades para** encontrar canales donde ofrecer sus servicios cuando enfrentan periodos de baja demanda o cuando sus habilidades no son fácilmente monetizables, **lo que provoca** desaprovechamiento de talentos y periodos de inactividad, **afectando** sus oportunidades de desarrollo y networking.
+¿Cómo podemos buscar o proporcionar más espacios de estacionamiento para los usuarios de forma
+eficiente y rápida para sus vehículos motorizados?
 
-## Problem Statement 3: Confianza en intercambios
+**Problem Statement 2: Anfitriones**
 
-**Hemos observado que** las personas interesadas en intercambios no monetarios **tienen dificultades para** establecer relaciones de confianza con desconocidos y para acordar el valor equivalente de servicios diferentes, **lo que provoca** que muchos intercambios potenciales no se materialicen, **afectando** la viabilidad de las economías colaborativas.
+Nuestra aplicación permitirá a los usuarios poder promocionar sus garajes para obtener una fuente de
+ingresos adicional sin interrupción en sus actividades del día a día. Esto favorecerá a las comunidades
+para la reducción de la congestión vehicular.
 
-## Problem Statement 4: Comunidad y conexión
+Hemos encontrado que muchos propietarios no están dispuestos a ofrecer su garaje en alquiler debido
+al anonimato de los clientes, lo cual genera una sensación de inseguridad en estas entidades.
 
-**Hemos observado que** individuos en entornos urbanos modernos **tienen dificultades para** establecer conexiones significativas basadas en el intercambio de valor con su comunidad más cercana, **lo que provoca** aislamiento y falta de apoyo mutuo, **afectando** la cohesión social y la resiliencia comunitaria.
+¿Cómo podemos implementar un sistema de seguridad que vele por la integridad, bienes y bienes
+inmobiliarios de nuestros usuarios de la aplicación?
 
 ### 1.2.2.2. Lean UX Assumptions
 
-Las asunciones nos permiten explicitar las creencias que tenemos sobre nuestros usuarios, sus necesidades y el valor que nuestra solución puede aportar.
+**Business Assumptions**
 
-## Asunciones sobre los usuarios
+1. Creo que mis usuarios necesitan una mejor opción de encontrar estacionamientos y, de ser
+posible, reservarlos.
 
-1. Creemos que nuestros usuarios principales son:
+2. Estas necesidades se pueden resolver con una aplicación móvil que les permita a los
+conductores reservar en los garajes de la ciudad, debido a que la mayoría del tiempo se
+encuentran disponibles.
 
-   - Profesionales independientes con periodos de disponibilidad variable
-   - Estudiantes y jóvenes profesionales con habilidades pero recursos limitados
-   - Personas con habilidades no convencionales difíciles de monetizar
-   - Individuos interesados en economías alternativas y consumo responsable
+3. Mis clientes iniciales son las personas que cuenten con un vehículo y que tengan dificultades
+de encontrar algún estacionamiento disponible.
 
-2. Creemos que los usuarios valoran:
+4. El valor #1 que el cliente requiere de mi servicio es encontrar y reservar espacios para
+estacionar en un corto periodo de tiempo de forma segura.
 
-   - Acceder a servicios que de otro modo no podrían permitirse
-   - La posibilidad de aplicar sus habilidades y conocimientos
-   - Experiencias de conexión humana significativas
-   - Alternativas al modelo económico tradicional
+5. Voy a adquirir a mis clientes a través de estrategias de marketing en diversas redes sociales,
+mostrando todos los beneficios que da nuestra aplicación móvil.
 
-3. Creemos que los principales problemas de los usuarios son:
-   - Falta de recursos económicos para acceder a ciertos servicios
-   - Dificultad para encontrar personas que valoren sus habilidades específicas
-   - Establecer confianza en intercambios fuera de los canales convencionales
-   - Cuantificar el valor de servicios dispares para realizar intercambios justos
+6. Mi competencia en el mercado serán las empresas que se dedican a ofrecer sus servicios de
+estacionamiento.
 
-## Asunciones sobre la solución
+7. Los venceremos debido a que ofrecemos a los usuarios poder generar ingresos de manera
+pasiva al rentar sus garajes como estacionamiento.
 
-1. Creemos que una plataforma digital facilitará conexiones eficientes entre personas con necesidades y habilidades complementarias.
+8. Mis mayores riesgos del producto es no encontrar una manera de brindar seguridad a los
+conductores como a los propietarios de los garajes.
 
-2. Creemos que un sistema de valoración y reseñas resolverá gran parte del problema de confianza entre desconocidos.
+9. Resolveremos esto con la incorporación de un sistema que se encargue de validar los
+parámetros de seguridad de los conductores y los garajes en alquiler para ofrecer una mejor
+seguridad al público.
 
-3. Creemos que el establecimiento de categorías y estándares de tiempo ayudará a equiparar el valor de diferentes servicios.
+**User Assumptions**
 
-4. Creemos que la experiencia de usuario debe priorizar:
-   - Facilidad para describir habilidades y necesidades
-   - Sistemas de búsqueda inteligente para sugerir coincidencias potenciales
-   - Herramientas de comunicación integradas
-   - Mecanismos de verificación y construcción de reputación
+*Usuarios de parking*
 
-## Asunciones sobre el valor para el negocio
+**¿Quién es el usuario?** Conductores que en su día a día necesitan encontrar estacionamiento para sus
+vehículos.
 
-1. Creemos que podremos sostener la plataforma mediante:
+**¿Dónde encaja nuestro servicio?** Nuestro servicio encaja tanto para su trabajo como para sus
+actividades diarias.
 
-   - Un modelo freemium con funcionalidades avanzadas de pago
-   - Alianzas con entidades educativas y municipalidades interesadas en fomentar economías colaborativas
-   - Datos anónimos sobre tendencias de intercambio de servicios
+**¿Qué problema tiene nuestro servicio y cómo se resuelve?** El problema es sobre la posible
+inseguridad del usuario al alquilar en una cochera de cualquier persona desconocida. Se puede resolver
+mediante un sistema de filtros que garanticen al usuario la seguridad de la cochera y contar con bases
+legales para la publicación del producto.
 
-2. Creemos que el crecimiento ocurrirá principalmente a través de:
-   - Marketing boca a boca entre usuarios satisfechos
-   - Construcción de comunidades locales activas
-   - Alianzas estratégicas con organizaciones afines
+**¿Cuándo y cómo es usado nuestro producto?** Nuestro producto será usado mayormente cuando el
+usuario necesite encontrar algún estacionamiento para realizar cualquier actividad. La aplicación móvil
+se podrá usar como un sistema de búsqueda y reserva de cocheras.
+
+*Anfitriones*
+
+**¿Quién es el usuario?** Personas con garajes que desean poner en alquiler para generar ingresos.
+
+**¿Dónde encaja nuestro servicio?** Nuestro servicio encaja en su vida porque pueden poner en alquiler
+sus garajes mientras realizan cualquier actividad.
+
+**¿Qué problema tiene nuestro servicio y cómo se resuelve?** El problema será el proceso para poder
+registrar sus cocheras, debido a que puede llegar a ser confuso o tedioso para el anfitrión. Lo podemos
+resolver mediante capacitación sobre el proceso de filtros para facilitar al usuario el registro.
+
+**¿Cuándo y cómo es usado nuestro producto?** Nuestra aplicación es usada principalmente cuando el
+anfitrión dispone de cualquier garaje disponible que desee poner en alquiler para generar ingresos.
+Nuestro producto es usado como un gestor de cocheras sobre reservas, estados, recibos, etc. 
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
-Las hipótesis conectan nuestras asunciones con resultados medibles, permitiéndonos validar o refutar nuestras creencias en cada iteración.
+1. Creemos que la función de reservar cocheras facilitará al usuario conseguir un espacio para
+estacionamiento. Sabremos que tendremos éxito cuando la mayoría de los usuarios demoren
+en conseguir estacionamiento en un plazo máximo de 5 minutos.
 
-## Hipótesis 1: Registro y onboarding
+2. Creemos que la implementación del mapa de Google Maps permitirá al usuario una mejor
+búsqueda de cocheras. Sabremos que estaremos en lo cierto cuando el 100% de nuestros
+usuarios no presentan dificultades para encontrar cocheras.
 
-**Creemos que** un proceso de registro que permita a los usuarios categorizar detalladamente sus habilidades y necesidades **ayudará a** los usuarios a encontrar coincidencias relevantes **lo que mediremos** por el porcentaje de usuarios que completan al menos un intercambio en los primeros 30 días tras su registro.
+3. Creemos que proporcionar al usuario registrar sus cocheras aumentará la cantidad de
+estacionamientos. Sabremos que estaremos en lo cierto cuando el índice de escasez de
+estacionamientos se reduzca en un 20%.
 
-## Hipótesis 2: Sistema de reputación
-
-**Creemos que** implementar un sistema de verificación de identidad y reseñas detalladas **ayudará a** incrementar la confianza entre usuarios **lo que mediremos** por la tasa de intercambios exitosos completados vs. intercambios inicialmente propuestos, y por las evaluaciones positivas de la experiencia.
-
-## Hipótesis 3: Valoración de servicios
-
-**Creemos que** establecer un sistema basado en tiempo y categorización de complejidad para equiparar diferentes servicios **ayudará a** los usuarios a acordar intercambios percibidos como justos por ambas partes **lo que mediremos** por la satisfacción reportada tras el intercambio y la tasa de disputas por inequidad.
-
-## Hipótesis 4: Búsqueda inteligente
-
-**Creemos que** un algoritmo de coincidencia que sugiera proactivamente intercambios potenciales basados en las habilidades y necesidades declaradas **ayudará a** aumentar el número de intercambios realizados **lo que mediremos** por la tasa de adopción de sugerencias automáticas vs. búsquedas manuales.
-
-## Hipótesis 5: Comunidades locales
-
-**Creemos que** fomentar intercambios geográficamente cercanos con funcionalidades específicas **ayudará a** crear comunidades más cohesionadas y aumentará la retención de usuarios **lo que mediremos** por la frecuencia de uso y la tasa de intercambios repetidos entre los mismos usuarios.
-
-## Hipótesis 6: Gamificación
-
-**Creemos que** implementar elementos de gamificación como insignias por habilidades verificadas y reconocimientos por intercambios exitosos **ayudará a** aumentar el compromiso de los usuarios **lo que mediremos** por la frecuencia de visitas a la plataforma y la participación activa en la comunidad.
+4. Creemos que implementar un sistema de notificaciones alertará a los usuarios sobre la
+disponibilidad de las cocheras. Sabremos que tendremos éxito cuando al menos el 80% de los
+usuarios aprovechen estas alertas para asegurar un espacio de estacionamiento.
 
 ### 1.2.2.4. Lean UX Canvas
 
@@ -355,11 +379,13 @@ Las hipótesis conectan nuestras asunciones con resultados medibles, permitiénd
 
 ## 1.3. Segmentos objetivo
 
-SwapService está dirigido a dos segmentos principales de usuarios que comparten un interés en el intercambio de bienes, conocimientos y servicios, aunque cada grupo presenta características, motivaciones y necesidades distintas según su contexto.
+Nuestro segmento objetivo está compuesto por dos usuarios:
 
-El primer segmento está compuesto por jóvenes universitarios y recién egresados, usualmente entre los 18 y 28 años, que viven en entornos urbanos o zonas cercanas a centros de estudio. Este grupo tiene un alto dominio del entorno digital, utiliza frecuentemente aplicaciones móviles y redes sociales, y cuenta con un presupuesto limitado, lo que los lleva a buscar alternativas económicas para adquirir productos o servicios. Además de intercambiar objetos físicos como ropa, libros o accesorios, estos usuarios también encuentran valor en compartir conocimientos prácticos, como tutorías, ayuda con tareas, o asesorías básicas en tecnología y diseño. Valoran la sostenibilidad, el ahorro y la pertenencia a comunidades colaborativas, y ven en el trueque de conocimientos una forma enriquecedora de aportar y aprender.
+**Usuarios de parking:** Persona que busca alguna solución para su necesidad que es buscar un
+estacionamiento en entornos urbanos para su vehículo
 
-El segundo segmento está conformado por adultos jóvenes emprendedores o freelancers, con edades entre 25 y 40 años, que gestionan de forma independiente sus recursos y actividades profesionales. Son personas que buscan intercambiar sus habilidades o productos por otros servicios útiles, como asesorías, diseño, reparación de equipos, marketing, entre otros. En este segmento, el interés en el intercambio de conocimientos y servicios es aún más estratégico: ven en SwapService una oportunidad para ampliar su red profesional, potenciar colaboraciones y acceder a soluciones sin requerir inversión económica directa. Su motivación principal es aprovechar al máximo sus talentos y recursos, mientras crean relaciones de valor dentro de una comunidad dinámica y confiable.
+**Anfitrión:** Propietario de una vivienda que cuente con una cochera privada que busque sacar
+provecho de forma efectiva.
 
 <h1 id="capitulo-ii-requirements-elicitation--analysis">Capítulo II: Requirements Elicitation & Analysis</h1>
 
@@ -367,102 +393,325 @@ El segundo segmento está conformado por adultos jóvenes emprendedores o freela
 
 ### 2.1.1. Análisis competitivo
 
-El mercado de plataformas de intercambio de servicios es dinámico y diverso, con varias soluciones que facilitan la conexión entre personas para compartir habilidades y tareas. A continuación, se describen algunas de las plataformas más destacadas en este ámbito.
+Nuestros competidores principalmente vendrían a ser otras aplicaciones que se encargan del servicio 
+de estacionamiento por celular. Algunos de nuestros competidores potenciales vendrían a ser: 
 
-1. Timebucks
-   Timebucks es una plataforma que permite a los usuarios ganar dinero realizando pequeñas tareas en línea, como completar encuestas, ver videos y probar aplicaciones. Ofrece una variedad de tareas accesibles para una amplia audiencia, aunque algunas pueden tener un valor muy bajo.
+1. EasyPark: Es una app popular que permite a los usuarios encontrar y pagar por 
+estacionamientos en diversas ciudades. EasyPark se integra con sistemas de estacionamiento 
+inteligente, ofreciendo información en tiempo real sobre la disponibilidad de espacios, y cuenta 
+con opciones de pago automatizado y reconocimiento de placas. La app también permite 
+reservar espacios con anticipación y está disponible en varios países, facilitando la movilidad 
+urbana a nivel internacional.
 
-2. Simbi
-   Simbi es una plataforma de intercambio de servicios que permite a los usuarios ofrecer y recibir servicios sin intercambio de dinero, utilizando un sistema de créditos llamado "simbi". Promueve un modelo de economía colaborativa y fomenta la creación de una comunidad de usuarios que valoran el intercambio de habilidades.
+2. Parkopedia: Esta aplicación ofrece una amplia base de datos de estacionamientos, incluyendo 
+garajes privados y públicos. Parkopedia también proporciona predicciones sobre la 
+disponibilidad de espacios y se integra con sistemas de navegación en vehículos. Además, 
+ofrece información detallada sobre tarifas y horarios, lo que ayuda a los usuarios a tomar 
+decisiones más informadas al buscar estacionamiento. Su cobertura incluye más de 15,000 
+ciudades en todo el mundo.
 
-3. TaskRabbit
-   TaskRabbit conecta a personas que necesitan ayuda con tareas diarias con "Taskers" dispuestos a realizar esas tareas por una tarifa. Ofrece una amplia gama de servicios y facilita la confianza a través de mecanismos de verificación y reseñas, aunque depende del intercambio de dinero y cobra comisiones por los servicios.
+3. Wayleadr: Se centra en la optimización de espacios de estacionamiento en áreas urbanas y 
+corporativas. Ofrece características como reservas anticipadas y gestión de estacionamiento 
+para empresas, utilizando geolocalización para mejorar la eficiencia. También permite a las 
+empresas monitorear y gestionar sus plazas de estacionamiento, reduciendo costos operativos y 
+mejorando la experiencia de los empleados. Wayleadr ha sido adoptada por importantes 
+corporaciones globales para optimizar el uso de sus instalaciones. 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-<table> <tr> <th colspan="6" valign="top">Competitive Analysis Landscape</th> </tr> <tr> <td colspan="2" valign="top">¿Por qué llevar a cabo este análisis?</td> <td colspan="4" valign="top">Un análisis competitivo ayuda a identificar oportunidades y mejorar su propuesta de valor para mantenerse relevante en el mercado.</td> </tr> <tr> <td colspan="2" valign="top"></td> <td valign="top">SwapService</td> <td valign="top">Timebucks</td> <td valign="top">Simbi</td> <td valign="top">TaskRabbit</td> </tr> <tr> <td rowspan="2" valign="top">Perfil</td> <td valign="top">Overview</td> <td valign="top">Plataforma de intercambio de servicios sin dinero, fomentando una economía colaborativa.</td> <td valign="top">Plataforma de tareas en línea remuneradas.</td> <td valign="top">Intercambio de servicios basado en créditos sin dinero.</td> <td valign="top">Conecta personas que necesitan ayuda con tareas diarias con "Taskers" por una tarifa.</td> </tr> <tr> <td valign="top">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td> <td valign="top">Acceso a servicios sin barreras económicas y fortalecimiento de la comunidad.</td> <td valign="top">Diversidad de tareas accesibles para ganar dinero.</td> <td valign="top">Intercambio de habilidades sin necesidad de dinero.</td> <td valign="top">Facilidad para encontrar ayuda con tareas diarias.</td> </tr> <tr> <td rowspan="2" valign="top">Perfil de Marketing</td> <td valign="top">Mercado objetivo</td> <td valign="top">Jóvenes universitarios y profesionales independientes.</td> <td valign="top">Usuarios de internet buscando ingresos adicionales.</td> <td valign="top">Personas interesadas en economías colaborativas.</td> <td valign="top">Personas que necesitan ayuda con tareas diarias.</td> </tr> <tr> <td valign="top">Estrategias de marketing</td> <td valign="top">Marketing digital y boca a boca.</td> <td valign="top">Publicidad en línea y redes sociales.</td> <td valign="top">Marketing de contenido y comunidades en línea.</td> <td valign="top">Publicidad local y asociaciones con empresas.</td> </tr> <tr> <td rowspan="3" valign="top">Perfil de Producto</td> <td valign="top">Productos & Servicios</td> <td valign="top">Intercambio de servicios y habilidades.</td> <td valign="top">Tareas en línea remuneradas.</td> <td valign="top">Intercambio de servicios basado en créditos.</td> <td valign="top">Servicios de tareas diarias.</td> </tr> <tr> <td valign="top">Precios & Costos</td> <td valign="top">Sin costo monetario, basado en intercambio.</td> <td valign="top">Pagos por tarea completada.</td> <td valign="top">Sin costo monetario, basado en créditos.</td> <td valign="top">Tarifas por servicio más comisiones.</td> </tr> <tr> <td valign="top">Canales de distribución (Web y/o Móvil)</td> <td valign="top">Aplicación móvil y web.</td> <td valign="top">Aplicación móvil y web.</td> <td valign="top">Aplicación móvil y web.</td> <td valign="top">Aplicación móvil y web.</td> </tr> <tr> <td rowspan="4" valign="top">Análisis SWOT</td> <td valign="top">Fortalezas</td> <td valign="top">Fomento de comunidad y sostenibilidad.</td> <td valign="top">Diversidad de tareas y accesibilidad.</td> <td valign="top">Modelo de intercambio sin dinero.</td> <td valign="top">Facilidad de uso y confianza.</td> </tr> <tr> <td valign="top">Debilidades</td> <td valign="top">Dependencia de la adopción comunitaria.</td> <td valign="top">Valor bajo de algunas tareas.</td> <td valign="top">Confusión potencial con el sistema de créditos.</td> <td valign="top">Dependencia del dinero y comisiones.</td> </tr> <tr> <td valign="top">Oportunidades</td> <td valign="top">Expansión a nuevos mercados y comunidades.</td> <td valign="top">Diversificación de tareas y aumento de valor.</td> <td valign="top">Crecimiento en economías colaborativas.</td> <td valign="top">Expansión de servicios y alianzas.</td> </tr> <tr> <td valign="top">Amenazas</td> <td valign="top">Competencia creciente y cambios en preferencias de usuarios.</td> <td valign="top">Competencia en el mercado de tareas en línea.</td> <td valign="top">Competencia y adopción limitada.</td> <td valign="top">Competencia y dependencia de la economía tradicional.</td> </tr> </table>
+<table> <tr> <th colspan="6" valign="top">Competitive Analysis Landscape</th> </tr> <tr> <td colspan="2" valign="top">¿Por qué llevar a cabo este análisis?</td> <td colspan="4" valign="top">Un análisis competitivo ayuda a identificar oportunidades y mejorar su propuesta de valor para mantenerse relevante en el mercado.</td> </tr> <tr> <td colspan="2" valign="top"></td> <td valign="top">HomeyPark</td> <td valign="top">EasyPark</td> <td valign="top">Parkopedia</td> <td valign="top">Wayleadr</td> </tr> <tr> <td rowspan="2" valign="top">Perfil</td> <td valign="top">Overview</td> <td valign="top">Una aplicación que conecta conductores con garajes privados disponibles, permitiéndoles reservar espacios de estacionamiento fácilmente. </td> <td valign="top">Una app popular que ayuda a encontrar, reservar y pagar estacionamientos fácilmente. </td> <td valign="top">Una base de datos global que ofrece información detallada sobre estacionamientos y disponibilidad.</td> <td valign="top">Una solución para optimizar y gestionar estacionamientos en entornos corporativos y urbanos.</td> </tr> <tr> <td valign="top">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td> <td valign="top">Ofrece a los conductores la posibilidad de encontrar y reservar estacionamientos en garajes privados en tiempo real, reduciendo la congestión vehicular y proporcionando una fuente de ingresosadicional para los propietarios de garajes.</td> <td valign="top">Ofrece a los usuarios una experiencia sin fricciones para encontrar, reservar y pagar por estacionamientos, todo a través de una integración avanzada con sistemas de navegación y pagos automatizados.</td> <td valign="top">Proporciona a los usuarios información completa y en tiempo real sobre disponibilidad y tarifas de estacionamiento en miles de ciudades, ayudándolos a tomar decisiones informadas rápidamente.</td> <td valign="top">Facilita la gestión eficiente de espacios de estacionamiento en entornos corporativos, mejorando la experiencia del usuario y optimizando los recursos de las empresas.</td> </tr> <tr> <td rowspan="2" valign="top">Perfil de Marketing</td> <td valign="top">Mercado objetivo</td> <td valign="top">Conductores<br> Propietarios de garajes</td> <td valign="top"> 
+Conductores urbanos<br> Viajeros frecuentes</td> <td valign="top">Conductores<br> Empresas de navegación vehicular </td> <td valign="top">Empresas con estacionamientos<br> Corporaciones </td> </tr> <tr> <td valign="top">Estrategias de marketing</td> <td valign="top">Marketing en redes sociales, marketing de contenido</td> <td valign="top">Marketing en redes sociales, marketing de contenido</td> <td valign="top">Marketing en redes sociales, marketing de contenido</td> <td valign="top">Marketing en redes sociales, marketing de contenido</td> </tr> <tr> <td rowspan="3" valign="top">Perfil de Producto</td> <td valign="top">Productos & Servicios</td> <td valign="top">Reserva de garajes a través de la app, integración con Google Maps para la localización de espacios, y un sistema de seguridad para transacciones.</td> <td valign="top">App de reserva de estacionamiento, pagos automatizados, y notificaciones de disponibilidad en tiempo real.</td> <td valign="top">Base de datos de estacionamientos, predicciones de disponibilidad, e integración con sistemas de navegación.</td> <td valign="top">Gestión de estacionamientos corporativos, reservas anticipadas, y análisis de uso de espacios.</td> </tr> <tr> <td valign="top">Precios & Costos</td> <td valign="top">El precio varía según el servicio que adquiere el usuario.</td> <td valign="top">El precio varía según el servicio que adquiere el usuario.</td> <td valign="top">El precio varía según el servicio que adquiere el usuario.</td> <td valign="top">El precio varía según el servicio que adquiere el usuario.</td> </tr> <tr> <td valign="top">Canales de distribución (Web y/o Móvil)</td> <td valign="top">Aplicación móvil y web.</td> <td valign="top">Aplicación móvil y web.</td> <td valign="top">Aplicación móvil y web.</td> <td valign="top">Aplicación móvil y web.</td> </tr> <tr> <td rowspan="4" valign="top">Análisis SWOT</td> <td valign="top">Fortalezas</td> <td valign="top">Proporciona una solución innovadora parala falta de estacionamientos en áreas urbanas al aprovechar los garajes privados, lo que también beneficia a las comunidades locales.</td> <td valign="top">Amplia adopción y fácil integración con sistemas de pago y navegación, lo que facilita su uso en diversas ciudades.</td> <td valign="top">Ofrece la base de datos de estacionamientos más extensa y detallada a nivel global, con información en tiempo real.</td> <td valign="top">Especialización en la optimización de estacionamientos corporativos, lo que mejora la eficiencia y reduce costos para empresas.</td> </tr> <tr> <td valign="top">Debilidades</td> <td valign="top">La seguridad tanto para los conductores como para los propietarios de garajes puede ser una preocupación, lo que podría afectar la adopción.</td> <td valign="top">Puede enfrentar dificultades en regiones donde la infraestructura de estacionamiento inteligente es limitada.</td> <td valign="top">Su dependencia de datos de terceros puede afectar la precisión y actualización de la información. </td> <td valign="top">Está más centrada en mercados corporativos, lo que limita su alcance para el usuario promedio.</td> </tr> <tr> <td valign="top">Oportunidades</td> <td valign="top">Expansión a nuevas ciudades y la posibilidad de integrar tecnologías avanzadas de seguridad y autenticación para aumentar la confianza de los usuarios.</td> <td valign="top">Expandir su servicio a más ciudades y regiones que aún no cuentan con soluciones avanzadas de estacionamiento.</td> <td valign="top">Integrar tecnologías avanzadas como inteligencia artificial para mejorar la precisión de las predicciones de disponibilidad de estacionamiento.</td> <td valign="top">Ampliar su oferta para incluir soluciones de estacionamiento para pequeños negocios y complejos residenciales.</td> </tr> <tr> <td valign="top">Amenazas</td> <td valign="top">Competencia de aplicaciones similares que podrían ofrecer características de seguridad o precios más competitivos, así como la posible resistencia de los usuarios a confiar en garajes privados.</td> <td valign="top">La creciente competencia de nuevas aplicaciones de estacionamiento con funcionalidades más avanzadas podría reducir su cuota de mercado.</td> <td valign="top">Los cambios en las regulaciones de datos y privacidad pueden limitar el acceso a la información necesaria para mantener su base de datos actualizada.</td> <td valign="top">La dependencia de un nicho específico como el mercado corporativo puede limitar su crecimiento frente a soluciones más generalistas.</td> </tr> </table>
 
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
 
-Para obtener una comprensión profunda de las necesidades y expectativas de los usuarios potenciales de SwapService, se diseñarán entrevistas estructuradas con preguntas específicas para diferentes segmentos de usuarios. A continuación, se presentan las preguntas para cada grupo:
+Para obtener una comprensión profunda de las necesidades y expectativas de los usuarios potenciales de HomeyPark, se diseñarán entrevistas estructuradas con preguntas específicas para diferentes segmentos de usuarios. A continuación, se presentan las preguntas para cada grupo:
 
 **Preguntas Generales**
 
-- ¿Qué te motiva a utilizar una plataforma de intercambio de servicios sin dinero?
-- ¿Qué tipo de servicios o habilidades estarías dispuesto a ofrecer en una plataforma como SwapService?
-- ¿Qué barreras encuentras actualmente para acceder a servicios profesionales que necesitas?
-- ¿Cómo evalúas la confianza y seguridad en una plataforma de intercambio de servicios?
+- ¿Cuál es su nombre y apellido completo? 
+- ¿Cuál es su edad?
+- ¿En qué distrito o lugar reside?
+- ¿Cuál es su ocupación?
 
-**Preguntas para Jóvenes Universitarios y Recién Egresados**
+**Preguntas para el usuario de Parking**
 
-- ¿Con qué frecuencia buscas alternativas económicas para acceder a servicios o productos?
-- ¿Qué tipo de servicios o conocimientos te gustaría intercambiar con otros estudiantes o profesionales?
-- ¿Cómo te sientes acerca de la idea de intercambiar tiempo y habilidades en lugar de dinero?
-- ¿Qué características consideras importantes en una plataforma que facilite el intercambio de servicios entre estudiantes?
-- ¿Cómo crees que una plataforma como SwapService podría ayudarte en tu desarrollo personal y profesional?
+- ¿Con qué tipo de vehículo dispone? ¿Carro ligero, camioneta o moto? 
+- ¿Con qué frecuencia usa su(s) vehículo(s)? 
+- Hoy en día, es complicado encontrar un estacionamiento disponible. ¿Cuál cree que es la razón por la que sucede esto?
+- ¿Cuáles serían las horas donde es más difícil encontrar estacionamientos?
+- ¿Cuánto tiempo demora aproximadamente en encontrar estacionamiento? 
+- ¿Estaría dispuesto a usar como estacionamiento los garajes de las viviendas? ¿Cuáles serían sus motivos?
+- ¿Cuáles serían los requisitos mínimos para asegurar la integridad del usuario y su vehículo?
+- Si este servicio llega a ser seguro para sus clientes, ¿cree que sería útil para los ciudadanos de las zonas urbanas del Perú? ¿En que los beneficiaría?
+- ¿Confiaría usted en una aplicación móvil que facilite la búsqueda de estos tipos de estacionamientos? 
 
-**Preguntas para Jóvenes Emprendedores o Freelancers**
+**Preguntas para el anfitrión o host**
 
-- ¿Qué desafíos enfrentas actualmente en la monetización de tus habilidades o servicios?
-- ¿Cómo gestionas los periodos de baja demanda en tu trabajo freelance?
-- ¿Qué tipo de servicios o habilidades te gustaría intercambiar con otros profesionales independientes?
-- ¿Cómo evalúas el valor de tus servicios cuando consideras un intercambio no monetario?
-- ¿Qué beneficios esperas obtener al participar en una comunidad de intercambio de servicios como SwapService?
+- ¿Con cuántos garajes o cocheras cuenta en su hogar? 
+- ¿Cuál es el tamaño promedio de los garajes en su hogar?
+- ¿En qué momentos de su día a día sus garajes se encuentran desocupados? 
+- ¿Cuenta con algún sistema de seguridad en su cochera? 
+- ¿Ha llegado a considerar la posibilidad de alquilar sus garajes en algún momento? ¿Por qué?
+- ¿Cuáles serían los requisitos mínimos para asegurar la integridad del usuario y su bienes, ya sea inmobiliario o no?
+- ¿Le interesaría tener una aplicación móvil que permita promocionar sus garajes como estacionamiento y generar ingresos, sin interrumpir sus actividades diarias? 
 
 ### 2.2.2. Registro de entrevistas
 
-| Nombre entrevistado                                        | Augusto Granados                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Edad                                                       | 20 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Departamento                                               | Lima, Lima                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| <img src="../Assets/interviewsPhotos/augustogranados.png"> | Augusto Granados no cuenta con el pasar del tiempo, la necesidad de conocer herramientas y métodos estadísticos son muy importantes para poder seguir con su carrera una vez ya egresado. Como el saber programación para la manipulación de datos estadísticos. El contar con una aplicación que le permita intercambiar conocimientos de forma gratuita es de mucha ayuda y factible para quienes no posean con los recursos, pero si tengan la intención de querer seguir aprendiendo y cuente algo que ofrecer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Duración entrevista: 00:00-09:27                           | URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/EUu1idGzQANCuxR4aUX4dLEBM9jZrfD_o_Am6yvitXcUpQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sVtiCe]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Nombre entrevistado                                        | Walter Cachay                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Edad                                                       | 21 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Departamento                                               | Surco, Lima                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| <img src="../Assets/interviewsPhotos/waltherCachay.png">   | Walter Cachay es un estudiante de 21 años cursando el séptimo ciclo de ingeniería mecatrónica, motivado a utilizar una plataforma de intercambio de servicios sin dinero principalmente por razones económicas. Considera que este modelo podría promover un mejor nivel de enseñanza y aprendizaje tanto nacional como mundialmente, permitiéndole ofrecer sus conocimientos a cambio de aprender de otros. Está dispuesto a enseñar programación básica y avanzada, matemáticas relacionadas con su carrera, y como hobby, enseñar a tocar la trompeta. Las principales barreras que identifica para acceder a servicios profesionales son los costos de suscripciones en plataformas y aplicaciones, especialmente para clases de idiomas como el inglés, que son importantes para mejorar su currículum y son requeridas por la universidad. Para evaluar la confianza en una plataforma, considera fundamentales los comentarios, reseñas y sistemas de calificación.Walter busca alternativas económicas con frecuencia, aproximadamente dos o tres veces por semana, comparando precios y buscando promociones o descuentos para estudiantes. Le interesaría aprender francés, diseño web, economía y profundizar sus conocimientos en programación y automatización. Considera que intercambiar tiempo y habilidades es una idea muy interesante que promueve la ayuda mutua entre personas de distintos lugares. Las características que valora en una plataforma incluyen facilidad de uso, diseño atractivo, sistema de búsqueda eficiente, reseñas visibles y la posibilidad de comunicación directa con los proveedores de servicios. Cree que una plataforma como SwapService podría contribuir significativamente a su desarrollo personal y profesional, permitiéndole acceder a conocimientos y desarrollar habilidades que de otra manera serían inaccesibles por limitaciones económicas, además de descubrir nuevas habilidades que aún no conoce. |
-| Duración entrevista 00:00-08:15                            | URL [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EdMQe7U_565KqVCIYAcidt4BNohwZtyNYGp-bDuZQzAV_g?e=wuiJe6]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+**_Usuarios de parking_**
+<table>
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Walther Cachay</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">25 años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">Lima, Perú</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/waltherCachay.png"></b></td>
+    <td valign="top">
+      Walter Cachay, un estudiante de ingeniería mecatrónica de 25 años, enfrenta dificultades diarias para encontrar estacionamiento con su auto en Lima, especialmente en horas punta, llegando a tardar hasta una hora y media en zonas como Surco o cerca de su universidad, e incluso una o dos horas en el centro, una situación que atribuye al aumento del parque automotor. Aunque reacio inicialmente a usar garajes de viviendas por seguridad y comodidad, consideraría esta opción si existieran garantías como comprobantes de empresa, reglas claras y vigilancia 24/7. Walter ve una aplicación para buscar estacionamiento como un avance muy positivo para ahorrar tiempo, combustible y encontrar lugares disponibles de manera eficiente, siempre y cuando garantice la seguridad del vehículo mediante un sistema de recomendaciones y ubicaciones confiables.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-06:00</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EUWwVDeGIMxOirf7aLw_VKoBfkh-Q-X3iBSyjW7t8n4CoA?e=czxNW6" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EUWwVDeGIMxOirf7aLw_VKoBfkh-Q-X3iBSyjW7t8n4CoA?e=czxNW6</a></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Augusto Granados</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">20 años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">Lima Magdalena</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/augustogranados.png"></b></td>
+    <td valign="top">
+      DescripcAugusto Granados es un joven que cuentan con un carro, pero se le dificulta la posibilidad de encontrar espacio donde puede dejarlo en lugares por los que transita, no comenta que puede tener ocasiones en las que no logra encontrar uno hasta por casi 20 minutos, siento esto una gran pérdida de tiempo para él. El contar con una aplicación que le permita saber en qué lugares cercanos a donde el este le sería de gran ayuda. Otro aspecto para destacar fue que menciono el que poder valorar estos espacios y conocer sus tamaños serian cruciales para el usuario que busca reservar uno de esos espacios. ayuda a que lo poseedores de un parqueo se hagan de una buena reputación y la gente pueda confiar en que puede dejar ahí sus vehículos.ión
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-08:57</td>
+    <td valign="top"> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/EfwuXreiPk9Ak-akWrpZIvUBYeZe630_bahsL-sYD3QmHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=KgTQuh " target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/EfwuXreiPk9Ak-akWrpZIvUBYeZe630_bahsL-sYD3QmHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=KgTQuh </a></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Nombre</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">edad años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">....</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/img.png"></b></td>
+    <td valign="top">
+      Descripción
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-08:15</td>
+    <td valign="top"> a </td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Nombre</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">edad años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">....</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/img.png"></b></td>
+    <td valign="top">
+      Descripción
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-08:15</td>
+    <td valign="top"> URL: []</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Nombre</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">edad años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">....</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/img.png"></b></td>
+    <td valign="top">
+      Descripción
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-08:15</td>
+    <td valign="top"> URL: []</td>
+  </tr>
+</table>
 
-**_Jóvenes Emprendedores o Freelancers_**
-|Nombre entrevistado|William Sánchez|
-|-|-|
-|Edad|24 años|
-|Departamento|Lima, Lima|
-|<img src="../Assets/interviewsPhotos/williamSanchez.png">|William Sánchez, emprendedor de 24 años especializado en networking, busca utilizar una plataforma de intercambio de servicios sin dinero para optimizar recursos y establecer relaciones profesionales basadas en valor real. Ofrece servicios de estrategias digitales de marketing, consultoría de e-commerce, optimización de negocios y diseño UX/UI. Como emprendedor inicial con presupuesto limitado, enfrenta barreras para acceder a asesoría legal, contabilidad especializada y software, valorando en plataformas de intercambio los sistemas de verificación sólidos, portafolios demostrables y garantías en caso de disputas. Para valorar sus servicios en intercambios no monetarios, considera el tiempo invertido, su tarifa habitual y el valor potencial del servicio que recibe. Le interesaría intercambiar por servicios de copyrighting, SEO, asesoría contable y fiscal para aumentar la productividad de su negocio. Durante periodos de baja demanda, mejora su portafolio, trabaja en proyectos personales y refuerza su networking. De una plataforma como Swap Service espera acceder a servicios profesionales que normalmente no podría costear, expandir su red de contactos y aplicar sus habilidades en diversos contextos para enriquecer su experiencia profesional.|
-|Duración entrevista: 00:00-06:38 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/ETZgkPk0OI1ApIxTCPOS9DkBtVWBa6BQq6cUHcMqI2qyyQ?e=WiaaWG]|
 
-| Nombre entrevistado                                     | George Pimentel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Edad                                                    | 21 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Departamento                                            | Lima, Carabayllo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| <img src="../Assets/interviewsPhotos/georgeAliaga.png"> | George Arturo, un joven de 21 años residente en Carabayllo, se dedica al trabajo freelance ofreciendo servicios como diseño web, edición de video y manejo de redes sociales. Está interesado en plataformas de intercambio de servicios sin dinero porque le permiten acceder a asesorías que actualmente no puede costear, como las legales o contables. Valora la confianza, reputación y transparencia en este tipo de plataformas, y considera importante contar con perfiles verificados y valoraciones. En momentos de baja demanda, se capacita y busca mantenerse activo. Ve en SoftService una oportunidad para colaborar, crecer profesionalmente y acceder a servicios de forma justa y equitativa. |
-| Duración entrevista: 00:00-05:33                        | URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c410_upc_edu_pe/ER7BSM_iwINOurP5HjvRe8IB5sN8akWzriVxbVVn4NCTMA]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+**_Anfitriones_**
+<table>
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Henry Sanchez</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">36 años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">Lima, Perú</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/henrySanchez.png"></b></td>
+    <td valign="top">
+      Henry Sánchez, un psicólogo de 36 años residente en San Isidro, posee dos espacios de estacionamiento en su cochera, uno de los cuales, de aproximadamente 2.5m x 5m, permanece desocupado la mayor parte del tiempo. Reconociendo la dificultad para encontrar estacionamiento en su zona, Henry ha considerado alquilar este espacio infrautilizado, pero la falta de un sistema de gestión fiable lo ha frenado. Para sentirse seguro al alquilarlo, Henry requeriría verificación de identidad y del vehículo, un sistema de calificaciones, alguna forma de garantía o seguro, términos claros, y como medida adicional, antecedentes del usuario. Muestra gran interés en una aplicación como HomeyPark que le permita monetizar este espacio de manera eficiente, segura y sin complicaciones, optimizando sus recursos y generando ingresos pasivos, y está interesado en explorar más a fondo esta oportunidad.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-05:00</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EW40jWzkorhErF8MoKSIyEIBy-fT5CM8i_D9YgqGIxFeOA?e=g8VpYy" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EW40jWzkorhErF8MoKSIyEIBy-fT5CM8i_D9YgqGIxFeOA?e=g8VpYy</a></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Carla Cachis Gonzales</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">27 años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">Lima Magdalena</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/carlacachis.png"></b></td>
+    <td valign="top">
+      Carla Cachis es una señorita que cuenta con una propiedad con estacionamiento, pero no con un carro propio, por lo que durante la semana suele estar vacío, he incluso época que no lo usa prolongadamente. Tras contarle la propuesta de EzPark le pareció una idea muy buena para poder contar con ingreso extra de los que ya posee sería muy útil, además que como el estacionamiento no da acceso a su hogar no estaría poniéndose en riesgo. Algo de lo que hizo mucho énfasis fue que el usuario que buscar dejar su vehículo tiene que dejar documentación oficial que valide quien es la persona, posibles antecedentes, documentos del carro a dejar y cualquier tipo de información que asegure que este conductor no presenta ser un problema.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-09:13</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/ERvpgREHqulEm_px0TzKo0ABE-aAytpTQTglcoAfuuhAJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Bfzr78 Entrevista N°5: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EbiUMHvfuqtNu7hVWBK2HD8BNYoY4tEjRtNIN3tiEoemmw?e=LvikLJ" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/ERvpgREHqulEm_px0TzKo0ABE-aAytpTQTglcoAfuuhAJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Bfzr78 Entrevista N°5: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EbiUMHvfuqtNu7hVWBK2HD8BNYoY4tEjRtNIN3tiEoemmw?e=LvikLJ</a></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Nombre</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">edad años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">....</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/img.png"></b></td>
+    <td valign="top">
+      Descripción
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-08:15</td>
+    <td valign="top"> URL: []</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Nombre</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">edad años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">....</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/img.png"></b></td>
+    <td valign="top">
+      Descripción
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-08:15</td>
+    <td valign="top"> URL: []</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Nombre</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">edad años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">....</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/img.png"></b></td>
+    <td valign="top">
+      Descripción
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-08:15</td>
+    <td valign="top"> URL: []</td>
+  </tr>
+</table>
+
 
 ### 2.2.3. Análisis de entrevistas
 
-**_Jóvenes Universitarios y Recién Egresados_**
+**_Segmento 1: Usuarios de parking_**
 
-La mayoria de los entrevistados ven con buenos ojos la idea de intercambiar habilidades como una solución viable y accesible. Este grupo señala que, debido a sus limitados recursos económicos, se ven constantemente en la necesidad de buscar alternativas que les permitan seguir formándose sin realizar grandes gastos. En ese sentido, Swap Service les parece una propuesta interesante, tanto para adquirir nuevos conocimientos como para compartir lo que ya saben.
+- El 100% de los entrevistados están de acuerdo que la falta o escasez de estacionamientos disponibles se debe a la alta demanda de vehículos motorizados de las zonas urbanas. 
 
-Entre los servicios que estarían dispuestos a ofrecer, destacan clases de programación, asesorías en matemáticas y enseñanzas musicales como tocar la trompeta. Sin embargo, también reconocen ciertas barreras que actualmente enfrentan, como el alto costo de cursos, suscripciones a plataformas educativas que no pueden pagar y la presión constante por mejorar su perfil profesional para insertarse en el mercado laboral.
+- El 100% de los entrevistados presentan dificultades para encontrar estacionamiento principalmente en los tiempos de inicio de trabajo o estudio. Como ejemplo, de 7AM a 10AM o de 2PM a 4PM.
 
-En relación a la confianza en la plataforma, todos coinciden en que sería importante contar con un sistema de calificaciones, comentarios y reseñas, que les permita sentirse más seguros al momento de intercambiar servicios. Varios entrevistados también mencionan que suelen buscar alternativas económicas como promociones para estudiantes o el intercambio de favores entre amigos, lo que refuerza la lógica del trueque como un modelo atractivo y realista.
+- En la búsqueda de estacionamientos, indican tomar un aproximado de 20 a 30 minutos para conseguir un espacio disponible.
 
-Finalmente, se evidenció un alto interés por aprender cosas nuevas, tales como idiomas, diseño web, economía, y programación aplicada al análisis de datos.
+- El 100% del segmento están conformes con la idea de estacionar sus vehículos en garajes de las viviendas, siempre y cuando este cuente con medidas de seguridad. 
 
-**_Jóvenes Emprendedores o Freelancers_**
+**_Segmento 2: Anfitriones_**
 
-Se identificó que todos buscan formas de continuar desarrollándose profesionalmente sin depender de grandes inversiones. Para este grupo, Swap Service representa una oportunidad para acceder a servicios que normalmente no podrían costear, especialmente en etapas donde los ingresos pueden ser variables. Consideran que el intercambio de habilidades permite valorar el trabajo de cada persona de forma más equitativa y práctica.
-
-Dentro de los servicios que estarían dispuestos a ofrecer, se mencionan áreas como marketing digital, consultoría para e-commerce, diseño UX/UI, y asesorías enfocadas en optimización de negocios. No obstante, también mencionan dificultades comunes como presupuestos ajustados, altos costos de asesoría profesional, y la incertidumbre respecto a la calidad de los servicios cuando no existen referencias previas o un portafolio verificable.
-
-En este sentido, la necesidad de un sistema que brinde seguridad es reiterada por la mayoría. Proponen que la plataforma cuente con mecanismos de verificación de usuarios y respaldo en caso de que una parte no cumpla con lo acordado. Además, comentan que suelen aprovechar los períodos de baja demanda para mejorar su portafolio, trabajar en proyectos personales o fortalecer su presencia en redes profesionales. Otro punto importante es la dificultad que encuentran al competir con freelancers de otros países donde el costo de vida es menor, lo que influye en cómo se percibe el valor de sus servicios.
-
-Los temas de interés para intercambiar conocimientos abarcan desde SEO, copywriting y contabilidad, hasta mentorías personalizadas enfocadas en el crecimiento de negocios. Al considerar un trueque, valoran no solo el tiempo invertido, sino también el impacto que ese servicio puede tener en su desarrollo o ahorro económico.
-
-Finalmente, destacan que lo que más valoran de formar parte de una comunidad como Swap Service es el acceso a servicios de calidad, la posibilidad de ampliar su red de contactos y la aplicación práctica de sus conocimientos en contextos diversos.
+- El 100% de los entrevistados mencionan estar interesados en la posibilidad de poner en alquiler su garaje como estacionamiento para afrontar el problema principal, escasez de estacionamientos, y generar ingresos adicionales. 
+- Un porcentaje de los entrevistados indican que sus espacios de estacionamientos suelen estar desocupados por las mañanas e incluso por las tardes, debido a sus actividades diarias. 
+- De acuerdo con los entrevistados, al promocionar sus servicios de garaje como estacionamiento a personas desconocidas piden conseguir acceso a la información de estos usuarios y contar con un sistema de calificación para el servicio y el cliente. 
 
 ## 2.3. Needfinding
 
@@ -470,13 +719,13 @@ Finalmente, destacan que lo que más valoran de formar parte de una comunidad co
 
 A continuación, se presentan los perfiles de usuario para los dos segmentos objetivo de SwapService: jóvenes universitarios y freelancers. Estos perfiles representan a individuos que buscan maximizar sus recursos y habilidades a través de una plataforma colaborativa, valorando la conexión y el intercambio de conocimientos.
 
-### **User Persona: Usuario Joven Universitario**
+### **User Persona: Usuario de Parking**
 
-<img src="../Assets/chapter2/UserPersonaCarlosLópez.png">
+<img src="../Assets/chapter2/UserPersonaLuisArturo.png">
 
-### **User Persona: Joven Freelancer**
+### **User Persona: Anfitrión**
 
-<img src="../Assets/chapter2/UserPersonaMaríaFernández.png">
+<img src="../Assets/chapter2/UserPersonaJosePerez.png">
 
 ### 2.3.2. User Task Matrix
 
@@ -484,89 +733,89 @@ A continuación, se presenta el User Task Matrix para los segmentos de jóvenes 
 
 ### **Segmento Jovenes Universitario**
 
-<table><tr><th rowspan="2" valign="top">Actividades</th><th colspan="2" valign="top">Carlos López</th></tr>
+<table><tr><th rowspan="2" valign="top">Actividades</th><th colspan="2" valign="top">Luis Arturo</th></tr>
 <tr><td valign="top">Frecuencia</td><td valign="top">Importancia</td></tr>
-<tr><td valign="bottom">Buscar y ofrecer tutorías</td><td valign="bottom">Alta</td><td valign="bottom">Alta</td></tr>
-<tr><td valign="bottom">Intercambiar conocimientos prácticos</td><td valign="bottom">Alta</td><td valign="bottom">Alta</td></tr>
-<tr><td valign="bottom">Buscar colaboraciones en proyectos</td><td valign="bottom">Media</td><td valign="bottom">Media</td></tr>
-<tr><td valign="bottom">Utilizar herramientas de colaboración</td><td valign="bottom">Media</td><td valign="bottom">Media</td></tr>
-<tr><td valign="bottom">Participar en eventos de networking</td><td valign="bottom">Media</td><td valign="bottom">Alta</td></tr>
+<tr><td valign="bottom">Buscar espacios de estacionamiento disponibles en tiempo real</td><td valign="bottom">Con frecuencia</td><td valign="bottom">Alta</td></tr>
+<tr><td valign="bottom">Reservar un espacio de estacionamiento</td><td valign="bottom">Con frecuencia</td><td valign="bottom">Alta</td></tr>
+<tr><td valign="bottom">Evaluar la seguridad del estacionamiento antes de reservar</td><td valign="bottom">A veces </td><td valign="bottom">Alta</td></tr>
+<tr><td valign="bottom">Cancelar una reserva de estacionamiento</td><td valign="bottom">Rara vez</td><td valign="bottom">Media</td></tr>
+<tr><td valign="bottom">Pagar el estacionamiento a través de la plataforma</td><td valign="bottom">Con frecuencia</td><td valign="bottom">Alta</td></tr>
+<tr><td valign="bottom">Calificar el servicio de estacionamiento</td><td valign="bottom">A veces</td><td valign="bottom">Media</td></tr>
+<tr><td valign="bottom">Recibir alertas sobre la disponibilidad de espacios</td><td valign="bottom">Con frecuencia</td><td valign="bottom">Alta</td></tr>
 </table>
 
 ### **Segmento Jovenes Freelancer**
 
-<table><tr><th rowspan="2" valign="top">Actividades</th><th colspan="2" valign="top">María Fernández</th></tr>
+<table><tr><th rowspan="2" valign="top">Actividades</th><th colspan="2" valign="top">Jose Perez</th></tr>
 <tr><td valign="top">Frecuencia</td><td valign="top">Importancia</td></tr>
-<tr><td valign="bottom">Buscar colaboraciones en proyectos</td><td valign="bottom">Alta</td><td valign="bottom">Alta</td></tr>
-<tr><td valign="bottom">Ofrecer servicios de diseño o asesoría</td><td valign="bottom">Alta</td><td valign="bottom">Alta</td></tr>
-<tr><td valign="bottom">Utilizar herramientas de colaboración</td><td valign="bottom">Alta</td><td valign="bottom">Alta</td></tr>
-<tr><td valign="bottom">Participar en eventos de networking</td><td valign="bottom">Alta</td><td valign="bottom">Alta</td></tr>
-<tr><td valign="bottom">Intercambiar conocimientos prácticos</td><td valign="bottom">Alta</td><td valign="bottom">Alta</td></tr>
+<tr><td valign="bottom">Publicar disponibilidad de su cochera en la plataforma</td><td valign="bottom">A veces</td><td valign="bottom">Alta</td></tr>
+<tr><td valign="bottom">Verificar la identidad de los usuarios que desean alquilar la 
+cochera</td><td valign="bottom">A veces</td><td valign="bottom">Alta</td></tr>
+<tr><td valign="bottom">Confirmar la reserva de la cochera</td><td valign="bottom">Con frecuencia</td><td valign="bottom">Alta</td></tr>
+<tr><td valign="bottom">Recibir pagos por el alquiler de la cochera</td><td valign="bottom">Con frecuencia</td><td valign="bottom">Alta</td></tr>
+<tr><td valign="bottom">Gestionar cancelaciones de reservas</td><td valign="bottom">Rara vez</td><td valign="bottom">Media</td></tr>
+<tr><td valign="bottom">Comunicarse con los inquilinos a través de la plataforma</td><td valign="bottom">A veces</td><td valign="bottom">Media</td></tr>
+<tr><td valign="bottom">Actualizar la información de su cochera en la plataforma</td><td valign="bottom">Rara vez</td><td valign="bottom">Media</td></tr>
 </table>
 
 ### 2.3.3. User Journey Mapping
 
 A continuación, se presentan los User Journey Mapping para los segmentos de jóvenes universitarios y freelancers, ilustrando sus experiencias al interactuar con SwapService.
 
-### **Segmento Jovenes Universitario**
+### **Segmento Usuario de Parking**
 
-<img src= "../Assets/chapter2/UserJourneyMappingCarlosLópez.png">
+<img src= "../Assets/chapter2/UserJourneyMappingLuisArturo.png">
 
-### **Segmento Jovenes Freelancer**
+### **Segmento Anfitrion**
 
-<img src="../Assets/chapter2/UserJourneyMappingMaríaFernandéz.png">
+<img src="../Assets/chapter2/{name}.png">
 
 ### 2.3.4. Empathy Mapping
 
 Aquí se muestran los Empathy Map para los segmentos de jóvenes universitarios y freelancers, ofreciendo una visión detallada de sus pensamientos, sentimientos y necesidades.
 
-### **Segmento Jovenes Universitario**
+### **Usuario de Parking**
 
-<img src="../Assets/chapter2/EmpathyMapCarlosLópez.png">
+<img src="../Assets/chapter2/EmpathyMapLuisArturo.png">
 
-### **Segmento Jovenes Freelancer**
+### **Anfitrion**
 
-<img src="../Assets/chapter2/EmpathyMapMaríaFernandéz.png">
+<img src="../Assets/chapter2/EmpathyMapJosePerez.png">
 
 ### 2.3.5. As-is Scenario Mapping
 
 El As-Is Scenario Mapping describe la experiencia actual de jóvenes freelancers y universitarios al intentar intercambiar servicios sin una plataforma. Usan redes sociales o contactos informales, enfrentando desorganización e inseguridad. Este mapeo ayuda a identificar puntos críticos antes de implementar la solución.
 
-<img src="../Assets/scenarioMapping/as-is-scenario.png">
+### **Usuario de Parking**
 
-## 2.4. Ubiquitous Language
+<img src="../Assets/scenarioMapping/as-is-scenario-usurario-parking.png">
 
-El Ubiquitous Language es un conjunto de términos y conceptos que comparten los desarrolladores y los expertos del dominio (en este caso, los usuarios de SwapService) para describir el sistema. Su objetivo es reducir la ambigüedad y facilitar la comunicación entre todos los involucrados en el proyecto. A continuación, se presenta un Ubiquitous Language inicial para SwapService:
+### **Anfitrion**
 
-- Swap: Término principal que define la acción de intercambiar bienes, servicios o conocimientos entre usuarios de la plataforma, sin involucrar dinero directamente.
+<img src="../Assets/scenarioMapping/as-is-scenario-anfitrion.png">
 
-- Servicio: Habilidad o conocimiento ofrecido por un usuario a otro a cambio de otro servicio o bien. Ejemplos incluyen clases particulares, asesoría legal, diseño gráfico, marketing, reparación de equipos, etc.
+## 2.4. Ubiquitous Language(Cambiar)
 
-- Habilidad: Aptitud o destreza que un usuario posee y puede ofrecer como servicio en la plataforma.
+El Ubiquitous Language es un conjunto de términos y conceptos que comparten los desarrolladores y los expertos del dominio (en este caso, los usuarios de HomeyPark) para describir el sistema. Su objetivo es reducir la ambigüedad y facilitar la comunicación entre todos los involucrados en el proyecto. A continuación, se presenta un Ubiquitous Language inicial para HomeyPark:
 
-- Conocimiento: Información o experiencia que un usuario comparte o intercambia con otros usuarios.
+- **Usuario de parking**: Persona que busca una solución para su necesidad de encontrar un estacionamiento en entornos urbanos para su vehículo.
+- **Anfitrión**: Propietario de una vivienda que cuenta con una cochera privada y busca obtener provecho económico de ella.
+- **Estacionamiento**: Espacio donde un vehículo puede ser aparcado. Dentro de la aplicación, un estacionamiento tendrá atributos como ubicación, precio, disponibilidad, tamaño, reseñas, horarios, teléfono de servicio y descripción.
+- **Reserva**: Acción de asegurar un espacio de estacionamiento para un tiempo determinado. Los usuarios de parking podrán realizar reservas, y los anfitriones podrán confirmarlas.
+- **Cochera privada**: Un garaje o espacio de estacionamiento perteneciente a una vivienda particular, que un anfitrión puede ofrecer en alquiler.
+- **Búsqueda**: Funcionalidad que permite a los usuarios de parking encontrar estacionamientos disponibles según diferentes criterios como ubicación, precio, y disponibilidad.
+- **Pago**: Proceso mediante el cual el usuario de parking abona el costo de la reserva del estacionamiento.
+- **Calificación**: Sistema que permite a los usuarios de parking evaluar el servicio de estacionamiento y a los anfitriones.
+- **Reseña**: Comentario o valoración escrita por un usuario sobre su experiencia con un estacionamiento o un anfitrión.
 
-- Bien: Artículo u objeto físico que un usuario ofrece para intercambiar. Ejemplos incluyen ropa, libros, accesorios, etc.
 
-- Intercambio: Acción de transferir un servicio, habilidad, conocimiento o bien entre dos usuarios.
-
-- Usuario: Persona que utiliza la plataforma SwapService, ya sea para ofrecer o recibir servicios, habilidades, conocimientos o bienes.
-
-- Perfil: Conjunto de datos que identifican a un usuario en la plataforma, incluyendo sus habilidades, servicios ofrecidos, servicios requeridos, información de contacto, etc.
-
-- Necesidad: Requerimiento de un usuario por un servicio, habilidad, conocimiento o bien.
-
-- Oferta: Servicio, habilidad, conocimiento o bien que un usuario pone a disposición de otros usuarios para el intercambio.
-
-- Valoración: Proceso de evaluar la calidad de un servicio, habilidad, conocimiento o bien intercambiado.
-
-- Reputación: Conjunto de valoraciones y comentarios que un usuario recibe por sus intercambios, que refleja su confiabilidad y calidad como proveedor o receptor.
 
 <h1 id="capitulo-iii-requirements-specification">Capítulo III: Requirements Specification</h1>
 
 ## 3.1. To-Be Scenario Mapping
 
 A continuación, mostraremos la experiencia ideal de jóvenes freelancers y universitarios al usar la app de intercambio de servicios. Conectan fácilmente, acuerdan condiciones claras y reciben retroalimentación. La plataforma les brinda seguridad, estructura y oportunidades reales de colaboración.
+
 
 <img src="../Assets/scenarioMapping/to-be-scenario.png">
 
@@ -723,13 +972,114 @@ El Product Backlog es una lista priorizada de funcionalidades, mejoras y requeri
 
 ## 4.2. Information Architecture
 
+Centrados en el objetivo de HomeyPark, buscamos ofrecer una interfaz amigable e intuitiva que
+inspire confianza y seguridad a los usuarios. Dado que nuestra plataforma facilita la búsqueda y
+reserva de espacios de estacionamiento, estas características deben prevalecer en toda la experiencia
+de usuario. Un componente crucial para lograrlo es la arquitectura de información, diseñada para
+guiar a los usuarios a través de la plataforma de manera eficiente. A continuación, se detalla el plan
+de arquitectura de información implementado en HomeyPark.
+1. Página de Inicio:
+
+**Home**
+
+Sección que resalta el valor principal de HomeyPark, además explica brevemente cómo la plataforma
+facilita el proceso de encontrar y gestionar estacionamientos. Esta sección invita a los usuarios a
+explorar las ventajas de la plataforma y los anima a registrarse con el botón presente que los redirige
+a la página de registro.
+
+**Why Choose Us?**
+
+Sección que resalta los beneficios y características clave de HomeyPark, explicando por qué los
+usuarios deben elegir nuestra plataforma para encontrar estacionamiento.
+
+**How It Works:**
+
+Descripción clara y concisa del funcionamiento de la plataforma, explicando los pasos simples para
+registrarse, buscar y reservar un lugar de estacionamiento.
+
+**Testimonials:**
+
+Sección que presenta opiniones y experiencias de usuarios que ya han utilizado HomeyPark,
+destacando la facilidad y comodidad que ofrece la plataforma.
+
+**Pricing:**
+
+Información sobre los planes de precios de HomeyPark, proporcionando detalles transparentes y
+claros para que los usuarios sepan lo que pueden esperar.
+
+**Formulario de Contacto:**
+
+Al final de la página, se incluye un formulario de contacto para que los usuarios puedan enviar
+consultas o pedir asistencia.
+
+2. Registro:
+
+**Registro de Usuarios:**
+
+Formulario que permite a los usuarios crear una cuenta en HomeyPark, solicitando información
+básica como nombre, correo electrónico y una contraseña segura.
+
+**Inicio de Sesión:**
+
+Opción para que los usuarios ya registrados puedan acceder a su cuenta introduciendo su correo
+electrónico y contraseña.
+
 ### 4.2.1. Organization Systems
+
+El sistema de organización en HomeyPark está diseñado para brindar una experiencia clara y
+eficiente, permitiendo a los usuarios navegar fácilmente por la plataforma. Nuestro enfoque está
+centrado en facilitar el acceso a la información y las funcionalidades clave, lo que permite a los
+usuarios registrarse, conocer los beneficios, y contactar rápidamente con nosotros.
+
+1. Categorización de la Información:
+- Why Choose Us?
+
+  Presenta los beneficios clave de la plataforma para los usuarios, como facilidad de uso,
+  seguridad y conveniencia.
+
+- How It Works
+
+  Categorizada en pasos simples para que los usuarios puedan entender rápidamente el
+  funcionamiento del proceso de búsqueda y reserva de estacionamientos.
+2. Filtros y Búsqueda:
+
+- Filtros
+
+  Aunque no se muestran opciones de búsqueda avanzadas en la landing page, los
+  usuarios podrán aplicar filtros en la plataforma principal para ajustar sus
+  preferencias, como ubicación y disponibilidad de espacios de estacionamiento.
 
 ### 4.2.2. Labeling Systems
 
+Para el contenido, se ha priorizado la claridad y brevedad en los textos, enfocándonos en destacar los
+beneficios clave de la plataforma para los usuarios. El diseño de botones sigue un estilo minimalista
+con colores principales y bordes redondeados.
+
+En cuanto a los íconos, se emplean elementos visuales sencillos y los colores del sistema de diseño
+del equipo para facilitar la navegación y comprensión rápida.
+
+
 ### 4.2.3. SEO Tags and Meta Tags
 
+Para asegurar una correcta indexación y visibilidad en los motores de búsqueda, es fundamental la implementación estratégica de SEO Tags y Meta Tags en la estructura HTML de nuestras páginas web. La siguiente imagen ilustra la configuración de estos elementos clave
+
+<img src = "../Assets/SEO-Tags.png">
+
 ### 4.2.4. Searching Systems
+
+El sistema de búsqueda en HomeyPark facilitará a los usuarios encontrar la información que
+necesitan para utilizar la plataforma, centrándose principalmente en cómo funciona el sistema,
+precios y opiniones de otros usuarios.
+
+**Búsqueda por Características de Servicio:**
+
+Los usuarios podrán buscar información sobre cómo funciona la plataforma, las ventajas de elegir
+HomeyPark, y testimonios de usuarios.
+
+**Búsqueda por Precio:**
+
+Los usuarios podrán encontrar fácilmente la sección de precios para obtener información detallada
+sobre las tarifas.
 
 ### 4.2.5. Navigation Systems
 
@@ -791,25 +1141,212 @@ El Product Backlog es una lista priorizada de funcionalidades, mejoras y requeri
 
 ### 5.1.1. Software Development Environment Configuration
 
+### Project management
+
+**Discord.** Utilizamos esta aplicación como medio de comunicación para mantener una
+comunicación abierta entre el equipo y debido a su facilidad de uso para realizar
+llamadas, compartir pantalla y dividir por salas para una mejor organización.
+
+**Trello.** Usamos esta herramienta de gestión de tareas por tarjetas debido a su facilidad y
+mostrar visibilidad del progreso en el desarrollo de actividades del equipo por
+integrantes.
+**
+WhatsApp.** Principal medio de comunicación para mantenernos conectados por medio
+de mensajes de texto, imágenes y videos. Esta herramienta es utilizada con mayor
+frecuencia.
+
+### Requirements Management
+
+Trello. Aplicación web y/o móvil para organizar los requerimientos a llevar durantes los
+sprints del proyecto. También se utiliza para realizar seguimiento de las tareas o
+requerimientos de los integrantes.
+
+### Software Development
+
+**Android Studio.** IDE de desarrollo para aplicaciones móviles de múltiples plataformas
+soportado por el equipo de Google y basado en IntelliJ IDEA.
+
+**Figma.** Herramienta de desarrollo de interfaces para usuario (UI). Principal aplicación
+para desarrollar las interfaces y vistas de nuestros productos landing page y aplicación
+móvil.
+
+**IntelliJ IDEA.** IDE de desarrollo diseñado principalmente en soluciones software
+basadas en el lenguaje de programación Java. Esta herramienta la usamos para
+desarrollar servicios API REST con el framework de Spring Boot.
+
+**WebStorm.** IDE completo que incluye herramientas para crear, editar y depurar código en JavaScript, HTML, CSS, y otras tecnologías web.
+
+### Software Deployment
+
+Google Play Console. La plataforma de Google permite subir aplicaciones móviles en
+producción dentro del catálogo de Play Store.
+
 ### 5.1.2. Source Code Management
+
+Para llevar a cabo una mejor gestión y desarrollo en equipo trabajaremos bajo la
+metodología de Git Flow y convenciones para los commits, la cual se basa en desarrollo
+de tareas y requerimientos en ramas especiales sin afectar la rama principal de nuestro
+repositorio ni el progreso de los demás desarrolladores.
+
+### Flujo de trabajo en Git
+
+**Rama principal**
+
+- Rama donde se encontrará el código puesto en producción, listo para el uso de los
+usuarios finales.
+
+**Rama de desarrollo**
+
+- Rama donde estarán los últimos desarrollos de requerimientos listos para llevar a
+producción.
+
+**Ramas auxiliares**
+
+- Ramas de *features*: En esta rama se llevarán a cabo los requerimientos asignados por integrante sin
+repercutir en sus desarrollos.
+
+- Ramas de *hotfix*: En estas ramas se encargan principalmente de resolver bugs o incidencias en caliente.
+
+- Ramas de *release*: En estas ramas se lleva a cabo el último paso donde se validará y resolverá posibles
+incidencias antes de subir a producción el desarrollo.
+
+### Convenciones de commits
+
+Nuestro equipo de desarrolladores trabajará bajo las buenas prácticas de los commits
+para facilitar la redacción e identificación del impacto en nuestro producto software.
+
+`<type>(scope): <description>`
+
+**type**: Campo obligatorio donde se especifica el tipo de cambio realizado. Los tipos de
+commits son los siguientes:
+
+- **feat**: Introduce una nueva funcionalidad en el código.
+- **fix**: Soluciona un error en el código.
+- **style**: Modifica aspectos estéticos del proyecto, como formatear los archivos.
+- **refactor**: Mejora el código sin añadir nuevas funcionalidades. Esto puede incluir
+la implementación de buenas prácticas.
+- **docs**: Realiza cambios en la documentación sin impactar las funcionalidades del
+proyecto.
+- **build**: Ajusta la configuración del proyecto, como agregar, eliminar o modificar
+dependencias.
+
+**scope**: Campo opcional que indica el alcance del commit, incluyendo los identificadores
+de historias de usuario o requisitos.
+
+**description**: Campo obligatorio que ofrece un resumen breve del commit, en inglés y
+comenzando con un verbo en infinitivo.
+
+### Convenciones para versionamiento de lanzamientos
+
+Para el desarrollo del proyecto, se utilizará el modelo de versionamiento “Semantic
+Versioning 2.0.0” (https://semver.org/). Los commits y tags de los lanzamientos
+seguirán el siguiente formato:
+
+- Release vX.Y.Z 
+
+Donde:
+- X: Indica un cambio de versión mayor (MAJOR). Es usado principalmente para
+realizar cambios significativos con respecto a versiones anteriores.
+- Y: Indica un cambio de versión menor (MINOR). Este tipo de lanzamiento
+incluye funcionalidades adicionales o mejoras al producto final.
+- Z: Indica la versión del parche (PATCH). No alteran las funcionalidades del
+producto, solo se encarga de corregir errores.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+En la siguiente sección estaremos detallando las nomenclaturas para los siguientes
+lenguajes de programación y frameworks a utilizar a lo largo del proyecto.
+
+- Gherkin
+- Las especificaciones deben ser claras y fáciles de leer.
+- Evitar el uso de términos técnicos para asegurar una mejor comprensión entre los
+colaboradores.
+- Utilizar las palabras clave Given, When, Then, And, y But para describir el
+comportamiento del sistema.
+- Evitar la redundancia en la descripción de los escenarios.
+- Java
+- Uso de camelCase para nombre variables y métodos
+- Uso de PascalCase para nombrar clases, interfaces, record y otras estructuras.
+- Importaciones explícitas (evitar importaciones con *)
+- Estructura de clases, organizar y agrupar los atributos, constructores y métodos.
+- Usar indentación de dos espacios.
+- La longitud de una línea no debe superar los 100 caracteres.
+
 ### 5.1.4. Software Deployment Configuration
+
+Para el despliegue de nuestro servicio API REST usaremos la plataforma de alojamiento
+Render a través de contenedores de Docker para subir nuestras aplicaciones ubicadas en
+nuestro repositorio de GitHub.
+
+Enlace al repositorio: https://github.com/NetviaOrganization/SwapService-Web-Service
+
+1. Como primer paso, crearemos nuestro proyecto en un nuevo repositorio de GitHub llamado “HomeyPark-Web-Service”
+
+<img src="../Assets/HomeyPark-Web-Service.png"/>
+
+2. Seguido de ello, ingresamos a la plataforma de Render y crearemos un nuevo servicio web.
+
+<img src="../Assets/plataforma-Render-create.png"/>
+
+3. Configuraremos el nuevo servicio conectándolo con nuestro repositorio de GitHub e indicaremos trabajar con el lenguaje Docker, lo que nos permitirá usar contenedores con Java y Spring Boot.
+
+<img src="../Assets/deploying-web-service.png"/>
+
 
 ## 5.2. Product Implementation & Deployment
 
 ### 5.2.1. Sprint Backlogs
 
+| ID | Title | Title Task ID | Title | Description | Estimation (Hours) | Assigned To | Status (To-do, In Process, To Review, Done, Cancelled) |
+|----|-------|----------------|-------|-------------|---------------------|--------------|--------------------------------------------------------|
+| US- | Integrar mapa de Google Maps | TASK-001       |  |  | 2 | Sebastian Cachis | Done |
+| US- | Búsqueda de estacionamiento por dirección | TASK-002       |  |  | 2 | Adriano Cruz | Done |
+| US- | Usar ubicación de dispositivo para buscar en mapa | TASK-003       |  |  | 1 | Amner Llamo | Done |
+| US- | Ver espacios de estacionamientos cercanos | TASK-004       |  |  | 2 | Marcelo Garro | Done |
+| US- | Visualizar detalles de estacionamiento | TASK-005       |  |  | 2 | Lucio Yen | Done |
+| US- | Visualizar calificación de estacionamiento | TASK-006       |  |  | 2 | Sebastian Cachis | Done |
+| US- | Visualizar el entorno del estacionamiento | TASK-007       |  |  | 2 | Adriano Cruz | Done |
+| US- | Registrar una cochera | TASK-008       |  |  | 3 | Amner Llamo | Done |
+| US- | Visualizar cocheras registradas | TASK-009       |  |  | 2 | Marcelo Garro | Done |
+| US- | Modificar cochera registrada | TASK-010       |  |  | 2 | Lucio Yen | Done |
+| US- | Eliminar la cochera | TASK-011       |  |  | 1 | Sebastian Cachis | Done |
+
 ### 5.2.2. Implemented Landing Page Evidence
+
+Como resultado del primer sprint, se presenta el despliegue de la Landing Page
+
+<img src="../Assets/landingpage1.png"/>
+<img src="../Assets/landingpage2.png"/>
+<img src="../Assets/landingpage3.png"/>
+<img src="../Assets/landingpage4.png"/>
+<img src="../Assets/landingpage5.png"/>
+
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
+A continuación, se presentan las pantallas de nuestra aplicación móvil:
+
+<img src="../Assets/mobile-maps.png" width="250"/>
+
+<img src="../Assets/tu-garaje.png" width="250"/>
+
+<img src="../Assets/vehiculos.png" width="250"/>
+
+
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
+
+
 ### 5.2.6. RESTful API documentation
+
+En esta sección se presentan los endpoints desarrollados en el presente sprint y se adjuntan capturas de
+las acciones CRUD realizadas con OpenAPI. Dentro del alcance del sprint, se han desarrollado los
+bounded contexts de User Management, Parking Management, Reservation Management, Schedule
+Management, Location Management, y Vehicle Management.
+
+<img src="../Assets/backend.png" width="550"/>
 
 ### 5.2.7. Team Collaboration Insights
 
