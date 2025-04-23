@@ -618,7 +618,7 @@ Para obtener una comprensión profunda de las necesidades y expectativas de los 
   <tr>
     <td valign="top"><b><img src="../Assets/interviewsPhotos/carlacachis.png"></b></td>
     <td valign="top">
-      Carla Cachis es una señorita que cuenta con una propiedad con estacionamiento, pero no con un carro propio, por lo que durante la semana suele estar vacío, he incluso época que no lo usa prolongadamente. Tras contarle la propuesta de EzPark le pareció una idea muy buena para poder contar con ingreso extra de los que ya posee sería muy útil, además que como el estacionamiento no da acceso a su hogar no estaría poniéndose en riesgo. Algo de lo que hizo mucho énfasis fue que el usuario que buscar dejar su vehículo tiene que dejar documentación oficial que valide quien es la persona, posibles antecedentes, documentos del carro a dejar y cualquier tipo de información que asegure que este conductor no presenta ser un problema.
+      Carla Cachis es una señorita que cuenta con una propiedad con estacionamiento, pero no con un carro propio, por lo que durante la semana suele estar vacío, he incluso época que no lo usa prolongadamente. Tras contarle la propuesta de HomeyPark le pareció una idea muy buena para poder contar con ingreso extra de los que ya posee sería muy útil, además que como el estacionamiento no da acceso a su hogar no estaría poniéndose en riesgo. Algo de lo que hizo mucho énfasis fue que el usuario que buscar dejar su vehículo tiene que dejar documentación oficial que valide quien es la persona, posibles antecedentes, documentos del carro a dejar y cualquier tipo de información que asegure que este conductor no presenta ser un problema.
     </td>
   </tr>
   <tr>
@@ -1331,6 +1331,36 @@ A continuación, se presentan las pantallas de nuestra aplicación móvil:
 <img src="../Assets/vehiculos.png" width="250"/>
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+
+Crear un usuario
+
+<img src="../Assets/ImplementedRESTfulAPI/create-user.png" width="400"/>
+
+Obtener todos los usuarios
+
+<img src="../Assets/ImplementedRESTfulAPI/get-users.png" width="400"/>
+
+<img src="../Assets/ImplementedRESTfulAPI/edit-user.png" width="400"/>
+
+Crear un parking
+
+<img src="../Assets/ImplementedRESTfulAPI/create-parking.png" width="400"/>
+
+Obtener todos los parkings
+
+<img src="../Assets/ImplementedRESTfulAPI/get-parkings.png" width="400"/>
+
+<img src="../Assets/ImplementedRESTfulAPI/edit-parking.png" width="400"/>
+
+Eliminar un parking
+
+<img src="../Assets/ImplementedRESTfulAPI/delete-parking.png" width="400"/>
+
+Obtener todas las reservaciones
+
+<img src="../Assets/ImplementedRESTfulAPI/get-reservations.png" width="400"/>
+
+<img src="../Assets/ImplementedRESTfulAPI/get-reservation.png" width="400"/>
 
 ### 5.2.6. RESTful API documentation
 
