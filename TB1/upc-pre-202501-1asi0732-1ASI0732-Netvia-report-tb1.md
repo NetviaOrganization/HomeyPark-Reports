@@ -6,15 +6,15 @@
 
 <img src="../Assets/Logo-UPC.png">
 
-**Curso:** Diseño de Experimentos de Ingeniería de Software - 1ASI0732
+**Curso:** Diseño de Experimentos de Ingeniería de Software
 
-**NRC:** 4438 
+**Sección:** 1ASI0732
 
 **Profesor:** Julio Manuel Noriega Melendez
 
 **Carrera:** Nombre de la carrera
 
-**Ciclo:** 202510
+**Ciclo:** 2025-01
 
 **Startup:** Netvia
 
@@ -41,23 +41,20 @@
 | Versión | Fecha      | Autor            | Descripción                           |
 | ------- | ---------- | ---------------- | ------------------------------------- |
 | 1.0     | 05/04/2025 | Adriano Cruz     | Creación de la estructura del informe |
-| 1.0     | 06/04/2025 | Sebastian Cachis | Desarrollo del capítulo I      |
- 1.2     | 06/04/2025 | Sebastian Cachis | Desarrollo del capítulo V      |
- 1.4|19/04/2025| Adriano Cruz| Desarrollo del capítulo IV  |
- |1.5|22/04/2025|Lucio Yen|Desarrollo del capítulo IV
-
+| 1.0     | 06/04/2025 | Sebastian Cachis | Desarrollo del capítulo I             |
+| 1.4     | 19/04/2025 | Adriano Cruz     | Desarrollo del capítulo IV            |
+| 1.2     | 06/04/2025 | Sebastian Cachis | Desarrollo del capítulo V             |
 
 ### Project Report Collaboration Insights
 
 **TB1**  
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
-| Integrante              | Tareas Designadas                |
-| ----------------------- | -------------------------------- |
+| Integrante              | Tareas Designadas                    |
+| ----------------------- | ------------------------------------ |
 | Sebastian Cachis        | Desarrollo de todo el capítulo I y V |
-| [Nombre del integrante] | [Tareas]                         |
-| Lucio Yen               | Desarrollo parcial del capítulo IV |
-
+| [Nombre del integrante] | [Tareas]                             |
+| ...                     | ...                                  |
 
 # Tabla de Contenidos
 
@@ -294,37 +291,37 @@ inmobiliarios de nuestros usuarios de la aplicación?
 **Business Assumptions**
 
 1. Creo que mis usuarios necesitan una mejor opción de encontrar estacionamientos y, de ser
-posible, reservarlos.
+   posible, reservarlos.
 
 2. Estas necesidades se pueden resolver con una aplicación móvil que les permita a los
-conductores reservar en los garajes de la ciudad, debido a que la mayoría del tiempo se
-encuentran disponibles.
+   conductores reservar en los garajes de la ciudad, debido a que la mayoría del tiempo se
+   encuentran disponibles.
 
 3. Mis clientes iniciales son las personas que cuenten con un vehículo y que tengan dificultades
-de encontrar algún estacionamiento disponible.
+   de encontrar algún estacionamiento disponible.
 
 4. El valor #1 que el cliente requiere de mi servicio es encontrar y reservar espacios para
-estacionar en un corto periodo de tiempo de forma segura.
+   estacionar en un corto periodo de tiempo de forma segura.
 
 5. Voy a adquirir a mis clientes a través de estrategias de marketing en diversas redes sociales,
-mostrando todos los beneficios que da nuestra aplicación móvil.
+   mostrando todos los beneficios que da nuestra aplicación móvil.
 
 6. Mi competencia en el mercado serán las empresas que se dedican a ofrecer sus servicios de
-estacionamiento.
+   estacionamiento.
 
 7. Los venceremos debido a que ofrecemos a los usuarios poder generar ingresos de manera
-pasiva al rentar sus garajes como estacionamiento.
+   pasiva al rentar sus garajes como estacionamiento.
 
 8. Mis mayores riesgos del producto es no encontrar una manera de brindar seguridad a los
-conductores como a los propietarios de los garajes.
+   conductores como a los propietarios de los garajes.
 
 9. Resolveremos esto con la incorporación de un sistema que se encargue de validar los
-parámetros de seguridad de los conductores y los garajes en alquiler para ofrecer una mejor
-seguridad al público.
+   parámetros de seguridad de los conductores y los garajes en alquiler para ofrecer una mejor
+   seguridad al público.
 
 **User Assumptions**
 
-*Usuarios de parking*
+_Usuarios de parking_
 
 **¿Quién es el usuario?** Conductores que en su día a día necesitan encontrar estacionamiento para sus
 vehículos.
@@ -341,7 +338,7 @@ legales para la publicación del producto.
 usuario necesite encontrar algún estacionamiento para realizar cualquier actividad. La aplicación móvil
 se podrá usar como un sistema de búsqueda y reserva de cocheras.
 
-*Anfitriones*
+_Anfitriones_
 
 **¿Quién es el usuario?** Personas con garajes que desean poner en alquiler para generar ingresos.
 
@@ -354,25 +351,25 @@ resolver mediante capacitación sobre el proceso de filtros para facilitar al us
 
 **¿Cuándo y cómo es usado nuestro producto?** Nuestra aplicación es usada principalmente cuando el
 anfitrión dispone de cualquier garaje disponible que desee poner en alquiler para generar ingresos.
-Nuestro producto es usado como un gestor de cocheras sobre reservas, estados, recibos, etc. 
+Nuestro producto es usado como un gestor de cocheras sobre reservas, estados, recibos, etc.
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
 1. Creemos que la función de reservar cocheras facilitará al usuario conseguir un espacio para
-estacionamiento. Sabremos que tendremos éxito cuando la mayoría de los usuarios demoren
-en conseguir estacionamiento en un plazo máximo de 5 minutos.
+   estacionamiento. Sabremos que tendremos éxito cuando la mayoría de los usuarios demoren
+   en conseguir estacionamiento en un plazo máximo de 5 minutos.
 
 2. Creemos que la implementación del mapa de Google Maps permitirá al usuario una mejor
-búsqueda de cocheras. Sabremos que estaremos en lo cierto cuando el 100% de nuestros
-usuarios no presentan dificultades para encontrar cocheras.
+   búsqueda de cocheras. Sabremos que estaremos en lo cierto cuando el 100% de nuestros
+   usuarios no presentan dificultades para encontrar cocheras.
 
 3. Creemos que proporcionar al usuario registrar sus cocheras aumentará la cantidad de
-estacionamientos. Sabremos que estaremos en lo cierto cuando el índice de escasez de
-estacionamientos se reduzca en un 20%.
+   estacionamientos. Sabremos que estaremos en lo cierto cuando el índice de escasez de
+   estacionamientos se reduzca en un 20%.
 
 4. Creemos que implementar un sistema de notificaciones alertará a los usuarios sobre la
-disponibilidad de las cocheras. Sabremos que tendremos éxito cuando al menos el 80% de los
-usuarios aprovechen estas alertas para asegurar un espacio de estacionamiento.
+   disponibilidad de las cocheras. Sabremos que tendremos éxito cuando al menos el 80% de los
+   usuarios aprovechen estas alertas para asegurar un espacio de estacionamiento.
 
 ### 1.2.2.4. Lean UX Canvas
 
@@ -394,29 +391,29 @@ provecho de forma efectiva.
 
 ### 2.1.1. Análisis competitivo
 
-Nuestros competidores principalmente vendrían a ser otras aplicaciones que se encargan del servicio 
-de estacionamiento por celular. Algunos de nuestros competidores potenciales vendrían a ser: 
+Nuestros competidores principalmente vendrían a ser otras aplicaciones que se encargan del servicio
+de estacionamiento por celular. Algunos de nuestros competidores potenciales vendrían a ser:
 
-1. EasyPark: Es una app popular que permite a los usuarios encontrar y pagar por 
-estacionamientos en diversas ciudades. EasyPark se integra con sistemas de estacionamiento 
-inteligente, ofreciendo información en tiempo real sobre la disponibilidad de espacios, y cuenta 
-con opciones de pago automatizado y reconocimiento de placas. La app también permite 
-reservar espacios con anticipación y está disponible en varios países, facilitando la movilidad 
-urbana a nivel internacional.
+1. EasyPark: Es una app popular que permite a los usuarios encontrar y pagar por
+   estacionamientos en diversas ciudades. EasyPark se integra con sistemas de estacionamiento
+   inteligente, ofreciendo información en tiempo real sobre la disponibilidad de espacios, y cuenta
+   con opciones de pago automatizado y reconocimiento de placas. La app también permite
+   reservar espacios con anticipación y está disponible en varios países, facilitando la movilidad
+   urbana a nivel internacional.
 
-2. Parkopedia: Esta aplicación ofrece una amplia base de datos de estacionamientos, incluyendo 
-garajes privados y públicos. Parkopedia también proporciona predicciones sobre la 
-disponibilidad de espacios y se integra con sistemas de navegación en vehículos. Además, 
-ofrece información detallada sobre tarifas y horarios, lo que ayuda a los usuarios a tomar 
-decisiones más informadas al buscar estacionamiento. Su cobertura incluye más de 15,000 
-ciudades en todo el mundo.
+2. Parkopedia: Esta aplicación ofrece una amplia base de datos de estacionamientos, incluyendo
+   garajes privados y públicos. Parkopedia también proporciona predicciones sobre la
+   disponibilidad de espacios y se integra con sistemas de navegación en vehículos. Además,
+   ofrece información detallada sobre tarifas y horarios, lo que ayuda a los usuarios a tomar
+   decisiones más informadas al buscar estacionamiento. Su cobertura incluye más de 15,000
+   ciudades en todo el mundo.
 
-3. Wayleadr: Se centra en la optimización de espacios de estacionamiento en áreas urbanas y 
-corporativas. Ofrece características como reservas anticipadas y gestión de estacionamiento 
-para empresas, utilizando geolocalización para mejorar la eficiencia. También permite a las 
-empresas monitorear y gestionar sus plazas de estacionamiento, reduciendo costos operativos y 
-mejorando la experiencia de los empleados. Wayleadr ha sido adoptada por importantes 
-corporaciones globales para optimizar el uso de sus instalaciones. 
+3. Wayleadr: Se centra en la optimización de espacios de estacionamiento en áreas urbanas y
+   corporativas. Ofrece características como reservas anticipadas y gestión de estacionamiento
+   para empresas, utilizando geolocalización para mejorar la eficiencia. También permite a las
+   empresas monitorear y gestionar sus plazas de estacionamiento, reduciendo costos operativos y
+   mejorando la experiencia de los empleados. Wayleadr ha sido adoptada por importantes
+   corporaciones globales para optimizar el uso de sus instalaciones.
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -431,36 +428,37 @@ Para obtener una comprensión profunda de las necesidades y expectativas de los 
 
 **Preguntas Generales**
 
-- ¿Cuál es su nombre y apellido completo? 
+- ¿Cuál es su nombre y apellido completo?
 - ¿Cuál es su edad?
 - ¿En qué distrito o lugar reside?
 - ¿Cuál es su ocupación?
 
 **Preguntas para el usuario de Parking**
 
-- ¿Con qué tipo de vehículo dispone? ¿Carro ligero, camioneta o moto? 
-- ¿Con qué frecuencia usa su(s) vehículo(s)? 
+- ¿Con qué tipo de vehículo dispone? ¿Carro ligero, camioneta o moto?
+- ¿Con qué frecuencia usa su(s) vehículo(s)?
 - Hoy en día, es complicado encontrar un estacionamiento disponible. ¿Cuál cree que es la razón por la que sucede esto?
 - ¿Cuáles serían las horas donde es más difícil encontrar estacionamientos?
-- ¿Cuánto tiempo demora aproximadamente en encontrar estacionamiento? 
+- ¿Cuánto tiempo demora aproximadamente en encontrar estacionamiento?
 - ¿Estaría dispuesto a usar como estacionamiento los garajes de las viviendas? ¿Cuáles serían sus motivos?
 - ¿Cuáles serían los requisitos mínimos para asegurar la integridad del usuario y su vehículo?
 - Si este servicio llega a ser seguro para sus clientes, ¿cree que sería útil para los ciudadanos de las zonas urbanas del Perú? ¿En que los beneficiaría?
-- ¿Confiaría usted en una aplicación móvil que facilite la búsqueda de estos tipos de estacionamientos? 
+- ¿Confiaría usted en una aplicación móvil que facilite la búsqueda de estos tipos de estacionamientos?
 
 **Preguntas para el anfitrión o host**
 
-- ¿Con cuántos garajes o cocheras cuenta en su hogar? 
+- ¿Con cuántos garajes o cocheras cuenta en su hogar?
 - ¿Cuál es el tamaño promedio de los garajes en su hogar?
-- ¿En qué momentos de su día a día sus garajes se encuentran desocupados? 
-- ¿Cuenta con algún sistema de seguridad en su cochera? 
+- ¿En qué momentos de su día a día sus garajes se encuentran desocupados?
+- ¿Cuenta con algún sistema de seguridad en su cochera?
 - ¿Ha llegado a considerar la posibilidad de alquilar sus garajes en algún momento? ¿Por qué?
 - ¿Cuáles serían los requisitos mínimos para asegurar la integridad del usuario y su bienes, ya sea inmobiliario o no?
-- ¿Le interesaría tener una aplicación móvil que permita promocionar sus garajes como estacionamiento y generar ingresos, sin interrumpir sus actividades diarias? 
+- ¿Le interesaría tener una aplicación móvil que permita promocionar sus garajes como estacionamiento y generar ingresos, sin interrumpir sus actividades diarias?
 
 ### 2.2.2. Registro de entrevistas
 
 **_Usuarios de parking_**
+
 <table>
   <tr>
     <th colspan="2" valign="top">Registro de entrevistas</th>
@@ -488,7 +486,6 @@ Para obtener una comprensión profunda de las necesidades y expectativas de los 
     <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EUWwVDeGIMxOirf7aLw_VKoBfkh-Q-X3iBSyjW7t8n4CoA?e=czxNW6" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EUWwVDeGIMxOirf7aLw_VKoBfkh-Q-X3iBSyjW7t8n4CoA?e=czxNW6</a></td>
   </tr>
   <tr>
-  <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
     <td valign="top">Augusto Granados</td>
   </tr>
@@ -503,60 +500,56 @@ Para obtener una comprensión profunda de las necesidades y expectativas de los 
   <tr>
     <td valign="top"><b><img src="../Assets/interviewsPhotos/augustogranados.png"></b></td>
     <td valign="top">
-      Augusto Granados es un joven que cuentan con un carro, pero se le dificulta la posibilidad de encontrar espacio donde puede dejarlo en lugares por los que transita, no comenta que puede tener ocasiones en las que no logra encontrar uno hasta por casi 20 minutos, siento esto una gran pérdida de tiempo para él. El contar con una aplicación que le permita saber en qué lugares cercanos a donde el este le sería de gran ayuda. Otro aspecto para destacar fue que menciono el que poder valorar estos espacios y conocer sus tamaños serian cruciales para el usuario que busca reservar uno de esos espacios. ayuda a que lo poseedores de un parqueo se hagan de una buena reputación y la gente pueda confiar en que puede dejar ahí sus vehículos.ión
+      DescripcAugusto Granados es un joven que cuentan con un carro, pero se le dificulta la posibilidad de encontrar espacio donde puede dejarlo en lugares por los que transita, no comenta que puede tener ocasiones en las que no logra encontrar uno hasta por casi 20 minutos, siento esto una gran pérdida de tiempo para él. El contar con una aplicación que le permita saber en qué lugares cercanos a donde el este le sería de gran ayuda. Otro aspecto para destacar fue que menciono el que poder valorar estos espacios y conocer sus tamaños serian cruciales para el usuario que busca reservar uno de esos espacios. ayuda a que lo poseedores de un parqueo se hagan de una buena reputación y la gente pueda confiar en que puede dejar ahí sus vehículos.ión
     </td>
   </tr>
   <tr>
     <td valign="top">Duración entrevista  00:00-08:57</td>
     <td valign="top"> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/EfwuXreiPk9Ak-akWrpZIvUBYeZe630_bahsL-sYD3QmHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=KgTQuh " target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/EfwuXreiPk9Ak-akWrpZIvUBYeZe630_bahsL-sYD3QmHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=KgTQuh </a></td>
-
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top">Fabrizio Buleje</td>
+    <td valign="top">Edu Arturo Antayhua</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top">20 años</td>
+    <td valign="top">23 años</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top">Santiago de Surco</td>
+    <td valign="top">Lima, San Miguel</td>
   </tr>
   <tr>
-    <td valign="top"><b><img src="../Assets/interviewsPhotos/fabrizioBuleje.png"></b></td>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/eduAntayhua.png"></b></td>
     <td valign="top">
-      Descripción <br>
-      Fabrizio Buleje Alfaro, de 20 años, vive en Surco y estudia Medicina en la Universidad Científica del Sur. Aunque tiene una moto, actualmente se transporta en su auto ligero, principalmente para ir a la universidad. Comenta que el tráfico en Lima y la dificultad para encontrar estacionamiento, especialmente en zonas céntricas como el Centro Cívico, son desafíos frecuentes. Está dispuesto a alquilar garajes de viviendas si le ofrecen seguridad y confianza. Además, considera útil una aplicación móvil que facilite la búsqueda de estacionamientos seguros y actualizados.
+      El entrevistado usa su vehículo con frecuencia y enfrenta dificultades para encontrar estacionamiento, especialmente en horas pico. Señala que la congestión vehicular en Lima es un factor clave y que puede tardar hasta 25 minutos en hallar un espacio. Ve con buenos ojos la idea de una app web o móvil que permita alquilar cocheras de viviendas, siempre que garantice seguridad. Considera que esta solución sería útil para zonas urbanas, al ofrecer alternativas más accesibles, cercanas y seguras.
     </td>
   </tr>
   <tr>
-    <td valign="top">Duración entrevista  00:00-07:50</td>
-    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/ETqMzVRTXmNJoKJiOZrbD3cB8QXeMq1xaryOh3PwfP0aRQ?e=OICOHn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
-        https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/ETqMzVRTXmNJoKJiOZrbD3cB8QXeMq1xaryOh3PwfP0aRQ?e=OICOHn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a>
-    </td>
+    <td valign="top">Duración entrevista  00:00-06:03</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c410_upc_edu_pe/ESsNFhchBGJJqJu8VPApO6UB7R50E2SeGOZJGMEkrbMSbw?e=fLfDyf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">entrevista-edu.mp4</td>
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top">Miguel Carpio</td>
+    <td valign="top">Nombre</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top">20</td>
+    <td valign="top">edad años</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top">Lima, Chorrillos</td>
+    <td valign="top">....</td>
   </tr>
   <tr>
-    <td valign="top"><b><img src="../Assets/interviewsPhotos/miguelcarpio.png" width= 150 height = 50></b></td>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/img.png"></b></td>
     <td valign="top">
-      Miguel Carpio es un estudiante de 20 años de la carrera de ingeniería de Software en la UPC. Él reside en el distrito de chorrillos y tiene un kia picanto como automóvil. Miguel encuentra dificultades en encontrar espacios de estacionamiento cuando sale a divertirse con sus amigos debido a que a menudo sale a lugares que él no ha manejado nunca. Por otro lado, afirma que un aplicativo dónde pueda alquilar espacios de estacionamiento tendría un impacto positivo en su rutina diaria, sin embargo, agrega que estos espacios de estacionamiento deben cumplir con requisitos cómo una buena ubicación, excelente seguridad, cámaras de vigilancia, entre otros.
+      Descripción
     </td>
   </tr>
   <tr>
-    <td valign="top">Duración entrevista  00:00-06:21</td>
-    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EcGG9i8Sum1Anzi9nYESXvQB3jfS2SZ2vpaNGWXiXTuhMA?e=naqm0O&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EcGG9i8Sum1Anzi9nYESXvQB3jfS2SZ2vpaNGWXiXTuhMA?e=naqm0O&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</td>
+    <td valign="top">Duración entrevista  00:00-08:15</td>
+    <td valign="top"> URL: []</td>
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
@@ -582,8 +575,8 @@ Para obtener una comprensión profunda de las necesidades y expectativas de los 
   </tr>
 </table>
 
-
 **_Anfitriones_**
+
 <table>
   <tr>
     <th colspan="2" valign="top">Registro de entrevistas</th>
@@ -634,49 +627,47 @@ Para obtener una comprensión profunda de las necesidades y expectativas de los 
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top">Joaquín Diaz</td>
+    <td valign="top">Rodrigo Tornero Loayza</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top">23</td>
+    <td valign="top">21 años</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top">Lima, Chorrillos</td>
+    <td valign="top">Lima, Surco</td>
   </tr>
   <tr>
-    <td valign="top"><b><img src="../Assets/interviewsPhotos/joaquindiaz.png"></b></td>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/rodrigoTornero.png"></b></td>
     <td valign="top">
-      Joaquín Diaz, joven de 23 años, se desempeña como ingeniero civil. Él cuenta con dos espacios de estacionamiento, el cuál uno alquila. Para Joaquín, HomeyPark le pareció una excelente herramienta que le va a permitir gestionar sus alquileres de manera eficiente y segura ya que actualmente sigue en búsqueda de otra persona que desee alquilar un espacio de estacionamiento. Él resalta la importancia de la transparencia de datos de los usuarios para evitar fraudes o situaciones que pondrían su integridad en riesgo.  
+      El entrevistado dispone de un garaje con espacio para un vehículo y ocasionalmente una motocicleta, el cual permanece desocupado por períodos interdiarios de aproximadamente cinco horas. Está dispuesto a alquilarlo para generar ingresos pasivos, siempre que se garantice la seguridad del inmueble y se proporcione información confiable sobre los arrendatarios. Considera atractiva la idea de una app móvil que le permita ofrecer su cochera como espacio de estacionamiento y ve en ello una forma práctica de aprovechar un recurso infrautilizado.
     </td>
   </tr>
   <tr>
-    <td valign="top">Duración entrevista  00:00-03:36</td>
-    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EeRv75Hk65JJrqUzWZ-zincBbL95Z3EjtUQh7k0_iPeCYw?e=p7F8u8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EeRv75Hk65JJrqUzWZ-zincBbL95Z3EjtUQh7k0_iPeCYw?e=p7F8u8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></td>
+    <td valign="top">Duración entrevista  00:00-04:35</td>
+    <td valign="top"> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c410_upc_edu_pe/EeNCp6L8z-lImzB639EyMAwBXkGAeM2qeStolzxVp8vOhw?e=KLsbWk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">entrevista-rodrigo.mp4</a></td>
   </tr>
-  <tr>
+    <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top">Carla Cruz</td>
+    <td valign="top">Nombre</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top">30 años</td>
+    <td valign="top">edad años</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top">Cusco, Cusco</td>
+    <td valign="top">....</td>
   </tr>
   <tr>
-    <td valign="top"><b><img src="../Assets/interviewsPhotos/carlacruz.png"></b></td>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/img.png"></b></td>
     <td valign="top">
       Descripción
-      Carla Jackdel Cruz Palomino, de 30 años, vive en Cusco en un edificio con cocheras por departamento. Cuenta con dos cocheras: una pequeña para autos estándar y otra más grande para camionetas. Actualmente no posee vehículo, por lo que sus cocheras suelen estar desocupadas y a veces las presta a vecinos o amistades. Los garajes tienen cámaras de seguridad y alarmas.
-      Aunque no ha alquilado formalmente sus cocheras por falta de tiempo, considera que sería una buena fuente de ingreso adicional. Señala que para hacerlo se necesitaría información detallada del usuario y respeto por las normas del edificio. Finalmente, Carla estaría interesada en una aplicación móvil que le permita alquilar sus cocheras de forma práctica y sin afectar sus actividades diarias.
     </td>
   </tr>
   <tr>
-    <td valign="top">Duración entrevista  00:00-04:56</td>
-    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EVkwUQwS6yRCudGFUP9lYkYBdD-sjfGGK55ZiScS9zMmfg?e=AGO7Kq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EVkwUQwS6yRCudGFUP9lYkYBdD-sjfGGK55ZiScS9zMmfg?e=AGO7Kq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></td>
+    <td valign="top">Duración entrevista  00:00-08:15</td>
+    <td valign="top"> URL: []</td>
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
@@ -702,24 +693,23 @@ Para obtener una comprensión profunda de las necesidades y expectativas de los 
   </tr>
 </table>
 
-
 ### 2.2.3. Análisis de entrevistas
 
 **_Segmento 1: Usuarios de parking_**
 
-- El 100% de los entrevistados están de acuerdo que la falta o escasez de estacionamientos disponibles se debe a la alta demanda de vehículos motorizados de las zonas urbanas. 
+- El 100% de los entrevistados están de acuerdo que la falta o escasez de estacionamientos disponibles se debe a la alta demanda de vehículos motorizados de las zonas urbanas.
 
 - El 100% de los entrevistados presentan dificultades para encontrar estacionamiento principalmente en los tiempos de inicio de trabajo o estudio. Como ejemplo, de 7AM a 10AM o de 2PM a 4PM.
 
 - En la búsqueda de estacionamientos, indican tomar un aproximado de 20 a 30 minutos para conseguir un espacio disponible.
 
-- El 100% del segmento están conformes con la idea de estacionar sus vehículos en garajes de las viviendas, siempre y cuando este cuente con medidas de seguridad. 
+- El 100% del segmento están conformes con la idea de estacionar sus vehículos en garajes de las viviendas, siempre y cuando este cuente con medidas de seguridad.
 
 **_Segmento 2: Anfitriones_**
 
-- El 100% de los entrevistados mencionan estar interesados en la posibilidad de poner en alquiler su garaje como estacionamiento para afrontar el problema principal, escasez de estacionamientos, y generar ingresos adicionales. 
-- Un porcentaje de los entrevistados indican que sus espacios de estacionamientos suelen estar desocupados por las mañanas e incluso por las tardes, debido a sus actividades diarias. 
-- De acuerdo con los entrevistados, al promocionar sus servicios de garaje como estacionamiento a personas desconocidas piden conseguir acceso a la información de estos usuarios y contar con un sistema de calificación para el servicio y el cliente. 
+- El 100% de los entrevistados mencionan estar interesados en la posibilidad de poner en alquiler su garaje como estacionamiento para afrontar el problema principal, escasez de estacionamientos, y generar ingresos adicionales.
+- Un porcentaje de los entrevistados indican que sus espacios de estacionamientos suelen estar desocupados por las mañanas e incluso por las tardes, debido a sus actividades diarias.
+- De acuerdo con los entrevistados, al promocionar sus servicios de garaje como estacionamiento a personas desconocidas piden conseguir acceso a la información de estos usuarios y contar con un sistema de calificación para el servicio y el cliente.
 
 ## 2.3. Needfinding
 
@@ -816,14 +806,11 @@ El Ubiquitous Language es un conjunto de términos y conceptos que comparten los
 - **Calificación**: Sistema que permite a los usuarios de parking evaluar el servicio de estacionamiento y a los anfitriones.
 - **Reseña**: Comentario o valoración escrita por un usuario sobre su experiencia con un estacionamiento o un anfitrión.
 
-
-
 <h1 id="capitulo-iii-requirements-specification">Capítulo III: Requirements Specification</h1>
 
 ## 3.1. To-Be Scenario Mapping
 
 A continuación, mostraremos la experiencia ideal de jóvenes freelancers y universitarios al usar la app de intercambio de servicios. Conectan fácilmente, acuerdan condiciones claras y reciben retroalimentación. La plataforma les brinda seguridad, estructura y oportunidades reales de colaboración.
-
 
 <img src="../Assets/scenarioMapping/to-be-scenario.png">
 
@@ -986,6 +973,7 @@ reserva de espacios de estacionamiento, estas características deben prevalecer 
 de usuario. Un componente crucial para lograrlo es la arquitectura de información, diseñada para
 guiar a los usuarios a través de la plataforma de manera eficiente. A continuación, se detalla el plan
 de arquitectura de información implementado en HomeyPark.
+
 1. Página de Inicio:
 
 **Home**
@@ -1040,6 +1028,7 @@ centrado en facilitar el acceso a la información y las funcionalidades clave, l
 usuarios registrarse, conocer los beneficios, y contactar rápidamente con nosotros.
 
 1. Categorización de la Información:
+
 - Why Choose Us?
 
   Presenta los beneficios clave de la plataforma para los usuarios, como facilidad de uso,
@@ -1049,6 +1038,7 @@ usuarios registrarse, conocer los beneficios, y contactar rápidamente con nosot
 
   Categorizada en pasos simples para que los usuarios puedan entender rápidamente el
   funcionamiento del proceso de búsqueda y reserva de estacionamientos.
+
 2. Filtros y Búsqueda:
 
 - Filtros
@@ -1065,7 +1055,6 @@ con colores principales y bordes redondeados.
 
 En cuanto a los íconos, se emplean elementos visuales sencillos y los colores del sistema de diseño
 del equipo para facilitar la navegación y comprensión rápida.
-
 
 ### 4.2.3. SEO Tags and Meta Tags
 
@@ -1201,22 +1190,22 @@ repositorio ni el progreso de los demás desarrolladores.
 **Rama principal**
 
 - Rama donde se encontrará el código puesto en producción, listo para el uso de los
-usuarios finales.
+  usuarios finales.
 
 **Rama de desarrollo**
 
 - Rama donde estarán los últimos desarrollos de requerimientos listos para llevar a
-producción.
+  producción.
 
 **Ramas auxiliares**
 
-- Ramas de *features*: En esta rama se llevarán a cabo los requerimientos asignados por integrante sin
-repercutir en sus desarrollos.
+- Ramas de _features_: En esta rama se llevarán a cabo los requerimientos asignados por integrante sin
+  repercutir en sus desarrollos.
 
-- Ramas de *hotfix*: En estas ramas se encargan principalmente de resolver bugs o incidencias en caliente.
+- Ramas de _hotfix_: En estas ramas se encargan principalmente de resolver bugs o incidencias en caliente.
 
-- Ramas de *release*: En estas ramas se lleva a cabo el último paso donde se validará y resolverá posibles
-incidencias antes de subir a producción el desarrollo.
+- Ramas de _release_: En estas ramas se lleva a cabo el último paso donde se validará y resolverá posibles
+  incidencias antes de subir a producción el desarrollo.
 
 ### Convenciones de commits
 
@@ -1232,11 +1221,11 @@ commits son los siguientes:
 - **fix**: Soluciona un error en el código.
 - **style**: Modifica aspectos estéticos del proyecto, como formatear los archivos.
 - **refactor**: Mejora el código sin añadir nuevas funcionalidades. Esto puede incluir
-la implementación de buenas prácticas.
+  la implementación de buenas prácticas.
 - **docs**: Realiza cambios en la documentación sin impactar las funcionalidades del
-proyecto.
+  proyecto.
 - **build**: Ajusta la configuración del proyecto, como agregar, eliminar o modificar
-dependencias.
+  dependencias.
 
 **scope**: Campo opcional que indica el alcance del commit, incluyendo los identificadores
 de historias de usuario o requisitos.
@@ -1250,15 +1239,16 @@ Para el desarrollo del proyecto, se utilizará el modelo de versionamiento “Se
 Versioning 2.0.0” (https://semver.org/). Los commits y tags de los lanzamientos
 seguirán el siguiente formato:
 
-- Release vX.Y.Z 
+- Release vX.Y.Z
 
 Donde:
+
 - X: Indica un cambio de versión mayor (MAJOR). Es usado principalmente para
-realizar cambios significativos con respecto a versiones anteriores.
+  realizar cambios significativos con respecto a versiones anteriores.
 - Y: Indica un cambio de versión menor (MINOR). Este tipo de lanzamiento
-incluye funcionalidades adicionales o mejoras al producto final.
+  incluye funcionalidades adicionales o mejoras al producto final.
 - Z: Indica la versión del parche (PATCH). No alteran las funcionalidades del
-producto, solo se encarga de corregir errores.
+  producto, solo se encarga de corregir errores.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
@@ -1268,14 +1258,14 @@ lenguajes de programación y frameworks a utilizar a lo largo del proyecto.
 - Gherkin
 - Las especificaciones deben ser claras y fáciles de leer.
 - Evitar el uso de términos técnicos para asegurar una mejor comprensión entre los
-colaboradores.
+  colaboradores.
 - Utilizar las palabras clave Given, When, Then, And, y But para describir el
-comportamiento del sistema.
+  comportamiento del sistema.
 - Evitar la redundancia en la descripción de los escenarios.
 - Java
 - Uso de camelCase para nombre variables y métodos
 - Uso de PascalCase para nombrar clases, interfaces, record y otras estructuras.
-- Importaciones explícitas (evitar importaciones con *)
+- Importaciones explícitas (evitar importaciones con \*)
 - Estructura de clases, organizar y agrupar los atributos, constructores y métodos.
 - Usar indentación de dos espacios.
 - La longitud de una línea no debe superar los 100 caracteres.
@@ -1300,24 +1290,23 @@ Enlace al repositorio: https://github.com/NetviaOrganization/SwapService-Web-Ser
 
 <img src="../Assets/deploying-web-service.png"/>
 
-
 ## 5.2. Product Implementation & Deployment
 
 ### 5.2.1. Sprint Backlogs
 
-| ID | Title | Title Task ID | Title | Description | Estimation (Hours) | Assigned To | Status (To-do, In Process, To Review, Done, Cancelled) |
-|----|-------|----------------|-------|-------------|---------------------|--------------|--------------------------------------------------------|
-| US- | Integrar mapa de Google Maps | TASK-001       |  |  | 2 | Sebastian Cachis | Done |
-| US- | Búsqueda de estacionamiento por dirección | TASK-002       |  |  | 2 | Adriano Cruz | Done |
-| US- | Usar ubicación de dispositivo para buscar en mapa | TASK-003       |  |  | 1 | Amner Llamo | Done |
-| US- | Ver espacios de estacionamientos cercanos | TASK-004       |  |  | 2 | Marcelo Garro | Done |
-| US- | Visualizar detalles de estacionamiento | TASK-005       |  |  | 2 | Lucio Yen | Done |
-| US- | Visualizar calificación de estacionamiento | TASK-006       |  |  | 2 | Sebastian Cachis | Done |
-| US- | Visualizar el entorno del estacionamiento | TASK-007       |  |  | 2 | Adriano Cruz | Done |
-| US- | Registrar una cochera | TASK-008       |  |  | 3 | Amner Llamo | Done |
-| US- | Visualizar cocheras registradas | TASK-009       |  |  | 2 | Marcelo Garro | Done |
-| US- | Modificar cochera registrada | TASK-010       |  |  | 2 | Lucio Yen | Done |
-| US- | Eliminar la cochera | TASK-011       |  |  | 1 | Sebastian Cachis | Done |
+| ID  | Title                                             | Title Task ID | Title | Description | Estimation (Hours) | Assigned To      | Status (To-do, In Process, To Review, Done, Cancelled) |
+| --- | ------------------------------------------------- | ------------- | ----- | ----------- | ------------------ | ---------------- | ------------------------------------------------------ |
+| US- | Integrar mapa de Google Maps                      | TASK-001      |       |             | 2                  | Sebastian Cachis | Done                                                   |
+| US- | Búsqueda de estacionamiento por dirección         | TASK-002      |       |             | 2                  | Adriano Cruz     | Done                                                   |
+| US- | Usar ubicación de dispositivo para buscar en mapa | TASK-003      |       |             | 1                  | Amner Llamo      | Done                                                   |
+| US- | Ver espacios de estacionamientos cercanos         | TASK-004      |       |             | 2                  | Marcelo Garro    | Done                                                   |
+| US- | Visualizar detalles de estacionamiento            | TASK-005      |       |             | 2                  | Lucio Yen        | Done                                                   |
+| US- | Visualizar calificación de estacionamiento        | TASK-006      |       |             | 2                  | Sebastian Cachis | Done                                                   |
+| US- | Visualizar el entorno del estacionamiento         | TASK-007      |       |             | 2                  | Adriano Cruz     | Done                                                   |
+| US- | Registrar una cochera                             | TASK-008      |       |             | 3                  | Amner Llamo      | Done                                                   |
+| US- | Visualizar cocheras registradas                   | TASK-009      |       |             | 2                  | Marcelo Garro    | Done                                                   |
+| US- | Modificar cochera registrada                      | TASK-010      |       |             | 2                  | Lucio Yen        | Done                                                   |
+| US- | Eliminar la cochera                               | TASK-011      |       |             | 1                  | Sebastian Cachis | Done                                                   |
 
 ### 5.2.2. Implemented Landing Page Evidence
 
@@ -1328,7 +1317,6 @@ Como resultado del primer sprint, se presenta el despliegue de la Landing Page
 <img src="../Assets/landingpage3.png"/>
 <img src="../Assets/landingpage4.png"/>
 <img src="../Assets/landingpage5.png"/>
-
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
@@ -1342,10 +1330,7 @@ A continuación, se presentan las pantallas de nuestra aplicación móvil:
 
 <img src="../Assets/vehiculos.png" width="250"/>
 
-
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
-
-
 
 ### 5.2.6. RESTful API documentation
 
