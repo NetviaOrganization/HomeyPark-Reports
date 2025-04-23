@@ -652,29 +652,31 @@ Para obtener una comprensión profunda de las necesidades y expectativas de los 
   </tr>
   <tr>
     <td valign="top">Duración entrevista  00:00-03:36</td>
-    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EeRv75Hk65JJrqUzWZ-zincBbL95Z3EjtUQh7k0_iPeCYw?e=p7F8u8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EeRv75Hk65JJrqUzWZ-zincBbL95Z3EjtUQh7k0_iPeCYw?e=p7F8u8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a>/td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EeRv75Hk65JJrqUzWZ-zincBbL95Z3EjtUQh7k0_iPeCYw?e=p7F8u8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EeRv75Hk65JJrqUzWZ-zincBbL95Z3EjtUQh7k0_iPeCYw?e=p7F8u8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></td>
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top">Nombre</td>
+    <td valign="top">Carla Cruz</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top">edad años</td>
+    <td valign="top">30 años</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top">....</td>
+    <td valign="top">Cusco, Cusco</td>
   </tr>
   <tr>
-    <td valign="top"><b><img src="../Assets/interviewsPhotos/img.png"></b></td>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/carlacruz.png"></b></td>
     <td valign="top">
       Descripción
+      Carla Jackdel Cruz Palomino, de 30 años, vive en Cusco en un edificio con cocheras por departamento. Cuenta con dos cocheras: una pequeña para autos estándar y otra más grande para camionetas. Actualmente no posee vehículo, por lo que sus cocheras suelen estar desocupadas y a veces las presta a vecinos o amistades. Los garajes tienen cámaras de seguridad y alarmas.
+      Aunque no ha alquilado formalmente sus cocheras por falta de tiempo, considera que sería una buena fuente de ingreso adicional. Señala que para hacerlo se necesitaría información detallada del usuario y respeto por las normas del edificio. Finalmente, Carla estaría interesada en una aplicación móvil que le permita alquilar sus cocheras de forma práctica y sin afectar sus actividades diarias.
     </td>
   </tr>
   <tr>
-    <td valign="top">Duración entrevista  00:00-08:15</td>
-    <td valign="top"> URL: []</td>
+    <td valign="top">Duración entrevista  00:00-04:56</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EVkwUQwS6yRCudGFUP9lYkYBdD-sjfGGK55ZiScS9zMmfg?e=AGO7Kq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EVkwUQwS6yRCudGFUP9lYkYBdD-sjfGGK55ZiScS9zMmfg?e=AGO7Kq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></td>
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
