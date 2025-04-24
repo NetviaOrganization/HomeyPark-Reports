@@ -1300,6 +1300,10 @@ A continuación se presenta el diccionario de clases con los atributos, tipos y 
 
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
+Este diagrama representa el modelo lógico relacional de HomeyPark, diseñado para reflejar las entidades clave del dominio y sus relaciones. Cada tabla está normalizada y vinculada mediante claves primarias y foráneas que garantizan la integridad referencial del sistema. La base de datos incluye entidades como Usuario, Vehiculo, Estacionamiento, Reserva, Ubicacion, Horario, Reseña y Preferencias, cada una con un propósito específico para cubrir las operaciones de registro, reserva y evaluación dentro del sistema.
+
+<img src = "../Assets/DatabaseDiagram.png">
+
 <h1 id="capitulo-v-product-implementation">Capítulo V: Product Implementation</h1>
 
 ## 5.1. Software Configuration Management
