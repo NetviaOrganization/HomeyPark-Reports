@@ -164,9 +164,9 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 
 ### Student Outcome
 
-| Criterio específico                                                                                                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                | Conclusiones                                                                                                                                  |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | Sebastian Nicolas Cachis Gonzales<br><b>TB1</b><br>Para esta entrega desarrolle el capitulo 1, hice entrevistas y tambien los diseños para la landingPage<br><br>Amner Levi Llamo Sánchez<br><b>TB1</b><br>En el análisis competitivo, evalué las prácticas éticas de las soluciones existentes y documenté aquellas que debemos adoptar o mejorar en HomeyPark.<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas]                                                     | <b>TB1</b><br> Designamos tareas a cada integrante para optimizar el tiempo de trabajo                                                        |
+| Criterio específico                                                                                                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Conclusiones                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | Sebastian Nicolas Cachis Gonzales<br><b>TB1</b><br>Para esta entrega desarrolle el capitulo 1, hice entrevistas y tambien los diseños para la landingPage<br><br>Amner Levi Llamo Sánchez<br><b>TB1</b><br>En el análisis competitivo, evalué las prácticas éticas de las soluciones existentes y documenté aquellas que debemos adoptar o mejorar en HomeyPark.<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas]                                                                         | <b>TB1</b><br> Designamos tareas a cada integrante para optimizar el tiempo de trabajo                                                        |
 | Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | Sebastian Nicolas Cachis Gonzales <br><b>TB1</b><br>Esto me ha permito tener una mejor vision de los limites y objetivos de nuestro proyecto asi como conocer las inquietudes de nuestros segmentos objetvios<br>Amner Levi Llamo Sánchez <br><b>TB1</b><br>Analicé el impacto potencial de HomeyPark en el contexto urbano, evaluando cómo la plataforma podría afectar la movilidad, el uso eficiente de espacios y la economía local.<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas] | <b>TB1</b><br> Hemos enfocado las habilidades de cada integrante en las areas de desarrollo que mejor dominen para una mejor linea de trabajo |
 
 <h1 id="capitulo-i-introduccion">Capítulo I: Introducción</h1>
@@ -797,7 +797,7 @@ Aquí se muestran los Empathy Map para los segmentos de jóvenes universitarios 
 
 ### 2.3.5. As-is Scenario Mapping
 
-El As-Is Scenario Mapping describe la experiencia actual de jóvenes freelancers y universitarios al intentar intercambiar servicios sin una plataforma. Usan redes sociales o contactos informales, enfrentando desorganización e inseguridad. Este mapeo ayuda a identificar puntos críticos antes de implementar la solución.
+El As-Is Scenario Mapping describe la experiencia actual de los conductores al buscar estacionamiento y los propietarios de cocheras al intentar rentarlas. Los conductores pierden tiempo y combustible buscando espacios disponibles en zonas congestionadas, mientras que los propietarios tienen garajes con frecuencia baja o nula de uso que podrían generar ingresos adicionales. Este mapeo identifica los puntos de fricción y oportunidades de mejora que HomeyPark busca resolver, como la falta de visibilidad de espacios disponibles, inquietudes sobre seguridad y la ausencia de un sistema estructurado para conectar ambos segmentos del mercado de manera eficiente.
 
 ### **Usuario de Parking**
 
@@ -824,10 +824,15 @@ El Ubiquitous Language es un conjunto de términos y conceptos que comparten los
 <h1 id="capitulo-iii-requirements-specification">Capítulo III: Requirements Specification</h1>
 
 ## 3.1. To-Be Scenario Mapping
+A continuación, mostraremos la experiencia ideal de los usuarios al usar la aplicación HomeyPark para encontrar y reservar espacios de estacionamiento. Los conductores pueden ubicar rápidamente lugares disponibles cerca de su destino, mientras que los propietarios de cocheras pueden rentarlas de forma segura cuando no las utilizan.
 
-A continuación, mostraremos la experiencia ideal de jóvenes freelancers y universitarios al usar la app de intercambio de servicios. Conectan fácilmente, acuerdan condiciones claras y reciben retroalimentación. La plataforma les brinda seguridad, estructura y oportunidades reales de colaboración.
+### **Usuario de Parking**
 
-<img src="../Assets/scenarioMapping/to-be-scenario.png">
+<img src="../Assets/scenarioMapping/to-be-scenario-usuarios-parking.png">
+
+### **Anfitrion**
+
+<img src="../Assets/scenarioMapping/to-be-scenario-anfitrion.png">
 
 ## 3.2. User Stories
 
@@ -969,50 +974,57 @@ El Product Backlog es una lista priorizada de funcionalidades, mejoras y requeri
 <h1 id="capitulo-iv-product-design">Capítulo IV: Product Design</h1>
 
 ## 4.1. Style Guidelines
+
 En esta parte, presentaremos el plan de diseños, estilos y estéticas que hemos elaborado para nuestra página web y aplicativo móvil, con el objetivo de garantizar que nuestros usuarios disfruten de una interfaz amigable y fácil de utilizar. Para lograrlo, hemos optado por emplear elementos visuales que sean claramente visibles y estéticamente agradables, además de identificar una serie de restricciones para evitar incluir elementos gráficos discordantes o poco llamativos.
+
 ### 4.1.1. General Style Guidelines
-**Branding:** Nuestro logo para HomeyPark presenta la silueta estilizada de un auto, representando la 
-facilidad y conveniencia del estacionamiento. Debajo del auto, se encuentran las letras "HomeyPark" 
-en una tipografía moderna y clara, que asegura legibilidad y fácil reconocimiento. Este diseño 
-simboliza la accesibilidad y la confiabilidad que ofrecemos a través de la aplicación, reflejando 
-seguridad y profesionalismo, valores fundamentales de HomeyPark. 
+
+**Branding:** Nuestro logo para HomeyPark presenta la silueta estilizada de un auto, representando la
+facilidad y conveniencia del estacionamiento. Debajo del auto, se encuentran las letras "HomeyPark"
+en una tipografía moderna y clara, que asegura legibilidad y fácil reconocimiento. Este diseño
+simboliza la accesibilidad y la confiabilidad que ofrecemos a través de la aplicación, reflejando
+seguridad y profesionalismo, valores fundamentales de HomeyPark.
 <img src="/Assets/productDesign/styleGuidelines/HomeyPark_logo.png">
 
-**Typography:*** Para HomeyPark, se seleccionaron dos tipografías que trabajan en conjunto para crear 
-una experiencia visual moderna y accesible. La tipografía principal es Rubik, que aporta un estilo 
-geométrico y contemporáneo, ideal para títulos y encabezados, asegurando un impacto visual fuerte. 
-La tipografía secundaria es Mulish, utilizada para el cuerpo de texto y descripciones, gracias a su 
-diseño limpio y sencillo que mejora la legibilidad en dispositivos móviles y de escritorio. Juntas, estas 
-tipografías aseguran que toda la información relevante sea clara y fácil de leer para los usuarios. 
+**Typography:\*** Para HomeyPark, se seleccionaron dos tipografías que trabajan en conjunto para crear
+una experiencia visual moderna y accesible. La tipografía principal es Rubik, que aporta un estilo
+geométrico y contemporáneo, ideal para títulos y encabezados, asegurando un impacto visual fuerte.
+La tipografía secundaria es Mulish, utilizada para el cuerpo de texto y descripciones, gracias a su
+diseño limpio y sencillo que mejora la legibilidad en dispositivos móviles y de escritorio. Juntas, estas
+tipografías aseguran que toda la información relevante sea clara y fácil de leer para los usuarios.
 
 <img src="/Assets/productDesign/styleGuidelines/HomeyPark_Typography.png">
 
 **Colores:**
-Los colores seleccionados para HomeyPark están diseñados para ofrecer una experiencia visualmente 
-agradable y coherente, al mismo tiempo que transmiten sensaciones de confianza y frescura. El tono 
-**#3C4E67** es un azul oscuro que aporta profesionalismo y estabilidad, mientras que el **#6CD391**, un 
-verde vibrante, introduce un toque de frescura y modernidad. Juntos, estos colores crean una 
-atmósfera de serenidad y dinamismo, reflejando los valores de accesibilidad y confianza de nuestra 
-marca. 
+Los colores seleccionados para HomeyPark están diseñados para ofrecer una experiencia visualmente
+agradable y coherente, al mismo tiempo que transmiten sensaciones de confianza y frescura. El tono
+**#3C4E67** es un azul oscuro que aporta profesionalismo y estabilidad, mientras que el **#6CD391**, un
+verde vibrante, introduce un toque de frescura y modernidad. Juntos, estos colores crean una
+atmósfera de serenidad y dinamismo, reflejando los valores de accesibilidad y confianza de nuestra
+marca.
 
 <img src="/Assets/productDesign/styleGuidelines/HomeyPark_colores.png">
 
 **Spacing:**
-Hemos adoptado un espaciado base de 4px para los márgenes y el padding en todos los elementos, 
-garantizando una presentación consistente y bien alineada en toda la interfaz. Este enfoque 
-contribuye a una estructura visual limpia y ordenada, lo que facilita la navegación y mejora la 
+Hemos adoptado un espaciado base de 4px para los márgenes y el padding en todos los elementos,
+garantizando una presentación consistente y bien alineada en toda la interfaz. Este enfoque
+contribuye a una estructura visual limpia y ordenada, lo que facilita la navegación y mejora la
 experiencia del usuario tanto en dispositivos móviles como en la web.
 
 ### 4.1.2. Web Style Guidelines
+
 Para la versión web de HomeyPark, se ha priorizado una disposición responsiva que garantice una experiencia fluida sin importar el tamaño de la pantalla. Se utilizan diseños basados en rejillas (grid systems) que permiten adaptar los contenidos de manera flexible. Los botones presentan esquinas suavemente redondeadas (8px de radio) y efectos de hover que consisten en un ligero sombreado y cambio de color para indicar interactividad sin ser intrusivos. Los íconos empleados siguen una línea visual uniforme, con un tamaño estándar de 24px, permitiendo una rápida identificación de acciones y secciones. Además, se han incorporado transiciones suaves para cambios de estado (como desplegables o cambios de pestaña), mejorando la percepción de fluidez en la interfaz.
 
 ### 4.1.3. Mobile Style Guidelines
 
 ### 4.1.3.1. iOS Mobile Style Guidelines
+
 En la versión para dispositivos iOS, HomeyPark adopta las convenciones de diseño propias del ecosistema Apple, como el uso de botones de navegación tipo "back" en la parte superior izquierda y el aprovechamiento del gesto de deslizamiento para retornar a pantallas anteriores. La interfaz sigue el patrón Human Interface Guidelines de Apple, lo que se refleja en la fluidez de las animaciones, la tipografía ajustada a San Francisco (cuando es posible), y la integración con funcionalidades como el modo oscuro. Los menús y ventanas emergentes presentan bordes redondeados y un fondo translúcido que se adapta al contexto visual del sistema operativo.
 
 ### 4.1.3.2. Android Mobile Style Guidelines
+
 Para la versión Android, se siguen las Material Design Guidelines, priorizando la claridad visual, la jerarquía de información y la retroalimentación visual al usuario. Se utilizan componentes nativos como el AppBar, Floating Action Buttons (FAB), y Snackbars para acciones rápidas y notificaciones no intrusivas. La paleta de colores respeta los tonos definidos por la identidad de HomeyPark, integrándose con la interfaz del sistema. Se han optimizado las vistas para múltiples resoluciones y densidades de pantalla, garantizando una presentación coherente en diversos dispositivos Android. Además, se respeta la navegación por gestos introducida en versiones recientes del sistema.
+
 ## 4.2. Information Architecture
 
 Centrados en el objetivo de HomeyPark, buscamos ofrecer una interfaz amigable e intuitiva que
@@ -1238,6 +1250,7 @@ El siguiente diagrama muestra las clases principales del sistema HomeyPark, incl
 A continuación se presenta el diccionario de clases con los atributos, tipos y descripciones de las clases más relevantes del modelo.
 
 ### Clase Usuario
+
 <table>
   <thead>
     <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
@@ -1252,7 +1265,6 @@ A continuación se presenta el diccionario de clases con los atributos, tipos y 
   </tbody>
 </table>
 
-
 ### Clase Preferencias
 
 <table>
@@ -1265,7 +1277,6 @@ A continuación se presenta el diccionario de clases con los atributos, tipos y 
     <tr><td>estacionamientosFavoritos</td><td>Estacionamiento[]</td><td>Estacionamientos favoritos</td></tr>
   </tbody>
 </table>
-
 
 ### Clase Vehículo
 
@@ -1281,7 +1292,6 @@ A continuación se presenta el diccionario de clases con los atributos, tipos y 
   </tbody>
 </table>
 
-
 ### Clase Guest
 
 <table>
@@ -1294,7 +1304,6 @@ A continuación se presenta el diccionario de clases con los atributos, tipos y 
   </tbody>
 </table>
 
-
 ### Clase Host
 
 <table>
@@ -1305,7 +1314,6 @@ A continuación se presenta el diccionario de clases con los atributos, tipos y 
     <tr><td>estacionamientos</td><td>Estacionamiento[]</td><td>Estacionamientos administrados</td></tr>
   </tbody>
 </table>
-
 
 ### Clase Reserva
 
@@ -1329,7 +1337,6 @@ A continuación se presenta el diccionario de clases con los atributos, tipos y 
   </tbody>
 </table>
 
-
 ### Clase Estacionamiento
 
 <table>
@@ -1352,7 +1359,6 @@ A continuación se presenta el diccionario de clases con los atributos, tipos y 
     <tr><td>horarioOcupado</td><td>(inicio, fin)</td><td>Horas ocupadas</td></tr>
   </tbody>
 </table>
-
 
 ### Clase Ubicacion
 
@@ -1629,26 +1635,26 @@ Management, Location Management, y Vehicle Management.
 
 # Conclusiones, Bibliografía y Anexos
 
-| Nombre                          | Actividad     |
-| ------------------------------- | ---------- |
-| Sebastian Cachis Gonzales       | Implementacion y desarrollo de Backend |
+| Nombre                          | Actividad                                                |
+| ------------------------------- | -------------------------------------------------------- |
+| Sebastian Cachis Gonzales       | Implementacion y desarrollo de Backend                   |
 | Adriano Sebastian Cruz Palomino | Implementacion y desarrollo de la App Web y Landing Page |
-| Amner Levi Llamo Sanchez        | Implementacion y desarrollo de Backend |
-| Marcelo Fabian Garro Vega       | Implementacion y desarrollo de la App Web y Mobile App |
-| Lucio Heli Yen Cerna            | Implementacion y desarrollo de la App Web y Mobile App |
+| Amner Levi Llamo Sanchez        | Implementacion y desarrollo de Backend                   |
+| Marcelo Fabian Garro Vega       | Implementacion y desarrollo de la App Web y Mobile App   |
+| Lucio Heli Yen Cerna            | Implementacion y desarrollo de la App Web y Mobile App   |
 
-Se realizaron los commits por una persona, pero eso desestima el aporte evidenciado entre los miebros de grupo. 
+Se realizaron los commits por una persona, pero eso desestima el aporte evidenciado entre los miebros de grupo.
 
 - ## Conclusiones
 
   Definir la viabilidad y el enfoque del proyecto HomeyPark como solución a la escasez de estacionamientos urbanos.
-Comprender las necesidades de conductores y propietarios, los principales usuarios.
-Analizar la competencia para identificar oportunidades de diferenciación.
-Diseñar la arquitectura, UI y UX de la aplicación móvil y web.
-Adoptar la metodología Lean UX para un desarrollo iterativo y centrado en el usuario.
-Organizar el equipo y asignar roles para una gestión eficiente del proyecto.
-Identificar desafíos y riesgos iniciales para planificar estrategias de mitigación.
-En resumen, esta fase inicial establece una base sólida para el desarrollo de HomeyPark, demostrando la capacidad del equipo para abordar el problema, entender a los usuarios y diseñar una solución tecnológica viable.
+  Comprender las necesidades de conductores y propietarios, los principales usuarios.
+  Analizar la competencia para identificar oportunidades de diferenciación.
+  Diseñar la arquitectura, UI y UX de la aplicación móvil y web.
+  Adoptar la metodología Lean UX para un desarrollo iterativo y centrado en el usuario.
+  Organizar el equipo y asignar roles para una gestión eficiente del proyecto.
+  Identificar desafíos y riesgos iniciales para planificar estrategias de mitigación.
+  En resumen, esta fase inicial establece una base sólida para el desarrollo de HomeyPark, demostrando la capacidad del equipo para abordar el problema, entender a los usuarios y diseñar una solución tecnológica viable.
 
 - ## Bibliografía
 
@@ -1656,10 +1662,10 @@ El Comercio. (2024). Congestión vehicular en Lima: La ciudad más lenta de Amé
 
 - ## Anexos
 
-    Landing Page: https://homey-park-experiments.web.app/
+  Landing Page: https://homey-park-experiments.web.app/
 
-    Web App: https://homey-park-experiments-app.web.app/login
-    
-    Organización en GitHub: https://github.com/orgs/NetviaOrganization/repositories
+  Web App: https://homey-park-experiments-app.web.app/login
 
-    Trello: https://trello.com/b/TghZeTMj/product-backlog-v2
+  Organización en GitHub: https://github.com/orgs/NetviaOrganization/repositories
+
+  Trello: https://trello.com/b/TghZeTMj/product-backlog-v2
