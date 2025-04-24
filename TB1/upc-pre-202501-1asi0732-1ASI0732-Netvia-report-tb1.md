@@ -44,6 +44,7 @@
 | 1.0     | 06/04/2025 | Sebastian Cachis | Desarrollo del capítulo I             |
 | 1.4     | 19/04/2025 | Adriano Cruz     | Desarrollo del capítulo IV            |
 | 1.2     | 06/04/2025 | Sebastian Cachis | Desarrollo del capítulo V             |
+| 1.3     | 07/04/2025 | Amner Llamo      | Desarrollo del capítulo II            |
 
 ### Project Report Collaboration Insights
 
@@ -53,6 +54,7 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 | Integrante              | Tareas Designadas                    |
 | ----------------------- | ------------------------------------ |
 | Sebastian Cachis        | Desarrollo de todo el capítulo I y V |
+| Amner Llamo             | Desarrollo de todo el capítulo II    |
 | [Nombre del integrante] | [Tareas]                             |
 | ...                     | ...                                  |
 
@@ -164,8 +166,8 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 
 | Criterio específico                                                                                                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                | Conclusiones                                                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | Sebastian Nicolas Cachis Gonzales<br><b>TB1</b><br>Para esta entrega desarrolle el capitulo 1, hice entrevistas y tambien los diseños para la landingPage<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas]                                                     | <b>TB1</b><br> Designamos tareas a cada integrante para optimizar el tiempo de trabajo                                                        |
-| Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | Sebastian Nicolas Cachis Gonzales <br><b>TB1</b><br>Esto me ha permito tener una mejor vision de los limites y objetivos de nuestro proyecto asi como conocer las inquietudes de nuestros segmentos objetvios<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas] | <b>TB1</b><br> Hemos enfocado las habilidades de cada integrante en las areas de desarrollo que mejor dominen para una mejor linea de trabajo |
+| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | Sebastian Nicolas Cachis Gonzales<br><b>TB1</b><br>Para esta entrega desarrolle el capitulo 1, hice entrevistas y tambien los diseños para la landingPage<br><br>Amner Levi Llamo Sánchez<br><b>TB1</b><br>En el análisis competitivo, evalué las prácticas éticas de las soluciones existentes y documenté aquellas que debemos adoptar o mejorar en HomeyPark.<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas]                                                     | <b>TB1</b><br> Designamos tareas a cada integrante para optimizar el tiempo de trabajo                                                        |
+| Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | Sebastian Nicolas Cachis Gonzales <br><b>TB1</b><br>Esto me ha permito tener una mejor vision de los limites y objetivos de nuestro proyecto asi como conocer las inquietudes de nuestros segmentos objetvios<br>Amner Levi Llamo Sánchez <br><b>TB1</b><br>Analicé el impacto potencial de HomeyPark en el contexto urbano, evaluando cómo la plataforma podría afectar la movilidad, el uso eficiente de espacios y la economía local.<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas] | <b>TB1</b><br> Hemos enfocado las habilidades de cada integrante en las areas de desarrollo que mejor dominen para una mejor linea de trabajo |
 
 <h1 id="capitulo-i-introduccion">Capítulo I: Introducción</h1>
 
@@ -779,7 +781,7 @@ A continuación, se presentan los User Journey Mapping para los segmentos de jó
 
 ### **Segmento Anfitrion**
 
-<img src="../Assets/chapter2/{name}.png">
+<img src="../Assets/chapter2/UserJourneyMappingJosePerez.png">
 
 ### 2.3.4. Empathy Mapping
 
