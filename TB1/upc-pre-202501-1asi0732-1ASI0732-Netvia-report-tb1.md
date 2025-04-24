@@ -730,7 +730,7 @@ Para obtener una comprensión profunda de las necesidades y expectativas de los 
 
 ### 2.3.1. User Personas
 
-A continuación, se presentan los perfiles de usuario para los dos segmentos objetivo de SwapService: jóvenes universitarios y freelancers. Estos perfiles representan a individuos que buscan maximizar sus recursos y habilidades a través de una plataforma colaborativa, valorando la conexión y el intercambio de conocimientos.
+A continuación, se presentan los perfiles de usuario para los dos segmentos objetivo de HomeyPark: conductores y anfitriones.
 
 ### **User Persona: Usuario de Parking**
 
@@ -742,7 +742,7 @@ A continuación, se presentan los perfiles de usuario para los dos segmentos obj
 
 ### 2.3.2. User Task Matrix
 
-A continuación, se presenta el User Task Matrix para los segmentos de jóvenes universitarios y freelancers, destacando las tareas que realizan para cumplir sus objetivos en la plataforma SwapService.
+A continuación, se presenta el User Task Matrix para los segmentos de conductores y anfitriones, destacando las tareas que realizan para cumplir sus objetivos en la plataforma HomeyPark.
 
 ### **Segmento Jovenes Universitario**
 
@@ -773,7 +773,7 @@ cochera</td><td valign="bottom">A veces</td><td valign="bottom">Alta</td></tr>
 
 ### 2.3.3. User Journey Mapping
 
-A continuación, se presentan los User Journey Mapping para los segmentos de jóvenes universitarios y freelancers, ilustrando sus experiencias al interactuar con SwapService.
+A continuación, se presentan los User Journey Mapping para los segmentos de conductores y anfitriones, ilustrando sus experiencias al interactuar con HomeyPark.
 
 ### **Segmento Usuario de Parking**
 
