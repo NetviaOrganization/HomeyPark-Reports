@@ -1166,12 +1166,12 @@ Esta arquitectura de navegación está diseñada para minimizar la carga cogniti
 
 ### 4.3.1. Landing Page Wireframe
 
- <img src="/Assets/productDesign/wireframes/landingPage/landingPage1.png" width= "1000">
- <img src="/Assets/productDesign/wireframes/landingPage/landingPage2.png" width= "1000">
- <img src="/Assets/productDesign/wireframes/landingPage/landingPage_3.png" width= "1000">
- <img src="/Assets/productDesign/wireframes/landingPage/landingPage4.png" width= "1000">
- <img src="/Assets/productDesign/wireframes/landingPage/landingPage5.png" width= "1000">
- <img src="/Assets/productDesign/wireframes/landingPage/landingPage6.png" width= "1000">
+ <img src="../Assets/productDesign/wireframes/landingPage/landingPage1.png" width= "1000">
+ <img src="../Assets/productDesign/wireframes/landingPage/landingPage2.png" width= "1000">
+ <img src="../Assets/productDesign/wireframes/landingPage/landingPage_3.png" width= "1000">
+ <img src="../Assets/productDesign/wireframes/landingPage/landingPage4.png" width= "1000">
+ <img src="../Assets/productDesign/wireframes/landingPage/landingPage5.png" width= "1000">
+ <img src="../Assets/productDesign/wireframes/landingPage/landingPage6.png" width= "1000">
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -1623,4 +1623,43 @@ Management, Location Management, y Vehicle Management.
 
 ## 5.3. Video About-the-Product
 
+[Video del Producto](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c410_upc_edu_pe/Ed-CJXEtQkhNgspiE93_ZogBiQ-p2sSwNMiWje5okRfPEw?e=9Rypp3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<img src="../Assets/about-product.png"/>
+
 # Conclusiones, Bibliografía y Anexos
+
+| Nombre                          | Actividad     |
+| ------------------------------- | ---------- |
+| Sebastian Cachis Gonzales       | Implementacion y desarrollo de Backend |
+| Adriano Sebastian Cruz Palomino | Implementacion y desarrollo de la App Web y Landing Page |
+| Amner Levi Llamo Sanchez        | Implementacion y desarrollo de Backend |
+| Marcelo Fabian Garro Vega       | Implementacion y desarrollo de la App Web y Mobile App |
+| Lucio Heli Yen Cerna            | Implementacion y desarrollo de la App Web y Mobile App |
+
+Se realizaron los commits por una persona, pero eso desestima el aporte evidenciado entre los miebros de grupo. 
+
+- ## Conclusiones
+
+  Definir la viabilidad y el enfoque del proyecto HomeyPark como solución a la escasez de estacionamientos urbanos.
+Comprender las necesidades de conductores y propietarios, los principales usuarios.
+Analizar la competencia para identificar oportunidades de diferenciación.
+Diseñar la arquitectura, UI y UX de la aplicación móvil y web.
+Adoptar la metodología Lean UX para un desarrollo iterativo y centrado en el usuario.
+Organizar el equipo y asignar roles para una gestión eficiente del proyecto.
+Identificar desafíos y riesgos iniciales para planificar estrategias de mitigación.
+En resumen, esta fase inicial establece una base sólida para el desarrollo de HomeyPark, demostrando la capacidad del equipo para abordar el problema, entender a los usuarios y diseñar una solución tecnológica viable.
+
+- ## Bibliografía
+
+El Comercio. (2024). Congestión vehicular en Lima: La ciudad más lenta de América Latina con solo 14.5 km/h en hora punta. https://elcomercio.pe/lima/congestion-vehicular-en-lima-la-ciudad-mas-lenta-de-america-latina-con-solo-145-kmh-en-hora-punta-trafico-caos-vehicular-ultimas-noticia/
+
+- ## Anexos
+
+    Landing Page: https://homey-park-experiments.web.app/
+
+    Web App: https://homey-park-experiments-app.web.app/login
+    
+    Organización en GitHub: https://github.com/orgs/NetviaOrganization/repositories
+
+    Trello: https://trello.com/b/TghZeTMj/product-backlog-v2
