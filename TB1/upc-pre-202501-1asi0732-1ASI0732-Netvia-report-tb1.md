@@ -531,20 +531,27 @@ Para obtener una comprensión profunda de las necesidades y expectativas de los 
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top">Nombre</td>
+    <td valign="top">Fabrizio Buleje</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top">edad años</td>
+    <td valign="top">20 años</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top">....</td>
+    <td valign="top">Santiago de Surco</td>
   </tr>
   <tr>
-    <td valign="top"><b><img src="../Assets/interviewsPhotos/img.png"></b></td>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/fabrizioBuleje.png"></b></td>
     <td valign="top">
-      Descripción
+      Descripción <br>
+      Fabrizio Buleje Alfaro, de 20 años, vive en Surco y estudia Medicina en la Universidad Científica del Sur. Aunque tiene una moto, actualmente se transporta en su auto ligero, principalmente para ir a la universidad. Comenta que el tráfico en Lima y la dificultad para encontrar estacionamiento, especialmente en zonas céntricas como el Centro Cívico, son desafíos frecuentes. Está dispuesto a alquilar garajes de viviendas si le ofrecen seguridad y confianza. Además, considera útil una aplicación móvil que facilite la búsqueda de estacionamientos seguros y actualizados.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-07:50</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/ETqMzVRTXmNJoKJiOZrbD3cB8QXeMq1xaryOh3PwfP0aRQ?e=OICOHn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/ETqMzVRTXmNJoKJiOZrbD3cB8QXeMq1xaryOh3PwfP0aRQ?e=OICOHn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a>
     </td>
   </tr>
   <tr>
@@ -647,23 +654,29 @@ Para obtener una comprensión profunda de las necesidades y expectativas de los 
     <td valign="top">Duración entrevista  00:00-04:35</td>
     <td valign="top"> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c410_upc_edu_pe/EeNCp6L8z-lImzB639EyMAwBXkGAeM2qeStolzxVp8vOhw?e=KLsbWk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">entrevista-rodrigo.mp4</a></td>
   </tr>
-    <tr>
+  <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top">Nombre</td>
+    <td valign="top">Carla Cruz</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top">edad años</td>
+    <td valign="top">30 años</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top">....</td>
+    <td valign="top">Cusco, Cusco</td>
   </tr>
   <tr>
-    <td valign="top"><b><img src="../Assets/interviewsPhotos/img.png"></b></td>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/carlacruz.png"></b></td>
     <td valign="top">
       Descripción
+      Carla Jackdel Cruz Palomino, de 30 años, vive en Cusco en un edificio con cocheras por departamento. Cuenta con dos cocheras: una pequeña para autos estándar y otra más grande para camionetas. Actualmente no posee vehículo, por lo que sus cocheras suelen estar desocupadas y a veces las presta a vecinos o amistades. Los garajes tienen cámaras de seguridad y alarmas.
+      Aunque no ha alquilado formalmente sus cocheras por falta de tiempo, considera que sería una buena fuente de ingreso adicional. Señala que para hacerlo se necesitaría información detallada del usuario y respeto por las normas del edificio. Finalmente, Carla estaría interesada en una aplicación móvil que le permita alquilar sus cocheras de forma práctica y sin afectar sus actividades diarias.
     </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-04:56</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EVkwUQwS6yRCudGFUP9lYkYBdD-sjfGGK55ZiScS9zMmfg?e=AGO7Kq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EVkwUQwS6yRCudGFUP9lYkYBdD-sjfGGK55ZiScS9zMmfg?e=AGO7Kq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></td>
   </tr>
   <tr>
     <td valign="top">Duración entrevista  00:00-08:15</td>
@@ -1118,9 +1131,23 @@ sobre las tarifas.
 
 ### 4.8.1. Software Architecture Context Diagram
 
+Este diagrama contextualiza el sistema HomeyPark en su entorno, mostrando cómo interactúan los actores principales (Guest y Host) con el sistema central y qué servicios externos (Google Places y Google ReCaptcha V2) son utilizados para brindar funcionalidades complementarias como geolocalización y verificación de usuarios humanos.
+
+<img src = "../Assets/ContextDiagram.png">
+
 ### 4.8.2. Software Architecture Container Diagrams
 
+El diagrama de contenedores descompone el sistema en sus principales contenedores de ejecución. Se ilustran los distintos frontends (Mobile App y Web Application), la lógica de backend central implementada en Spring Boot, y los sistemas de almacenamiento y servicios externos. Se enfatiza el rol de la API Application como núcleo funcional del sistema.
+
+<img src = "../Assets/ContainerDiagram.png">
+
 ### 4.8.3. Software Architecture Components Diagrams
+
+Este diagrama muestra la estructura interna de la API Application, organizada según Bounded Contexts definidos por el modelo de dominio. Cada contexto encapsula sus propios componentes siguiendo una Clean Architecture, donde se separan claramente las responsabilidades entre controladores, servicios de aplicación, modelos del dominio y repositorios.
+
+Además, se implementa el patrón CQRS (Command Query Responsibility Segregation), dividiendo explícitamente la lógica de lectura (Query Services) y escritura (Command Services), lo que mejora la escalabilidad y claridad del sistema. Esta arquitectura permite una evolución modular, mayor mantenibilidad y prepara el sistema para una futura transición a microservicios si fuera necesario.
+
+<img src = "../Assets/ComponentDiagram.png">
 
 ## 4.9. Software Object-Oriented Design
 
