@@ -967,17 +967,50 @@ El Product Backlog es una lista priorizada de funcionalidades, mejoras y requeri
 <h1 id="capitulo-iv-product-design">Capítulo IV: Product Design</h1>
 
 ## 4.1. Style Guidelines
-
+En esta parte, presentaremos el plan de diseños, estilos y estéticas que hemos elaborado para nuestra página web y aplicativo móvil, con el objetivo de garantizar que nuestros usuarios disfruten de una interfaz amigable y fácil de utilizar. Para lograrlo, hemos optado por emplear elementos visuales que sean claramente visibles y estéticamente agradables, además de identificar una serie de restricciones para evitar incluir elementos gráficos discordantes o poco llamativos.
 ### 4.1.1. General Style Guidelines
+**Branding:** Nuestro logo para HomeyPark presenta la silueta estilizada de un auto, representando la 
+facilidad y conveniencia del estacionamiento. Debajo del auto, se encuentran las letras "HomeyPark" 
+en una tipografía moderna y clara, que asegura legibilidad y fácil reconocimiento. Este diseño 
+simboliza la accesibilidad y la confiabilidad que ofrecemos a través de la aplicación, reflejando 
+seguridad y profesionalismo, valores fundamentales de HomeyPark. 
+<img src="/Assets/productDesign/styleGuidelines/HomeyPark_logo.png">
+
+**Typography:*** Para HomeyPark, se seleccionaron dos tipografías que trabajan en conjunto para crear 
+una experiencia visual moderna y accesible. La tipografía principal es Rubik, que aporta un estilo 
+geométrico y contemporáneo, ideal para títulos y encabezados, asegurando un impacto visual fuerte. 
+La tipografía secundaria es Mulish, utilizada para el cuerpo de texto y descripciones, gracias a su 
+diseño limpio y sencillo que mejora la legibilidad en dispositivos móviles y de escritorio. Juntas, estas 
+tipografías aseguran que toda la información relevante sea clara y fácil de leer para los usuarios. 
+
+<img src="/Assets/productDesign/styleGuidelines/HomeyPark_Typography.png">
+
+**Colores:**
+Los colores seleccionados para HomeyPark están diseñados para ofrecer una experiencia visualmente 
+agradable y coherente, al mismo tiempo que transmiten sensaciones de confianza y frescura. El tono 
+**#3C4E67** es un azul oscuro que aporta profesionalismo y estabilidad, mientras que el **#6CD391**, un 
+verde vibrante, introduce un toque de frescura y modernidad. Juntos, estos colores crean una 
+atmósfera de serenidad y dinamismo, reflejando los valores de accesibilidad y confianza de nuestra 
+marca. 
+
+<img src="/Assets/productDesign/styleGuidelines/HomeyPark_colores.png">
+
+**Spacing:**
+Hemos adoptado un espaciado base de 4px para los márgenes y el padding en todos los elementos, 
+garantizando una presentación consistente y bien alineada en toda la interfaz. Este enfoque 
+contribuye a una estructura visual limpia y ordenada, lo que facilita la navegación y mejora la 
+experiencia del usuario tanto en dispositivos móviles como en la web.
 
 ### 4.1.2. Web Style Guidelines
+Para la versión web de HomeyPark, se ha priorizado una disposición responsiva que garantice una experiencia fluida sin importar el tamaño de la pantalla. Se utilizan diseños basados en rejillas (grid systems) que permiten adaptar los contenidos de manera flexible. Los botones presentan esquinas suavemente redondeadas (8px de radio) y efectos de hover que consisten en un ligero sombreado y cambio de color para indicar interactividad sin ser intrusivos. Los íconos empleados siguen una línea visual uniforme, con un tamaño estándar de 24px, permitiendo una rápida identificación de acciones y secciones. Además, se han incorporado transiciones suaves para cambios de estado (como desplegables o cambios de pestaña), mejorando la percepción de fluidez en la interfaz.
 
 ### 4.1.3. Mobile Style Guidelines
 
 ### 4.1.3.1. iOS Mobile Style Guidelines
+En la versión para dispositivos iOS, HomeyPark adopta las convenciones de diseño propias del ecosistema Apple, como el uso de botones de navegación tipo "back" en la parte superior izquierda y el aprovechamiento del gesto de deslizamiento para retornar a pantallas anteriores. La interfaz sigue el patrón Human Interface Guidelines de Apple, lo que se refleja en la fluidez de las animaciones, la tipografía ajustada a San Francisco (cuando es posible), y la integración con funcionalidades como el modo oscuro. Los menús y ventanas emergentes presentan bordes redondeados y un fondo translúcido que se adapta al contexto visual del sistema operativo.
 
 ### 4.1.3.2. Android Mobile Style Guidelines
-
+Para la versión Android, se siguen las Material Design Guidelines, priorizando la claridad visual, la jerarquía de información y la retroalimentación visual al usuario. Se utilizan componentes nativos como el AppBar, Floating Action Buttons (FAB), y Snackbars para acciones rápidas y notificaciones no intrusivas. La paleta de colores respeta los tonos definidos por la identidad de HomeyPark, integrándose con la interfaz del sistema. Se han optimizado las vistas para múltiples resoluciones y densidades de pantalla, garantizando una presentación coherente en diversos dispositivos Android. Además, se respeta la navegación por gestos introducida en versiones recientes del sistema.
 ## 4.2. Information Architecture
 
 Centrados en el objetivo de HomeyPark, buscamos ofrecer una interfaz amigable e intuitiva que
@@ -1096,6 +1129,13 @@ sobre las tarifas.
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
+
+ <img src="/Assets/productDesign/wireframes/landingPage/landingPage1.png" width= "1000">
+ <img src="/Assets/productDesign/wireframes/landingPage/landingPage2.png" width= "1000">
+ <img src="/Assets/productDesign/wireframes/landingPage/landingPage_3.png" width= "1000">
+ <img src="/Assets/productDesign/wireframes/landingPage/landingPage4.png" width= "1000">
+ <img src="/Assets/productDesign/wireframes/landingPage/landingPage5.png" width= "1000">
+ <img src="/Assets/productDesign/wireframes/landingPage/landingPage6.png" width= "1000">
 
 ### 4.3.2. Landing Page Mock-up
 
