@@ -41,23 +41,24 @@
 | Versión | Fecha      | Autor            | Descripción                           |
 | ------- | ---------- | ---------------- | ------------------------------------- |
 | 1.0     | 05/04/2025 | Adriano Cruz     | Creación de la estructura del informe |
-| 1.0     | 06/04/2025 | Sebastian Cachis | Desarrollo del capítulo I             |
-| 1.4     | 19/04/2025 | Adriano Cruz     | Desarrollo del capítulo IV            |
+| 1.1     | 06/04/2025 | Sebastian Cachis | Desarrollo del capítulo I             |
 | 1.2     | 06/04/2025 | Sebastian Cachis | Desarrollo del capítulo V             |
-| 1.3     | 07/04/2025 | Amner Llamo      | Desarrollo del capítulo II            |
-|1.5|24/04/2025 |Lucio Yen|Desarrollo del capítulo IV|
+| 1.3     | 19/04/2025 | Adriano Cruz     | Desarrollo del capítulo IV            |
+| 1.4     | 07/04/2025 | Amner Llamo      | Desarrollo del capítulo II            |
+| 1.5     | 22/04/2025 | Marcelo Garro    | Desarrollo del capítulo II            |
+| 1.6     | 24/04/2025 | Lucio Yen        | Desarrollo del capítulo IV            |
 
 ### Project Report Collaboration Insights
 
 **TB1**  
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
-| Integrante              | Tareas Designadas                    |
-| ----------------------- | ------------------------------------ |
-| Sebastian Cachis        | Desarrollo de todo el capítulo I y V |
-| Amner Llamo             | Desarrollo de todo el capítulo II    |
-| [Nombre del integrante] | [Tareas]                             |
-| ...                     | ...                                  |
+| Integrante       | Tareas Designadas                    |
+| ---------------- | ------------------------------------ |
+| Sebastian Cachis | Desarrollo de todo el capítulo I y V |
+| Amner Llamo      | Desarrollo de todo el capítulo II    |
+| Marcelo Garro    | Desarrollo de todo el capítulo III   |
+| ...              | ...                                  |
 
 # Tabla de Contenidos
 
@@ -165,10 +166,10 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 
 ### Student Outcome
 
-| Criterio específico                                                                                                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Conclusiones                                                                                                                                  |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | Sebastian Nicolas Cachis Gonzales<br><b>TB1</b><br>Para esta entrega desarrolle el capitulo 1, hice entrevistas y tambien los diseños para la landingPage<br><br>Amner Levi Llamo Sánchez<br><b>TB1</b><br>En el análisis competitivo, evalué las prácticas éticas de las soluciones existentes y documenté aquellas que debemos adoptar o mejorar en HomeyPark.<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas]                                                                         | <b>TB1</b><br> Designamos tareas a cada integrante para optimizar el tiempo de trabajo                                                        |
-| Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | Sebastian Nicolas Cachis Gonzales <br><b>TB1</b><br>Esto me ha permito tener una mejor vision de los limites y objetivos de nuestro proyecto asi como conocer las inquietudes de nuestros segmentos objetvios<br>Amner Levi Llamo Sánchez <br><b>TB1</b><br>Analicé el impacto potencial de HomeyPark en el contexto urbano, evaluando cómo la plataforma podría afectar la movilidad, el uso eficiente de espacios y la economía local.<br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas] | <b>TB1</b><br> Hemos enfocado las habilidades de cada integrante en las areas de desarrollo que mejor dominen para una mejor linea de trabajo |
+| Criterio específico                                                                                                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Conclusiones                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | Sebastian Nicolas Cachis Gonzales<br><b>TB1</b><br>Para esta entrega desarrolle el capitulo 1, hice entrevistas y tambien los diseños para la landingPage<br><br>Amner Levi Llamo Sánchez<br><b>TB1</b><br>En el análisis competitivo, evalué las prácticas éticas de las soluciones existentes y documenté aquellas que debemos adoptar o mejorar en HomeyPark.<br><br>Marcelo Garro<br><b>TB1</b><br>Planifique y recopile de requisitos del proyecto en base a previos análisis de nuestro segmento objetivos para satisfacer sus necesidades y demandas <br> <br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas]                                                                                                                             | <b>TB1</b><br> Designamos tareas a cada integrante para optimizar el tiempo de trabajo                                                        |
+| Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | Sebastian Nicolas Cachis Gonzales <br><b>TB1</b><br>Esto me ha permito tener una mejor vision de los limites y objetivos de nuestro proyecto asi como conocer las inquietudes de nuestros segmentos objetvios<br>Amner Levi Llamo Sánchez <br><b>TB1</b><br>Analicé el impacto potencial de HomeyPark en el contexto urbano, evaluando cómo la plataforma podría afectar la movilidad, el uso eficiente de espacios y la economía local.<br><br>Marcelo Garro<br><b>TB1</b><br>Planificando el proyecto, obtuve una perspectiva más clara sobre los alcances y objetivos del proyecto, así como un mayor entendimiento de las inquietudes y expectativas de nuestros segmentos objetivo. <br><br>[Nombre del integrante]<br><b>TB1</b><br>[Descripción de acciones realizadas] | <b>TB1</b><br> Hemos enfocado las habilidades de cada integrante en las areas de desarrollo que mejor dominen para una mejor linea de trabajo |
 
 <h1 id="capitulo-i-introduccion">Capítulo I: Introducción</h1>
 
@@ -1191,21 +1192,22 @@ Esta arquitectura de navegación está diseñada para minimizar la carga cogniti
 ### 4.3.1. Landing Page Wireframe
 
 <<<<<<< Updated upstream
- <img src="../Assets/productDesign/wireframes/landingPage/landingPage1.png" width= "1000">
- <img src="../Assets/productDesign/wireframes/landingPage/landingPage2.png" width= "1000">
- <img src="../Assets/productDesign/wireframes/landingPage/landingPage_3.png" width= "1000">
- <img src="../Assets/productDesign/wireframes/landingPage/landingPage4.png" width= "1000">
- <img src="../Assets/productDesign/wireframes/landingPage/landingPage5.png" width= "1000">
- <img src="../Assets/productDesign/wireframes/landingPage/landingPage6.png" width= "1000">
+<img src="../Assets/productDesign/wireframes/landingPage/landingPage1.png" width= "1000">
+<img src="../Assets/productDesign/wireframes/landingPage/landingPage2.png" width= "1000">
+<img src="../Assets/productDesign/wireframes/landingPage/landingPage_3.png" width= "1000">
+<img src="../Assets/productDesign/wireframes/landingPage/landingPage4.png" width= "1000">
+<img src="../Assets/productDesign/wireframes/landingPage/landingPage5.png" width= "1000">
+<img src="../Assets/productDesign/wireframes/landingPage/landingPage6.png" width= "1000">
 =======
- <img src="/Assets/productDesign/wireframes/landingPage/landingPage1.png" width= "1000">
- <img src="/Assets/productDesign/wireframes/landingPage/landingPage2.png" width= "1000">
- <img src="/Assets/productDesign/wireframes/landingPage/landingPage_3.png" width= "1000">
- <img src="/Assets/productDesign/wireframes/landingPage/landingPage4.png" width= "1000">
- <img src="/Assets/productDesign/wireframes/landingPage/landingPage5.png" width= "1000">
+<img src="/Assets/productDesign/wireframes/landingPage/landingPage1.png" width= "1000">
+<img src="/Assets/productDesign/wireframes/landingPage/landingPage2.png" width= "1000">
+<img src="/Assets/productDesign/wireframes/landingPage/landingPage_3.png" width= "1000">
+<img src="/Assets/productDesign/wireframes/landingPage/landingPage4.png" width= "1000">
+<img src="/Assets/productDesign/wireframes/landingPage/landingPage5.png" width= "1000">
 <img src="/Assets/productDesign/wireframes/landingPage/landingPage-abouttheproduct.png" width= "1000">
- <img src="/Assets/productDesign/wireframes/landingPage/landingPage6.png" width= "1000">
->>>>>>> Stashed changes
+<img src="/Assets/productDesign/wireframes/landingPage/landingPage6.png" width= "1000">
+
+> > > > > > > Stashed changes
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -1235,9 +1237,9 @@ Esta arquitectura de navegación está diseñada para minimizar la carga cogniti
 <img src="/Assets/productDesign/wireframes/mobile/mobileWireframe-9.png" width= "350">
 <img src="/Assets/productDesign/wireframes/mobile/mobileWireframe-10.png" width= "350">
 
-
 ### 4.4.2. Mobile Applications Wireflow Diagrams
-**User goal:** El usuario se registra en la plataforma e inicia sesión en la aplicación con sus datos. 
+
+**User goal:** El usuario se registra en la plataforma e inicia sesión en la aplicación con sus datos.
 
 <img src="/Assets/productDesign/wireframes/mobile/mobile-wireflow-1.png" width= "1000">
 Descripción: Al iniciar la aplicación, el usuario se encuentra con el apartado de registro de cuenta, 
@@ -1249,13 +1251,13 @@ correctas, podrá acceder a la página principal de la plataforma.
 **User goal:** Usuario desea hacer la búsqueda y reserva de un espacio de estacionamiento
 <img src="/Assets/productDesign/wireframes/mobile/mobile-wireflow-2.png" width= "1000">
 <img src="/Assets/productDesign/wireframes/mobile/mobile-wireflow-3.png" width= "1000">
-Descripción: El usuario al encontrarse en la página principal, podrá visualizar y buscar 
-estacionamientos de su preferencia. Al seleccionar un estacionamiento, verá el detalle de este, aquí 
-el usuario contará con dos opciones, ver los comentarios y calificación o seleccionar la opción de 
-reservar ahora. El usuario al ingresar a la sección de calificación visualizará los comentarios que ha 
-obtenido dicho estacionamiento, así como también la calificación en general del mismo. Por otro 
-lado, luego de seleccionar la opción de reservar, el estacionamiento habrá quedado apartado y podrá 
-revisarlo en la opción de historial del menú principal, donde también podrá cancelar su reserva o 
+Descripción: El usuario al encontrarse en la página principal, podrá visualizar y buscar
+estacionamientos de su preferencia. Al seleccionar un estacionamiento, verá el detalle de este, aquí
+el usuario contará con dos opciones, ver los comentarios y calificación o seleccionar la opción de
+reservar ahora. El usuario al ingresar a la sección de calificación visualizará los comentarios que ha
+obtenido dicho estacionamiento, así como también la calificación en general del mismo. Por otro
+lado, luego de seleccionar la opción de reservar, el estacionamiento habrá quedado apartado y podrá
+revisarlo en la opción de historial del menú principal, donde también podrá cancelar su reserva o
 revisar sus reservas pasadas.
 
 ### 4.4.3. Mobile Applications Mock-ups
@@ -1294,25 +1296,25 @@ revisar sus reservas pasadas.
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
-**User goal:** El usuario se registra en la plataforma e inicia sesión en la aplicación con sus datos. 
+**User goal:** El usuario se registra en la plataforma e inicia sesión en la aplicación con sus datos.
 <img src="/Assets/productDesign/mockups/mobile/mobile-userflow-1.png" width= "1000">
 
-Descripción: Al iniciar la aplicación, el usuario se encuentra con el apartado de registro de cuenta, 
-donde podrá registrarse con su email y contraseña. Cuando le de al botón de registrarse, le mandará 
-al apartado de inicio de sesión, donde podrá ingresar sus datos anteriormente añadidos y al ser las 
-correctas, podrá acceder a la página principal de la plataforma. 
+Descripción: Al iniciar la aplicación, el usuario se encuentra con el apartado de registro de cuenta,
+donde podrá registrarse con su email y contraseña. Cuando le de al botón de registrarse, le mandará
+al apartado de inicio de sesión, donde podrá ingresar sus datos anteriormente añadidos y al ser las
+correctas, podrá acceder a la página principal de la plataforma.
 
-**User goal:** Usuario desea hacer la búsqueda y reserva de un espacio de estacionamiento 
+**User goal:** Usuario desea hacer la búsqueda y reserva de un espacio de estacionamiento
 <img src="/Assets/productDesign/mockups/mobile/mobile-userflow-2.png" width= "1000">
 <img src="/Assets/productDesign/mockups/mobile/mobile-userflow-3.png" width= "1000">
-Descripción: El usuario al encontrarse en la página principal, podrá visualizar y buscar 
-estacionamientos de su preferencia. Al seleccionar un estacionamiento, verá el detalle de este, aquí 
-el usuario contará con dos opciones, ver los comentarios y calificación o seleccionar la opción de 
-reservar ahora. El usuario al ingresar a la sección de calificación visualizará los comentarios que ha 
-obtenido dicho estacionamiento, así como también la calificación en general del mismo. Por otro 
-lado, luego de seleccionar la opción de reservar, el estacionamiento habrá quedado apartado y podrá 
-revisarlo en la opción de historial del menú principal, donde también podrá cancelar su reserva o 
-revisar sus reservas pasadas. 
+Descripción: El usuario al encontrarse en la página principal, podrá visualizar y buscar
+estacionamientos de su preferencia. Al seleccionar un estacionamiento, verá el detalle de este, aquí
+el usuario contará con dos opciones, ver los comentarios y calificación o seleccionar la opción de
+reservar ahora. El usuario al ingresar a la sección de calificación visualizará los comentarios que ha
+obtenido dicho estacionamiento, así como también la calificación en general del mismo. Por otro
+lado, luego de seleccionar la opción de reservar, el estacionamiento habrá quedado apartado y podrá
+revisarlo en la opción de historial del menú principal, donde también podrá cancelar su reserva o
+revisar sus reservas pasadas.
 
 ## 4.5. Mobile Applications Prototyping
 
@@ -1323,6 +1325,7 @@ revisar sus reservas pasadas.
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EWUZjmmplc1EqP9hCi4xBAUBhFL8yx-FMEiDc5Ub_OP53w?e=phhqcm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">link del video del prototipo</a>
 
 ### 4.5.2. iOS Mobile Applications Prototyping
+
 <img src="/Assets/productDesign/mockups/mobile/prototype-mobile-2.png">
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EWUZjmmplc1EqP9hCi4xBAUBhFL8yx-FMEiDc5Ub_OP53w?e=phhqcm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">link del video del prototipo</a>
 
