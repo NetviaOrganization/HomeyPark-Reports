@@ -45,6 +45,7 @@
 | 1.4     | 19/04/2025 | Adriano Cruz     | Desarrollo del capítulo IV            |
 | 1.2     | 06/04/2025 | Sebastian Cachis | Desarrollo del capítulo V             |
 | 1.3     | 07/04/2025 | Amner Llamo      | Desarrollo del capítulo II            |
+|1.5|24/04/2025 |Lucio Yen|Desarrollo del capítulo IV|
 
 ### Project Report Collaboration Insights
 
@@ -1189,30 +1190,141 @@ Esta arquitectura de navegación está diseñada para minimizar la carga cogniti
 
 ### 4.3.1. Landing Page Wireframe
 
+<<<<<<< Updated upstream
  <img src="../Assets/productDesign/wireframes/landingPage/landingPage1.png" width= "1000">
  <img src="../Assets/productDesign/wireframes/landingPage/landingPage2.png" width= "1000">
  <img src="../Assets/productDesign/wireframes/landingPage/landingPage_3.png" width= "1000">
  <img src="../Assets/productDesign/wireframes/landingPage/landingPage4.png" width= "1000">
  <img src="../Assets/productDesign/wireframes/landingPage/landingPage5.png" width= "1000">
  <img src="../Assets/productDesign/wireframes/landingPage/landingPage6.png" width= "1000">
+=======
+ <img src="/Assets/productDesign/wireframes/landingPage/landingPage1.png" width= "1000">
+ <img src="/Assets/productDesign/wireframes/landingPage/landingPage2.png" width= "1000">
+ <img src="/Assets/productDesign/wireframes/landingPage/landingPage_3.png" width= "1000">
+ <img src="/Assets/productDesign/wireframes/landingPage/landingPage4.png" width= "1000">
+ <img src="/Assets/productDesign/wireframes/landingPage/landingPage5.png" width= "1000">
+<img src="/Assets/productDesign/wireframes/landingPage/landingPage-abouttheproduct.png" width= "1000">
+ <img src="/Assets/productDesign/wireframes/landingPage/landingPage6.png" width= "1000">
+>>>>>>> Stashed changes
 
 ### 4.3.2. Landing Page Mock-up
+
+<img src="/Assets/productDesign/mockups/landingPage/landingPageMockUp-1.png" width= "1000">
+<img src="/Assets/productDesign/mockups/landingPage/landingPageMockUp-2.png" width= "1000">
+<img src="/Assets/productDesign/mockups/landingPage/landingPageMockUp-3.png" width= "1000">
+<img src="/Assets/productDesign/mockups/landingPage/landingPageMockUp-4.png" width= "1000">
+<img src="/Assets/productDesign/mockups/landingPage/landingPageMockUp-5.png" width= "1000">
+<img src="/Assets/productDesign/mockups/landingPage/landingPageMockUp-6.png" width= "1000">
+<img src="/Assets/productDesign/mockups/landingPage/landingPageMockUp-7.png" width= "1000">
+<img src="/Assets/productDesign/mockups/landingPage/landingPageMockUp-8.png" width= "1000">
+<img src="/Assets/productDesign/mockups/landingPage/landingPageMockUp-9.png" width= "1000">
+<img src="/Assets/productDesign/mockups/landingPage/landingPageMockUp-10.png" width= "1000">
 
 ## 4.4. Mobile Applications UX/UI Design
 
 ### 4.4.1. Mobile Applications Wireframes
 
+<img src="/Assets/productDesign/wireframes/mobile/mobileWireframe-1.png" width= "350">
+<img src="/Assets/productDesign/wireframes/mobile/mobileWireframe-2.png" width= "350">
+<img src="/Assets/productDesign/wireframes/mobile/mobileWireframe-3.png" width= "350">
+<img src="/Assets/productDesign/wireframes/mobile/mobileWireframe-4.png" width= "350">
+<img src="/Assets/productDesign/wireframes/mobile/mobileWireframe-5.png" width= "350">
+<img src="/Assets/productDesign/wireframes/mobile/mobileWireframe-6.png" width= "350">
+<img src="/Assets/productDesign/wireframes/mobile/mobileWireframe-7.png" width= "350">
+<img src="/Assets/productDesign/wireframes/mobile/mobileWireframe-8.png" width= "350">
+<img src="/Assets/productDesign/wireframes/mobile/mobileWireframe-9.png" width= "350">
+<img src="/Assets/productDesign/wireframes/mobile/mobileWireframe-10.png" width= "350">
+
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams
+**User goal:** El usuario se registra en la plataforma e inicia sesión en la aplicación con sus datos. 
+
+<img src="/Assets/productDesign/wireframes/mobile/mobile-wireflow-1.png" width= "1000">
+Descripción: Al iniciar la aplicación, el usuario se encuentra con el apartado de registro de cuenta, 
+donde podrá registrarse con su email y contraseña. Cuando le de al botón de registrarse, le mandará 
+al apartado de inicio de sesión, donde podrá ingresar sus datos anteriormente añadidos y al ser las 
+correctas, podrá acceder a la página principal de la plataforma. 
+<br><br>
+
+**User goal:** Usuario desea hacer la búsqueda y reserva de un espacio de estacionamiento
+<img src="/Assets/productDesign/wireframes/mobile/mobile-wireflow-2.png" width= "1000">
+<img src="/Assets/productDesign/wireframes/mobile/mobile-wireflow-3.png" width= "1000">
+Descripción: El usuario al encontrarse en la página principal, podrá visualizar y buscar 
+estacionamientos de su preferencia. Al seleccionar un estacionamiento, verá el detalle de este, aquí 
+el usuario contará con dos opciones, ver los comentarios y calificación o seleccionar la opción de 
+reservar ahora. El usuario al ingresar a la sección de calificación visualizará los comentarios que ha 
+obtenido dicho estacionamiento, así como también la calificación en general del mismo. Por otro 
+lado, luego de seleccionar la opción de reservar, el estacionamiento habrá quedado apartado y podrá 
+revisarlo en la opción de historial del menú principal, donde también podrá cancelar su reserva o 
+revisar sus reservas pasadas.
 
 ### 4.4.3. Mobile Applications Mock-ups
 
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-1.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-2.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-3.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-4.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-5.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-6.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-7.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-8.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-9.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-10.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-11.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-12.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-13.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-14.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-15.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-16.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-17.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-18.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-19.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-20.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-21.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-22.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-23.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-24.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-25.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-26.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-27.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-28.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-29.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-30.png" width= "350">
+<img src="/Assets/productDesign/mockups/mobile/mobileMockup-31.png" width= "350">
+
 ### 4.4.4. Mobile Applications User Flow Diagrams
+
+**User goal:** El usuario se registra en la plataforma e inicia sesión en la aplicación con sus datos. 
+<img src="/Assets/productDesign/mockups/mobile/mobile-userflow-1.png" width= "1000">
+
+Descripción: Al iniciar la aplicación, el usuario se encuentra con el apartado de registro de cuenta, 
+donde podrá registrarse con su email y contraseña. Cuando le de al botón de registrarse, le mandará 
+al apartado de inicio de sesión, donde podrá ingresar sus datos anteriormente añadidos y al ser las 
+correctas, podrá acceder a la página principal de la plataforma. 
+
+**User goal:** Usuario desea hacer la búsqueda y reserva de un espacio de estacionamiento 
+<img src="/Assets/productDesign/mockups/mobile/mobile-userflow-2.png" width= "1000">
+<img src="/Assets/productDesign/mockups/mobile/mobile-userflow-3.png" width= "1000">
+Descripción: El usuario al encontrarse en la página principal, podrá visualizar y buscar 
+estacionamientos de su preferencia. Al seleccionar un estacionamiento, verá el detalle de este, aquí 
+el usuario contará con dos opciones, ver los comentarios y calificación o seleccionar la opción de 
+reservar ahora. El usuario al ingresar a la sección de calificación visualizará los comentarios que ha 
+obtenido dicho estacionamiento, así como también la calificación en general del mismo. Por otro 
+lado, luego de seleccionar la opción de reservar, el estacionamiento habrá quedado apartado y podrá 
+revisarlo en la opción de historial del menú principal, donde también podrá cancelar su reserva o 
+revisar sus reservas pasadas. 
 
 ## 4.5. Mobile Applications Prototyping
 
 ### 4.5.1. Android Mobile Applications Prototyping
 
+<img src="/Assets/productDesign/mockups/mobile/prototype-mobile-1.png">
+
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EWUZjmmplc1EqP9hCi4xBAUBhFL8yx-FMEiDc5Ub_OP53w?e=phhqcm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">link del video del prototipo</a>
+
 ### 4.5.2. iOS Mobile Applications Prototyping
+<img src="/Assets/productDesign/mockups/mobile/prototype-mobile-2.png">
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EWUZjmmplc1EqP9hCi4xBAUBhFL8yx-FMEiDc5Ub_OP53w?e=phhqcm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">link del video del prototipo</a>
 
 ## 4.6. Web Applications UX/UI Design
 
