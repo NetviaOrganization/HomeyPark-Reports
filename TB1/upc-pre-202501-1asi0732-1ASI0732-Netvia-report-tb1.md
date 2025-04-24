@@ -1153,7 +1153,148 @@ Además, se implementa el patrón CQRS (Command Query Responsibility Segregation
 
 ### 4.9.1. Class Diagrams
 
+El siguiente diagrama muestra las clases principales del sistema HomeyPark, incluyendo sus atributos, métodos y relaciones. Este modelo fue construido a partir de los escenarios del dominio y la funcionalidad esperada por los usuarios del sistema.
+
+<img src = "../Assets/ClassDiagram.png">
+
 ### 4.9.2. Class Dictionary
+
+A continuación se presenta el diccionario de clases con los atributos, tipos y descripciones de las clases más relevantes del modelo.
+
+### Clase Usuario
+<table>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Código para el usuario</td></tr>
+    <tr><td>nombre</td><td>String</td><td>Nombre del usuario</td></tr>
+    <tr><td>apellido</td><td>String</td><td>Apellido del usuario</td></tr>
+    <tr><td>email</td><td>String</td><td>Correo del usuario</td></tr>
+    <tr><td>contrasena</td><td>String</td><td>Contraseña del usuario</td></tr>
+    <tr><td>historialReservas</td><td>Reserva[]</td><td>Lista de reservas hechas por el usuario</td></tr>
+  </tbody>
+</table>
+
+
+### Clase Preferencias
+
+<table>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>tema</td><td>String</td><td>Tema de visualización</td></tr>
+    <tr><td>idioma</td><td>String</td><td>Idioma preferido</td></tr>
+    <tr><td>estacionamientosFavoritos</td><td>Estacionamiento[]</td><td>Estacionamientos favoritos</td></tr>
+  </tbody>
+</table>
+
+
+### Clase Vehículo
+
+<table>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador del vehículo</td></tr>
+    <tr><td>placa</td><td>String</td><td>Placa del vehículo</td></tr>
+    <tr><td>modelo</td><td>String</td><td>Modelo del vehículo</td></tr>
+    <tr><td>marca</td><td>String</td><td>Marca del vehículo</td></tr>
+  </tbody>
+</table>
+
+
+### Clase Guest
+
+<table>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>vehiculo</td><td>Vehiculo</td><td>Vehículo asignado</td></tr>
+    <tr><td>reservaActiva</td><td>Reserva</td><td>Reserva actualmente activa</td></tr>
+  </tbody>
+</table>
+
+
+### Clase Host
+
+<table>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>estacionamientos</td><td>Estacionamiento[]</td><td>Estacionamientos administrados</td></tr>
+  </tbody>
+</table>
+
+
+### Clase Reserva
+
+<table>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador de la reserva</td></tr>
+    <tr><td>guest</td><td>Guest</td><td>Usuario que reserva</td></tr>
+    <tr><td>host</td><td>Host</td><td>Propietario del espacio</td></tr>
+    <tr><td>estacionamiento</td><td>Estacionamiento</td><td>Espacio reservado</td></tr>
+    <tr><td>vehiculo</td><td>Vehiculo</td><td>Vehículo asociado</td></tr>
+    <tr><td>tiempoRegistrado</td><td>String</td><td>Hora de registro</td></tr>
+    <tr><td>tarifaTotal</td><td>double</td><td>Costo total</td></tr>
+    <tr><td>horaInicio</td><td>String</td><td>Inicio de la reserva</td></tr>
+    <tr><td>horaFin</td><td>String</td><td>Fin de la reserva</td></tr>
+    <tr><td>resena</td><td>String</td><td>Reseña del usuario</td></tr>
+    <tr><td>calificacion</td><td>double</td><td>Puntaje otorgado</td></tr>
+    <tr><td>estado</td><td>String</td><td>Estado de la reserva</td></tr>
+  </tbody>
+</table>
+
+
+### Clase Estacionamiento
+
+<table>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador del espacio</td></tr>
+    <tr><td>ubicacion</td><td>Ubicacion</td><td>Ubicación física</td></tr>
+    <tr><td>ancho</td><td>double</td><td>Ancho del espacio</td></tr>
+    <tr><td>largo</td><td>double</td><td>Largo del espacio</td></tr>
+    <tr><td>alto</td><td>double</td><td>Altura del espacio</td></tr>
+    <tr><td>maxCapacidad</td><td>int</td><td>Capacidad máxima</td></tr>
+    <tr><td>capDisponible</td><td>int</td><td>Capacidad disponible</td></tr>
+    <tr><td>tarifaPorHora</td><td>double</td><td>Precio por hora</td></tr>
+    <tr><td>calificacionTotal</td><td>double</td><td>Promedio de calificaciones</td></tr>
+    <tr><td>resenas</td><td>String[]</td><td>Lista de reseñas</td></tr>
+    <tr><td>horarioInicio</td><td>String</td><td>Inicio de disponibilidad</td></tr>
+    <tr><td>horarioFin</td><td>String</td><td>Fin de disponibilidad</td></tr>
+    <tr><td>horarioOcupado</td><td>(inicio, fin)</td><td>Horas ocupadas</td></tr>
+  </tbody>
+</table>
+
+
+### Clase Ubicacion
+
+<table>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>String</td><td>Identificador de ubicación</td></tr>
+    <tr><td>distrito</td><td>String</td><td>Distrito</td></tr>
+    <tr><td>ciudad</td><td>String</td><td>Ciudad</td></tr>
+    <tr><td>coordenadas</td><td>String[]</td><td>Latitud y longitud</td></tr>
+    <tr><td>tipoDireccion</td><td>String</td><td>Tipo de vía</td></tr>
+    <tr><td>numeroDireccion</td><td>String</td><td>Número del inmueble</td></tr>
+    <tr><td>calle</td><td>String</td><td>Nombre de la calle</td></tr>
+    <tr><td>referencia</td><td>String</td><td>Referencia adicional</td></tr>
+  </tbody>
+</table>
 
 ## 4.10. Database Design
 
