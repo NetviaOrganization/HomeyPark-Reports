@@ -52,12 +52,8 @@
 **TB1**  
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
-| Integrante              | Tareas Designadas                    |
-| ----------------------- | ------------------------------------ |
-| Sebastian Cachis        | Desarrollo de todo el capítulo I y V |
-| Amner Llamo             | Desarrollo de todo el capítulo II    |
-| [Nombre del integrante] | [Tareas]                             |
-| ...                     | ...                                  |
+<img src="/Assets/insights-1.png">
+<img src="/Assets/insights-2.png">
 
 # Tabla de Contenidos
 
@@ -1190,14 +1186,6 @@ Esta arquitectura de navegación está diseñada para minimizar la carga cogniti
 
 ### 4.3.1. Landing Page Wireframe
 
-<<<<<<< Updated upstream
- <img src="../Assets/productDesign/wireframes/landingPage/landingPage1.png" width= "1000">
- <img src="../Assets/productDesign/wireframes/landingPage/landingPage2.png" width= "1000">
- <img src="../Assets/productDesign/wireframes/landingPage/landingPage_3.png" width= "1000">
- <img src="../Assets/productDesign/wireframes/landingPage/landingPage4.png" width= "1000">
- <img src="../Assets/productDesign/wireframes/landingPage/landingPage5.png" width= "1000">
- <img src="../Assets/productDesign/wireframes/landingPage/landingPage6.png" width= "1000">
-=======
  <img src="/Assets/productDesign/wireframes/landingPage/landingPage1.png" width= "1000">
  <img src="/Assets/productDesign/wireframes/landingPage/landingPage2.png" width= "1000">
  <img src="/Assets/productDesign/wireframes/landingPage/landingPage_3.png" width= "1000">
@@ -1205,7 +1193,6 @@ Esta arquitectura de navegación está diseñada para minimizar la carga cogniti
  <img src="/Assets/productDesign/wireframes/landingPage/landingPage5.png" width= "1000">
 <img src="/Assets/productDesign/wireframes/landingPage/landingPage-abouttheproduct.png" width= "1000">
  <img src="/Assets/productDesign/wireframes/landingPage/landingPage6.png" width= "1000">
->>>>>>> Stashed changes
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -1329,14 +1316,68 @@ revisar sus reservas pasadas.
 ## 4.6. Web Applications UX/UI Design
 
 ### 4.6.1. Web Applications Wireframes
+<img src="/Assets/productDesign/wireframes/web/web-wireframe-1.png" width=1000>
+<img src="/Assets/productDesign/wireframes/web/web-wireframe-2.png" width=1000>
+<img src="/Assets/productDesign/wireframes/web/web-wireframe-3.png" width=1000>
+<img src="/Assets/productDesign/wireframes/web/web-wireframe-4.png" width=1000>
+<img src="/Assets/productDesign/wireframes/web/web-wireframe-5.png" width=1000>
+<img src="/Assets/productDesign/wireframes/web/web-wireframe-6.png" width=1000>
+<img src="/Assets/productDesign/wireframes/web/web-wireframe-7.png" width=1000>
 
 ### 4.6.2. Web Applications Wireflow Diagrams
+**User goal:** El usuario se registra en la plataforma e inicia sesión en la aplicación con sus datos. 
+<img src="/Assets/productDesign/wireframes/web/wireflow-web-1.png" width=1000>
+Descripción: Al iniciar la aplicación, el usuario se encuentra con el apartado de registro de cuenta, 
+donde podrá registrarse con su email y contraseña. Cuando le de al botón de registrarse, le mandará 
+al apartado de inicio de sesión, donde podrá ingresar sus datos anteriormente añadidos y al ser las 
+correctas, podrá acceder a la página principal de la plataforma. 
+<br><br>
+
+**User goal:** Usuario desea hacer la búsqueda y reserva de un espacio de estacionamiento
+<img src="/Assets/productDesign/wireframes/web/wireflow-web-1.png" width=1000>
+Descripción: El usuario al encontrarse en la página principal, podrá visualizar y buscar 
+estacionamientos de su preferencia. Al seleccionar un estacionamiento, verá el detalle de este, aquí 
+el usuario contará con dos opciones, ver los comentarios y calificación o seleccionar la opción de 
+reservar ahora. El usuario al ingresar a la sección de calificación visualizará los comentarios que ha 
+obtenido dicho estacionamiento, así como también la calificación en general del mismo. Por otro 
+lado, luego de seleccionar la opción de reservar, el estacionamiento habrá quedado apartado y podrá 
+revisarlo en la opción de historial del menú principal, donde también podrá cancelar su reserva o 
+revisar sus reservas pasadas.
 
 ### 4.6.3. Web Applications Mock-ups
+<img src="/Assets/productDesign/mockups/web/web-mockup-1.png" width=1000>
+<img src="/Assets/productDesign/mockups/web/web-mockup-2.png" width=1000>
+<img src="/Assets/productDesign/mockups/web/web-mockup-3.png" width=1000>
+<img src="/Assets/productDesign/mockups/web/web-mockup-4.png" width=1000>
+<img src="/Assets/productDesign/mockups/web/web-mockup-5.png" width=1000>
+<img src="/Assets/productDesign/mockups/web/web-mockup-6.png" width=1000>
+<img src="/Assets/productDesign/mockups/web/web-mockup-7.png" width=1000>
+<img src="/Assets/productDesign/mockups/web/web-mockup-8.png" width=1000>
 
 ### 4.6.4. Web Applications User Flow Diagrams
+**User goal:** El usuario se registra en la plataforma e inicia sesión en la aplicación con sus datos. 
+
+<img src="/Assets/productDesign/mockups/web/userflow-web-1.png" width=1000>
+Descripción: Al iniciar la aplicación web, el usuario se encuentra con el apartado de registro de cuenta, 
+donde podrá registrarse con su email y contraseña. Cuando le de al botón de registrarse, le mandará 
+al apartado de inicio de sesión, donde podrá ingresar sus datos anteriormente añadidos y al ser las 
+correctas, podrá acceder a la página principal de la plataforma. 
+
+**User goal:** Usuario desea hacer la búsqueda y reserva de un espacio de estacionamiento 
+<img src="/Assets/productDesign/mockups/web/userflow-web-2.png" width=1000>
+Descripción: El usuario al encontrarse en la página principal, podrá visualizar y buscar 
+estacionamientos de su preferencia. Al seleccionar un estacionamiento, verá el detalle de este, aquí 
+el usuario contará con dos opciones, ver los comentarios y calificación o seleccionar la opción de 
+reservar ahora. El usuario al ingresar a la sección de calificación visualizará los comentarios que ha 
+obtenido dicho estacionamiento, así como también la calificación en general del mismo. Por otro 
+lado, luego de seleccionar la opción de reservar, el estacionamiento habrá quedado apartado y podrá 
+revisarlo en la opción de historial del menú principal, donde también podrá cancelar su reserva o 
+revisar sus reservas pasadas. 
 
 ## 4.7. Web Applications Prototyping
+
+<img src="/Assets/productDesign/mockups/web/web-prototype-img.png" width=1000>
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EfXtNH6HbHlJr_jELYgjU_wBZ7tcQHge1PQaVbP8lUP0Gg?e=5up9mz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">link del video del prototipo</a>
 
 ## 4.8. Domain-Driven Software Architecture
 
