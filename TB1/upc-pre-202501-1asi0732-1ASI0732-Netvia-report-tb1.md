@@ -824,6 +824,7 @@ El Ubiquitous Language es un conjunto de términos y conceptos que comparten los
 <h1 id="capitulo-iii-requirements-specification">Capítulo III: Requirements Specification</h1>
 
 ## 3.1. To-Be Scenario Mapping
+
 A continuación, mostraremos la experiencia ideal de los usuarios al usar la aplicación HomeyPark para encontrar y reservar espacios de estacionamiento. Los conductores pueden ubicar rápidamente lugares disponibles cerca de su destino, mientras que los propietarios de cocheras pueden rentarlas de forma segura cuando no las utilizan.
 
 ### **Usuario de Parking**
@@ -970,6 +971,16 @@ El Product Backlog es una lista priorizada de funcionalidades, mejoras y requeri
 | 53    | US-08 | Ver footer                                   | Como usuario, quiero un footer para acceder a información adicional.                                  | EP1   |            1 |
 
 ## 3.4. Impact Mapping
+
+El Impact Mapping es una técnica de planificación estratégica y visualización que nos ayuda a trazar el camino desde los objetivos del negocio hasta las entregas concretas. En el contexto de HomeyPark, utilizamos esta herramienta para conectar nuestros objetivos principales con los actores clave, sus comportamientos y las acciones específicas que necesitamos implementar.
+
+### **Usuario de Parking**
+
+![Impact Mapping Usuario de Parking](./../Assets/scenarioMapping/impact-mapping-usuario-parking.png)
+
+### **Anfitrion**
+
+![Impact Mapping Usuario de Parking](./../Assets/scenarioMapping/impact-mapping-anfitrion.png)
 
 <h1 id="capitulo-iv-product-design">Capítulo IV: Product Design</h1>
 
@@ -1401,8 +1412,7 @@ llamadas, compartir pantalla y dividir por salas para una mejor organización.
 **Trello.** Usamos esta herramienta de gestión de tareas por tarjetas debido a su facilidad y
 mostrar visibilidad del progreso en el desarrollo de actividades del equipo por
 integrantes.
-**
-WhatsApp.** Principal medio de comunicación para mantenernos conectados por medio
+**WhatsApp.** Principal medio de comunicación para mantenernos conectados por medio
 de mensajes de texto, imágenes y videos. Esta herramienta es utilizada con mayor
 frecuencia.
 
