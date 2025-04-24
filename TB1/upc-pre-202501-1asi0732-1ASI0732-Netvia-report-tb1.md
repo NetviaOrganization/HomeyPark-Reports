@@ -1093,6 +1093,40 @@ sobre las tarifas.
 
 ### 4.2.5. Navigation Systems
 
+La navegación en HomeyPark ha sido diseñada para ser intuitiva, guiada y consistente a lo largo de toda la experiencia del usuario, tanto en la Landing Page como en las aplicaciones móviles y web. El objetivo es facilitar el cumplimiento de tareas como la búsqueda, reserva o publicación de estacionamientos, sin fricciones ni pérdidas de contexto.
+
+**Landing Page**
+
+En la Landing Page, se implementan elementos visuales y patrones de navegación claros que permiten a los usuarios explorar rápidamente la propuesta de valor. Se incluyen:
+
+- Barra de navegación fija que permite moverse entre secciones como beneficios, precios, testimonios y contacto.
+
+- Botones de acción visibles (“Regístrate”, “Reserva ahora”) que redirigen a las vistas correspondientes según el perfil del usuario.
+
+- Scroll guiado verticalmente, con secciones jerarquizadas para facilitar la lectura secuencial del contenido.
+
+**Aplicaciones móviles y web**
+
+En las plataformas principales del producto, se utilizan rutas nombradas y una estructura de navegación jerárquica y contextual:
+
+- Menú de navegación lateral o inferior (según la plataforma) para acceder rápidamente a vistas clave como Inicio, Mis reservas, Mis vehículos, Mi perfil, Buscar estacionamientos, entre otros.
+
+- Navegación a través de botones contextuales, como "Reservar", "Ver detalles", "Editar perfil", que llevan al usuario a pantallas específicas dentro de su flujo actual.
+
+- Integración con Google Maps que permite navegación basada en geolocalización para visualizar y seleccionar espacios cercanos.
+
+- Uso de breadcrumbs y retrocesos claros, especialmente en la versión web, para no perder el hilo de navegación.
+
+**Técnicas y acciones clave**
+
+- Uso de flujos de usuario (user flows) previamente definidos para asegurar que cada perfil (guest y host) pueda alcanzar sus objetivos con el mínimo de pasos.
+
+- Incorporación de redirecciones automáticas post-registro/login hacia los dashboards personalizados según el rol.
+
+- Inclusión de notificaciones y alertas para guiar acciones pendientes (como confirmar reservas o completar registros).
+
+Esta arquitectura de navegación está diseñada para minimizar la carga cognitiva, mantener a los usuarios orientados y maximizar la eficiencia en la interacción con la plataforma.
+
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
