@@ -1719,13 +1719,12 @@ Enlace al repositorio: https://github.com/NetviaOrganization/HomeyPark-Web-Servi
 | US- | Búsqueda de estacionamiento por dirección         | TASK-002      |       |             | 2                  | Adriano Cruz     | Done                                                   |
 | US- | Usar ubicación de dispositivo para buscar en mapa | TASK-003      |       |             | 1                  | Amner Llamo      | Done                                                   |
 | US- | Ver espacios de estacionamientos cercanos         | TASK-004      |       |             | 2                  | Marcelo Garro    | Done                                                   |
-| US- | Visualizar detalles de estacionamiento            | TASK-005      |       |             | 2                  | Lucio Yen        | Done                                                   |
-| US- | Visualizar calificación de estacionamiento        | TASK-006      |       |             | 2                  | Sebastian Cachis | Done                                                   |
-| US- | Visualizar el entorno del estacionamiento         | TASK-007      |       |             | 2                  | Adriano Cruz     | Done                                                   |
-| US- | Registrar una cochera                             | TASK-008      |       |             | 3                  | Amner Llamo      | Done                                                   |
-| US- | Visualizar cocheras registradas                   | TASK-009      |       |             | 2                  | Marcelo Garro    | Done                                                   |
-| US- | Modificar cochera registrada                      | TASK-010      |       |             | 2                  | Lucio Yen        | Done                                                   |
-| US- | Eliminar la cochera                               | TASK-011      |       |             | 1                  | Sebastian Cachis | Done                                                   |
+| US- | Visualizar detalles de estacionamiento            | TASK-005      |       |             | 2                  | Lucio Yen        | Done                                                   |                                                  |
+| US- | Visualizar el entorno del estacionamiento         | TASK-006      |       |             | 2                  | Adriano Cruz     | Done                                                   |
+| US- | Registrar una cochera                             | TASK-007      |       |             | 3                  | Amner Llamo      | Done                                                   |
+| US- | Visualizar cocheras registradas                   | TASK-008      |       |             | 2                  | Marcelo Garro    | Done                                                   |
+| US- | Modificar cochera registrada                      | TASK-009      |       |             | 2                  | Lucio Yen        | Done                                                   |
+| US- | Eliminar la cochera                               | TASK-010      |       |             | 1                  | Sebastian Cachis | Done                                                   |
 
 ### 5.2.2. Implemented Landing Page Evidence
 
