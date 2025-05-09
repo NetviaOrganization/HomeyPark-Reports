@@ -30,7 +30,7 @@
 | Marcelo Fabian Garro Vega       | u20201c410 |
 | Lucio Heli Yen Cerna            | u202213143 |
 
-### Abril del 2025
+### Mayo del 2025
 
 </div>
 
@@ -50,11 +50,17 @@
 
 ### Project Report Collaboration Insights
 
-**TB1**  
+**TB1**    
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
 <img src="../Assets/insights-1.png">
 <img src="../Assets/insights-2.png">
+
+**TP1**   
+Para el desarrollo del informe perteneciente a la entrega TP1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+<img src="../Assets/insights-3.png">
+<img src="../Assets/insights-4.png">
 
 # Tabla de Contenidos
 
@@ -150,11 +156,33 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
   - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
   - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
   - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-  - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-  - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
-  - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
-  - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+  - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio-saas)
+  - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
+  - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
+  - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
+  - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
 - [5.3. Video About-the-Product](#53-video-about-the-product)
+
+### [Capítulo VI: Product Verification & Validation](#capitulo-vi-product-verification--validation)
+
+- [6.1. Testing Suites & Validation](#61-testing-suites--validation)
+  - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
+  - [6.1.2. Core Integration Tests](#612-core-integration-tests)
+  - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+  - [6.1.4. Core System Tests](#614-core-system-tests)
+
+### [Capítulo VII: DevOps Practices](#capitulo-vii-devops-practices)
+
+- [7.1. Continuous Integration](#71-continuous-integration)
+  - [7.1.1. Tools and Practices](#711-tools-and-practices)
+  - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
+- [7.2. Continuous Delivery](#72-continuous-delivery)
+  - [7.2.1. Tools and Practices](#721-tools-and-practices)
+  - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+- [7.3. Continuous Deployment](#73-continuous-deployment)
+  - [7.3.1. Tools and Practices](#731-tools-and-practices)
+  - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+
 
 - [Conclusiones, Bibliografía y Anexos](#conclusiones-bibliografía-y-anexos)
 
@@ -1746,7 +1774,11 @@ Como resultado del primer sprint, se presenta el despliegue de la Landing Page
 
 <img src="../Assets/implementedWebApp/detail-parking-web.png" width="400"/>
 
-### 5.2.4. Implemented Native-Mobile Application Evidence
+<h3 id="524-acuerdo-de-servicio-saas">5.2.4. Acuerdo de Servicio - SaaS</h3>
+
+# Falta ....................
+
+### 5.2.5. Implemented Native-Mobile Application Evidence
 
 A continuación, se presentan las pantallas de nuestra aplicación móvil:
 
@@ -1756,7 +1788,7 @@ A continuación, se presentan las pantallas de nuestra aplicación móvil:
 
 <img src="../Assets/vehiculos.png" width="250"/>
 
-### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 Crear un usuario
 
@@ -1788,7 +1820,7 @@ Obtener todas las reservaciones
 
 <img src="../Assets/ImplementedRESTfulAPI/get-reservation.png" width="400"/>
 
-### 5.2.6. RESTful API documentation
+### 5.2.7. RESTful API documentation
 
 En esta sección se presentan los endpoints desarrollados en el presente sprint y se adjuntan capturas de
 las acciones CRUD realizadas con OpenAPI. Dentro del alcance del sprint, se han desarrollado los
@@ -1797,7 +1829,8 @@ Management, Location Management, y Vehicle Management.
 
 <img src="../Assets/backend.png" width="550"/>
 
-### 5.2.7. Team Collaboration Insights
+### 5.2.8. Team Collaboration Insights
+
 
 | Nombre                          | Actividad                                                |
 | ------------------------------- | -------------------------------------------------------- |
@@ -1809,11 +1842,33 @@ Management, Location Management, y Vehicle Management.
 
 Se realizaron los commits por una persona, pero eso desestima el aporte evidenciado entre los miebros de grupo.
 
+
 ## 5.3. Video About-the-Product
 
 [Video del Producto](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c410_upc_edu_pe/Ed-CJXEtQkhNgspiE93_ZogBiQ-p2sSwNMiWje5okRfPEw?e=9Rypp3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <img src="../Assets/about-product.png"/>
+
+<h1 id="capitulo-vi-product-verification--validation">Capítulo VI: Product Verification & Validation</h1>
+
+## 6.1. Testing Suites & Validation
+### 6.1.1. Core Entities Unit Tests
+### 6.1.2. Core Integration Tests
+### 6.1.3. Core Behavior-Driven Development
+### 6.1.4. Core System Tests
+
+
+<h1 id="capitulo-vii-devops-practices">Capítulo VII: DevOps Practices</h1>
+
+## 7.1. Continuous Integration
+### 7.1.1. Tools and Practices
+### 7.1.2. Build & Test Suite Pipeline Components
+## 7.2. Continuous Delivery
+### 7.2.1. Tools and Practices
+### 7.2.2. Stages Deployment Pipeline Components
+## 7.3. Continuous Deployment
+### 7.3.1. Tools and Practices
+### 7.3.2. Production Deployment Pipeline Components
 
 # Conclusiones, Bibliografía y Anexos
 
