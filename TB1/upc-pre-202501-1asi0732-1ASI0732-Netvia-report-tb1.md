@@ -150,10 +150,11 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
   - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
   - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
   - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-  - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-  - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
-  - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
-  - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+  - [5.2.4. Acuerdo de Servicio - SaaS]()
+  - [5.2.5. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
+  - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
+  - [5.2.7. RESTful API documentation](#526-restful-api-documentation)
+  - [5.2.8. Team Collaboration Insights](#527-team-collaboration-insights)
 - [5.3. Video About-the-Product](#53-video-about-the-product)
 
 - [Conclusiones, Bibliografía y Anexos](#conclusiones-bibliografía-y-anexos)
@@ -1746,7 +1747,9 @@ Como resultado del primer sprint, se presenta el despliegue de la Landing Page
 
 <img src="../Assets/implementedWebApp/detail-parking-web.png" width="400"/>
 
-### 5.2.4. Implemented Native-Mobile Application Evidence
+### 5.2.4. Acuerdo de Servicio - SaaS
+
+### 5.2.5. Implemented Native-Mobile Application Evidence
 
 A continuación, se presentan las pantallas de nuestra aplicación móvil:
 
@@ -1756,7 +1759,7 @@ A continuación, se presentan las pantallas de nuestra aplicación móvil:
 
 <img src="../Assets/vehiculos.png" width="250"/>
 
-### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 Crear un usuario
 
@@ -1788,7 +1791,7 @@ Obtener todas las reservaciones
 
 <img src="../Assets/ImplementedRESTfulAPI/get-reservation.png" width="400"/>
 
-### 5.2.6. RESTful API documentation
+### 5.2.7. RESTful API documentation
 
 En esta sección se presentan los endpoints desarrollados en el presente sprint y se adjuntan capturas de
 las acciones CRUD realizadas con OpenAPI. Dentro del alcance del sprint, se han desarrollado los
@@ -1797,7 +1800,7 @@ Management, Location Management, y Vehicle Management.
 
 <img src="../Assets/backend.png" width="550"/>
 
-### 5.2.7. Team Collaboration Insights
+### 5.2.8. Team Collaboration Insights
 
 | Nombre                          | Actividad                                                |
 | ------------------------------- | -------------------------------------------------------- |
