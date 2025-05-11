@@ -1881,6 +1881,13 @@ Vehicle Controller Test
 <img src="../Assets/chapter6/Integ_Vehicle.png"/>
 
 ### 6.1.3. Core Behavior-Driven Development
+
+<img src="../Assets/chapter6/Behavior-DrivenAll.png"/>
+
+<img src="../Assets/chapter6/Behavior-DrivenUS09.png"/>
+
+<img src="../Assets/chapter6/Behavior-DrivenUS10.png"/>
+
 ### 6.1.4. Core System Tests
 
 
