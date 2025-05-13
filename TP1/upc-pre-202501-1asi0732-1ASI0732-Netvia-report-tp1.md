@@ -1907,6 +1907,26 @@ Vehicle Service Test
 
 <img src="../Assets/chapter6/Unit_Vehicle.png"/>
 
+Location Service Test
+
+<img src="../Assets/chapter6/Unit_Location.png"/>
+
+Parking Service Test
+
+<img src="../Assets/chapter6/Unit_Parking.png"/>
+
+Schedule Service Test
+
+<img src="../Assets/chapter6/Unit_Schedule.png"/>
+
+Reservation Service Test
+
+<img src="../Assets/chapter6/Unit_Reservation.png"/>
+
+Profile Service Test
+
+<img src="../Assets/chapter6/Unit_Profile.png"/>
+
 ### 6.1.2. Core Integration Tests
 
 Las Core Integration Tests resultan esenciales para verificar la correcta interacción de los controladores con otros componentes del sistema, tales como servicios y bases de datos. Al poner a prueba escenarios de error, estas pruebas aseguran que el sistema gestione apropiadamente situaciones inesperadas y responda con los códigos de estado precisos. Esto se traduce en una mejor experiencia para el usuario, simplifica la depuración y contribuye a la creación de software robusto y de alta calidad.
@@ -1918,6 +1938,22 @@ Profile Controller Test
 Vehicle Controller Test
 
 <img src="../Assets/chapter6/Integ_Vehicle.png"/>
+
+Location Controller Test
+
+<img src="../Assets/chapter6/Integ_Location.png"/>
+
+Parking Controller Test
+
+<img src="../Assets/chapter6/Integ_Parking.png"/>
+
+Reservation Controller Test
+
+<img src="../Assets/chapter6/Integ_Reservation.png"/>
+
+Schedule Controller Test
+
+<img src="../Assets/chapter6/Integ_Schedule.png"/>
 
 ### 6.1.3. Core Behavior-Driven Development
 
