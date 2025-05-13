@@ -60,8 +60,8 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 **TP1**   
 Para el desarrollo del informe perteneciente a la entrega TP1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
-<img src="../Assets/insights-3.png">
-<img src="../Assets/insights-4.png">
+<img src="../Assets/insights-tp-1.png">
+<img src="../Assets/insights-tp-2.png">
 
 # Tabla de Contenidos
 
