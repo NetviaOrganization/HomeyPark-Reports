@@ -1024,7 +1024,7 @@ facilidad y conveniencia del estacionamiento. Debajo del auto, se encuentran las
 en una tipografía moderna y clara, que asegura legibilidad y fácil reconocimiento. Este diseño
 simboliza la accesibilidad y la confiabilidad que ofrecemos a través de la aplicación, reflejando
 seguridad y profesionalismo, valores fundamentales de HomeyPark.
-<img src="/Assets/productDesign/styleGuidelines/HomeyPark_logo.png">
+<img src="../Assets/productDesign/styleGuidelines/HomeyPark_logo.png">
 
 **Typography:\*** Para HomeyPark, se seleccionaron dos tipografías que trabajan en conjunto para crear
 una experiencia visual moderna y accesible. La tipografía principal es Rubik, que aporta un estilo
@@ -1033,7 +1033,7 @@ La tipografía secundaria es Mulish, utilizada para el cuerpo de texto y descrip
 diseño limpio y sencillo que mejora la legibilidad en dispositivos móviles y de escritorio. Juntas, estas
 tipografías aseguran que toda la información relevante sea clara y fácil de leer para los usuarios.
 
-<img src="/Assets/productDesign/styleGuidelines/HomeyPark_Typography.png">
+<img src="../Assets/productDesign/styleGuidelines/HomeyPark_Typography.png">
 
 **Colores:**
 Los colores seleccionados para HomeyPark están diseñados para ofrecer una experiencia visualmente
@@ -1043,7 +1043,7 @@ verde vibrante, introduce un toque de frescura y modernidad. Juntos, estos color
 atmósfera de serenidad y dinamismo, reflejando los valores de accesibilidad y confianza de nuestra
 marca.
 
-<img src="/Assets/productDesign/styleGuidelines/HomeyPark_colores.png">
+<img src="../Assets/productDesign/styleGuidelines/HomeyPark_colores.png">
 
 **Spacing:**
 Hemos adoptado un espaciado base de 4px para los márgenes y el padding en todos los elementos,
