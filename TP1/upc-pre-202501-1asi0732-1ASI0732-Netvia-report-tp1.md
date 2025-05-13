@@ -1224,7 +1224,6 @@ Esta arquitectura de navegación está diseñada para minimizar la carga cogniti
 <img src="../Assets/productDesign/wireframes/landingPage/landingPage4.png" width= "1000">
 <img src="../Assets/productDesign/wireframes/landingPage/landingPage5.png" width= "1000">
 <img src="../Assets/productDesign/wireframes/landingPage/landingPage-abouttheproduct.png" width= "1000"><img src="../Assets/productDesign/wireframes/landingPage/landingPage6.png" width= "1000">
->>>>>>> Stashed changes
 
 ### 4.3.2. Landing Page Mock-up
 
