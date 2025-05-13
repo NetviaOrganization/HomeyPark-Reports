@@ -1817,6 +1817,10 @@ HomeyPark es una solución SaaS que permite a conductores (en adelante, "Usuario
 8. Legislación Aplicable  
 - Este Acuerdo se regirá por las leyes de la República del Perú. Ante cualquier controversia, las partes se someten a la jurisdicción de los tribunales del distrito judicial de Lima Metropolitana.
 
+<img src="../Assets/Terminos-y-Condiciones.png"/>
+
+Link: https://homey-park-experiments.web.app/terms-conditions
+
 ### 5.2.5. Implemented Native-Mobile Application Evidence
 
 A continuación, se presentan las pantallas de nuestra aplicación móvil:
