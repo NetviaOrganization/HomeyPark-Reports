@@ -1965,6 +1965,25 @@ Schedule Controller Test
 
 ### 6.1.4. Core System Tests
 
+| US-09           | Registrarse | Given el usuario está en la página de registro, mWhen completa todos los campos requeridos y presiona “Registrarse”, Then se crea la cuenta y se redirige al login. Given el usuario ingresa un correo ya registrado, When intenta crear la cuenta, Then se muestra un mensaje de error.     |
+| ----------------|----------------| ---------- |
+
+<img src="../Assets/chapter6/US09-Test.png"/>
+
+| US-10           | Iniciar sesión | Given el usuario tiene una cuenta registrada, When ingresa credenciales válidas y presiona “Iniciar sesión”, Then accede a su dashboard. Given el usuario ingresa credenciales incorrectas, When intenta iniciar sesión, Then se muestra un mensaje de error y no se permite el acceso.     |
+| ----------------|----------------| ---------- |
+
+<img src="../Assets/chapter6/US10-Test.png"/>
+
+| US-12           | Buscar estacionamientos por dirección | Given el usuario ingresa una dirección válida, When presiona el botón de buscar, Then se muestran las cocheras disponibles en esa zona. Given el usuario ingresa una dirección inválida, When intenta buscar, Then se muestra un mensaje de error.     |
+| ----------------|----------------| ---------- |
+
+<img src="../Assets/chapter6/US12-Test.png"/>
+
+| US-13           | Visualizar estacionamientos en mapa Given hay estacionamientos disponibles | When el usuario accede al mapa, Then se muestran los marcadores en la ubicación correcta. Given no hay estacionamientos, When el usuario accede al mapa, Then se muestra un mensaje indicando "Sin resultados".     |
+| ----------------|----------------| ---------- |
+
+<img src="../Assets/chapter6/US13-Test.png"/>
 
 <h1 id="capitulo-vii-devops-practices">Capítulo VII: DevOps Practices</h1>
 
