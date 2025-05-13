@@ -2152,6 +2152,13 @@ El pipeline de despliegue a producción está completamente automatizado y se ej
   Identificar desafíos y riesgos iniciales para planificar estrategias de mitigación.
   En resumen, esta fase inicial establece una base sólida para el desarrollo de HomeyPark, demostrando la capacidad del equipo para abordar el problema, entender a los usuarios y diseñar una solución tecnológica viable.
 
+  Durante esta segunda fase del proyecto, se consolidaron avances clave en la implementación del producto. Se refactorizaron los módulos del frontend y backend, siguiendo principios de arquitectura limpia y el patrón CQRS, lo cual permitió una mejor organización de la lógica de negocio y una mayor escalabilidad del sistema.
+  Un aspecto importante fue la realización de pruebas a diferentes niveles: se implementaron pruebas unitarias, integrales y funcionales, cubriendo tanto los servicios del backend como los flujos principales del sistema, garantizando así la robustez del producto ante distintos escenarios de uso.
+  Por otro lado, se configuraron pipelines de integración y despliegue continuo (CI/CD) mediante GitHub Actions y Render, lo cual aseguró la entrega automática y confiable de cada nueva versión del backend en producción.
+  En síntesis, la segunda etapa del proyecto consolidó la transición de la propuesta conceptual a un producto funcional. Se completaron desarrollos clave del frontend, backend y landing page, se validaron funcionalidades mediante pruebas unitarias, integrales y funcionales, y se implementaron pipelines CI/CD que garantizan la calidad y continuidad del despliegue. Estos avances fortalecen la viabilidad técnica del sistema y preparan el terreno para una siguiente fase de validación con usuarios reales.
+
+  
+
 - ## Bibliografía
 
 El Comercio. (2024). Congestión vehicular en Lima: La ciudad más lenta de América Latina con solo 14.5 km/h en hora punta. https://elcomercio.pe/lima/congestion-vehicular-en-lima-la-ciudad-mas-lenta-de-america-latina-con-solo-145-kmh-en-hora-punta-trafico-caos-vehicular-ultimas-noticia/
