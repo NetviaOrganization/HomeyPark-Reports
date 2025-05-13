@@ -1985,6 +1985,26 @@ Schedule Controller Test
 
 <img src="../Assets/chapter6/US13-Test.png"/>
 
+| US-15           | Ver detalle de cochera | Given el usuario selecciona un estacionamiento, When accede al detalle, Then ve información completa: ubicación, precio, horario, calificación. Given hay un error al cargar el detalle, When intenta acceder, Then se muestra un mensaje de error.     |
+| ----------------|----------------| ---------- |
+
+<img src="../Assets/chapter6/US15-Test.png"/>
+
+| US-18           | Registrar cochera | Given el anfitrión llena todos los campos requeridos, When presiona “Registrar cochera”, Then la cochera se guarda exitosamente. Given falta información, When intenta registrar, Then se muestra un mensaje de validación.     |
+| ----------------|----------------| ---------- |
+
+<img src="../Assets/chapter6/US18-Test.png"/>
+
+| US-19           | Ver cocheras registradas | Given el anfitrión tiene cocheras registradas, When accede a la sección de cocheras, Then se muestra el listado con sus detalles. Given el anfitrión no tiene cocheras, When accede a la sección, Then se muestra un mensaje indicando que no hay cocheras registradas.     |
+| ----------------|----------------| ---------- |
+
+<img src="../Assets/chapter6/US19-Test.png"/>
+
+| US-40           | Añadir vehículo | Given el usuario completa los campos del vehículo, When presiona “Guardar”, Then el vehículo se registra y aparece en la lista. Given falta un campo obligatorio, When intenta guardar, Then se muestra un mensaje de error.     |
+| ----------------|----------------| ---------- |
+
+<img src="../Assets/chapter6/US40-Test.png"/>
+
 <h1 id="capitulo-vii-devops-practices">Capítulo VII: DevOps Practices</h1>
 
 ## 7.1. Continuous Integration
