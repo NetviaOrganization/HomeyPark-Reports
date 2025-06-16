@@ -2049,41 +2049,203 @@ Schedule Controller Test
 
 ## 6.2. Static testing & Verification
 
+En esta sección se describen los métodos y prácticas que nuestro equipo en Netvia ha implementado para la prueba estática y la verificación del código de HomeyPark. Este enfoque proactivo nos permite garantizar la calidad, seguridad y mantenibilidad del software desde las primeras etapas del ciclo de vida, identificando y corrigiendo defectos antes de que el código sea ejecutado. Para una plataforma como HomeyPark, que manejará datos de usuarios, reservas y transacciones, asegurar la fiabilidad y robustez es una prioridad fundamental.
+
 ### 6.2.1. Static Code Analysis
+
+El análisis de código estático es un pilar en nuestro proceso de desarrollo, ya que implica la revisión del código fuente sin necesidad de ejecutarlo. Para ello, hemos adoptado herramientas automatizadas que analizan nuestro código en busca de posibles errores, vulnerabilidades de seguridad, "code smells" (malas prácticas) y desviaciones de nuestros estándares de codificación. Este proceso nos ayuda a mejorar la calidad general del software y a reducir significativamente los costos y el tiempo asociados a la corrección de errores en fases posteriores.
 
 #### 6.2.1.1. Coding standard & Code conventions
 
+Las normas de codificación son directrices esenciales que todo el equipo de Netvia sigue para garantizar un código legible, consistente y mantenible. Para HomeyPark, hemos establecido los siguientes principios:
+
+- Clean Code: Adoptamos los principios de Clean Code, priorizando el uso de nombres claros y descriptivos para variables, funciones y clases. Por ejemplo, una función se llamará findAvailableParkingSpots en lugar de findSpots. Las funciones se mantienen cortas y con una única responsabilidad, lo que facilita su comprensión y mantenimiento.
+- Domain-Driven Design (DDD) Conventions: Utilizamos un lenguaje ubicuo que refleja los términos del dominio de HomeyPark. Términos como Anfitrion, UsuarioParking, Reserva y Estacionamiento se usan de manera consistente tanto en las conversaciones del equipo como en el código fuente. Esto elimina la ambigüedad y alinea la implementación técnica con la lógica del negocio.
+- Guías de Estilo por Lenguaje:
+  - Java (Backend): Seguimos la guía de estilo de Google para Java, utilizando PascalCase para las clases e interfaces (ej. ParkingReservationService) y camelCase para métodos y variables (ej. calculateTotalFee).
+  - Gherkin (Pruebas BDD): Las especificaciones se escriben en un lenguaje claro y descriptivo, utilizando las palabras clave Given, When, Then para definir los escenarios de manera que sean comprensibles para todos los stakeholders, no solo para los desarrolladores.
+
 #### 6.2.1.2. Code Quality & Code Security
+
+La calidad y la seguridad son aspectos no negociables en HomeyPark. Para asegurar ambos, nos apoyamos en las siguientes prácticas y herramientas:
+
+- Calidad del Código: Utilizamos SonarQube para realizar un seguimiento continuo de la calidad de nuestro código. Esta herramienta nos proporciona un dashboard donde medimos métricas clave como la complejidad ciclomática, el código duplicado y la cobertura de pruebas. Además, usamos SonarLint como un plugin en nuestros IDEs (IntelliJ IDEA, VS Code) para recibir feedback en tiempo real sobre "code smells" y potenciales errores mientras programamos.
+- Seguridad del Código: La seguridad es crítica, ya que HomeyPark manejará información sensible. Nuestro análisis estático se enfoca en identificar y mitigar vulnerabilidades comunes, tales como:
+  - Inyección SQL: Validando y parametrizando todas las entradas del usuario que interactúan con la base de datos.
+  - Cross-Site Scripting (XSS): Asegurando que todas las salidas de datos en el frontend estén correctamente sanitizadas.
+  - Manejo inseguro de datos sensibles: Garantizando que las contraseñas y otros datos personales se almacenen y transmitan de forma segura.
+Herramientas como SonarQube y Checkmarx están integradas en nuestro pipeline para escanear el código en busca de estas y otras vulnerabilidades de seguridad antes de cada despliegue.
 
 ### 6.2.2. Reviews
 
+Las revisiones de código son un proceso fundamental en nuestro equipo para garantizar la calidad y la conformidad con los estándares establecidos. Este proceso complementa las herramientas automáticas con la inteligencia y experiencia del equipo humano.
+
+- Proceso de Revisión basado en Pull Requests (PRs): Todo cambio en el código, ya sea una nueva funcionalidad o la corrección de un error, se realiza en una rama separada (feature o hotfix). Para integrar estos cambios a la rama develop, se crea un Pull Request en GitHub. Cada PR debe incluir:
+  - Una descripción clara de los cambios realizados.
+  - Un enlace a la User Story o tarea correspondiente en Trello.
+  - Evidencia de que las pruebas automatizadas se han ejecutado y han pasado con éxito.
+- Tipos de Revisiones:
+  - Revisión por Pares (Peer Review): Es el tipo de revisión más común. Al menos un miembro del equipo, diferente al autor del código, debe revisar el PR. El objetivo es verificar la lógica, la legibilidad, la eficiencia y el cumplimiento de los estándares de codificación.
+  - Revisión Automatizada: Nuestro pipeline de CI ejecuta automáticamente las herramientas de análisis estático (SonarLint/SonarQube). Los resultados se publican directamente en el PR, actuando como un primer revisor automatizado que bloquea la fusión si se detectan problemas críticos.
+
 ## 6.3. Validation Interviews
 
+En esta fase del proyecto, llevamos a cabo entrevistas de validación para evaluar la usabilidad y la experiencia del usuario de la aplicación HomeyPark. A diferencia de las entrevistas de Needfinding iniciales, estas sesiones se centran en la interacción directa de los usuarios con un prototipo funcional. El objetivo es obtener feedback concreto sobre el diseño, la navegación y la claridad de la plataforma, permitiéndonos identificar áreas de mejora antes de un lanzamiento a mayor escala.
+
 ### 6.3.1. Diseño de Entrevistas
+
+Para obtener una retroalimentación valiosa, hemos diseñado un guion de entrevista centrado en las heurísticas de usabilidad de Nielsen. Las preguntas están diseñadas para ser abiertas y explorar cómo los usuarios perciben la plataforma en términos de eficiencia, claridad y satisfacción.
+
+**Guion de Entrevista de Validación para HomeyPark:**
+
+1.  **Visibilidad del estado del sistema:**
+    *   *“Mientras navegabas para reservar una cochera, ¿sentiste en todo momento que la aplicación te informaba sobre lo que estaba pasando (por ejemplo, con mensajes de carga, confirmaciones, etc.)?”*
+2.  **Relación entre el sistema y el mundo real:**
+    *   *“Los términos que usamos, como ‘Anfitrión’, ‘Solicitar reserva’ o ‘Mis garajes’, ¿te parecieron claros y familiares?”*
+3.  **Control y libertad del usuario:**
+    *   *“Si cometías un error, como seleccionar una fecha incorrecta, ¿te resultó fácil volver atrás o cancelar la acción sin problemas?”*
+4.  **Consistencia y estándares:**
+    *   *“¿Notaste que los botones y las opciones se comportaban de la misma manera en las diferentes pantallas de la aplicación?”*
+5.  **Prevención de errores:**
+    *   *“Antes de confirmar una acción importante, como eliminar una reserva, ¿la aplicación te pidió una confirmación para evitar errores?”*
+6.  **Reconocimiento antes que recuerdo:**
+    *   *“¿Te resultó fácil encontrar las funciones principales, como ‘Buscar’ o ‘Mis reservas’, o tuviste que memorizar dónde estaban las cosas?”*
+7.  **Flexibilidad y eficiencia de uso:**
+    *   *“Para un usuario como tú, ¿crees que el proceso de reserva es lo suficientemente rápido y directo?”*
+8.  **Diseño estético y minimalista:**
+    *   *“¿La interfaz te pareció limpia y sin información innecesaria que te distrajera de tu objetivo?”*
+9.  **Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores:**
+    *   *“(Si ocurrió) Cuando apareció un mensaje de error, ¿fue claro y te ayudó a entender cuál era el problema?”*
+10. **Ayuda y documentación:**
+    *   *“Aunque la idea es que no se necesite, si tuvieras una duda, ¿dónde esperarías encontrar ayuda o información adicional?”*
 
 ### 6.3.2. Registro de Entrevistas
 
 ### 6.3.3. Evaluaciones según heurísticas
 
+Tras realizar las entrevistas de validación con usuarios de ambos perfiles (Conductores y Anfitriones), consolidamos los hallazgos en una evaluación basada en las 10 heurísticas de usabilidad de Nielsen. Este análisis nos permite identificar, priorizar y describir los problemas de usabilidad encontrados en el prototipo de HomeyPark.
+
+**Aplicación evaluada:** Prototipo de HomeyPark (versión web y móvil)
+**Tareas evaluadas:**
+*   Registrar un nuevo usuario (Conductor/Anfitrión).
+*   Buscar un estacionamiento por ubicación y fecha.
+*   Reservar un espacio de estacionamiento.
+*   Consultar el historial de reservas.
+*   Publicar una nueva cochera (Anfitrión).
+
+**Escala de Severidad:**
+
+*   **1 (Bajo):** Problema cosmético, no necesita ser arreglado a menos que se disponga de tiempo.
+*   **2 (Menor):** Problema de usabilidad menor, de baja prioridad.
+*   **3 (Mayor):** Problema de usabilidad importante, de alta prioridad.
+*   **4 (Catastrófico):** Problema de usabilidad crítico, imperativo corregirlo antes del lanzamiento.
+
+**Tabla Resumen de Problemas Heurísticos:**
+
+| # | Problema | Severidad | Heurística(s) Violada(s) |
+| :-- | :--- | :---: | :--- |
+| **1** | **Confirmación de reserva poco visible.** Varios usuarios mencionaron que el mensaje de "Reserva confirmada" era pequeño y desaparecía rápido, generando dudas sobre si la acción se completó. | 3 | **Visibilidad del estado del sistema.** |
+| **2** | **Iconos de filtro poco claros.** El ícono para filtrar por "tipo de vehículo" (ej. moto, auto) no fue inmediatamente reconocido por todos los usuarios. | 2 | **Relación entre el sistema y el mundo real.** |
+| **3** | **Difícil deshacer la selección de un horario.** Al reservar, si un usuario seleccionaba un rango de horas por error, no encontraba una forma intuitiva de "limpiar" esa selección sin recargar la página. | 3 | **Control y libertad del usuario.** |
+| **4** | **Mensajes de error genéricos.** Cuando fallaba la carga de datos, el sistema mostraba un mensaje genérico como "Error", sin especificar si era un problema de conexión o del servidor. | 2 | **Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores.** |
+| **5** | **Proceso de registro de cochera muy largo.** Los anfitriones percibieron que el formulario para registrar un nuevo garaje era demasiado extenso y solicitaba información que podría pedirse más adelante. | 3 | **Diseño estético y minimalista.** |
+
+**Descripción Detallada y Recomendaciones:**
+
+**Problema #1: Confirmación de reserva poco visible.**
+
+*   **Severidad:** 3 (Mayor)
+*   **Heurística violada:** Visibilidad del estado del sistema.
+*   **Descripción:** Al finalizar el flujo de reserva, el sistema muestra una notificación tipo "toast" en la parte inferior de la pantalla que dice "¡Reserva exitosa!". Sin embargo, los usuarios que participaron en la validación comentaron que, al estar concentrados en el botón "Confirmar", a menudo no notaban el mensaje o este desaparecía antes de que pudieran leerlo, lo que les generaba incertidumbre.
+*   **Recomendación:** Rediseñar la confirmación para que sea más prominente. En lugar de un "toast" discreto, se podría redirigir al usuario a una página de **confirmación dedicada** que muestre un resumen claro de la reserva (ubicación, fecha, hora, costo) y un mensaje de éxito grande y visible. Esto proporcionaría un cierre claro y satisfactorio al flujo de la tarea.
+
+**Problema #2: Iconos de filtro poco claros.**
+
+*   **Severidad:** 2 (Menor)
+*   **Heurística violada:** Relación entre el sistema y el mundo real.
+*   **Descripción:** En la pantalla de búsqueda, se utilizan íconos para filtrar por tipo de vehículo (un coche, una motocicleta). Algunos usuarios dudaron sobre el significado de estos íconos y tuvieron que hacer clic para confirmar.
+*   **Recomendación:** Acompañar cada ícono con una etiqueta de texto simple ("Auto", "Moto"). Esto eliminaría la ambigüedad y aceleraría el reconocimiento, siguiendo el principio de "reconocimiento antes que recuerdo".
+
 ## 6.4. Auditoría de Experiencias de Usuario
+
+La auditoría de experiencias de usuario es un proceso colaborativo fundamental en nuestro ciclo de desarrollo. Consiste en una revisión cruzada entre equipos de proyectos diferentes pero con contextos similares, con el objetivo de obtener una perspectiva externa, fresca y objetiva sobre la usabilidad, funcionalidad y diseño de nuestra plataforma. Este proceso nos permite identificar puntos ciegos y oportunidades de mejora que podríamos haber pasado por alto internamente.
 
 ### 6.4.1. Auditoría realizada
 
+En esta sección se detalla la auditoría que nuestro equipo, **Netvia**, realizó sobre el proyecto **AventuraPE**. Analizamos su plataforma web y móvil para evaluar su experiencia de usuario y proporcionar feedback constructivo.
+
 #### 6.4.1.1. Información del grupo auditado
+
+*   **Nombre del Proyecto:** AventuraPE
+*   **Integrantes:** Barbara Quezada, Jimena Cama, Jair Castillo, Estefano Jaque, Jose Gutierrez.
+*   **Descripción del Proyecto:** AventuraPE es una plataforma digital (web y móvil) que conecta a usuarios con experiencias locales auténticas, denominadas "microaventuras". Permite a emprendedores y guías locales publicar, gestionar y promocionar sus actividades, como clases de cocina, tours urbanos o caminatas guiadas.
 
 #### 6.4.1.2. Cronograma de auditoría realizada
 
+*   **Fecha de la Auditoría:** 15 de junio de 2025.
+*   **Duración:** 90 minutos.
+*   **Plataformas Evaluadas:** Aplicación web y prototipo de aplicación móvil.
+*   **Equipo Auditor:** Netvia (Sebastian Cachis, Adriano Cruz, Amner Llamo, Marcelo Garro, Lucio Yen).
+
 #### 6.4.1.3. Contenido de auditoría realizada
+
+Nuestro equipo se centró en evaluar el flujo completo de la experiencia del usuario de AventuraPE, desde el punto de vista tanto del "aventurero" (cliente) como del "emprendedor" (proveedor). Los hallazgos principales fueron:
+
+1.  **Fortalezas Identificadas:**
+    *   **Propuesta de Valor Clara:** La idea de "microaventuras" es atractiva y está bien comunicada en la landing page.
+    *   **Flujo de Búsqueda Intuitivo:** La búsqueda y filtrado de experiencias es sencilla y eficiente para el usuario final.
+    *   **Proceso de Publicación Sencillo:** Para los emprendedores, el formulario para publicar una nueva aventura es directo y fácil de completar.
+
+2.  **Oportunidades de Mejora (Feedback Proporcionado):**
+    *   **Consistencia Visual:** Se observó una falta de consistencia en el diseño entre la página de inicio y las páginas internas. Se recomendó unificar la paleta de colores, la tipografía y el estilo de los botones para crear una experiencia más cohesiva, sugiriendo la adopción de un estilo más minimalista.
+    *   **Sincronización de Contenidos:** Detectamos que las imágenes subidas por un emprendedor desde la aplicación móvil no se reflejaban correctamente en la versión web de inmediato, lo que podría causar confusión.
+    *   **Gestión de Contenidos (Admin):** Identificamos un bug crítico donde un administrador no podía eliminar publicaciones que ya tenían comentarios, lo que dificulta la moderación de contenido. Se recomendó priorizar la corrección de este error.
 
 ### 6.4.2. Auditoría recibida
 
+En esta sección, se documentan los resultados de la auditoría que el equipo de **AventuraPE** realizó sobre nuestro proyecto, **HomeyPark**.
+
 #### 6.4.2.1. Información del grupo auditor
+
+*   **Nombre del Grupo Auditor:** Equipo del proyecto AventuraPE.
+*   **Integrantes:** Barbara Quezada, Jimena Cama, Jair Castillo, Estefano Jaque, Jose Gutierrez.
 
 #### 6.4.2.2. Cronograma de auditoría recibida
 
+*   **Fecha de la Auditoría:** 16 de junio de 2025.
+*   **Duración:** 90 minutos.
+*   **Plataformas Evaluadas:** Aplicación web y prototipos de la aplicación móvil de HomeyPark.
+*   **Equipo Auditado:** Netvia (nuestro equipo).
+
 #### 6.4.2.3. Contenido de auditoría recibida
 
+El equipo de AventuraPE nos proporcionó un feedback muy valioso, enfocándose en la confianza, eficiencia y claridad de nuestra plataforma. Sus principales hallazgos fueron:
+
+1.  **Puntos Fuertes Destacados:**
+    *   El proceso de registro y login es seguro y directo.
+    *   La interfaz de búsqueda de estacionamientos es visualmente atractiva y fácil de usar.
+    *   La diferenciación clara entre los roles de "Conductor" y "Anfitrión" es un acierto.
+
+2.  **Áreas de Mejora Identificadas:**
+    *   **Verificación y Seguridad:** Sugirieron que, aunque el proceso de registro es bueno, se podría reforzar la confianza de los usuarios implementando un sistema de verificación de identidad más robusto para los anfitriones y una validación de los datos del vehículo para los conductores.
+    *   **Flujo de Gestión para Anfitriones:** El equipo auditor notó que el proceso para que un anfitrión gestione la disponibilidad de su cochera (ej. bloquear fechas) podría ser más intuitivo. Recomendaron un calendario más visual y con menos pasos para actualizar el estado.
+    *   **Disponibilidad en Tiempo Real:** Señalaron que la precisión de la disponibilidad es el punto más crítico para la satisfacción del conductor. Recomendaron explorar soluciones técnicas para asegurar que la información "Disponible ahora" sea 100% fiable y evitar que un usuario reserve un espacio que ya fue ocupado.
+
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+
+Basado en el valioso feedback recibido del equipo de AventuraPE, nuestro equipo (Netvia) ha priorizado las siguientes acciones para las próximas iteraciones de HomeyPark:
+
+1.  **Reforzar la Verificación de Seguridad:**
+    *   **Acción:** Se añadirá al backlog una `Technical Story` para integrar una API de verificación de identidad (ej. validación de DNI) en el flujo de registro de anfitriones.
+    *   **User Story relacionada:** "Como conductor, quiero ver una insignia de 'Anfitrión Verificado' para sentir más seguridad al reservar su cochera".
+
+2.  **Optimizar el Flujo de Gestión de Disponibilidad:**
+    *   **Acción:** Se rediseñará la interfaz de gestión de calendario para anfitriones, adoptando un componente de calendario más interactivo que permita seleccionar y bloquear rangos de fechas con un solo clic.
+    *   **User Story relacionada:** "Como anfitrión, quiero poder marcar rápidamente los días en que mi cochera no estará disponible desde un calendario visual para gestionar mis reservas eficientemente".
+
+3.  **Mejorar la Sincronización de Disponibilidad:**
+    *   **Acción:** Se investigará e implementará el uso de **WebSockets o sondeo de corta duración (short-polling)** para actualizar el estado de disponibilidad de las cocheras en tiempo real en el mapa de búsqueda.
+    *   **Technical Story relacionada:** "Implementar una conexión en tiempo real para reflejar el estado de las cocheras (disponible/ocupado) sin necesidad de recargar la página".
 
 ## 7.1. Continuous Integration
 ### 7.1.1. Tools and Practices
