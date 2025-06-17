@@ -2683,15 +2683,12 @@ Claims:
 
 ### 8.2.1. Hypotheses
 
-### 8.2.1 Hypotheses
-
 | **Question**        | ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para reforzar la seguridad?                                                                                 |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Belief**          | Muchos usuarios dudan al arrendar cocheras de personas desconocidas. Mostrar identificaciones verificadas, imágenes reales del espacio y reseñas podría generar confianza y reducir la desconfianza. |
 | **Hypothesis**      | Al menos el 70 % de las solicitudes de reserva se completarán cuando el anfitrión esté verificado.                                                                                                   |
 | **Null Hypothesis** | Las verificaciones de perfil no impactarán de manera significativa en la tasa de reservas.                                                                                                           |
 
----
 
 | **Question**        | ¿Aumentará la confianza de los usuarios con un sistema de reputación basado en puntuaciones y comentarios visibles?                                   |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2699,7 +2696,6 @@ Claims:
 | **Hypothesis**      | Se incrementará en un 25 % la tasa de reservas de anfitriones con reputación de 4 estrellas o más.                                                    |
 | **Null Hypothesis** | El sistema de reputación no provocará un cambio notable en la confianza ni en las reservas.                                                           |
 
----
 
 | **Question**        | ¿Se reducirá el abandono del proceso de reserva al simplificarlo para completarlo en menos de 3 minutos?                                    |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2707,7 +2703,6 @@ Claims:
 | **Hypothesis**      | El abandono del flujo de reserva disminuirá en al menos un 30 %.                                                                            |
 | **Null Hypothesis** | Reducir los pasos del flujo no influirá significativamente en la tasa de abandono.                                                          |
 
----
 
 | **Question**        | ¿Disminuirá el tiempo de decisión si los usuarios pueden filtrar cocheras por precio, tamaño o nivel de seguridad?                                       |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2715,7 +2710,6 @@ Claims:
 | **Hypothesis**      | El tiempo medio de elección se reducirá en un 20 %.                                                                                                      |
 | **Null Hypothesis** | La introducción de filtros no modificará de forma significativa el tiempo de decisión.                                                                   |
 
----
 
 | **Question**        | ¿Crecerá la frecuencia de uso de la aplicación si se ofrece un programa de puntos o recompensas?                     |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -2725,7 +2719,53 @@ Claims:
 
 ### 8.2.2. Measures
 
+| **Question** | ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para reforzar la seguridad? |
+|--------------|------------------------------------------------------------------------------------------------------------------|
+| **Measure**  | Medir el porcentaje de reservas completadas por anfitriones verificados versus no verificados en un periodo de 30 días. |
+
+| **Question** | ¿Aumentará la confianza de los usuarios con un sistema de reputación basado en puntuaciones y comentarios visibles? |
+|--------------|--------------------------------------------------------------------------------------------------------------------|
+| **Measure**  | Registrar la tasa de reservas de anfitriones con reputación ≥4 estrellas y compararla con la de aquellos sin reseñas durante 1 mes. |
+
+| **Question** | ¿Se reducirá el abandono del proceso de reserva al simplificarlo para completarlo en menos de 3 minutos?               |
+|--------------|---------------------------------------------------------------------------------------------------------------|
+| **Measure**  | Calcular porcentaje de usuarios que inician y completan el flujo de reserva antes y después de la simplificación, en un plazo de 2 semanas. |
+
+| **Question** | ¿Disminuirá el tiempo de decisión si los usuarios pueden filtrar cocheras por precio, tamaño o nivel de seguridad?   |
+|--------------|------------------------------------------------------------------------------------------------------------------|
+| **Measure**  | Medir el tiempo medio desde la búsqueda hasta la reserva para usuarios con y sin uso de filtros durante una muestra de 100 reservas. |
+
+| **Question** | ¿Crecerá la frecuencia de uso de la aplicación si se ofrece un programa de puntos o recompensas?                    |
+|--------------|------------------------------------------------------------------------------------------------------------------|
+| **Measure**  | Comparar la frecuencia media de reservas por usuario antes y después de activar el programa de recompensas en un período de 60 días. |
+
+
 ### 8.2.3. Conditions
+
+| **Question**            | ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para reforzar la seguridad? |
+|-------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Experimental Condition** | Anfitriones e inquilinos deberán completar el proceso de verificación de identidad, subir fotos reales y habilitar reseñas antes de permitir reservas. |
+| **Control Condition**      | Usuarios utilizan la aplicación con el flujo actual, sin verificación adicional ni reseñas visibles.               |
+
+| **Question**            | ¿Aumentará la confianza de los usuarios con un sistema de reputación basado en puntuaciones y comentarios visibles? |
+|-------------------------|----------------------------------------------------------------------------------------------------------------|
+| **Experimental Condition** | Tras cada reserva, usuarios pueden asignar estrellas y comentarios; perfiles muestran reputación acumulada.         |
+| **Control Condition**      | La aplicación no muestra puntuaciones ni comentarios en los perfiles de anfitriones.                            |
+
+| **Question**            | ¿Se reducirá el abandono del proceso de reserva al simplificarlo para completarlo en menos de 3 minutos?               |
+|-------------------------|-----------------------------------------------------------------------------------------------|
+| **Experimental Condition** | Nuevo flujo de reserva con máximo tres pantallas y campos prellenados cuando sea posible.                        |
+| **Control Condition**      | Flujo de reserva actual con múltiples pasos y sin optimización de navegación.                                 |
+
+| **Question**            | ¿Disminuirá el tiempo de decisión si los usuarios pueden filtrar cocheras por precio, tamaño o nivel de seguridad?   |
+|-------------------------|------------------------------------------------------------------------------------------------------------------|
+| **Experimental Condition** | Interfaz de búsqueda incluye filtros dinámicos para precio, dimensiones y nivel de seguridad.                    |
+| **Control Condition**      | Búsqueda básica sin opciones de filtrado avanzadas.                                                           |
+
+| **Question**            | ¿Crecerá la frecuencia de uso de la aplicación si se ofrece un programa de puntos o recompensas?                    |
+|-------------------------|------------------------------------------------------------------------------------------------------------------|
+| **Experimental Condition** | Todos los usuarios acumulan puntos por cada reserva, visibles en su perfil, canjeables por descuentos.          |
+| **Control Condi
 
 ### 8.2.4. Scale Calculations and Decisions
 
