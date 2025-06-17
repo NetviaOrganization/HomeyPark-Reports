@@ -47,17 +47,17 @@
 | 1.4     | 07/04/2025 | Amner Llamo      | Desarrollo del capítulo II            |
 | 1.5     | 22/04/2025 | Marcelo Garro    | Desarrollo del capítulo II            |
 | 1.6     | 24/04/2025 | Lucio Yen        | Desarrollo del capítulo IV            |
-|2.0|13/05/2025|Equipo Netvia| Desarrollo del capítulo V y VI|
+| 2.0     | 13/05/2025 | Equipo Netvia    | Desarrollo del capítulo V y VI        |
 
 ### Project Report Collaboration Insights
 
-**TB1**    
+**TB1**  
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
 <img src="../Assets/insights-1.png">
 <img src="../Assets/insights-2.png">
 
-**TP1**   
+**TP1**  
 Para el desarrollo del informe perteneciente a la entrega TP1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
 <img src="../Assets/insights-tp-1.png">
@@ -177,6 +177,7 @@ Para el desarrollo del informe perteneciente a la entrega TP1, se dividió la im
     - [6.2.1.2. Code Quality & Code Security](#1221-code-quality--code-security)
   - [6.2.2. Reviews](#612-reviews)
 - [6.3. Validation Interviews](#63-validation-interviews)
+
   - [6.3.1. Diseño de Entrevistas](#631-diseno-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
   - [6.3.3. Evaluacionessegún heurísticas](#633-core-behavior-driven-development)
@@ -226,6 +227,7 @@ Para el desarrollo del informe perteneciente a la entrega TP1, se dividió la im
   - [8.2.6. Data Analytics: Goals, KPIs and Metrics Selection](#826-data--analytics--goals--KPIs-and-metrics-selection)
   - [8.2.7. Web and Mobile Tracking Plan](#827-web-and-mobile-tracking-plan)
 - [8.3. Experimentation](#83-experimentation)
+
   - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
   - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
 
@@ -235,13 +237,10 @@ Para el desarrollo del informe perteneciente a la entrega TP1, se dividió la im
 
 ### Student Outcome
 
-| Criterio específico                                                                                                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Conclusiones                                                                                                                                  |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | Sebastian Nicolas Cachis Gonzales<br><b>TB1</b><br>Para esta entrega desarrollé el capítulo 1, hice entrevistas y también los diseños para la landing page.<br><b>TP1</b><br>Participé en la refactorización del backend y llevé a cabo pruebas unitarias e integrales para asegurar el correcto funcionamiento y calidad del sistema.<br><br>Amner Levi Llamo Sánchez<br><b>TB1</b><br>En el análisis competitivo, evalué las prácticas éticas de las soluciones existentes y documenté aquellas que debemos adoptar o mejorar en HomeyPark.<br><b>TP1</b><br>Apoyé en la refactorización del backend y ejecuté pruebas unitarias e integrales siguiendo criterios de calidad y responsabilidad profesional.<br><br>Marcelo Garro<br><b>TB1</b><br>Planifiqué y recopilé requisitos del proyecto en base a análisis previos de nuestro segmento objetivo para satisfacer sus necesidades y demandas.<br><b>TP1</b><br>Me encargué de la refactorización del frontend y verifiqué su funcionamiento mediante pruebas funcionales que garanticen una experiencia amigable y coherente.<br><br>Adriano Sebastian Cruz Palomino<br><b>TB1</b><br>Me encargué del desarrollo de los diagramas de arquitectura del sistema utilizando el modelo C4, asegurando que la estructura técnica promoviera una implementación ética, segura y comprensible para todos los stakeholders.<br><b>TP1</b><br>Implementé pruebas unitarias e integrales, y configuré flujos de CI/CD en el backend para reforzar las prácticas DevOps y garantizar un desarrollo continuo y controlado.<br><br>Lucio Heli Yen Cerna<br><b>TB1</b><br>Me encargué del desarrollo de los style guidelines tanto para la landing page, aplicativo móvil en Android e iOS, y en la plataforma web, asegurando un diseño ético, de fácil entendimiento y para todos los usuarios.<br><b>TP1</b><br>Llevé a cabo la refactorización de la aplicación móvil, orientando el diseño hacia una mejor accesibilidad y usabilidad para todos los usuarios.<br><br> | <b>TB1</b><br>Designamos tareas a cada integrante para optimizar el tiempo de trabajo.<br><b>TP1</b><br>Dividimos las responsabilidades considerando las fortalezas de cada miembro, logrando una ejecución ordenada, ética y eficaz del proyecto. |
+| Criterio específico                                                                                                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Conclusiones                                                                                                                                                                                                                                                                                                                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | Sebastian Nicolas Cachis Gonzales<br><b>TB1</b><br>Para esta entrega desarrollé el capítulo 1, hice entrevistas y también los diseños para la landing page.<br><b>TP1</b><br>Participé en la refactorización del backend y llevé a cabo pruebas unitarias e integrales para asegurar el correcto funcionamiento y calidad del sistema.<br><br>Amner Levi Llamo Sánchez<br><b>TB1</b><br>En el análisis competitivo, evalué las prácticas éticas de las soluciones existentes y documenté aquellas que debemos adoptar o mejorar en HomeyPark.<br><b>TP1</b><br>Apoyé en la refactorización del backend y ejecuté pruebas unitarias e integrales siguiendo criterios de calidad y responsabilidad profesional.<br><br>Marcelo Garro<br><b>TB1</b><br>Planifiqué y recopilé requisitos del proyecto en base a análisis previos de nuestro segmento objetivo para satisfacer sus necesidades y demandas.<br><b>TP1</b><br>Me encargué de la refactorización del frontend y verifiqué su funcionamiento mediante pruebas funcionales que garanticen una experiencia amigable y coherente.<br><br>Adriano Sebastian Cruz Palomino<br><b>TB1</b><br>Me encargué del desarrollo de los diagramas de arquitectura del sistema utilizando el modelo C4, asegurando que la estructura técnica promoviera una implementación ética, segura y comprensible para todos los stakeholders.<br><b>TP1</b><br>Implementé pruebas unitarias e integrales, y configuré flujos de CI/CD en el backend para reforzar las prácticas DevOps y garantizar un desarrollo continuo y controlado.<br><br>Lucio Heli Yen Cerna<br><b>TB1</b><br>Me encargué del desarrollo de los style guidelines tanto para la landing page, aplicativo móvil en Android e iOS, y en la plataforma web, asegurando un diseño ético, de fácil entendimiento y para todos los usuarios.<br><b>TP1</b><br>Llevé a cabo la refactorización de la aplicación móvil, orientando el diseño hacia una mejor accesibilidad y usabilidad para todos los usuarios.<br><br>                                                                                                                                                                                                                                                                                                                                                                          | <b>TB1</b><br>Designamos tareas a cada integrante para optimizar el tiempo de trabajo.<br><b>TP1</b><br>Dividimos las responsabilidades considerando las fortalezas de cada miembro, logrando una ejecución ordenada, ética y eficaz del proyecto.                                                                                                               |
 | Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | Sebastian Nicolas Cachis Gonzales<br><b>TB1</b><br>Esto me ha permitido tener una mejor visión de los límites y objetivos de nuestro proyecto, así como conocer las inquietudes de nuestros segmentos objetivos.<br><b>TP1</b><br>Al realizar las pruebas y refactorizar el backend, comprendí cómo estas tareas contribuyen a construir soluciones que respondan adecuadamente a las necesidades del entorno urbano y tecnológico.<br><br>Amner Levi Llamo Sánchez<br><b>TB1</b><br>Analicé el impacto potencial de HomeyPark en el contexto urbano, evaluando cómo la plataforma podría afectar la movilidad, el uso eficiente de espacios y la economía local.<br><b>TP1</b><br>Durante el proceso técnico, evalué cómo los cambios en la estructura del backend pueden repercutir directamente en la escalabilidad, seguridad y adaptabilidad del sistema frente a diversos contextos sociales.<br><br>Marcelo Garro<br><b>TB1</b><br>Planificando el proyecto, obtuve una perspectiva más clara sobre los alcances y objetivos del proyecto, así como un mayor entendimiento de las inquietudes y expectativas de nuestros segmentos objetivo.<br><b>TP1</b><br>A través de la mejora del frontend, pude observar cómo una buena interfaz puede facilitar la inclusión tecnológica y aportar valor en distintos entornos sociales y económicos.<br><br>Adriano Sebastian Cruz Palomino<br><b>TB1</b><br>Al definir la arquitectura C4, consideré cómo cada componente afectaría a nivel de escalabilidad, costos operativos y su adecuación a contextos urbanos sostenibles, para que la solución pueda adaptarse a diferentes realidades sociales y económicas.<br><b>TP1</b><br>Al configurar los procesos de integración continua y realizar pruebas, pude confirmar que una arquitectura sólida favorece no solo la eficiencia del sistema, sino también su sostenibilidad y adaptabilidad a largo plazo.<br><br>Lucio Heli Yen Cerna<br><b>TB1</b><br>Diseñando el proyecto, pude entender de forma más clara la perspectiva que necesitan nuestros segmentos objetivos para que este proyecto tenga un impacto positivo en su rutina diaria.<br><b>TP1</b><br>Gracias a la refactorización de la app móvil, comprendí cómo decisiones de diseño bien pensadas pueden tener un efecto positivo en la vida diaria de nuestros usuarios y en su interacción con la tecnología.<br><br> | <b>TB1</b><br>Hemos enfocado las habilidades de cada integrante en las áreas de desarrollo que mejor dominen para una mejor línea de trabajo.<br><b>TP1</b><br>Reflexionamos sobre cómo cada mejora técnica tiene implicancias reales en el entorno social y urbano, y buscamos que nuestras decisiones promuevan una solución que responda a dichas realidades. |
-
-
-
 
 <h1 id="capitulo-i-introduccion">Capítulo I: Introducción</h1>
 
@@ -1385,6 +1384,7 @@ revisar sus reservas pasadas.
 ## 4.6. Web Applications UX/UI Design
 
 ### 4.6.1. Web Applications Wireframes
+
 <img src="../Assets/productDesign/wireframes/web/web-wireframe-1.png" width=1000>
 <img src="../Assets/productDesign/wireframes/web/web-wireframe-2.png" width=1000>
 <img src="../Assets/productDesign/wireframes/web/web-wireframe-3.png" width=1000>
@@ -1394,26 +1394,28 @@ revisar sus reservas pasadas.
 <img src="../Assets/productDesign/wireframes/web/web-wireframe-7.png" width=1000>
 
 ### 4.6.2. Web Applications Wireflow Diagrams
-**User goal:** El usuario se registra en la plataforma e inicia sesión en la aplicación con sus datos. 
+
+**User goal:** El usuario se registra en la plataforma e inicia sesión en la aplicación con sus datos.
 <img src="../Assets/productDesign/wireframes/web/wireflow-web-1.png" width=1000>
-Descripción: Al iniciar la aplicación, el usuario se encuentra con el apartado de registro de cuenta, 
-donde podrá registrarse con su email y contraseña. Cuando le de al botón de registrarse, le mandará 
-al apartado de inicio de sesión, donde podrá ingresar sus datos anteriormente añadidos y al ser las 
-correctas, podrá acceder a la página principal de la plataforma. 
+Descripción: Al iniciar la aplicación, el usuario se encuentra con el apartado de registro de cuenta,
+donde podrá registrarse con su email y contraseña. Cuando le de al botón de registrarse, le mandará
+al apartado de inicio de sesión, donde podrá ingresar sus datos anteriormente añadidos y al ser las
+correctas, podrá acceder a la página principal de la plataforma.
 <br><br>
 
 **User goal:** Usuario desea hacer la búsqueda y reserva de un espacio de estacionamiento
 <img src="../Assets/productDesign/wireframes/web/wireflow-web-1.png" width=1000>
-Descripción: El usuario al encontrarse en la página principal, podrá visualizar y buscar 
-estacionamientos de su preferencia. Al seleccionar un estacionamiento, verá el detalle de este, aquí 
-el usuario contará con dos opciones, ver los comentarios y calificación o seleccionar la opción de 
-reservar ahora. El usuario al ingresar a la sección de calificación visualizará los comentarios que ha 
-obtenido dicho estacionamiento, así como también la calificación en general del mismo. Por otro 
-lado, luego de seleccionar la opción de reservar, el estacionamiento habrá quedado apartado y podrá 
-revisarlo en la opción de historial del menú principal, donde también podrá cancelar su reserva o 
+Descripción: El usuario al encontrarse en la página principal, podrá visualizar y buscar
+estacionamientos de su preferencia. Al seleccionar un estacionamiento, verá el detalle de este, aquí
+el usuario contará con dos opciones, ver los comentarios y calificación o seleccionar la opción de
+reservar ahora. El usuario al ingresar a la sección de calificación visualizará los comentarios que ha
+obtenido dicho estacionamiento, así como también la calificación en general del mismo. Por otro
+lado, luego de seleccionar la opción de reservar, el estacionamiento habrá quedado apartado y podrá
+revisarlo en la opción de historial del menú principal, donde también podrá cancelar su reserva o
 revisar sus reservas pasadas.
 
 ### 4.6.3. Web Applications Mock-ups
+
 <img src="../Assets/productDesign/mockups/web/web-mockup-1.png" width=1000>
 <img src="../Assets/productDesign/mockups/web/web-mockup-2.png" width=1000>
 <img src="../Assets/productDesign/mockups/web/web-mockup-3.png" width=1000>
@@ -1424,24 +1426,25 @@ revisar sus reservas pasadas.
 <img src="../Assets/productDesign/mockups/web/web-mockup-8.png" width=1000>
 
 ### 4.6.4. Web Applications User Flow Diagrams
-**User goal:** El usuario se registra en la plataforma e inicia sesión en la aplicación con sus datos. 
+
+**User goal:** El usuario se registra en la plataforma e inicia sesión en la aplicación con sus datos.
 
 <img src="../Assets/productDesign/mockups/web/userflow-web-1.png" width=1000>
 Descripción: Al iniciar la aplicación web, el usuario se encuentra con el apartado de registro de cuenta, 
 donde podrá registrarse con su email y contraseña. Cuando le de al botón de registrarse, le mandará 
 al apartado de inicio de sesión, donde podrá ingresar sus datos anteriormente añadidos y al ser las 
-correctas, podrá acceder a la página principal de la plataforma. 
+correctas, podrá acceder a la página principal de la plataforma.
 
-**User goal:** Usuario desea hacer la búsqueda y reserva de un espacio de estacionamiento 
+**User goal:** Usuario desea hacer la búsqueda y reserva de un espacio de estacionamiento
 <img src="../Assets/productDesign/mockups/web/userflow-web-2.png" width=1000>
-Descripción: El usuario al encontrarse en la página principal, podrá visualizar y buscar 
-estacionamientos de su preferencia. Al seleccionar un estacionamiento, verá el detalle de este, aquí 
-el usuario contará con dos opciones, ver los comentarios y calificación o seleccionar la opción de 
-reservar ahora. El usuario al ingresar a la sección de calificación visualizará los comentarios que ha 
-obtenido dicho estacionamiento, así como también la calificación en general del mismo. Por otro 
-lado, luego de seleccionar la opción de reservar, el estacionamiento habrá quedado apartado y podrá 
-revisarlo en la opción de historial del menú principal, donde también podrá cancelar su reserva o 
-revisar sus reservas pasadas. 
+Descripción: El usuario al encontrarse en la página principal, podrá visualizar y buscar
+estacionamientos de su preferencia. Al seleccionar un estacionamiento, verá el detalle de este, aquí
+el usuario contará con dos opciones, ver los comentarios y calificación o seleccionar la opción de
+reservar ahora. El usuario al ingresar a la sección de calificación visualizará los comentarios que ha
+obtenido dicho estacionamiento, así como también la calificación en general del mismo. Por otro
+lado, luego de seleccionar la opción de reservar, el estacionamiento habrá quedado apartado y podrá
+revisarlo en la opción de historial del menú principal, donde también podrá cancelar su reserva o
+revisar sus reservas pasadas.
 
 ## 4.7. Web Applications Prototyping
 
@@ -1781,12 +1784,12 @@ Enlace al repositorio: https://github.com/NetviaOrganization/HomeyPark-Web-Servi
 ### 5.2.1. Sprint Backlogs
 
 | ID  | Title                                             | Title Task ID | Title | Description | Estimation (Hours) | Assigned To      | Status (To-do, In Process, To Review, Done, Cancelled) |
-| --- | ------------------------------------------------- | ------------- | ----- | ----------- | ------------------ | ---------------- | ------------------------------------------------------ |
+| --- | ------------------------------------------------- | ------------- | ----- | ----------- | ------------------ | ---------------- | ------------------------------------------------------ | --- |
 | US- | Integrar mapa de Google Maps                      | TASK-001      |       |             | 2                  | Sebastian Cachis | Done                                                   |
 | US- | Búsqueda de estacionamiento por dirección         | TASK-002      |       |             | 2                  | Adriano Cruz     | Done                                                   |
 | US- | Usar ubicación de dispositivo para buscar en mapa | TASK-003      |       |             | 1                  | Amner Llamo      | Done                                                   |
 | US- | Ver espacios de estacionamientos cercanos         | TASK-004      |       |             | 2                  | Marcelo Garro    | Done                                                   |
-| US- | Visualizar detalles de estacionamiento            | TASK-005      |       |             | 2                  | Lucio Yen        | Done                                                   |                                                  |
+| US- | Visualizar detalles de estacionamiento            | TASK-005      |       |             | 2                  | Lucio Yen        | Done                                                   |     |
 | US- | Visualizar el entorno del estacionamiento         | TASK-006      |       |             | 2                  | Adriano Cruz     | Done                                                   |
 | US- | Registrar una cochera                             | TASK-007      |       |             | 3                  | Amner Llamo      | Done                                                   |
 | US- | Visualizar cocheras registradas                   | TASK-008      |       |             | 2                  | Marcelo Garro    | Done                                                   |
@@ -1818,39 +1821,46 @@ Como resultado del primer sprint, se presenta el despliegue de la Landing Page
 El presente Acuerdo de Servicio (en adelante, el "Acuerdo") regula los términos y condiciones aplicables al uso de la plataforma HomeyPark, un servicio de software como servicio (SaaS) ofrecido por Netvia. Al acceder y utilizar los servicios provistos en la plataforma web y móvil de HomeyPark, el usuario acepta quedar legalmente vinculado por los términos de este Acuerdo.
 
 1. Alcance del Servicio  
-HomeyPark es una solución SaaS que permite a conductores (en adelante, "Usuarios de Parking") buscar, reservar y pagar por espacios de estacionamiento ofrecidos por terceros (en adelante, "Anfitriones") a través de una interfaz digital. Asimismo, permite a los Anfitriones registrar y gestionar la disponibilidad de sus cocheras privadas.
+   HomeyPark es una solución SaaS que permite a conductores (en adelante, "Usuarios de Parking") buscar, reservar y pagar por espacios de estacionamiento ofrecidos por terceros (en adelante, "Anfitriones") a través de una interfaz digital. Asimismo, permite a los Anfitriones registrar y gestionar la disponibilidad de sus cocheras privadas.
 
-2. Derechos y Obligaciones del Usuario  
+2. Derechos y Obligaciones del Usuario
+
 - Los usuarios se comprometen a hacer uso del sistema de manera diligente, lícita y conforme a los fines para los cuales fue diseñado.
 
 - El usuario garantiza que la información proporcionada durante el registro y uso del servicio es veraz, completa y actualizada.
 
 - Los usuarios deberán respetar las condiciones específicas de uso y las normas internas establecidas por los Anfitriones respecto a sus cocheras.
 
-3. Responsabilidades del Proveedor (Netvia)  
+3. Responsabilidades del Proveedor (Netvia)
+
 - Netvia se compromete a mantener la disponibilidad del servicio, salvo casos de mantenimiento programado, fuerza mayor o fallas técnicas imprevistas.
 
 - El proveedor no garantiza la disponibilidad de estacionamientos ni se responsabiliza por pérdidas, daños o robos ocurridos en el uso físico de los espacios.
 
 - Se brindará soporte técnico razonable mediante canales digitales para incidencias con el uso de la plataforma.
 
-4. Seguridad y Protección de Datos  
+4. Seguridad y Protección de Datos
+
 - Toda la información personal será tratada conforme a las normas vigentes en materia de protección de datos personales en el Perú.
 
 - HomeyPark implementa mecanismos de autenticación, encriptación y validación de usuarios para preservar la integridad del sistema y de sus usuarios.
 
-5. Limitación de Responsabilidad  
+5. Limitación de Responsabilidad
+
 - HomeyPark actúa como un intermediario entre usuarios y anfitriones, por lo que no se hace responsable por el cumplimiento de los acuerdos entre ellos.
 
 - El uso del servicio se realiza bajo riesgo propio del usuario. HomeyPark no asume responsabilidad por daños indirectos, incidentales o consecuentes.
 
-6. Modificaciones al Servicio  
+6. Modificaciones al Servicio
+
 - Netvia se reserva el derecho de actualizar, modificar o suspender funcionalidades de HomeyPark previa notificación a los usuarios a través de los canales registrados.
 
-7. Terminación  
+7. Terminación
+
 - Cualquiera de las partes podrá dar por terminado el uso del servicio en cualquier momento. La terminación no exime del cumplimiento de obligaciones previamente contraídas.
 
-8. Legislación Aplicable  
+8. Legislación Aplicable
+
 - Este Acuerdo se regirá por las leyes de la República del Perú. Ante cualquier controversia, las partes se someten a la jurisdicción de los tribunales del distrito judicial de Lima Metropolitana.
 
 <img src="../Assets/Terminos-y-Condiciones.png"/>
@@ -1910,7 +1920,6 @@ Management, Location Management, y Vehicle Management.
 
 ### 5.2.8. Team Collaboration Insights
 
-
 | Nombre                          | Actividad                                                |
 | ------------------------------- | -------------------------------------------------------- |
 | Sebastian Cachis Gonzales       | Implementacion y desarrollo de Backend                   |
@@ -1921,7 +1930,6 @@ Management, Location Management, y Vehicle Management.
 
 Se realizaron los commits por una persona, pero eso desestima el aporte evidenciado entre los miebros de grupo.
 
-
 ## 5.3. Video About-the-Product
 
 [Video del Producto](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c410_upc_edu_pe/Ed-CJXEtQkhNgspiE93_ZogBiQ-p2sSwNMiWje5okRfPEw?e=9Rypp3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
@@ -1931,6 +1939,7 @@ Se realizaron los commits por una persona, pero eso desestima el aporte evidenci
 <h1 id="capitulo-vi-product-verification--validation">Capítulo VI: Product Verification & Validation</h1>
 
 ## 6.1. Testing Suites & Validation
+
 ### 6.1.1. Core Entities Unit Tests
 
 Los Core Entities Unit Tests son cruciales en el desarrollo de software para asegurar la calidad y el funcionamiento adecuado de las entidades centrales, lo que ayuda a prevenir errores y simplifica el mantenimiento del código.
@@ -2005,50 +2014,52 @@ Schedule Controller Test
 
 ### 6.1.4. Core System Tests
 
-| US-09           | Registrarse | Given el usuario está en la página de registro, mWhen completa todos los campos requeridos y presiona “Registrarse”, Then se crea la cuenta y se redirige al login. Given el usuario ingresa un correo ya registrado, When intenta crear la cuenta, Then se muestra un mensaje de error.     |
-| ----------------|----------------| ---------- |
+| US-09 | Registrarse | Given el usuario está en la página de registro, mWhen completa todos los campos requeridos y presiona “Registrarse”, Then se crea la cuenta y se redirige al login. Given el usuario ingresa un correo ya registrado, When intenta crear la cuenta, Then se muestra un mensaje de error. |
+| ----- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <img src="../Assets/chapter6/US09-Test.png"/>
 
-| US-10           | Iniciar sesión | Given el usuario tiene una cuenta registrada, When ingresa credenciales válidas y presiona “Iniciar sesión”, Then accede a su dashboard. Given el usuario ingresa credenciales incorrectas, When intenta iniciar sesión, Then se muestra un mensaje de error y no se permite el acceso.     |
-| ----------------|----------------| ---------- |
+| US-10 | Iniciar sesión | Given el usuario tiene una cuenta registrada, When ingresa credenciales válidas y presiona “Iniciar sesión”, Then accede a su dashboard. Given el usuario ingresa credenciales incorrectas, When intenta iniciar sesión, Then se muestra un mensaje de error y no se permite el acceso. |
+| ----- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <img src="../Assets/chapter6/US10-Test.png"/>
 
-| US-12           | Buscar estacionamientos por dirección | Given el usuario ingresa una dirección válida, When presiona el botón de buscar, Then se muestran las cocheras disponibles en esa zona. Given el usuario ingresa una dirección inválida, When intenta buscar, Then se muestra un mensaje de error.     |
-| ----------------|----------------| ---------- |
+| US-12 | Buscar estacionamientos por dirección | Given el usuario ingresa una dirección válida, When presiona el botón de buscar, Then se muestran las cocheras disponibles en esa zona. Given el usuario ingresa una dirección inválida, When intenta buscar, Then se muestra un mensaje de error. |
+| ----- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <img src="../Assets/chapter6/US12-Test.png"/>
 
-| US-13           | Visualizar estacionamientos en mapa Given hay estacionamientos disponibles | When el usuario accede al mapa, Then se muestran los marcadores en la ubicación correcta. Given no hay estacionamientos, When el usuario accede al mapa, Then se muestra un mensaje indicando "Sin resultados".     |
-| ----------------|----------------| ---------- |
+| US-13 | Visualizar estacionamientos en mapa Given hay estacionamientos disponibles | When el usuario accede al mapa, Then se muestran los marcadores en la ubicación correcta. Given no hay estacionamientos, When el usuario accede al mapa, Then se muestra un mensaje indicando "Sin resultados". |
+| ----- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <img src="../Assets/chapter6/US13-Test.png"/>
 
-| US-15           | Ver detalle de cochera | Given el usuario selecciona un estacionamiento, When accede al detalle, Then ve información completa: ubicación, precio, horario, calificación. Given hay un error al cargar el detalle, When intenta acceder, Then se muestra un mensaje de error.     |
-| ----------------|----------------| ---------- |
+| US-15 | Ver detalle de cochera | Given el usuario selecciona un estacionamiento, When accede al detalle, Then ve información completa: ubicación, precio, horario, calificación. Given hay un error al cargar el detalle, When intenta acceder, Then se muestra un mensaje de error. |
+| ----- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <img src="../Assets/chapter6/US15-Test.png"/>
 
-| US-18           | Registrar cochera | Given el anfitrión llena todos los campos requeridos, When presiona “Registrar cochera”, Then la cochera se guarda exitosamente. Given falta información, When intenta registrar, Then se muestra un mensaje de validación.     |
-| ----------------|----------------| ---------- |
+| US-18 | Registrar cochera | Given el anfitrión llena todos los campos requeridos, When presiona “Registrar cochera”, Then la cochera se guarda exitosamente. Given falta información, When intenta registrar, Then se muestra un mensaje de validación. |
+| ----- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <img src="../Assets/chapter6/US18-Test.png"/>
 
-| US-19           | Ver cocheras registradas | Given el anfitrión tiene cocheras registradas, When accede a la sección de cocheras, Then se muestra el listado con sus detalles. Given el anfitrión no tiene cocheras, When accede a la sección, Then se muestra un mensaje indicando que no hay cocheras registradas.     |
-| ----------------|----------------| ---------- |
+| US-19 | Ver cocheras registradas | Given el anfitrión tiene cocheras registradas, When accede a la sección de cocheras, Then se muestra el listado con sus detalles. Given el anfitrión no tiene cocheras, When accede a la sección, Then se muestra un mensaje indicando que no hay cocheras registradas. |
+| ----- | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <img src="../Assets/chapter6/US19-Test.png"/>
 
-| US-40           | Añadir vehículo | Given el usuario completa los campos del vehículo, When presiona “Guardar”, Then el vehículo se registra y aparece en la lista. Given falta un campo obligatorio, When intenta guardar, Then se muestra un mensaje de error.     |
-| ----------------|----------------| ---------- |
+| US-40 | Añadir vehículo | Given el usuario completa los campos del vehículo, When presiona “Guardar”, Then el vehículo se registra y aparece en la lista. Given falta un campo obligatorio, When intenta guardar, Then se muestra un mensaje de error. |
+| ----- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <img src="../Assets/chapter6/US40-Test.png"/>
 
 h1 id="capitulo-vii-devops-practices">Capítulo VII: DevOps Practices</h1>
 
 ## 7.1. Continuous Integration
+
 ### 7.1.1. Tools and Practices
+
 Para implementar la Integración Continua (CI), utilizamos GitHub Actions, una herramienta de automatización integrada en GitHub que permite construir, probar y verificar automáticamente cada push o pull request a la rama main
 
 **Tools:**
@@ -2079,29 +2090,30 @@ Componentes del Pipeline del Backend:
 
 1. Checkout del código fuente:
 
-    - El pipeline comienza con la acción de checkout, la cual descarga el contenido del repositorio para que las siguientes tareas puedan ejecutarse sobre la versión más reciente del código.
+   - El pipeline comienza con la acción de checkout, la cual descarga el contenido del repositorio para que las siguientes tareas puedan ejecutarse sobre la versión más reciente del código.
 
 2. Configuración del entorno:
 
-    - Se configura el entorno de ejecución instalando Java 17 (distribución Temurin) y preparando el entorno para compilar el proyecto.
+   - Se configura el entorno de ejecución instalando Java 17 (distribución Temurin) y preparando el entorno para compilar el proyecto.
 
 3. Construcción del proyecto (build):
 
-    - Se ejecuta mvn clean install, lo que permite compilar el código fuente y resolver todas las dependencias declaradas en el pom.xml.
+   - Se ejecuta mvn clean install, lo que permite compilar el código fuente y resolver todas las dependencias declaradas en el pom.xml.
 
-    - En esta etapa también se generan los artefactos necesarios para el despliegue (por ejemplo, el .jar final).
+   - En esta etapa también se generan los artefactos necesarios para el despliegue (por ejemplo, el .jar final).
 
 4. Ejecución de pruebas:
 
-    - Se ejecuta mvn test, lo que dispara las pruebas unitarias integradas en el proyecto.
+   - Se ejecuta mvn test, lo que dispara las pruebas unitarias integradas en el proyecto.
 
-    - Esta fase es crítica para verificar que los cambios realizados no introduzcan fallos en la lógica de negocio ni rompan funcionalidades existentes.
+   - Esta fase es crítica para verificar que los cambios realizados no introduzcan fallos en la lógica de negocio ni rompan funcionalidades existentes.
 
 5. Notificación de despliegue (solo en rama main):
 
-    - Si el commit pertenece a la rama main y todas las fases anteriores se completan exitosamente, se ejecuta un curl al webhook de Render (Render Deploy Hook) para iniciar automáticamente el despliegue.
+   - Si el commit pertenece a la rama main y todas las fases anteriores se completan exitosamente, se ejecuta un curl al webhook de Render (Render Deploy Hook) para iniciar automáticamente el despliegue.
 
 ## 7.2. Continuous Delivery
+
 ### 7.2.1. Tools and Practices
 
 El objetivo de la Entrega Continua (Continuous Delivery) es garantizar que la aplicación esté siempre en un estado desplegable y validado, de modo que pueda ser publicada en producción de manera rápida y segura con una simple aprobación manual. Para lograrlo, se integraron herramientas que permiten automatizar todo el proceso hasta la etapa previa al despliegue final.
@@ -2140,6 +2152,7 @@ Se han definido configuraciones diferenciadas mediante variables de entorno en a
 Render proporciona monitoreo básico de la aplicación desplegada. Si el despliegue falla o hay errores de inicialización, estos quedan registrados automáticamente en el dashboard, permitiendo su revisión y solución.
 
 ## 7.3. Continuous Deployment
+
 ### 7.3.1. Tools and Practices
 
 El objetivo de Continuous Deployment (CD) es que cada cambio validado automáticamente se despliegue directamente al entorno de producción sin intervención manual, siempre y cuando pase todas las pruebas previas definidas.
@@ -2203,7 +2216,7 @@ La calidad y la seguridad son aspectos no negociables en HomeyPark. Para asegura
   - Inyección SQL: Validando y parametrizando todas las entradas del usuario que interactúan con la base de datos.
   - Cross-Site Scripting (XSS): Asegurando que todas las salidas de datos en el frontend estén correctamente sanitizadas.
   - Manejo inseguro de datos sensibles: Garantizando que las contraseñas y otros datos personales se almacenen y transmitan de forma segura.
-Herramientas como SonarQube y Checkmarx están integradas en nuestro pipeline para escanear el código en busca de estas y otras vulnerabilidades de seguridad antes de cada despliegue.
+    Herramientas como SonarQube y Checkmarx están integradas en nuestro pipeline para escanear el código en busca de estas y otras vulnerabilidades de seguridad antes de cada despliegue.
 
 ### 6.2.2. Reviews
 
@@ -2228,25 +2241,25 @@ Para obtener una retroalimentación valiosa, hemos diseñado un guion de entrevi
 **Guion de Entrevista de Validación para HomeyPark:**
 
 1.  **Visibilidad del estado del sistema:**
-    *   *“Mientras navegabas para reservar una cochera, ¿sentiste en todo momento que la aplicación te informaba sobre lo que estaba pasando (por ejemplo, con mensajes de carga, confirmaciones, etc.)?”*
+    - _“Mientras navegabas para reservar una cochera, ¿sentiste en todo momento que la aplicación te informaba sobre lo que estaba pasando (por ejemplo, con mensajes de carga, confirmaciones, etc.)?”_
 2.  **Relación entre el sistema y el mundo real:**
-    *   *“Los términos que usamos, como ‘Anfitrión’, ‘Solicitar reserva’ o ‘Mis garajes’, ¿te parecieron claros y familiares?”*
+    - _“Los términos que usamos, como ‘Anfitrión’, ‘Solicitar reserva’ o ‘Mis garajes’, ¿te parecieron claros y familiares?”_
 3.  **Control y libertad del usuario:**
-    *   *“Si cometías un error, como seleccionar una fecha incorrecta, ¿te resultó fácil volver atrás o cancelar la acción sin problemas?”*
+    - _“Si cometías un error, como seleccionar una fecha incorrecta, ¿te resultó fácil volver atrás o cancelar la acción sin problemas?”_
 4.  **Consistencia y estándares:**
-    *   *“¿Notaste que los botones y las opciones se comportaban de la misma manera en las diferentes pantallas de la aplicación?”*
+    - _“¿Notaste que los botones y las opciones se comportaban de la misma manera en las diferentes pantallas de la aplicación?”_
 5.  **Prevención de errores:**
-    *   *“Antes de confirmar una acción importante, como eliminar una reserva, ¿la aplicación te pidió una confirmación para evitar errores?”*
+    - _“Antes de confirmar una acción importante, como eliminar una reserva, ¿la aplicación te pidió una confirmación para evitar errores?”_
 6.  **Reconocimiento antes que recuerdo:**
-    *   *“¿Te resultó fácil encontrar las funciones principales, como ‘Buscar’ o ‘Mis reservas’, o tuviste que memorizar dónde estaban las cosas?”*
+    - _“¿Te resultó fácil encontrar las funciones principales, como ‘Buscar’ o ‘Mis reservas’, o tuviste que memorizar dónde estaban las cosas?”_
 7.  **Flexibilidad y eficiencia de uso:**
-    *   *“Para un usuario como tú, ¿crees que el proceso de reserva es lo suficientemente rápido y directo?”*
+    - _“Para un usuario como tú, ¿crees que el proceso de reserva es lo suficientemente rápido y directo?”_
 8.  **Diseño estético y minimalista:**
-    *   *“¿La interfaz te pareció limpia y sin información innecesaria que te distrajera de tu objetivo?”*
+    - _“¿La interfaz te pareció limpia y sin información innecesaria que te distrajera de tu objetivo?”_
 9.  **Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores:**
-    *   *“(Si ocurrió) Cuando apareció un mensaje de error, ¿fue claro y te ayudó a entender cuál era el problema?”*
+    - _“(Si ocurrió) Cuando apareció un mensaje de error, ¿fue claro y te ayudó a entender cuál era el problema?”_
 10. **Ayuda y documentación:**
-    *   *“Aunque la idea es que no se necesite, si tuvieras una duda, ¿dónde esperarías encontrar ayuda o información adicional?”*
+    - _“Aunque la idea es que no se necesite, si tuvieras una duda, ¿dónde esperarías encontrar ayuda o información adicional?”_
 
 ### 6.3.2. Registro de Entrevistas
 
@@ -2256,44 +2269,45 @@ Tras realizar las entrevistas de validación con usuarios de ambos perfiles (Con
 
 **Aplicación evaluada:** Prototipo de HomeyPark (versión web y móvil)
 **Tareas evaluadas:**
-*   Registrar un nuevo usuario (Conductor/Anfitrión).
-*   Buscar un estacionamiento por ubicación y fecha.
-*   Reservar un espacio de estacionamiento.
-*   Consultar el historial de reservas.
-*   Publicar una nueva cochera (Anfitrión).
+
+- Registrar un nuevo usuario (Conductor/Anfitrión).
+- Buscar un estacionamiento por ubicación y fecha.
+- Reservar un espacio de estacionamiento.
+- Consultar el historial de reservas.
+- Publicar una nueva cochera (Anfitrión).
 
 **Escala de Severidad:**
 
-*   **1 (Bajo):** Problema cosmético, no necesita ser arreglado a menos que se disponga de tiempo.
-*   **2 (Menor):** Problema de usabilidad menor, de baja prioridad.
-*   **3 (Mayor):** Problema de usabilidad importante, de alta prioridad.
-*   **4 (Catastrófico):** Problema de usabilidad crítico, imperativo corregirlo antes del lanzamiento.
+- **1 (Bajo):** Problema cosmético, no necesita ser arreglado a menos que se disponga de tiempo.
+- **2 (Menor):** Problema de usabilidad menor, de baja prioridad.
+- **3 (Mayor):** Problema de usabilidad importante, de alta prioridad.
+- **4 (Catastrófico):** Problema de usabilidad crítico, imperativo corregirlo antes del lanzamiento.
 
 **Tabla Resumen de Problemas Heurísticos:**
 
-| # | Problema | Severidad | Heurística(s) Violada(s) |
-| :-- | :--- | :---: | :--- |
-| **1** | **Confirmación de reserva poco visible.** Varios usuarios mencionaron que el mensaje de "Reserva confirmada" era pequeño y desaparecía rápido, generando dudas sobre si la acción se completó. | 3 | **Visibilidad del estado del sistema.** |
-| **2** | **Iconos de filtro poco claros.** El ícono para filtrar por "tipo de vehículo" (ej. moto, auto) no fue inmediatamente reconocido por todos los usuarios. | 2 | **Relación entre el sistema y el mundo real.** |
-| **3** | **Difícil deshacer la selección de un horario.** Al reservar, si un usuario seleccionaba un rango de horas por error, no encontraba una forma intuitiva de "limpiar" esa selección sin recargar la página. | 3 | **Control y libertad del usuario.** |
-| **4** | **Mensajes de error genéricos.** Cuando fallaba la carga de datos, el sistema mostraba un mensaje genérico como "Error", sin especificar si era un problema de conexión o del servidor. | 2 | **Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores.** |
-| **5** | **Proceso de registro de cochera muy largo.** Los anfitriones percibieron que el formulario para registrar un nuevo garaje era demasiado extenso y solicitaba información que podría pedirse más adelante. | 3 | **Diseño estético y minimalista.** |
+| #     | Problema                                                                                                                                                                                                   | Severidad | Heurística(s) Violada(s)                                                         |
+| :---- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------: | :------------------------------------------------------------------------------- |
+| **1** | **Confirmación de reserva poco visible.** Varios usuarios mencionaron que el mensaje de "Reserva confirmada" era pequeño y desaparecía rápido, generando dudas sobre si la acción se completó.             |     3     | **Visibilidad del estado del sistema.**                                          |
+| **2** | **Iconos de filtro poco claros.** El ícono para filtrar por "tipo de vehículo" (ej. moto, auto) no fue inmediatamente reconocido por todos los usuarios.                                                   |     2     | **Relación entre el sistema y el mundo real.**                                   |
+| **3** | **Difícil deshacer la selección de un horario.** Al reservar, si un usuario seleccionaba un rango de horas por error, no encontraba una forma intuitiva de "limpiar" esa selección sin recargar la página. |     3     | **Control y libertad del usuario.**                                              |
+| **4** | **Mensajes de error genéricos.** Cuando fallaba la carga de datos, el sistema mostraba un mensaje genérico como "Error", sin especificar si era un problema de conexión o del servidor.                    |     2     | **Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores.** |
+| **5** | **Proceso de registro de cochera muy largo.** Los anfitriones percibieron que el formulario para registrar un nuevo garaje era demasiado extenso y solicitaba información que podría pedirse más adelante. |     3     | **Diseño estético y minimalista.**                                               |
 
 **Descripción Detallada y Recomendaciones:**
 
 **Problema #1: Confirmación de reserva poco visible.**
 
-*   **Severidad:** 3 (Mayor)
-*   **Heurística violada:** Visibilidad del estado del sistema.
-*   **Descripción:** Al finalizar el flujo de reserva, el sistema muestra una notificación tipo "toast" en la parte inferior de la pantalla que dice "¡Reserva exitosa!". Sin embargo, los usuarios que participaron en la validación comentaron que, al estar concentrados en el botón "Confirmar", a menudo no notaban el mensaje o este desaparecía antes de que pudieran leerlo, lo que les generaba incertidumbre.
-*   **Recomendación:** Rediseñar la confirmación para que sea más prominente. En lugar de un "toast" discreto, se podría redirigir al usuario a una página de **confirmación dedicada** que muestre un resumen claro de la reserva (ubicación, fecha, hora, costo) y un mensaje de éxito grande y visible. Esto proporcionaría un cierre claro y satisfactorio al flujo de la tarea.
+- **Severidad:** 3 (Mayor)
+- **Heurística violada:** Visibilidad del estado del sistema.
+- **Descripción:** Al finalizar el flujo de reserva, el sistema muestra una notificación tipo "toast" en la parte inferior de la pantalla que dice "¡Reserva exitosa!". Sin embargo, los usuarios que participaron en la validación comentaron que, al estar concentrados en el botón "Confirmar", a menudo no notaban el mensaje o este desaparecía antes de que pudieran leerlo, lo que les generaba incertidumbre.
+- **Recomendación:** Rediseñar la confirmación para que sea más prominente. En lugar de un "toast" discreto, se podría redirigir al usuario a una página de **confirmación dedicada** que muestre un resumen claro de la reserva (ubicación, fecha, hora, costo) y un mensaje de éxito grande y visible. Esto proporcionaría un cierre claro y satisfactorio al flujo de la tarea.
 
 **Problema #2: Iconos de filtro poco claros.**
 
-*   **Severidad:** 2 (Menor)
-*   **Heurística violada:** Relación entre el sistema y el mundo real.
-*   **Descripción:** En la pantalla de búsqueda, se utilizan íconos para filtrar por tipo de vehículo (un coche, una motocicleta). Algunos usuarios dudaron sobre el significado de estos íconos y tuvieron que hacer clic para confirmar.
-*   **Recomendación:** Acompañar cada ícono con una etiqueta de texto simple ("Auto", "Moto"). Esto eliminaría la ambigüedad y aceleraría el reconocimiento, siguiendo el principio de "reconocimiento antes que recuerdo".
+- **Severidad:** 2 (Menor)
+- **Heurística violada:** Relación entre el sistema y el mundo real.
+- **Descripción:** En la pantalla de búsqueda, se utilizan íconos para filtrar por tipo de vehículo (un coche, una motocicleta). Algunos usuarios dudaron sobre el significado de estos íconos y tuvieron que hacer clic para confirmar.
+- **Recomendación:** Acompañar cada ícono con una etiqueta de texto simple ("Auto", "Moto"). Esto eliminaría la ambigüedad y aceleraría el reconocimiento, siguiendo el principio de "reconocimiento antes que recuerdo".
 
 ## 6.4. Auditoría de Experiencias de Usuario
 
@@ -2305,30 +2319,31 @@ En esta sección se detalla la auditoría que nuestro equipo, **Netvia**, realiz
 
 #### 6.4.1.1. Información del grupo auditado
 
-*   **Nombre del Proyecto:** AventuraPE
-*   **Integrantes:** Barbara Quezada, Jimena Cama, Jair Castillo, Estefano Jaque, Jose Gutierrez.
-*   **Descripción del Proyecto:** AventuraPE es una plataforma digital (web y móvil) que conecta a usuarios con experiencias locales auténticas, denominadas "microaventuras". Permite a emprendedores y guías locales publicar, gestionar y promocionar sus actividades, como clases de cocina, tours urbanos o caminatas guiadas.
+- **Nombre del Proyecto:** AventuraPE
+- **Integrantes:** Barbara Quezada, Jimena Cama, Jair Castillo, Estefano Jaque, Jose Gutierrez.
+- **Descripción del Proyecto:** AventuraPE es una plataforma digital (web y móvil) que conecta a usuarios con experiencias locales auténticas, denominadas "microaventuras". Permite a emprendedores y guías locales publicar, gestionar y promocionar sus actividades, como clases de cocina, tours urbanos o caminatas guiadas.
 
 #### 6.4.1.2. Cronograma de auditoría realizada
 
-*   **Fecha de la Auditoría:** 15 de junio de 2025.
-*   **Duración:** 90 minutos.
-*   **Plataformas Evaluadas:** Aplicación web y prototipo de aplicación móvil.
-*   **Equipo Auditor:** Netvia (Sebastian Cachis, Adriano Cruz, Amner Llamo, Marcelo Garro, Lucio Yen).
+- **Fecha de la Auditoría:** 15 de junio de 2025.
+- **Duración:** 90 minutos.
+- **Plataformas Evaluadas:** Aplicación web y prototipo de aplicación móvil.
+- **Equipo Auditor:** Netvia (Sebastian Cachis, Adriano Cruz, Amner Llamo, Marcelo Garro, Lucio Yen).
 
 #### 6.4.1.3. Contenido de auditoría realizada
 
 Nuestro equipo se centró en evaluar el flujo completo de la experiencia del usuario de AventuraPE, desde el punto de vista tanto del "aventurero" (cliente) como del "emprendedor" (proveedor). Los hallazgos principales fueron:
 
 1.  **Fortalezas Identificadas:**
-    *   **Propuesta de Valor Clara:** La idea de "microaventuras" es atractiva y está bien comunicada en la landing page.
-    *   **Flujo de Búsqueda Intuitivo:** La búsqueda y filtrado de experiencias es sencilla y eficiente para el usuario final.
-    *   **Proceso de Publicación Sencillo:** Para los emprendedores, el formulario para publicar una nueva aventura es directo y fácil de completar.
+
+    - **Propuesta de Valor Clara:** La idea de "microaventuras" es atractiva y está bien comunicada en la landing page.
+    - **Flujo de Búsqueda Intuitivo:** La búsqueda y filtrado de experiencias es sencilla y eficiente para el usuario final.
+    - **Proceso de Publicación Sencillo:** Para los emprendedores, el formulario para publicar una nueva aventura es directo y fácil de completar.
 
 2.  **Oportunidades de Mejora (Feedback Proporcionado):**
-    *   **Consistencia Visual:** Se observó una falta de consistencia en el diseño entre la página de inicio y las páginas internas. Se recomendó unificar la paleta de colores, la tipografía y el estilo de los botones para crear una experiencia más cohesiva, sugiriendo la adopción de un estilo más minimalista.
-    *   **Sincronización de Contenidos:** Detectamos que las imágenes subidas por un emprendedor desde la aplicación móvil no se reflejaban correctamente en la versión web de inmediato, lo que podría causar confusión.
-    *   **Gestión de Contenidos (Admin):** Identificamos un bug crítico donde un administrador no podía eliminar publicaciones que ya tenían comentarios, lo que dificulta la moderación de contenido. Se recomendó priorizar la corrección de este error.
+    - **Consistencia Visual:** Se observó una falta de consistencia en el diseño entre la página de inicio y las páginas internas. Se recomendó unificar la paleta de colores, la tipografía y el estilo de los botones para crear una experiencia más cohesiva, sugiriendo la adopción de un estilo más minimalista.
+    - **Sincronización de Contenidos:** Detectamos que las imágenes subidas por un emprendedor desde la aplicación móvil no se reflejaban correctamente en la versión web de inmediato, lo que podría causar confusión.
+    - **Gestión de Contenidos (Admin):** Identificamos un bug crítico donde un administrador no podía eliminar publicaciones que ya tenían comentarios, lo que dificulta la moderación de contenido. Se recomendó priorizar la corrección de este error.
 
 ### 6.4.2. Auditoría recibida
 
@@ -2336,48 +2351,53 @@ En esta sección, se documentan los resultados de la auditoría que el equipo de
 
 #### 6.4.2.1. Información del grupo auditor
 
-*   **Nombre del Grupo Auditor:** Equipo del proyecto AventuraPE.
-*   **Integrantes:** Barbara Quezada, Jimena Cama, Jair Castillo, Estefano Jaque, Jose Gutierrez.
+- **Nombre del Grupo Auditor:** Equipo del proyecto AventuraPE.
+- **Integrantes:** Barbara Quezada, Jimena Cama, Jair Castillo, Estefano Jaque, Jose Gutierrez.
 
 #### 6.4.2.2. Cronograma de auditoría recibida
 
-*   **Fecha de la Auditoría:** 16 de junio de 2025.
-*   **Duración:** 90 minutos.
-*   **Plataformas Evaluadas:** Aplicación web y prototipos de la aplicación móvil de HomeyPark.
-*   **Equipo Auditado:** Netvia (nuestro equipo).
+- **Fecha de la Auditoría:** 16 de junio de 2025.
+- **Duración:** 90 minutos.
+- **Plataformas Evaluadas:** Aplicación web y prototipos de la aplicación móvil de HomeyPark.
+- **Equipo Auditado:** Netvia (nuestro equipo).
 
 #### 6.4.2.3. Contenido de auditoría recibida
 
 El equipo de AventuraPE nos proporcionó un feedback muy valioso, enfocándose en la confianza, eficiencia y claridad de nuestra plataforma. Sus principales hallazgos fueron:
 
 1.  **Puntos Fuertes Destacados:**
-    *   El proceso de registro y login es seguro y directo.
-    *   La interfaz de búsqueda de estacionamientos es visualmente atractiva y fácil de usar.
-    *   La diferenciación clara entre los roles de "Conductor" y "Anfitrión" es un acierto.
+
+    - El proceso de registro y login es seguro y directo.
+    - La interfaz de búsqueda de estacionamientos es visualmente atractiva y fácil de usar.
+    - La diferenciación clara entre los roles de "Conductor" y "Anfitrión" es un acierto.
 
 2.  **Áreas de Mejora Identificadas:**
-    *   **Verificación y Seguridad:** Sugirieron que, aunque el proceso de registro es bueno, se podría reforzar la confianza de los usuarios implementando un sistema de verificación de identidad más robusto para los anfitriones y una validación de los datos del vehículo para los conductores.
-    *   **Flujo de Gestión para Anfitriones:** El equipo auditor notó que el proceso para que un anfitrión gestione la disponibilidad de su cochera (ej. bloquear fechas) podría ser más intuitivo. Recomendaron un calendario más visual y con menos pasos para actualizar el estado.
-    *   **Disponibilidad en Tiempo Real:** Señalaron que la precisión de la disponibilidad es el punto más crítico para la satisfacción del conductor. Recomendaron explorar soluciones técnicas para asegurar que la información "Disponible ahora" sea 100% fiable y evitar que un usuario reserve un espacio que ya fue ocupado.
+    - **Verificación y Seguridad:** Sugirieron que, aunque el proceso de registro es bueno, se podría reforzar la confianza de los usuarios implementando un sistema de verificación de identidad más robusto para los anfitriones y una validación de los datos del vehículo para los conductores.
+    - **Flujo de Gestión para Anfitriones:** El equipo auditor notó que el proceso para que un anfitrión gestione la disponibilidad de su cochera (ej. bloquear fechas) podría ser más intuitivo. Recomendaron un calendario más visual y con menos pasos para actualizar el estado.
+    - **Disponibilidad en Tiempo Real:** Señalaron que la precisión de la disponibilidad es el punto más crítico para la satisfacción del conductor. Recomendaron explorar soluciones técnicas para asegurar que la información "Disponible ahora" sea 100% fiable y evitar que un usuario reserve un espacio que ya fue ocupado.
 
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
 
 Basado en el valioso feedback recibido del equipo de AventuraPE, nuestro equipo (Netvia) ha priorizado las siguientes acciones para las próximas iteraciones de HomeyPark:
 
 1.  **Reforzar la Verificación de Seguridad:**
-    *   **Acción:** Se añadirá al backlog una `Technical Story` para integrar una API de verificación de identidad (ej. validación de DNI) en el flujo de registro de anfitriones.
-    *   **User Story relacionada:** "Como conductor, quiero ver una insignia de 'Anfitrión Verificado' para sentir más seguridad al reservar su cochera".
+
+    - **Acción:** Se añadirá al backlog una `Technical Story` para integrar una API de verificación de identidad (ej. validación de DNI) en el flujo de registro de anfitriones.
+    - **User Story relacionada:** "Como conductor, quiero ver una insignia de 'Anfitrión Verificado' para sentir más seguridad al reservar su cochera".
 
 2.  **Optimizar el Flujo de Gestión de Disponibilidad:**
-    *   **Acción:** Se rediseñará la interfaz de gestión de calendario para anfitriones, adoptando un componente de calendario más interactivo que permita seleccionar y bloquear rangos de fechas con un solo clic.
-    *   **User Story relacionada:** "Como anfitrión, quiero poder marcar rápidamente los días en que mi cochera no estará disponible desde un calendario visual para gestionar mis reservas eficientemente".
+
+    - **Acción:** Se rediseñará la interfaz de gestión de calendario para anfitriones, adoptando un componente de calendario más interactivo que permita seleccionar y bloquear rangos de fechas con un solo clic.
+    - **User Story relacionada:** "Como anfitrión, quiero poder marcar rápidamente los días en que mi cochera no estará disponible desde un calendario visual para gestionar mis reservas eficientemente".
 
 3.  **Mejorar la Sincronización de Disponibilidad:**
-    *   **Acción:** Se investigará e implementará el uso de **WebSockets o sondeo de corta duración (short-polling)** para actualizar el estado de disponibilidad de las cocheras en tiempo real en el mapa de búsqueda.
-    *   **Technical Story relacionada:** "Implementar una conexión en tiempo real para reflejar el estado de las cocheras (disponible/ocupado) sin necesidad de recargar la página".
+    - **Acción:** Se investigará e implementará el uso de **WebSockets o sondeo de corta duración (short-polling)** para actualizar el estado de disponibilidad de las cocheras en tiempo real en el mapa de búsqueda.
+    - **Technical Story relacionada:** "Implementar una conexión en tiempo real para reflejar el estado de las cocheras (disponible/ocupado) sin necesidad de recargar la página".
 
 ## 7.1. Continuous Integration
+
 ### 7.1.1. Tools and Practices
+
 Para implementar la Integración Continua (CI), utilizamos GitHub Actions, una herramienta de automatización integrada en GitHub que permite construir, probar y verificar automáticamente cada push o pull request a la rama main
 
 **Tools:**
@@ -2408,29 +2428,30 @@ Componentes del Pipeline del Backend:
 
 1. Checkout del código fuente:
 
-    - El pipeline comienza con la acción de checkout, la cual descarga el contenido del repositorio para que las siguientes tareas puedan ejecutarse sobre la versión más reciente del código.
+   - El pipeline comienza con la acción de checkout, la cual descarga el contenido del repositorio para que las siguientes tareas puedan ejecutarse sobre la versión más reciente del código.
 
 2. Configuración del entorno:
 
-    - Se configura el entorno de ejecución instalando Java 17 (distribución Temurin) y preparando el entorno para compilar el proyecto.
+   - Se configura el entorno de ejecución instalando Java 17 (distribución Temurin) y preparando el entorno para compilar el proyecto.
 
 3. Construcción del proyecto (build):
 
-    - Se ejecuta mvn clean install, lo que permite compilar el código fuente y resolver todas las dependencias declaradas en el pom.xml.
+   - Se ejecuta mvn clean install, lo que permite compilar el código fuente y resolver todas las dependencias declaradas en el pom.xml.
 
-    - En esta etapa también se generan los artefactos necesarios para el despliegue (por ejemplo, el .jar final).
+   - En esta etapa también se generan los artefactos necesarios para el despliegue (por ejemplo, el .jar final).
 
 4. Ejecución de pruebas:
 
-    - Se ejecuta mvn test, lo que dispara las pruebas unitarias integradas en el proyecto.
+   - Se ejecuta mvn test, lo que dispara las pruebas unitarias integradas en el proyecto.
 
-    - Esta fase es crítica para verificar que los cambios realizados no introduzcan fallos en la lógica de negocio ni rompan funcionalidades existentes.
+   - Esta fase es crítica para verificar que los cambios realizados no introduzcan fallos en la lógica de negocio ni rompan funcionalidades existentes.
 
 5. Notificación de despliegue (solo en rama main):
 
-    - Si el commit pertenece a la rama main y todas las fases anteriores se completan exitosamente, se ejecuta un curl al webhook de Render (Render Deploy Hook) para iniciar automáticamente el despliegue.
+   - Si el commit pertenece a la rama main y todas las fases anteriores se completan exitosamente, se ejecuta un curl al webhook de Render (Render Deploy Hook) para iniciar automáticamente el despliegue.
 
 ## 7.2. Continuous Delivery
+
 ### 7.2.1. Tools and Practices
 
 El objetivo de la Entrega Continua (Continuous Delivery) es garantizar que la aplicación esté siempre en un estado desplegable y validado, de modo que pueda ser publicada en producción de manera rápida y segura con una simple aprobación manual. Para lograrlo, se integraron herramientas que permiten automatizar todo el proceso hasta la etapa previa al despliegue final.
@@ -2469,6 +2490,7 @@ Se han definido configuraciones diferenciadas mediante variables de entorno en a
 Render proporciona monitoreo básico de la aplicación desplegada. Si el despliegue falla o hay errores de inicialización, estos quedan registrados automáticamente en el dashboard, permitiendo su revisión y solución.
 
 ## 7.3. Continuous Deployment
+
 ### 7.3.1. Tools and Practices
 
 El objetivo de Continuous Deployment (CD) es que cada cambio validado automáticamente se despliegue directamente al entorno de producción sin intervención manual, siempre y cuando pase todas las pruebas previas definidas.
@@ -2522,6 +2544,7 @@ El pipeline de despliegue a producción está completamente automatizado y se ej
 HomeyPark es una aplicación móvil diseñada para conectar a conductores que necesitan estacionamiento en zonas urbanas con propietarios de cocheras disponibles. La solución se centra en resolver la escasez de espacios y optimizar el tiempo invertido en la búsqueda de estacionamiento. Si bien se han validado algunos aspectos a través de entrevistas, el producto aún se encuentra en una etapa temprana, lo que abre la posibilidad de identificar hipótesis de mejora que, si se implementan correctamente, podrían aumentar la adopción, la retención y la monetización de la plataforma.
 
 Problemas identificados:
+
 - **Confianza digital:** Se asume que incorporar verificación de usuarios, fotos reales y reseñas generará mayor seguridad en las reservas.
 
 - **Proceso lento:** Se presume que un flujo optimizado de reserva aumentará la tasa de conversión y reducirá el abandono.
@@ -2533,6 +2556,7 @@ Problemas identificados:
 - **Búsqueda limitada:** Se plantea que permitir filtros avanzados (precio, horario, tamaño) hará más eficiente la selección de cocheras.
 
 Objetivos de mejora:
+
 - **Mejorar confianza:** Incorporar funciones de seguridad percibida para aumentar reservas efectivas.
 
 - **Agilizar reservas:** Optimizar la interfaz y reducir el número de pasos para completar una reserva.
@@ -2546,6 +2570,7 @@ Objetivos de mejora:
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
 Assumptions:
+
 - **Seguridad:** Se asume que los usuarios confiarán más en la plataforma si se muestran elementos de verificación, reseñas y fotos reales.
 
 - **Simplicidad:** Se presupone que una interfaz clara, rápida y con pocos pasos aumentará la tasa de reservas efectivas.
@@ -2557,6 +2582,7 @@ Assumptions:
 - **Fidelidad:** Se supone que los usuarios frecuentes se mantendrán activos si se les ofrecen beneficios o recompensas por uso constante de la app.
 
 Knowledge Gaps:
+
 - **Preferencias de seguridad:** Se requiere mayor información sobre qué elementos de seguridad (verificación de identidad, fotos, reseñas) son realmente valorados por los usuarios para sentirse cómodos al reservar o publicar una cochera.
 
 - **Nivel de usabilidad requerido:** No se tiene claridad sobre qué tan intuitiva debe ser la interfaz para usuarios con distintos niveles de familiaridad tecnológica.
@@ -2568,6 +2594,7 @@ Knowledge Gaps:
 - **Receptividad a fidelización:** Se desconoce si los usuarios consideran atractivos los sistemas de recompensas, qué tipo de beneficios preferirían y si estos realmente motivan el uso recurrente de la app.
 
 Ideas:
+
 - **Validación por identidad:** Implementar un proceso de verificación de anfitriones mediante DNI, dirección y fotos verificadas para aumentar la confianza de los conductores.
 
 - **Asistente de reservas:** Diseñar una funcionalidad que acompañe al usuario paso a paso durante su primera reserva, reduciendo errores o abandonos por confusión.
@@ -2579,6 +2606,7 @@ Ideas:
 - **Sistema de fidelización:** Proponer un esquema de puntos, beneficios o recompensas por uso frecuente de la app, que premie tanto a conductores como a anfitriones.
 
 Claims:
+
 - **Incremento de reservas:** Si se percibe mayor seguridad en la plataforma (verificación, reseñas, fotos), la conversión de búsqueda a reserva aumentará al menos en un 30%.
 
 - **Mejor adopción del sistema:** Si el proceso de reserva se completa en menos de 3 minutos, la tasa de abandono disminuirá significativamente.
@@ -2591,70 +2619,109 @@ Claims:
 
 ### 8.1.3. Experiment-Ready Questions
 
-| **Question** | **Confidence** | **Risk** | **Impact** | **Interest** | **Total Score** |
-|--------------|----------------|----------|------------|--------------|-----------------|
-| ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para aumentar la seguridad? | 7 – Estudios previos indican que la seguridad percibida mejora la conversión. | 2 – Riesgo bajo, requiere integración de validaciones estándar. | 8 – Alto impacto en la confianza y en la adopción inicial. | 7 – Usuarios expresaron preocupación por la seguridad en entrevistas. | **24** |
-| ¿Reducirá el abandono del proceso si se simplifica el flujo de reserva a menos de 3 minutos? | 6 – Se presume que el proceso actual puede generar fricción. | 2 – Riesgo bajo, requiere rediseño de interfaz. | 7 – Mejora la conversión directa. | 6 – Los usuarios valoran rapidez y simplicidad. | **21** |
-| ¿Mejorará la confianza de los usuarios si se implementa un sistema visible de reputación con puntuaciones y comentarios? | 7 – Comúnmente valorado en plataformas de economía colaborativa. | 3 – Riesgo medio por la moderación de contenido y posibles abusos. | 7 – Potencial fuerte en retención y percepción de seguridad. | 6 – Relevante para conductores y anfitriones. | **23** |
-| ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, tamaño o nivel de seguridad? | 6 – Los filtros suelen ser bien valorados por usuarios frecuentes. | 2 – Riesgo bajo, funcionalidad estándar. | 6 – Mejora la experiencia de navegación. | 5 – Útil pero no prioritario para todos los usuarios. | **19** |
-| ¿Aumentará el uso recurrente de la app si se implementa un sistema de puntos o recompensas por fidelidad? | 5 – La efectividad depende del tipo de recompensa y perfil del usuario. | 4 – Riesgo medio por implementación y mantenimiento del sistema. | 7 – Puede incentivar el uso constante. | 6 – Moderadamente interesante para usuarios frecuentes. | **22** |
+| **Question**                                                                                                             | **Confidence**                                                                | **Risk**                                                           | **Impact**                                                   | **Interest**                                                          | **Total Score** |
+| ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------------------------- | --------------- |
+| ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para aumentar la seguridad?     | 7 – Estudios previos indican que la seguridad percibida mejora la conversión. | 2 – Riesgo bajo, requiere integración de validaciones estándar.    | 8 – Alto impacto en la confianza y en la adopción inicial.   | 7 – Usuarios expresaron preocupación por la seguridad en entrevistas. | **24**          |
+| ¿Reducirá el abandono del proceso si se simplifica el flujo de reserva a menos de 3 minutos?                             | 6 – Se presume que el proceso actual puede generar fricción.                  | 2 – Riesgo bajo, requiere rediseño de interfaz.                    | 7 – Mejora la conversión directa.                            | 6 – Los usuarios valoran rapidez y simplicidad.                       | **21**          |
+| ¿Mejorará la confianza de los usuarios si se implementa un sistema visible de reputación con puntuaciones y comentarios? | 7 – Comúnmente valorado en plataformas de economía colaborativa.              | 3 – Riesgo medio por la moderación de contenido y posibles abusos. | 7 – Potencial fuerte en retención y percepción de seguridad. | 6 – Relevante para conductores y anfitriones.                         | **23**          |
+| ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, tamaño o nivel de seguridad?   | 6 – Los filtros suelen ser bien valorados por usuarios frecuentes.            | 2 – Riesgo bajo, funcionalidad estándar.                           | 6 – Mejora la experiencia de navegación.                     | 5 – Útil pero no prioritario para todos los usuarios.                 | **19**          |
+| ¿Aumentará el uso recurrente de la app si se implementa un sistema de puntos o recompensas por fidelidad?                | 5 – La efectividad depende del tipo de recompensa y perfil del usuario.       | 4 – Riesgo medio por implementación y mantenimiento del sistema.   | 7 – Puede incentivar el uso constante.                       | 6 – Moderadamente interesante para usuarios frecuentes.               | **22**          |
 
 ### 8.1.4. Question Backlog
 
-| **Prioridad** (1,2,3,5,8) | **Pregunta** |
-|---------------------------|--------------|
-| 5 | ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para aumentar la seguridad? |
-| 2 | ¿Mejorará la confianza de los usuarios si se implementa un sistema visible de reputación con puntuaciones y comentarios? |
-| 1 | ¿Reducirá el abandono del proceso si se simplifica el flujo de reserva a menos de 3 minutos? |
-| 3 | ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, tamaño o nivel de seguridad? |
-| 5 | ¿Aumentará el uso recurrente de la app si se implementa un sistema de puntos o recompensas por fidelidad? |
+| **Prioridad** (1,2,3,5,8) | **Pregunta**                                                                                                             |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| 5                         | ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para aumentar la seguridad?     |
+| 2                         | ¿Mejorará la confianza de los usuarios si se implementa un sistema visible de reputación con puntuaciones y comentarios? |
+| 1                         | ¿Reducirá el abandono del proceso si se simplifica el flujo de reserva a menos de 3 minutos?                             |
+| 3                         | ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, tamaño o nivel de seguridad?   |
+| 5                         | ¿Aumentará el uso recurrente de la app si se implementa un sistema de puntos o recompensas por fidelidad?                |
 
 ### 8.1.5. Experiment Cards
 
 ---
 
-| **Question** | ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para aumentar la seguridad? |
-|--------------|----------------------------------------------------------------------------------------------------------------------------------|
-| **Why**      | Muchos usuarios desconfían al reservar cocheras de personas desconocidas. Verificaciones visibles (identidad, fotos, reseñas) podrían generar más credibilidad, disminuir el miedo al fraude y fomentar una mayor adopción del servicio. |
-| **What**     | Implementar validación de identidad para anfitriones y conductores mediante documentos oficiales. Añadir también la opción de subir fotos reales del espacio y permitir calificaciones visibles para mejorar la percepción de seguridad. |
-| **Hypothesis** | Se espera que el 70% de los usuarios finalicen la reserva cuando el anfitrión esté verificado, en comparación con un 40% en perfiles no verificados. |
+| **Question**   | ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para aumentar la seguridad?                                                                                                                     |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Why**        | Muchos usuarios desconfían al reservar cocheras de personas desconocidas. Verificaciones visibles (identidad, fotos, reseñas) podrían generar más credibilidad, disminuir el miedo al fraude y fomentar una mayor adopción del servicio. |
+| **What**       | Implementar validación de identidad para anfitriones y conductores mediante documentos oficiales. Añadir también la opción de subir fotos reales del espacio y permitir calificaciones visibles para mejorar la percepción de seguridad. |
+| **Hypothesis** | Se espera que el 70% de los usuarios finalicen la reserva cuando el anfitrión esté verificado, en comparación con un 40% en perfiles no verificados.                                                                                     |
 
 ---
 
-| **Question** | ¿Mejorará la confianza de los usuarios si se implementa un sistema visible de reputación con puntuaciones y comentarios? |
-|--------------|-------------------------------------------------------------------------------------------------------------------------|
-| **Why**      | La confianza entre usuarios es esencial en plataformas colaborativas. Un sistema de reputación puede reducir incertidumbre, fomentar transparencia y mejorar la retención. |
-| **What**     | Crear un sistema de reputación donde los usuarios puedan calificar su experiencia con puntuaciones de 1 a 5 estrellas y dejar comentarios visibles luego de cada reserva, tanto para anfitriones como para conductores. |
-| **Hypothesis** | Se espera que anfitriones con reputación ≥4 estrellas aumenten su tasa de reserva en un 25% respecto a quienes no tienen reseñas. |
+| **Question**   | ¿Mejorará la confianza de los usuarios si se implementa un sistema visible de reputación con puntuaciones y comentarios?                                                                                                |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Why**        | La confianza entre usuarios es esencial en plataformas colaborativas. Un sistema de reputación puede reducir incertidumbre, fomentar transparencia y mejorar la retención.                                              |
+| **What**       | Crear un sistema de reputación donde los usuarios puedan calificar su experiencia con puntuaciones de 1 a 5 estrellas y dejar comentarios visibles luego de cada reserva, tanto para anfitriones como para conductores. |
+| **Hypothesis** | Se espera que anfitriones con reputación ≥4 estrellas aumenten su tasa de reserva en un 25% respecto a quienes no tienen reseñas.                                                                                       |
 
 ---
 
-| **Question** | ¿Reducirá el abandono del proceso si se simplifica el flujo de reserva a menos de 3 minutos? |
-|--------------|------------------------------------------------------------------------------------------------|
-| **Why**      | Flujos largos o poco intuitivos generan abandono. Una reserva rápida puede aumentar la conversión, sobre todo en zonas con alta demanda. |
-| **What**     | Rediseñar el flujo de reserva reduciendo la cantidad de pantallas, campos y pasos innecesarios, enfocándose en una experiencia más directa y comprensible para el usuario. |
-| **Hypothesis** | Se espera una reducción del abandono de al menos 30% y una tasa de conversión mayor al 60% en el nuevo flujo. |
+| **Question**   | ¿Reducirá el abandono del proceso si se simplifica el flujo de reserva a menos de 3 minutos?                                                                               |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Why**        | Flujos largos o poco intuitivos generan abandono. Una reserva rápida puede aumentar la conversión, sobre todo en zonas con alta demanda.                                   |
+| **What**       | Rediseñar el flujo de reserva reduciendo la cantidad de pantallas, campos y pasos innecesarios, enfocándose en una experiencia más directa y comprensible para el usuario. |
+| **Hypothesis** | Se espera una reducción del abandono de al menos 30% y una tasa de conversión mayor al 60% en el nuevo flujo.                                                              |
 
 ---
 
-| **Question** | ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, tamaño o nivel de seguridad? |
-|--------------|-------------------------------------------------------------------------------------------------------------------------|
-| **Why**      | Filtrar opciones ayuda a tomar decisiones más rápidas al reducir la sobrecarga de información y aumentar la relevancia de los resultados. |
-| **What**     | Implementar filtros dinámicos para búsqueda de cocheras, permitiendo seleccionar por precio, medidas del espacio, nivel de seguridad, cercanía o tipo de cochera (techada o abierta). |
-| **Hypothesis** | Se espera una reducción del tiempo de decisión en al menos un 20% entre usuarios que utilizan los filtros. |
+| **Question**   | ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, tamaño o nivel de seguridad?                                                                |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Why**        | Filtrar opciones ayuda a tomar decisiones más rápidas al reducir la sobrecarga de información y aumentar la relevancia de los resultados.                                             |
+| **What**       | Implementar filtros dinámicos para búsqueda de cocheras, permitiendo seleccionar por precio, medidas del espacio, nivel de seguridad, cercanía o tipo de cochera (techada o abierta). |
+| **Hypothesis** | Se espera una reducción del tiempo de decisión en al menos un 20% entre usuarios que utilizan los filtros.                                                                            |
 
 ---
 
-| **Question** | ¿Aumentará el uso recurrente de la app si se implementa un sistema de puntos o recompensas por fidelidad? |
-|--------------|-----------------------------------------------------------------------------------------------------------|
-| **Why**      | La fidelización a través de recompensas puede motivar a los usuarios a preferir la app como su opción principal para estacionamiento frecuente. |
-| **What**     | Crear un sistema de puntos acumulables por cada reserva realizada, con opciones para canjearlos por descuentos o beneficios especiales dentro de la app. |
-| **Hypothesis** |Se espera que los usuarios con acceso al sistema de fidelización incrementen su frecuencia de uso en un 40%. |
-
+| **Question**   | ¿Aumentará el uso recurrente de la app si se implementa un sistema de puntos o recompensas por fidelidad?                                                |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Why**        | La fidelización a través de recompensas puede motivar a los usuarios a preferir la app como su opción principal para estacionamiento frecuente.          |
+| **What**       | Crear un sistema de puntos acumulables por cada reserva realizada, con opciones para canjearlos por descuentos o beneficios especiales dentro de la app. |
+| **Hypothesis** | Se espera que los usuarios con acceso al sistema de fidelización incrementen su frecuencia de uso en un 40%.                                             |
 
 ## 8.2. Experiment Design
 
 ### 8.2.1. Hypotheses
+
+### 8.2.1 Hypotheses
+
+| **Question**        | ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para reforzar la seguridad?                                                                                 |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Belief**          | Muchos usuarios dudan al arrendar cocheras de personas desconocidas. Mostrar identificaciones verificadas, imágenes reales del espacio y reseñas podría generar confianza y reducir la desconfianza. |
+| **Hypothesis**      | Al menos el 70 % de las solicitudes de reserva se completarán cuando el anfitrión esté verificado.                                                                                                   |
+| **Null Hypothesis** | Las verificaciones de perfil no impactarán de manera significativa en la tasa de reservas.                                                                                                           |
+
+---
+
+| **Question**        | ¿Aumentará la confianza de los usuarios con un sistema de reputación basado en puntuaciones y comentarios visibles?                                   |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Belief**          | La transparencia en la reputación ayuda a los usuarios a evaluar con mayor seguridad a anfitriones y conductores, reduciendo la percepción de riesgo. |
+| **Hypothesis**      | Se incrementará en un 25 % la tasa de reservas de anfitriones con reputación de 4 estrellas o más.                                                    |
+| **Null Hypothesis** | El sistema de reputación no provocará un cambio notable en la confianza ni en las reservas.                                                           |
+
+---
+
+| **Question**        | ¿Se reducirá el abandono del proceso de reserva al simplificarlo para completarlo en menos de 3 minutos?                                    |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Belief**          | Procesos largos o complicados suelen provocar abandono antes de finalizar la reserva. Un flujo más directo podría mejorar las conversiones. |
+| **Hypothesis**      | El abandono del flujo de reserva disminuirá en al menos un 30 %.                                                                            |
+| **Null Hypothesis** | Reducir los pasos del flujo no influirá significativamente en la tasa de abandono.                                                          |
+
+---
+
+| **Question**        | ¿Disminuirá el tiempo de decisión si los usuarios pueden filtrar cocheras por precio, tamaño o nivel de seguridad?                                       |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Belief**          | El exceso de opciones puede dificultar la elección. Filtrar resultados ayuda a los usuarios a centrarse en lo que más les importa y agiliza la decisión. |
+| **Hypothesis**      | El tiempo medio de elección se reducirá en un 20 %.                                                                                                      |
+| **Null Hypothesis** | La introducción de filtros no modificará de forma significativa el tiempo de decisión.                                                                   |
+
+---
+
+| **Question**        | ¿Crecerá la frecuencia de uso de la aplicación si se ofrece un programa de puntos o recompensas?                     |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Belief**          | Los incentivos por fidelidad suelen impulsar el uso recurrente al premiar el comportamiento deseado de los usuarios. |
+| **Hypothesis**      | Los usuarios con acceso al programa de recompensas aumentarán su uso en un 40 %.                                     |
+| **Null Hypothesis** | El sistema de recompensas no tendrá un efecto apreciable en la frecuencia de uso.                                    |
 
 ### 8.2.2. Measures
 
@@ -2691,8 +2758,6 @@ Claims:
   Un aspecto importante fue la realización de pruebas a diferentes niveles: se implementaron pruebas unitarias, integrales y funcionales, cubriendo tanto los servicios del backend como los flujos principales del sistema, garantizando así la robustez del producto ante distintos escenarios de uso.
   Por otro lado, se configuraron pipelines de integración y despliegue continuo (CI/CD) mediante GitHub Actions y Render, lo cual aseguró la entrega automática y confiable de cada nueva versión del backend en producción.
   En síntesis, la segunda etapa del proyecto consolidó la transición de la propuesta conceptual a un producto funcional. Se completaron desarrollos clave del frontend, backend y landing page, se validaron funcionalidades mediante pruebas unitarias, integrales y funcionales, y se implementaron pipelines CI/CD que garantizan la calidad y continuidad del despliegue. Estos avances fortalecen la viabilidad técnica del sistema y preparan el terreno para una siguiente fase de validación con usuarios reales.
-
-  
 
 - ## Bibliografía
 
