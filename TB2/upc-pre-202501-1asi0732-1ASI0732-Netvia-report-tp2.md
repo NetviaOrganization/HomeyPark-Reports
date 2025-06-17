@@ -2045,7 +2045,136 @@ Schedule Controller Test
 
 <img src="../Assets/chapter6/US40-Test.png"/>
 
-<h1 id="capitulo-vii-devops-practices">Capítulo VII: DevOps Practices</h1>
+h1 id="capitulo-vii-devops-practices">Capítulo VII: DevOps Practices</h1>
+
+## 7.1. Continuous Integration
+### 7.1.1. Tools and Practices
+Para implementar la Integración Continua (CI), utilizamos GitHub Actions, una herramienta de automatización integrada en GitHub que permite construir, probar y verificar automáticamente cada push o pull request a la rama main
+
+**Tools:**
+
+- GitHub Actions: Es la herramienta principal para la automatización del pipeline de integración. Permite ejecutar tareas como compilación, pruebas y ejecución de workflows en cada evento del repositorio.
+
+- Docker: Se emplea para contenerizar la aplicación backend, garantizando que el entorno de ejecución sea consistente desde el desarrollo hasta la producción.
+
+- Render: Plataforma utilizada para desplegar automáticamente la aplicación Spring Boot en la nube mediante la opción webhooks.
+
+**Practices:**
+
+- Disparadores por rama (main): Cada commit a esta rama activa el pipeline.
+
+- Compilación automática: El código es construido dentro del pipeline usando Maven.
+
+- Pruebas automatizadas: Se ejecutan pruebas unitarias para validar la estabilidad del sistema.
+
+- Contenerización: El backend se empaqueta en una imagen Docker preparada para producción.
+
+- Despliegue automatizado (hook): Una vez validado el pipeline, se envía una solicitud al webhook de Render para iniciar el despliegue.
+
+### 7.1.2. Build & Test Suite Pipeline Components
+
+El pipeline de Integración Continua implementado en GitHub Actions se estructura en varias etapas que garantizan que cada cambio en el código sea correctamente validado antes de su despliegue. Estas etapas permiten detectar errores tempranamente, asegurar la calidad del software y mantener el proyecto en un estado siempre desplegable.
+
+Componentes del Pipeline del Backend:
+
+1. Checkout del código fuente:
+
+    - El pipeline comienza con la acción de checkout, la cual descarga el contenido del repositorio para que las siguientes tareas puedan ejecutarse sobre la versión más reciente del código.
+
+2. Configuración del entorno:
+
+    - Se configura el entorno de ejecución instalando Java 17 (distribución Temurin) y preparando el entorno para compilar el proyecto.
+
+3. Construcción del proyecto (build):
+
+    - Se ejecuta mvn clean install, lo que permite compilar el código fuente y resolver todas las dependencias declaradas en el pom.xml.
+
+    - En esta etapa también se generan los artefactos necesarios para el despliegue (por ejemplo, el .jar final).
+
+4. Ejecución de pruebas:
+
+    - Se ejecuta mvn test, lo que dispara las pruebas unitarias integradas en el proyecto.
+
+    - Esta fase es crítica para verificar que los cambios realizados no introduzcan fallos en la lógica de negocio ni rompan funcionalidades existentes.
+
+5. Notificación de despliegue (solo en rama main):
+
+    - Si el commit pertenece a la rama main y todas las fases anteriores se completan exitosamente, se ejecuta un curl al webhook de Render (Render Deploy Hook) para iniciar automáticamente el despliegue.
+
+## 7.2. Continuous Delivery
+### 7.2.1. Tools and Practices
+
+El objetivo de la Entrega Continua (Continuous Delivery) es garantizar que la aplicación esté siempre en un estado desplegable y validado, de modo que pueda ser publicada en producción de manera rápida y segura con una simple aprobación manual. Para lograrlo, se integraron herramientas que permiten automatizar todo el proceso hasta la etapa previa al despliegue final.
+
+**Tools:**
+
+- GitHub Actions: Es la herramienta central del pipeline, donde se automatizan las etapas de construcción, pruebas y despliegue condicional. Está configurado para detectar cambios en las ramas main y develop, permitiendo un flujo de validación constante.
+
+- Docker: Utilizado para contenerizar la aplicación backend desarrollada en Spring Boot. Garantiza un entorno de ejecución coherente entre desarrollo, pruebas y producción, reduciendo riesgos por diferencias de configuración.
+
+- Render Deploy Hook: Se configura un webhook de Render que permite disparar el despliegue desde GitHub Actions. En el caso de Entrega Continua, este webhook puede activarse manualmente o de forma controlada desde un entorno intermedio como develop.
+
+**Practices:**
+
+- Feature Branching: Cada nueva funcionalidad se desarrolla en una rama independiente. Luego de pasar pruebas y revisión de código, estas ramas se fusionan en develop (entorno de staging) o en main (producción).
+
+- Despliegue Automatizado: En la rama main, el pipeline activa automáticamente el webhook de Render, lo que produce un despliegue inmediato al entorno de producción una vez que se validan los cambios. Esto asegura que toda versión fusionada en main pase directamente a producción sin intervención manual.
+
+- Separación de entornos (.env): Se utilizaron archivos .env para separar claramente las configuraciones de desarrollo y producción, lo que facilita validaciones intermedias antes de desplegar versiones finales.
+
+### 7.2.2. Stages Deployment Pipeline Components
+
+**Integración Continua (CI):**  
+Cada vez que se realiza un commit o pull request hacia la rama develop o main, GitHub Actions ejecuta automáticamente un pipeline que compila el proyecto con Maven, corre las pruebas y valida la construcción. Este paso garantiza que el código esté siempre en un estado desplegable.
+
+**Validación previa al despliegue:**  
+La validación se lleva a cabo mediante la ejecución del build y pruebas en un entorno aislado definido por el contenedor Docker. Esto permite asegurar que la aplicación sea coherente y funcional antes de cualquier despliegue.
+
+**Despliegue automático a producción (main):**  
+Cuando los cambios se fusionan a la rama main, el pipeline ejecuta un paso adicional que activa un Webhook de Render. Esto produce un despliegue inmediato de la nueva versión de la aplicación backend (Spring Boot), de forma completamente automatizada.
+
+**Separación de entornos:**  
+Se han definido configuraciones diferenciadas mediante variables de entorno en archivos .env, lo que permite manejar distintos entornos (por ejemplo, desarrollo y producción) sin modificar el código fuente.
+
+**Monitoreo y observabilidad (integrado en Render):**  
+Render proporciona monitoreo básico de la aplicación desplegada. Si el despliegue falla o hay errores de inicialización, estos quedan registrados automáticamente en el dashboard, permitiendo su revisión y solución.
+
+## 7.3. Continuous Deployment
+### 7.3.1. Tools and Practices
+
+El objetivo de Continuous Deployment (CD) es que cada cambio validado automáticamente se despliegue directamente al entorno de producción sin intervención manual, siempre y cuando pase todas las pruebas previas definidas.
+
+**Tools:**
+
+- GitHub Actions: Utilizado como motor de automatización del pipeline CI/CD. Permite detectar cambios en la rama main y ejecutar una serie de pasos automatizados, entre ellos el despliegue continuo.
+
+- Docker: Se utiliza para contenerizar la aplicación backend (Java Spring Boot). Esto garantiza que el entorno de ejecución en producción sea idéntico al entorno en el que se realizan las pruebas, reduciendo el riesgo de errores por diferencias de configuración.
+
+- Render: Plataforma encargada de ejecutar el entorno de producción. Se configuró para que despliegue automáticamente la nueva versión de la aplicación cada vez que recibe una señal (deploy hook) desde GitHub Actions.
+
+**Practices:**
+
+- Despliegue basado en commits (commit-based deployment): Cada vez que se realiza un push a la rama main, GitHub Actions ejecuta el flujo completo: construcción, pruebas, y si todo es exitoso, activa el hook de despliegue en Render.
+
+- Pipeline completamente automatizado: No hay intervención manual entre la validación del código y el despliegue final. Esto permite entregas más rápidas, frecuentes y confiables al entorno productivo.
+
+- Rollback manual supervisado: Si bien el despliegue es automático, en caso de fallos se debe hacer un rollback manual en Render, seleccionando una versión anterior. Esto permite control frente a errores críticos sin automatizar retrocesos que puedan agravar fallas si no son correctamente evaluadas.
+
+### 7.3.2. Production Deployment Pipeline Components
+
+El pipeline de despliegue a producción está completamente automatizado y se ejecuta cada vez que se realiza un push en la rama main. El objetivo es que la nueva versión de la aplicación backend llegue al entorno productivo sin intervención manual, garantizando agilidad y confiabilidad.
+
+**Componentes del pipeline del Backend:**
+
+1. Activación automática por GitHub Actions: ante un push a main, se inicia el pipeline.
+
+2. Compilación y pruebas: el código se construye con Maven y se ejecutan pruebas unitarias.
+
+3. Despliegue con Render Deploy Hook: si todo es exitoso, GitHub Actions dispara un webhook que comunica a Render que debe desplegar la nueva versión.
+
+4. Ejecución en contenedor: Render construye la imagen de la app y la ejecuta dentro de un contenedor Docker.
+
+5. Monitoreo automático: Render monitorea la aplicación desplegada, reiniciando si detecta fallos.
 
 ## 6.2. Static testing & Verification
 
@@ -2228,13 +2357,138 @@ El pipeline de despliegue a producción está completamente automatizado y se ej
 
 ### 8.1.1. As-Is Summary
 
+HomeyPark es una aplicación móvil diseñada para conectar a conductores que necesitan estacionamiento en zonas urbanas con propietarios de cocheras disponibles. La solución se centra en resolver la escasez de espacios y optimizar el tiempo invertido en la búsqueda de estacionamiento. Si bien se han validado algunos aspectos a través de entrevistas, el producto aún se encuentra en una etapa temprana, lo que abre la posibilidad de identificar hipótesis de mejora que, si se implementan correctamente, podrían aumentar la adopción, la retención y la monetización de la plataforma.
+
+Problemas identificados:
+- **Confianza digital:** Se asume que incorporar verificación de usuarios, fotos reales y reseñas generará mayor seguridad en las reservas.
+
+- **Proceso lento:** Se presume que un flujo optimizado de reserva aumentará la tasa de conversión y reducirá el abandono.
+
+- **Fidelización baja:** Se plantea que implementar un sistema de recompensas o beneficios por uso frecuente aumentaría la retención mensual de usuarios.
+
+- **Falta de reputación:** Se espera que un sistema de puntuaciones entre anfitriones y conductores fomente relaciones más confiables.
+
+- **Búsqueda limitada:** Se plantea que permitir filtros avanzados (precio, horario, tamaño) hará más eficiente la selección de cocheras.
+
+Objetivos de mejora:
+- **Mejorar confianza:** Incorporar funciones de seguridad percibida para aumentar reservas efectivas.
+
+- **Agilizar reservas:** Optimizar la interfaz y reducir el número de pasos para completar una reserva.
+
+- **Incentivar fidelidad:** Diseñar un sistema de puntos, beneficios o descuentos para usuarios frecuentes que fomente la recurrencia.
+
+- **Fortalecer reputación:** Diseñar e integrar un sistema de calificaciones y comentarios visibles.
+
+- **Filtrar resultados:** Permitir personalización avanzada en la búsqueda para mejorar la experiencia del usuario.
+
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+Assumptions:
+- **Seguridad:** Se asume que los usuarios confiarán más en la plataforma si se muestran elementos de verificación, reseñas y fotos reales.
+
+- **Simplicidad:** Se presupone que una interfaz clara, rápida y con pocos pasos aumentará la tasa de reservas efectivas.
+
+- **Reputación:** Se plantea que el sistema de calificaciones y comentarios reducirá la fricción y aumentará el uso recurrente.
+
+- **Filtros avanzados:** Se cree que permitir a los usuarios filtrar por precio, seguridad o tamaño agiliza la toma de decisión y mejora la satisfacción.
+
+- **Fidelidad:** Se supone que los usuarios frecuentes se mantendrán activos si se les ofrecen beneficios o recompensas por uso constante de la app.
+
+Knowledge Gaps:
+- **Preferencias de seguridad:** Se requiere mayor información sobre qué elementos de seguridad (verificación de identidad, fotos, reseñas) son realmente valorados por los usuarios para sentirse cómodos al reservar o publicar una cochera.
+
+- **Nivel de usabilidad requerido:** No se tiene claridad sobre qué tan intuitiva debe ser la interfaz para usuarios con distintos niveles de familiaridad tecnológica.
+
+- **Valor de la reputación:** Faltan datos sobre cuánto influye la visibilidad de puntuaciones y comentarios en la decisión de reservar o aceptar a un usuario, tanto desde el lado del conductor como del anfitrión.
+
+- **Importancia de los filtros:** No se ha validado cuáles son los filtros de búsqueda más utilizados o deseados por los usuarios (precio, distancia, seguridad, techado, etc.) ni cómo influyen en la experiencia general.
+
+- **Receptividad a fidelización:** Se desconoce si los usuarios consideran atractivos los sistemas de recompensas, qué tipo de beneficios preferirían y si estos realmente motivan el uso recurrente de la app.
+
+Ideas:
+- **Validación por identidad:** Implementar un proceso de verificación de anfitriones mediante DNI, dirección y fotos verificadas para aumentar la confianza de los conductores.
+
+- **Asistente de reservas:** Diseñar una funcionalidad que acompañe al usuario paso a paso durante su primera reserva, reduciendo errores o abandonos por confusión.
+
+- **Sistema de reputación:** Activar un módulo de puntuaciones y comentarios visibles entre usuarios, acompañado de insignias para anfitriones destacados.
+
+- **Filtros personalizados:** Desarrollar filtros avanzados para que los usuarios puedan buscar cocheras según criterios como precio, tipo de cochera, horarios disponibles o nivel de seguridad.
+
+- **Sistema de fidelización:** Proponer un esquema de puntos, beneficios o recompensas por uso frecuente de la app, que premie tanto a conductores como a anfitriones.
+
+Claims:
+- **Incremento de reservas:** Si se percibe mayor seguridad en la plataforma (verificación, reseñas, fotos), la conversión de búsqueda a reserva aumentará al menos en un 30%.
+
+- **Mejor adopción del sistema:** Si el proceso de reserva se completa en menos de 3 minutos, la tasa de abandono disminuirá significativamente.
+
+- **Seguridad para los usuarios:** Un sistema visible de puntuaciones y comentarios reducirá quejas, cancelaciones y dudas en las transacciones.
+
+- **Búsquedas óptimas:** Si se habilitan filtros personalizados (precio, tamaño, seguridad), el tiempo para elegir cochera se reducirá en un 20%.
+
+- **Fidelización del usuario:** Si se implementa un sistema de fidelización con puntos o beneficios, al menos el 60% de los usuarios frecuentes usarán la app más de dos veces por semana.
 
 ### 8.1.3. Experiment-Ready Questions
 
+| **Question** | **Confidence** | **Risk** | **Impact** | **Interest** | **Total Score** |
+|--------------|----------------|----------|------------|--------------|-----------------|
+| ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para aumentar la seguridad? | 7 – Estudios previos indican que la seguridad percibida mejora la conversión. | 2 – Riesgo bajo, requiere integración de validaciones estándar. | 8 – Alto impacto en la confianza y en la adopción inicial. | 7 – Usuarios expresaron preocupación por la seguridad en entrevistas. | **24** |
+| ¿Reducirá el abandono del proceso si se simplifica el flujo de reserva a menos de 3 minutos? | 6 – Se presume que el proceso actual puede generar fricción. | 2 – Riesgo bajo, requiere rediseño de interfaz. | 7 – Mejora la conversión directa. | 6 – Los usuarios valoran rapidez y simplicidad. | **21** |
+| ¿Mejorará la confianza de los usuarios si se implementa un sistema visible de reputación con puntuaciones y comentarios? | 7 – Comúnmente valorado en plataformas de economía colaborativa. | 3 – Riesgo medio por la moderación de contenido y posibles abusos. | 7 – Potencial fuerte en retención y percepción de seguridad. | 6 – Relevante para conductores y anfitriones. | **23** |
+| ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, tamaño o nivel de seguridad? | 6 – Los filtros suelen ser bien valorados por usuarios frecuentes. | 2 – Riesgo bajo, funcionalidad estándar. | 6 – Mejora la experiencia de navegación. | 5 – Útil pero no prioritario para todos los usuarios. | **19** |
+| ¿Aumentará el uso recurrente de la app si se implementa un sistema de puntos o recompensas por fidelidad? | 5 – La efectividad depende del tipo de recompensa y perfil del usuario. | 4 – Riesgo medio por implementación y mantenimiento del sistema. | 7 – Puede incentivar el uso constante. | 6 – Moderadamente interesante para usuarios frecuentes. | **22** |
+
 ### 8.1.4. Question Backlog
 
+| **Prioridad** (1,2,3,5,8) | **Pregunta** |
+|---------------------------|--------------|
+| 5 | ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para aumentar la seguridad? |
+| 2 | ¿Mejorará la confianza de los usuarios si se implementa un sistema visible de reputación con puntuaciones y comentarios? |
+| 1 | ¿Reducirá el abandono del proceso si se simplifica el flujo de reserva a menos de 3 minutos? |
+| 3 | ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, tamaño o nivel de seguridad? |
+| 5 | ¿Aumentará el uso recurrente de la app si se implementa un sistema de puntos o recompensas por fidelidad? |
+
 ### 8.1.5. Experiment Cards
+
+---
+
+| **Question** | ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para aumentar la seguridad? |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------|
+| **Why**      | Muchos usuarios desconfían al reservar cocheras de personas desconocidas. Verificaciones visibles (identidad, fotos, reseñas) podrían generar más credibilidad, disminuir el miedo al fraude y fomentar una mayor adopción del servicio. |
+| **What**     | Implementar validación de identidad para anfitriones y conductores mediante documentos oficiales. Añadir también la opción de subir fotos reales del espacio y permitir calificaciones visibles para mejorar la percepción de seguridad. |
+| **Hypothesis** | Se espera que el 70% de los usuarios finalicen la reserva cuando el anfitrión esté verificado, en comparación con un 40% en perfiles no verificados. |
+
+---
+
+| **Question** | ¿Mejorará la confianza de los usuarios si se implementa un sistema visible de reputación con puntuaciones y comentarios? |
+|--------------|-------------------------------------------------------------------------------------------------------------------------|
+| **Why**      | La confianza entre usuarios es esencial en plataformas colaborativas. Un sistema de reputación puede reducir incertidumbre, fomentar transparencia y mejorar la retención. |
+| **What**     | Crear un sistema de reputación donde los usuarios puedan calificar su experiencia con puntuaciones de 1 a 5 estrellas y dejar comentarios visibles luego de cada reserva, tanto para anfitriones como para conductores. |
+| **Hypothesis** | Se espera que anfitriones con reputación ≥4 estrellas aumenten su tasa de reserva en un 25% respecto a quienes no tienen reseñas. |
+
+---
+
+| **Question** | ¿Reducirá el abandono del proceso si se simplifica el flujo de reserva a menos de 3 minutos? |
+|--------------|------------------------------------------------------------------------------------------------|
+| **Why**      | Flujos largos o poco intuitivos generan abandono. Una reserva rápida puede aumentar la conversión, sobre todo en zonas con alta demanda. |
+| **What**     | Rediseñar el flujo de reserva reduciendo la cantidad de pantallas, campos y pasos innecesarios, enfocándose en una experiencia más directa y comprensible para el usuario. |
+| **Hypothesis** | Se espera una reducción del abandono de al menos 30% y una tasa de conversión mayor al 60% en el nuevo flujo. |
+
+---
+
+| **Question** | ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, tamaño o nivel de seguridad? |
+|--------------|-------------------------------------------------------------------------------------------------------------------------|
+| **Why**      | Filtrar opciones ayuda a tomar decisiones más rápidas al reducir la sobrecarga de información y aumentar la relevancia de los resultados. |
+| **What**     | Implementar filtros dinámicos para búsqueda de cocheras, permitiendo seleccionar por precio, medidas del espacio, nivel de seguridad, cercanía o tipo de cochera (techada o abierta). |
+| **Hypothesis** | Se espera una reducción del tiempo de decisión en al menos un 20% entre usuarios que utilizan los filtros. |
+
+---
+
+| **Question** | ¿Aumentará el uso recurrente de la app si se implementa un sistema de puntos o recompensas por fidelidad? |
+|--------------|-----------------------------------------------------------------------------------------------------------|
+| **Why**      | La fidelización a través de recompensas puede motivar a los usuarios a preferir la app como su opción principal para estacionamiento frecuente. |
+| **What**     | Crear un sistema de puntos acumulables por cada reserva realizada, con opciones para canjearlos por descuentos o beneficios especiales dentro de la app. |
+| **Hypothesis** |Se espera que los usuarios con acceso al sistema de fidelización incrementen su frecuencia de uso en un 40%. |
+
 
 ## 8.2. Experiment Design
 
