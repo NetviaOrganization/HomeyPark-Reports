@@ -2263,6 +2263,66 @@ Para obtener una retroalimentación valiosa, hemos diseñado un guion de entrevi
 
 ### 6.3.2. Registro de Entrevistas
 
+**_Usuarios de parking_**
+
+<table>
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Walther Cachay</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">25 años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">Lima, Perú</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/waltherCachay.png"></b></td>
+    <td valign="top">
+      Walter Cachay, un estudiante de ingeniería mecatrónica de 25 años, enfrenta dificultades diarias para encontrar estacionamiento con su auto en Lima, especialmente en horas punta, llegando a tardar hasta una hora y media en zonas como Surco o cerca de su universidad, e incluso una o dos horas en el centro, una situación que atribuye al aumento del parque automotor. Aunque reacio inicialmente a usar garajes de viviendas por seguridad y comodidad, consideraría esta opción si existieran garantías como comprobantes de empresa, reglas claras y vigilancia 24/7. Walter ve una aplicación para buscar estacionamiento como un avance muy positivo para ahorrar tiempo, combustible y encontrar lugares disponibles de manera eficiente, siempre y cuando garantice la seguridad del vehículo mediante un sistema de recomendaciones y ubicaciones confiables.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-06:00</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EUWwVDeGIMxOirf7aLw_VKoBfkh-Q-X3iBSyjW7t8n4CoA?e=czxNW6" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EUWwVDeGIMxOirf7aLw_VKoBfkh-Q-X3iBSyjW7t8n4CoA?e=czxNW6</a></td>
+  </tr>
+</table>
+
+**_Anfitriones_**
+
+<table>
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Augusto Granados</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">20 años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">Lima, Perú</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/augustogranados.png"></b></td>
+    <td valign="top">
+      Augusto Granados, un estudiante de 20 años residente en Magdalena, está interesado en saber el funcionamiento de nuestra aplicación para poder realizar reservas y encontrar un espacio en donde poder dejar su vehículo personal. Nos comenta que el uso de la aplicación es fluida, simple e intuitiva para los usuarios nuevos. Algo que añadió con el objetivo de darnos una mejora continua es crear un canal de comunicación con los administradores por dudas como unas FAQ.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-10:24</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/ES8LOUFSCxxGrxBQgnP628YBGbVLH16NruqSzxFaBg5m9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=H4C6IZ" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/ES8LOUFSCxxGrxBQgnP628YBGbVLH16NruqSzxFaBg5m9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=H4C6IZ</a></td>
+  </tr>
+</table>
+
 ### 6.3.3. Evaluaciones según heurísticas
 
 Tras realizar las entrevistas de validación con usuarios de ambos perfiles (Conductores y Anfitriones), consolidamos los hallazgos en una evaluación basada en las 10 heurísticas de usabilidad de Nielsen. Este análisis nos permite identificar, priorizar y describir los problemas de usabilidad encontrados en el prototipo de HomeyPark.
