@@ -995,45 +995,41 @@ El Product Backlog es una lista priorizada de funcionalidades, mejoras y requeri
 | 12    | TS-03 | Implementar validación de formularios        | Como desarrollador, quiero agregar validaciones a los formularios para asegurar datos válidos.        | EP2   |            3 |
 | 13    | US-09 | Registrarse                                  | Como usuario, quiero registrarme para crear una cuenta.                                               | EP2   |            3 |
 | 14    | US-18 | Registrar cochera                            | Como arrendador, quiero registrar mi cochera para generar ingresos.                                   | EP3   |            3 |
-| 15    | US-20 | Actualizar cochera                           | Como arrendador, quiero actualizar la información de mi cochera.                                      | EP3   |            3 |
-| 16    | US-21 | Eliminar cochera                             | Como arrendador, quiero eliminar una cochera registrada.                                              | EP3   |            3 |
-| 17    | TS-07 | Implementar CRUD de vehículos                | Como desarrollador, quiero desarrollar funciones CRUD para vehículos del usuario.                     | EP7   |            3 |
-| 18    | TS-09 | CRUD de perfil de usuario                    | Como desarrollador, quiero permitir la edición y visualización del perfil de usuario.                 | EP8   |            3 |
-| 19    | US-38 | Subir comprobante de pago                    | Como arrendatario, quiero subir el comprobante de pago.                                               | EP6   |            3 |
-| 20    | US-16 | Ver calificación del estacionamiento         | Como arrendatario, quiero ver calificaciones para evitar fraudes.                                     | EP3   |            2 |
-| 21    | US-24 | Seleccionar vehículo para reserva            | Como arrendatario, quiero seleccionar un vehículo para la reserva.                                    | EP4   |            2 |
-| 22    | US-25 | Cancelar solicitud de reserva                | Como arrendatario, quiero cancelar una reserva solicitada.                                            | EP4   |            2 |
-| 23    | US-26 | Rechazar solicitud de reserva                | Como arrendador, quiero rechazar una solicitud de reserva.                                            | EP4   |            2 |
-| 24    | US-27 | Aprobar solicitud de reserva                 | Como arrendador, quiero aprobar una solicitud de reserva.                                             | EP4   |            2 |
-| 25    | US-10 | Iniciar sesión                               | Como usuario, quiero iniciar sesión con mi correo y contraseña.                                       | EP2   |            2 |
-| 26    | US-17 | Vista previa del lugar                       | Como arrendatario, quiero una vista previa del entorno del estacionamiento.                           | EP3   |            2 |
-| 27    | US-14 | Ver espacios cercanos                        | Como arrendatario, quiero ver espacios cercanos en lista.                                             | EP3   |            2 |
-| 28    | US-19 | Ver mis cocheras registradas                 | Como arrendador, quiero ver mis cocheras registradas.                                                 | EP3   |            2 |
-| 29    | US-40 | Añadir vehículo                              | Como usuario, quiero añadir un vehículo.                                                              | EP7   |            2 |
-| 30    | US-41 | Editar vehículo                              | Como usuario, quiero editar mi vehículo.                                                              | EP7   |            2 |
-| 31    | US-42 | Eliminar vehículo                            | Como usuario, quiero eliminar un vehículo.                                                            | EP7   |            2 |
-| 32    | US-44 | Actualizar perfil                            | Como usuario, quiero actualizar mi perfil.                                                            | EP8   |            2 |
-| 33    | US-03 | Ver ejemplos de servicios                    | Como usuario, quiero ver ejemplos de servicios para imaginar su uso.                                  | EP1   |            2 |
-| 34    | US-04 | Ver precios                                  | Como usuario, quiero ver una sección de precios para conocer los planes.                              | EP1   |            2 |
-| 35    | US-28 | Ver próximas reservas                        | Como arrendatario, quiero ver mis próximas reservas.                                                  | EP5   |            2 |
-| 36    | US-29 | Ver reservas en curso                        | Como arrendatario, quiero ver reservas en curso.                                                      | EP5   |            2 |
-| 37    | US-30 | Ver historial de reservas                    | Como arrendatario, quiero ver el historial de mis reservas.                                           | EP5   |            2 |
-| 38    | US-31 | Ver detalle de reserva                       | Como arrendatario, quiero ver el detalle de una reserva.                                              | EP5   |            2 |
-| 39    | US-32 | Ver próximos servicios                       | Como arrendador, quiero ver mis próximos servicios.                                                   | EP5   |            2 |
-| 40    | US-33 | Ver servicios en curso                       | Como arrendador, quiero ver servicios en curso.                                                       | EP5   |            2 |
-| 41    | US-34 | Ver historial de servicios                   | Como arrendador, quiero ver historial de servicios.                                                   | EP5   |            2 |
-| 42    | US-35 | Ver detalle del servicio                     | Como arrendador, quiero ver el detalle del servicio.                                                  | EP5   |            2 |
-| 43    | US-36 | Iniciar proceso de reserva                   | Como arrendador, quiero iniciar el proceso de reserva.                                                | EP6   |            2 |
-| 44    | US-37 | Finalizar reserva                            | Como arrendatario, quiero finalizar la reserva.                                                       | EP6   |            2 |
-| 45    | US-11 | Cerrar sesión                                | Como usuario, quiero cerrar sesión para proteger mi información.                                      | EP2   |            1 |
-| 46    | US-39 | Ver vehículos registrados                    | Como usuario, quiero ver mis vehículos registrados.                                                   | EP7   |            1 |
-| 47    | US-43 | Ver perfil                                   | Como usuario, quiero ver mi perfil.                                                                   | EP8   |            1 |
-| 48    | US-01 | Ver portada                                  | Como usuario, quiero ver una portada para entender de qué trata la plataforma.                        | EP1   |            1 |
-| 49    | US-02 | Ver beneficios                               | Como usuario, quiero ver los beneficios para entender por qué me conviene.                            | EP1   |            1 |
-| 50    | US-05 | Ver testimonios                              | Como usuario, quiero ver testimonios para tener referencias.                                          | EP1   |            1 |
-| 51    | US-06 | Ver barra de navegación                      | Como usuario, quiero una barra de navegación para facilitar la búsqueda.                              | EP1   |            1 |
-| 52    | US-07 | Ver equipo                                   | Como usuario, quiero ver al equipo para conocer su propósito.                                         | EP1   |            1 |
-| 53    | US-08 | Ver footer                                   | Como usuario, quiero un footer para acceder a información adicional.                                  | EP1   |            1 |
+| 15    | US-21 | Eliminar cochera                             | Como arrendador, quiero eliminar una cochera registrada.                                              | EP3   |            3 |
+| 16    | TS-07 | Implementar CRUD de vehículos                | Como desarrollador, quiero desarrollar funciones CRUD para vehículos del usuario.                     | EP7   |            3 |
+| 17    | US-38 | Subir comprobante de pago                    | Como arrendatario, quiero subir el comprobante de pago.                                               | EP6   |            3 |
+| 18    | US-24 | Seleccionar vehículo para reserva            | Como arrendatario, quiero seleccionar un vehículo para la reserva.                                    | EP4   |            2 |
+| 19    | US-25 | Cancelar solicitud de reserva                | Como arrendatario, quiero cancelar una reserva solicitada.                                            | EP4   |            2 |
+| 20    | US-26 | Rechazar solicitud de reserva                | Como arrendador, quiero rechazar una solicitud de reserva.                                            | EP4   |            2 |
+| 21    | US-27 | Aprobar solicitud de reserva                 | Como arrendador, quiero aprobar una solicitud de reserva.                                             | EP4   |            2 |
+| 22    | US-10 | Iniciar sesión                               | Como usuario, quiero iniciar sesión con mi correo y contraseña.                                       | EP2   |            2 |
+| 23    | US-17 | Vista previa del lugar                       | Como arrendatario, quiero una vista previa del entorno del estacionamiento.                           | EP3   |            2 |
+| 24    | US-14 | Ver espacios cercanos                        | Como arrendatario, quiero ver espacios cercanos en lista.                                             | EP3   |            2 |
+| 25    | US-19 | Ver mis cocheras registradas                 | Como arrendador, quiero ver mis cocheras registradas.                                                 | EP3   |            2 |
+| 26    | US-40 | Añadir vehículo                              | Como usuario, quiero añadir un vehículo.                                                              | EP7   |            2 |
+| 27    | US-42 | Eliminar vehículo                            | Como usuario, quiero eliminar un vehículo.                                                            | EP7   |            2 |
+| 28    | US-44 | Actualizar perfil                            | Como usuario, quiero actualizar mi perfil.                                                            | EP8   |            2 |
+| 29    | US-03 | Ver ejemplos de servicios                    | Como usuario, quiero ver ejemplos de servicios para imaginar su uso.                                  | EP1   |            2 |
+| 30    | US-04 | Ver precios                                  | Como usuario, quiero ver una sección de precios para conocer los planes.                              | EP1   |            2 |
+| 31    | US-28 | Ver próximas reservas                        | Como arrendatario, quiero ver mis próximas reservas.                                                  | EP5   |            2 |
+| 32    | US-29 | Ver reservas en curso                        | Como arrendatario, quiero ver reservas en curso.                                                      | EP5   |            2 |
+| 33    | US-30 | Ver historial de reservas                    | Como arrendatario, quiero ver el historial de mis reservas.                                           | EP5   |            2 |
+| 34     | US-31 | Ver detalle de reserva                       | Como arrendatario, quiero ver el detalle de una reserva.                                              | EP5   |            2 |
+| 35    | US-32 | Ver próximos servicios                       | Como arrendador, quiero ver mis próximos servicios.                                                   | EP5   |            2 |
+| 36    | US-33 | Ver servicios en curso                       | Como arrendador, quiero ver servicios en curso.                                                       | EP5   |            2 |
+| 37    | US-34 | Ver historial de servicios                   | Como arrendador, quiero ver historial de servicios.                                                   | EP5   |            2 |
+| 38    | US-35 | Ver detalle del servicio                     | Como arrendador, quiero ver el detalle del servicio.                                                  | EP5   |            2 |
+| 39    | US-36 | Iniciar proceso de reserva                   | Como arrendador, quiero iniciar el proceso de reserva.                                                | EP6   |            2 |
+| 40    | US-37 | Finalizar reserva                            | Como arrendatario, quiero finalizar la reserva.                                                       | EP6   |            2 |
+| 41    | US-11 | Cerrar sesión                                | Como usuario, quiero cerrar sesión para proteger mi información.                                      | EP2   |            1 |
+| 42    | US-39 | Ver vehículos registrados                    | Como usuario, quiero ver mis vehículos registrados.                                                   | EP7   |            1 |
+| 43    | US-43 | Ver perfil                                   | Como usuario, quiero ver mi perfil.                                                                   | EP8   |            1 |
+| 44    | US-01 | Ver portada                                  | Como usuario, quiero ver una portada para entender de qué trata la plataforma.                        | EP1   |            1 |
+| 45    | US-02 | Ver beneficios                               | Como usuario, quiero ver los beneficios para entender por qué me conviene.                            | EP1   |            1 |
+| 46    | US-05 | Ver testimonios                              | Como usuario, quiero ver testimonios para tener referencias.                                          | EP1   |            1 |
+| 47    | US-06 | Ver barra de navegación                      | Como usuario, quiero una barra de navegación para facilitar la búsqueda.                              | EP1   |            1 |
+| 48    | US-07 | Ver equipo                                   | Como usuario, quiero ver al equipo para conocer su propósito.                                         | EP1   |            1 |
+| 49    | US-08 | Ver footer                                   | Como usuario, quiero un footer para acceder a información adicional.                                  | EP1   |            1 |
 
 ## 3.4. Impact Mapping
 
