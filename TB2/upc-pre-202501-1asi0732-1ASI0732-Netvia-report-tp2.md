@@ -2785,6 +2785,36 @@ Claims:
 
 ### 8.2.7. Web and Mobile Tracking Plan
 
+Con el fin de garantizar la mejora continua de HomeyPark en web y móvil, estableceremos un sistema de rastreo en dos fases que permita medir con precisión el impacto de las funciones experimentales.
+
+**Fase 1: Evaluación Inicial**
+
+Al lanzar las nuevas características, recopilaremos datos para definir una línea base:
+
+Métricas de Uso: Usuarios activos diarios, duración de sesiones, número de reservas completadas y tasa de abandono en el flujo de reservas.
+
+Eventos Relevantes: Registro de clics en acciones clave (reserva, filtros, reseñas) y participación en el programa de recompensas.
+
+Opinión de Usuarios: Encuestas rápidas tras cada reserva para valorar la percepción de seguridad y facilidad de uso.
+
+Comparación Pre/Post: Confrontar estos indicadores con datos anteriores al despliegue para identificar cambios inmediatos.
+
+**Fase 2: Monitoreo Continuado**
+
+Tras la puesta en marcha, se mantendrá el seguimiento para detectar tendencias y ajustar:
+
+Seguimiento en Tiempo Real: Empleo de plataformas de analítica (por ejemplo, Google Analytics y Mixpanel) para observar el comportamiento de los usuarios en vivo.
+
+Análisis por Segmento: Separar datos según perfil (conductor o anfitrión), frecuencia de uso y región, para detectar patrones específicos.
+
+Retención de Usuarios: Medir la proporción de usuarios que regresan y la recurrencia de reservas a lo largo del tiempo.
+
+Informes Periódicos: Informes quinceañales con KPIs esenciales y hallazgos relevantes para guiar mejoras.
+
+Acciones Basadas en Datos: Ajustar procesos y experiencia de usuario siguiendo los insights extraídos de los datos y el feedback.
+
+Esta metodología nos permitirá validar los efectos de las innovaciones y priorizar optimizaciones fundamentadas en datos reales.
+
 ## 8.3. Experimentation
 
 ### 8.3.1. To-Be User Stories
