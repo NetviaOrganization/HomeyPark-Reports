@@ -2185,6 +2185,31 @@ Para obtener una retroalimentación valiosa, hemos diseñado un guion de entrevi
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Walther Cachay</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">20</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">Lima</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/waltherCachay.png"></b></td>
+    <td valign="top">Walther consideró la plataforma intuitiva y fácil de usar, destacando su atractivo visual y la claridad del mapa y la información de estacionamientos. El proceso de reserva fue rápido, aunque sugirió ver las horas disponibles y una mayor densidad de opciones. El registro de vehículos y garajes fue sencillo, pero propuso añadir la opción de subir imágenes de referencia. Si bien la aplicación lo mantuvo informado, notó la falta de retroalimentación en ciertos errores. Los términos le parecieron claros, aunque recomendó confirmación de acciones importantes y un resumen de datos. La interfaz le resultó limpia y funcional. Finalmente, sugirió integrar ayuda y soporte directamente en la aplicación.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-13:00</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EaEst-WKckdLoEDM-y5rnYcBlzqvc1v2gXM7Yd6-ApXLmQ?e=ClCMdD" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EaEst-WKckdLoEDM-y5rnYcBlzqvc1v2gXM7Yd6-ApXLmQ?e=ClCMdD</a></td>
+  </tr>
+
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
     <td valign="top">...............................</td>
   </tr>
   <tr>
@@ -2262,6 +2287,31 @@ Para obtener una retroalimentación valiosa, hemos diseñado un guion de entrevi
   <tr>
     <td valign="top">Duración entrevista  00:00-6:08</td>
     <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EcmaDLnHZLJKt-rY-GQby5cB1xr1uSOdpXw6P1ItDPUMYw?e=h0VerC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EcmaDLnHZLJKt-rY-GQby5cB1xr1uSOdpXw6P1ItDPUMYw?e=h0VerC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></td>
+  </tr>
+
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Henry Sanchez</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">29 años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">Lima</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/henrySanchez.png"></b></td>
+    <td valign="top">Henry encontró la plataforma atractiva e intuitiva, con un mapa y una interfaz principal muy claros para la gestión de estacionamientos y vehículos. Propuso añadir la opción de subir imágenes propias al registrar garajes y deseó una mayor densidad de estacionamientos y la visualización de horas disponibles. Notó la falta de confirmación final en reservas y errores poco claros, sugiriendo un resumen antes de acciones importantes. Finalmente, enfatizó la necesidad de ayuda y soporte técnico accesibles directamente en la aplicación.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-13:00</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EUAQ_HbAtdtEiayGzIJgBbABZ0NYTU_byfOgxh6Kk-_yQQ?e=RjVgQr" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EUAQ_HbAtdtEiayGzIJgBbABZ0NYTU_byfOgxh6Kk-_yQQ?e=RjVgQr</a></td>
   </tr>
 </table>
  
