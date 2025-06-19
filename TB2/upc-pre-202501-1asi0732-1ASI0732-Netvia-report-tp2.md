@@ -2232,6 +2232,11 @@ Para obtener una retroalimentación valiosa, hemos diseñado un guion de entrevi
     <td valign="top">
       Ricardo Rivas, un estudiante de 20 años que vive en Magdalena, mostró interés en conocer cómo funciona nuestra aplicación para realizar reservas y encontrar fácilmente un espacio donde dejar su vehículo personal. Nos comentó que la experiencia de uso le pareció fluida, sencilla e intuitiva, incluso para quienes la utilizan por primera vez. Como sugerencia para seguir mejorando, propuso implementar un canal de comunicación con los administradores, ya sea mediante una sección de preguntas frecuentes (FAQ) u otra vía directa para resolver dudas rápidamente.
     </td>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-6:08</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/EYYDeMA-me1Dp8RVJh_6hykBX3HDVgduSepXPyyF2LDZ-g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=k7eitf" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/EYYDeMA-me1Dp8RVJh_6hykBX3HDVgduSepXPyyF2LDZ-g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=k7eitf</a></td>
+  </tr>
+    
   </tr>
 
   <tr>
