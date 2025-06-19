@@ -2133,6 +2133,31 @@ Para obtener una retroalimentación valiosa, hemos diseñado un guion de entrevi
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Fabrizio Buleje</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">20 años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">Lima</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/Entrevista-Fabrizio.png"></b></td>
+    <td valign="top">Fabrizio probó la aplicación de reserva de estacionamientos y destacó su facilidad de uso, interfaz intuitiva y términos claros. Encontró el proceso de reserva rápido y directo, y valoró la presentación ordenada de funciones. Sugirió añadir una sección de ayuda y permitir que el logo redirija a la pantalla principal, como mejoras menores para la experiencia del usuario
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-7:12</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EffnpPtTUGhJl0MYcGIbDt4BjOiDbdwGx7ZwS_6hPlGA4A?e=r0fLRu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EffnpPtTUGhJl0MYcGIbDt4BjOiDbdwGx7ZwS_6hPlGA4A?e=r0fLRu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></td>
+  </tr>
+
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
     <td valign="top">...............................</td>
   </tr>
   <tr>
@@ -2152,7 +2177,10 @@ Para obtener una retroalimentación valiosa, hemos diseñado un guion de entrevi
     <td valign="top">Duración entrevista  ....................</td>
     <td valign="top"><a href="................" target="_blank">.............................</a></td>
   </tr>
+
 </table>
+
+
 
 **_Anfitriones_**
 
@@ -2182,9 +2210,34 @@ Para obtener una retroalimentación valiosa, hemos diseñado un guion de entrevi
     <td valign="top">Duración entrevista  00:00-10:24</td>
     <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/ES8LOUFSCxxGrxBQgnP628YBGbVLH16NruqSzxFaBg5m9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=H4C6IZ" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/ES8LOUFSCxxGrxBQgnP628YBGbVLH16NruqSzxFaBg5m9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=H4C6IZ</a></td>
   </tr>
-</table>
 
-### 6.3.3. Evaluaciones según heurísticas
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Carla Cruz</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">30 años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">Cusco</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/Entrevista-Carla.png"></b></td>
+    <td valign="top">Carla, usuaria del segmento anfitrión, probó la aplicación y resaltó su claridad, simplicidad e interfaz limpia. Le pareció fácil registrar un garaje, entender las funciones y navegar por la app. Confirmó que todo está bien etiquetado y estandarizado. Sugirió incluir soporte visible y que al agregar un garaje se detecte automáticamente la ubicación actual para agilizar el proceso.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-6:08</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EcmaDLnHZLJKt-rY-GQby5cB1xr1uSOdpXw6P1ItDPUMYw?e=h0VerC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EcmaDLnHZLJKt-rY-GQby5cB1xr1uSOdpXw6P1ItDPUMYw?e=h0VerC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></td>
+  </tr>
+</table>
+ 
+ ### 6.3.3. Evaluaciones según heurísticas
 
 Tras realizar las entrevistas de validación con usuarios de ambos perfiles (Conductores y Anfitriones), consolidamos los hallazgos en una evaluación basada en las 10 heurísticas de usabilidad de Nielsen. Este análisis nos permite identificar, priorizar y describir los problemas de usabilidad encontrados en el prototipo de HomeyPark.
 
