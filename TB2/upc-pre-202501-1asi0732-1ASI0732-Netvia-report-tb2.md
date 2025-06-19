@@ -3061,3 +3061,4 @@ El Comercio. (2024). Congestión vehicular en Lima: La ciudad más lenta de Amé
   Organización en GitHub: https://github.com/orgs/NetviaOrganization/repositories
 
   Trello: https://trello.com/b/TghZeTMj/product-backlog-v2
+Documento Excel de Data Analytics: https://upcedupe-my.sharepoint.com/:x:/g/personal/u202213143_upc_edu_pe/ET7bioftaBBOrLQVqDSwmO0BJwtp3abdGaier6sWqG8O5g?e=W35Pql
