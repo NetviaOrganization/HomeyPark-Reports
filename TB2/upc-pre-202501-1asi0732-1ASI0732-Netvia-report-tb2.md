@@ -2935,6 +2935,15 @@ Claims:
 
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 
+Se llevaron a cabo pruebas de rendimiento, accesibilidad y mejorés prácticas con Lighthouse dentro de HomeyPark para evaluar el desempeño de la plataforma  y optimizar la experiencia de usuario. A continuación, mostramos evidencia de las pruebas realizadas:
+
+<img src="/Assets/Informe_lighthouse.png" alt="screenshot de informe lighthouse">
+<img src="/Assets/informe_lighthouse_2.png" alt="screenshot de informe lighthouse">
+<img src="/Assets/informe_lighthouse_3.png" alt="screenshot de informe lighthouse">
+
+Recopilación de métricas y KPIs de las pruebas:
+<img src="/Assets/grafico-lighthouse.png" alt="grafico de informe lighthouse">
+
 ### 8.2.7. Web and Mobile Tracking Plan
 
 Con el fin de garantizar la mejora continua de HomeyPark en web y móvil, estableceremos un sistema de rastreo en dos fases que permita medir con precisión el impacto de las funciones experimentales.
