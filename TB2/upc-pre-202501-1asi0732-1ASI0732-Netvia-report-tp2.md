@@ -2131,6 +2131,33 @@ Para obtener una retroalimentación valiosa, hemos diseñado un guion de entrevi
   <tr>
     <th colspan="2" valign="top">Registro de entrevistas</th>
   </tr>
+
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Augusto Granados</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">20 años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">Lima, Perú</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/augustogranados.png"></b></td>
+    <td valign="top">
+      Augusto Granados, un estudiante de 20 años residente en Magdalena, está interesado en saber el funcionamiento de nuestra aplicación para poder realizar reservas y encontrar un espacio en donde poder dejar su vehículo personal. Nos comenta que el uso de la aplicación es fluida, simple e intuitiva para los usuarios nuevos. Algo que añadió con el objetivo de darnos una mejora continua es crear un canal de comunicación con los administradores por dudas como unas FAQ.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-10:24</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/ES8LOUFSCxxGrxBQgnP628YBGbVLH16NruqSzxFaBg5m9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=H4C6IZ" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/ES8LOUFSCxxGrxBQgnP628YBGbVLH16NruqSzxFaBg5m9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=H4C6IZ</a></td>
+  </tr>
+
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
     <td valign="top">Fabrizio Buleje</td>
@@ -2190,7 +2217,7 @@ Para obtener una retroalimentación valiosa, hemos diseñado un guion de entrevi
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top">Augusto Granados</td>
+    <td valign="top">Ricador Rivas</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
@@ -2201,14 +2228,10 @@ Para obtener una retroalimentación valiosa, hemos diseñado un guion de entrevi
     <td valign="top">Lima, Perú</td>
   </tr>
   <tr>
-    <td valign="top"><b><img src="../Assets/interviewsPhotos/augustogranados.png"></b></td>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/RicardoRivas.png"></b></td>
     <td valign="top">
-      Augusto Granados, un estudiante de 20 años residente en Magdalena, está interesado en saber el funcionamiento de nuestra aplicación para poder realizar reservas y encontrar un espacio en donde poder dejar su vehículo personal. Nos comenta que el uso de la aplicación es fluida, simple e intuitiva para los usuarios nuevos. Algo que añadió con el objetivo de darnos una mejora continua es crear un canal de comunicación con los administradores por dudas como unas FAQ.
+      Ricardo Rivas, un estudiante de 20 años que vive en Magdalena, mostró interés en conocer cómo funciona nuestra aplicación para realizar reservas y encontrar fácilmente un espacio donde dejar su vehículo personal. Nos comentó que la experiencia de uso le pareció fluida, sencilla e intuitiva, incluso para quienes la utilizan por primera vez. Como sugerencia para seguir mejorando, propuso implementar un canal de comunicación con los administradores, ya sea mediante una sección de preguntas frecuentes (FAQ) u otra vía directa para resolver dudas rápidamente.
     </td>
-  </tr>
-  <tr>
-    <td valign="top">Duración entrevista  00:00-10:24</td>
-    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/ES8LOUFSCxxGrxBQgnP628YBGbVLH16NruqSzxFaBg5m9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=H4C6IZ" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/ES8LOUFSCxxGrxBQgnP628YBGbVLH16NruqSzxFaBg5m9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=H4C6IZ</a></td>
   </tr>
 
   <tr>
