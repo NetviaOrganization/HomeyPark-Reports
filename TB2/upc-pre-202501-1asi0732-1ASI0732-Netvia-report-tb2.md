@@ -2354,9 +2354,29 @@ Para obtener una retroalimentación valiosa, hemos diseñado un guion de entrevi
     </td>
   </tr>
   <tr>
-    <td valign="top">Duración entrevista  00:00-08:04</td>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Juan Pescorán</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">20 años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">Lima</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/entrevista-validacion-juan-pescoran.png"></b></td>
+    <td valign="top">Juan Pescorán es un estudiante de 7mo ciclo de la carrera de ingeniería de software. Él comenta que posee 2 espacios de estacionamiento disponibles en su hogar, por lo tanto, desea reservar estos espacios para aumentar sus ingresos. Juan considera que la plataforma HomeyPark es de fácil entendimiento y uso a la hora de explorar las funcionalidades principales del sistema. Sin embargo, Juan observa la falta de validaciones y mensajes de error en ciertos procesos que contribuirían al entendimiento en la experiencia de usuario. Por último, él afirma que alquilar sus garajes en la plataforma es eficiente debido a que el proceso no dispone de muchos pasos.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-11:02</td>
     <td valign="top">
-    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c410_upc_edu_pe/EXcULGXPr35Hi6hYpn310N0BgIRk-QzySWXZv5JwR5r3vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=42HtZf">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c410_upc_edu_pe/EXcULGXPr35Hi6hYpn310N0BgIRk-QzySWXZv5JwR5r3vA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=42HtZf</a>
+    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EYeoKR7ESg9FjkJzfr8Ms2YBIzZgbNCfG5oJGk-9PZZ_AA?e=uIlZlX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EYeoKR7ESg9FjkJzfr8Ms2YBIzZgbNCfG5oJGk-9PZZ_AA?e=uIlZlX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a>
     </td>
   </tr>
 </table>
