@@ -2269,13 +2269,13 @@ Para obtener una retroalimentación valiosa, hemos diseñado un guion de entrevi
     <td valign="top">Lima</td>
   </tr>
   <tr>
-    <td valign="top"><b><img src="/Assets/entrevista-validacion-miguel.png"></b></td>
+    <td valign="top"><b><img src="../Assets/entrevista-validacion-miguel.png"></b></td>
     <td valign="top">Miguel opina que la plataforma es accesible, atractiva visualmente, y de facil entendimiento. Afirma que se pueden seguir los procesos sin problema alguno y que todos los componentes poseen coherencia. 
     </td>
   </tr>
   <tr>
     <td valign="top">Duración entrevista  0:00-8:52 </td>
-    <td valign="top"><a href="................" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EabQj0vy1B5DlNHIZc8TS-cBaqlVTpbcB-x3te-kqpAzPA?e=tTCDwX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EabQj0vy1B5DlNHIZc8TS-cBaqlVTpbcB-x3te-kqpAzPA?e=tTCDwX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EabQj0vy1B5DlNHIZc8TS-cBaqlVTpbcB-x3te-kqpAzPA?e=tTCDwX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></td>
   </tr>
 </table>
 
