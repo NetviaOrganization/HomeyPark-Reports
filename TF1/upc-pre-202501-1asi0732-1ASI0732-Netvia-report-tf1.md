@@ -2,7 +2,7 @@
 
 # Universidad Peruana de Ciencias Aplicadas
 
-### INFORME DEL TRABAJO 1 (TB2)
+### INFORME DEL TRABAJO (TF)
 
 <img src="../Assets/Logo-UPC.png">
 
@@ -30,7 +30,7 @@
 | Marcelo Fabian Garro Vega       | u20201c410 |
 | Lucio Heli Yen Cerna            | u202213143 |
 
-### Mayo del 2025
+### Junio del 2025
 
 </div>
 
