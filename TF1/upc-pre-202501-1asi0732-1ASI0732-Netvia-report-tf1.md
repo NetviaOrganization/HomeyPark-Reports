@@ -3167,6 +3167,246 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
 
 #### 8.3.4.2. Registro de Entrevistas
 
+**_Usuarios de parking_**
+
+<table>
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">[Nombre]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">[Edad]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">[Ubicacion]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="ruta-img"></b></td>
+    <td valign="top">
+      [Descripcion]
+    </td>
+  </tr>
+
+  
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">[Nombre]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">[Edad]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">[Ubicacion]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="ruta-img"></b></td>
+    <td valign="top">
+      [Descripcion]
+    </td>
+  </tr>
+
+  
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">[Nombre]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">[Edad]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">[Ubicacion]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="ruta-img"></b></td>
+    <td valign="top">
+      [Descripcion]
+    </td>
+  </tr>
+
+  
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">[Nombre]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">[Edad]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">[Ubicacion]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="ruta-img"></b></td>
+    <td valign="top">
+      [Descripcion]
+    </td>
+  </tr>
+
+  
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">[Nombre]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">[Edad]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">[Ubicacion]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="ruta-img"></b></td>
+    <td valign="top">
+      [Descripcion]
+    </td>
+  </tr>
+
+</table>
+
+---
+
+**_Anfitriones_**
+
+<table>
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">[Nombre]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">[Edad]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">[Ubicacion]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="ruta-img"></b></td>
+    <td valign="top">
+      [Descripcion]
+    </td>
+  </tr>
+
+  
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">[Nombre]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">[Edad]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">[Ubicacion]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="ruta-img"></b></td>
+    <td valign="top">
+      [Descripcion]
+    </td>
+  </tr>
+
+  
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">[Nombre]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">[Edad]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">[Ubicacion]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="ruta-img"></b></td>
+    <td valign="top">
+      [Descripcion]
+    </td>
+  </tr>
+
+  
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">[Nombre]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">[Edad]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">[Ubicacion]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="ruta-img"></b></td>
+    <td valign="top">
+      [Descripcion]
+    </td>
+  </tr>
+
+  
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">[Nombre]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">[Edad]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">[Ubicacion]</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="ruta-img"></b></td>
+    <td valign="top">
+      [Descripcion]
+    </td>
+  </tr>
+
+</table>
+
 ## 8.4. Experiment Aftermath & Analysis
 
 ### 8.4.1. Analysis and Interpretation of Results
