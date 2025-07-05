@@ -3417,9 +3417,42 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
+Durante las sesiones de aprendizaje continuo, el equipo de NetVia aplicó un enfoque iterativo para validar hipótesis, evaluar funcionalidades reales y tomar decisiones basadas en la evidencia obtenida de usuarios.
+
+1. **Observación inicial:** Se identificaron problemas clave (confianza, abandono del proceso, dificultad para filtrar) mediante entrevistas y análisis de comportamientos en plataformas similares.
+2. **Diseño de experimentos:** Se elaboraron *experiment cards* con hipótesis medibles y condiciones controladas para validar filtros, reputación, recompensas y verificación.
+3. **Desarrollo funcional:** Se implementaron las funcionalidades directamente sobre un entorno de pruebas (staging) accesible a usuarios reales, sin necesidad de prototipo visual.
+4. **Validación cualitativa:** Se realizaron entrevistas estructuradas a conductores y anfitriones para conocer su percepción sobre las nuevas funcionalidades.
+5. **Validación cuantitativa:** Se diseñó y aplicó una encuesta en Google Forms para confirmar supuestos clave y recoger datos numéricos que respaldan la toma de decisiones.
+6. **Aprendizaje aplicado:** Los hallazgos de estas actividades alimentaron el backlog técnico y guiaron el refinamiento de las funcionalidades priorizadas.
+
+### Artefactos de validación:
+
+- **Encuesta de validación (Google Forms):**  
+
+  Este formulario fue diseñado para recopilar información directa de conductores y anfitriones sobre funcionalidades clave de NetVia, tales como verificación de identidad, reputación visible, filtros de búsqueda y sistema de recompensas.  
+  La encuesta combinó preguntas cerradas y de escala para obtener métricas cuantificables que respaldaran la toma de decisiones en el desarrollo del producto.
+
+  [https://forms.gle/3QTfdJmrTszpmbWbA](https://forms.gle/3QTfdJmrTszpmbWbA)
+
+  <img src = "../Assets/Encuesta-Netvia.png">
+
+- **Servidor de pruebas (staging):**  
+
+  Se habilitó un entorno funcional en staging donde los usuarios interactuaron con las funcionalidades reales (filtros, puntuaciones, verificación, recompensas), lo que permitió recoger validaciones más cercanas al uso real.
+  Validar directamente sobre una versión funcional nos permitió anticipar problemas reales de usabilidad y obtener feedback mucho más valioso que un prototipo estático.
+
 ## 8.6. To-Be Software Platform Pre-launch
 
 ### 8.6.1. About-the-Product Intro Video
+
+El siguiente video presenta una visión general del producto desarrollado, destacando su propósito, funcionalidades principales y el valor que aporta a los usuarios. A través de una breve demostración visual, se explica cómo la aplicación facilita la reserva de cocheras.
+
+Esta presentación permite comprender de forma ágil e intuitiva cómo se integra la propuesta tecnológica con las necesidades reales detectadas en los segmentos de usuarios.
+
+[Video del Producto](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c410_upc_edu_pe/Ed-CJXEtQkhNgspiE93_ZogBiQ-p2sSwNMiWje5okRfPEw?e=9Rypp3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<a href = "https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c410_upc_edu_pe/Ed-CJXEtQkhNgspiE93_ZogBiQ-p2sSwNMiWje5okRfPEw?e=9Rypp3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"><img src="../Assets/about-product.png"/></a>
 
 # Conclusiones, Bibliografía y Anexos
 
