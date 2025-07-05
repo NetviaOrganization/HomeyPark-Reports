@@ -3109,6 +3109,62 @@ Esta metodología nos permitirá validar los efectos de las innovaciones y prior
 
 #### 8.3.4.1. Diseño de Entrevistas
 
+Para validar los experimentos planteados en esta iteración, se diseñaron entrevistas semiestructuradas dirigidas a los dos segmentos clave de usuarios de la aplicación: **arrendadores (anfitriones)** y **arrendatarios (conductores)**. Las preguntas se formularon siguiendo buenas prácticas como: evitar sesgos, usar lenguaje sencillo, enfocarse en experiencias reales y permitir respuestas abiertas.
+
+Las entrevistas están orientadas a explorar cinco aspectos clave: **verificación de usuarios, reputación, facilidad de reserva, filtros en la búsqueda, y recompensas**.
+
+#### A. Preguntas para Arrendatarios (conductores)
+
+**Objetivo:** Entender qué factores influyen en su confianza, decisión de reserva y uso continuo de la app.
+
+**Preguntas principales:**
+
+1. ¿Te da más confianza reservar si ves que el anfitrión ha verificado su correo electrónico?
+2. ¿Preferirías que los anfitriones sin verificación no aparezcan en tu búsqueda?
+3. ¿Lees opiniones de otros usuarios antes de reservar una cochera?
+4. ¿Qué tanto influye el puntaje promedio del anfitrión en tu decisión?
+5. ¿Te pareció sencillo y rápido completar una reserva?
+6. ¿Has dejado alguna reserva a medias? ¿Por qué?
+7. ¿Usas filtros al buscar cocheras? ¿Cuáles usas más?
+8. ¿Te parece útil poder filtrar anfitriones por verificación o reputación?
+9. ¿Te motivaría recibir un 20% de descuento por cada 10 reservas?
+10. ¿Preferirías recompensas automáticas o canjeables manualmente?
+
+**Preguntas complementarias:**
+
+- ¿Qué información valoras más al elegir una cochera?
+- ¿Qué haría que canceles una reserva a último momento?
+- ¿Te resultan útiles los comentarios de otros usuarios? ¿Lees todos o solo los recientes?
+- ¿Qué tipo de recompensa te incentivaría a seguir usando la app?
+- ¿Has sentido que perdiste tiempo al buscar estacionamiento en la app?
+
+#### B. Preguntas para Arrendadores (anfitriones)
+
+**Objetivo:** Validar si las herramientas propuestas aumentan su confianza para publicar espacios y mejorar su tasa de reservas.
+
+**Preguntas principales:**
+
+1. ¿Estarías dispuesto a verificar tu correo si eso mejora la confianza de los conductores?
+2. ¿Te parece útil que los conductores vean una insignia de “correo verificado” en tu perfil?
+3. ¿Cómo te sentirías si los conductores pudieran calificarte públicamente?
+4. ¿Crees que una buena calificación podría ayudarte a obtener más reservas?
+5. ¿Qué opinas de que los usuarios puedan filtrar solo anfitriones verificados?
+6. ¿Crees que un flujo de reserva más simple te beneficiaría como anfitrión?
+7. ¿Has recibido menos reservas de lo esperado? ¿A qué lo atribuyes?
+8. ¿Te gustaría recibir más visibilidad si mantienes una buena reputación?
+9. ¿Te parecería útil que los conductores frecuentes también reciban incentivos?
+10. ¿Crees que premiar a los usuarios frecuentes también te beneficia indirectamente?
+
+**Preguntas complementarias:**
+
+- ¿Qué obstáculos encuentras al momento de publicar tu cochera?
+- ¿Qué información te gustaría que vean los conductores sobre ti?
+- ¿Te parece útil conocer la reputación del conductor antes de aceptar una reserva?
+- ¿Sientes que tener un “perfil verificado” te ayudaría a recibir más reservas?
+- ¿Has usado otras plataformas de estacionamiento? ¿Qué mejorarías?
+
+Estas entrevistas permitirán identificar expectativas, fricciones y oportunidades de mejora en las funcionalidades propuestas, antes de su implementación definitiva.
+
 #### 8.3.4.2. Registro de Entrevistas
 
 ## 8.4. Experiment Aftermath & Analysis
