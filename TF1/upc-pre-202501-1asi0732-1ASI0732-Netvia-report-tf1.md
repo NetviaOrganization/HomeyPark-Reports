@@ -2343,7 +2343,7 @@ Para obtener una retroalimentación valiosa, hemos diseñado un guion de entrevi
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top">29 años</td>
+    <td valign="top">36 años</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
@@ -3200,21 +3200,25 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top">[Nombre]</td>
+    <td valign="top">Noe Sánchez Cortegana</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top">[Edad]</td>
+    <td valign="top">25</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top">[Ubicacion]</td>
+    <td valign="top">Lima</td>
   </tr>
   <tr>
-    <td valign="top"><b><img src="ruta-img"></b></td>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/williamSanchez.png" alt="Entrevista a Ricardo" style="width: 100%; max-width: 600px;"></b></td>
     <td valign="top">
-      [Descripcion]
+      Noé Sánchez Cortegana, conductor de 24 años, evaluó las mejoras de la aplicación Homy Park que incluían comentarios y calificaciones, validaciones de correo electrónico para anfitriones y filtros por puntaje y precio. Su feedback reveló que la verificación de anfitriones es crucial para generar confianza y prefiere que los no verificados no aparezcan en búsquedas, mientras que las reseñas y calificaciones son determinantes en sus decisiones de reserva, incluso por encima del precio. Encontró la interfaz amigable y el proceso de reserva sencillo, confirmó que usa filtros por estrellas, precio y dimensiones, y ha abandonado reservas por problemas de calidad-precio. Considera muy útil poder filtrar por verificación o reputación de anfitriones, se sentiría motivado por descuentos del 20% cada 10 reservas, y prefiere recompensas canjeables manualmente para usarlas cuando sea necesario.
     </td>
+  </tr>
+  <tr>
+    <td>URL:</td>
+    <td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EWN4MneNafJKiF04tNLU0A8BmnFlSMBEC6B2xbwGB3KVWw?e=HHuHP4</td>
   </tr>
 
   
@@ -3323,21 +3327,25 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top">[Nombre]</td>
+    <td valign="top">Henry Sánchez Cortegana</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top">[Edad]</td>
+    <td valign="top">36</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top">[Ubicacion]</td>
+    <td valign="top">Lima</td>
   </tr>
   <tr>
-    <td valign="top"><b><img src="ruta-img"></b></td>
+    <td valign="top"><b><img src="../Assets/interviewsPhotos/henrySanchez.png"></b></td>
     <td valign="top">
-      [Descripcion]
+      Henry Sánchez, psicólogo de 36 años residente en San Isidro, evaluó las mejoras de verificación de correo electrónico y sistema de reseñas y calificaciones para Homy Park. Consideró "muy necesaria" la verificación de correo porque brinda más seguridad a los conductores, comparándola con aplicaciones como Uber, y confirmó que un perfil verificado le ayudaría a recibir más reservas. Valoró positivamente el sistema de calificaciones públicas porque mejora el servicio al motivar a las personas a trabajar mejor, cree que una buena calificación le ayudaría a obtener más reservas, y sugirió implementar calificaciones bidireccionales para que los anfitriones también puedan evaluar a los conductores. Encontró el proceso de reserva sencillo aunque mejorable, apoyó los incentivos para conductores frecuentes como estrategia de fidelización, no tuvo obstáculos al crear cocheras, y destacó la importancia de mostrar información que genere confianza sin comprometer la seguridad, considerando muy útil conocer la reputación de los conductores antes de aceptar reservas para evitar usuarios problemáticos.
     </td>
+  </tr>
+  <tr>
+  <td>URL:</td>
+    <td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EbLqkz7aEFFAjTqwD3_pGFcBz6tz6SnRogRGd0NktMdoGw?e=SU85fN</td>
   </tr>
 
   
