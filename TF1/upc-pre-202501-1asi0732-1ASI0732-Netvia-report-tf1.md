@@ -3371,25 +3371,25 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top">[Nombre]</td>
+    <td valign="top">Carla Cruz</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top">[Edad]</td>
+    <td valign="top">30 años</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top">[Ubicacion]</td>
+    <td valign="top">Cusco</td>
   </tr>
   <tr>
-    <td valign="top"><b><img src="ruta-img"></b></td>
+    <td valign="top"><b><img src="../Assets/Entrevista-Carla-Staging.png"></b></td>
     <td valign="top">
-      [Descripcion]
+      Carla compartió su experiencia positiva con las nuevas funcionalidades de la aplicación, destacando que la verificación de correo y las calificaciones públicas generarían mayor confianza entre usuarios y anfitriones. Considera útil la incorporación de estrellas, comentarios y filtros para anfitriones verificados, ya que aportan credibilidad. También valoró la simplificación del flujo de reservas y el incentivo para usuarios frecuentes, señalando que todo esto puede aumentar la visibilidad y las oportunidades de alquilar su garaje. En general, percibe mejoras notables en la plataforma y está satisfecha con los cambios
     </td>
   </tr>
   <tr>
-    <td valign="top">Duración entrevista  00:00-[00:00]</td>
-    <td valign="top"><a href="link" target="_blank">[link]</a></td>
+    <td valign="top">Duración entrevista  00:00-04:32</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EeNZAQPL_6JJskhwxo-oBGYByJak3nerwzt2Mv1RPkTHug?e=oYbIML&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EeNZAQPL_6JJskhwxo-oBGYByJak3nerwzt2Mv1RPkTHug?e=oYbIML&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></td>
   </tr>
   
   
