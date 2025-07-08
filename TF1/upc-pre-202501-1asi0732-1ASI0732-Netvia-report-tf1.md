@@ -3449,6 +3449,25 @@ Durante las sesiones de aprendizaje continuo, el equipo de NetVia aplicó un enf
 
   <img src = "../Assets/Encuesta-Netvia.png">
 
+  **Resultados de la encuesta:**
+
+  <img src = "../Assets/survey/surveyNames.png">
+  <img src = "../Assets/survey/surveyAge.png">
+  <img src = "../Assets/survey/surveyGender.png">
+  <img src = "../Assets/survey/surveyQuestion1.png">
+  <img src = "../Assets/survey/surveyQuestion2.png">
+  <img src = "../Assets/survey/surveyQuestion3.png">
+  <img src = "../Assets/survey/surveyQuestion4.png">
+  <img src = "../Assets/survey/surveyQuestion5.png">
+  <img src = "../Assets/survey/surveyQuestion6.png">
+  <img src = "../Assets/survey/surveyQuestion7.png">
+  <img src = "../Assets/survey/surveyQuestion8.png">
+  <img src = "../Assets/survey/surveyQuestion9.png">
+  <img src = "../Assets/survey/surveyQuestion10.png">
+  <img src = "../Assets/survey/surveyQuestion11.png">
+  <img src = "../Assets/survey/surveyQuestion12.png">
+
+
 - **Servidor de pruebas (staging):**  
 
   Se habilitó un entorno funcional en staging donde los usuarios interactuaron con las funcionalidades reales (filtros, puntuaciones, verificación, recompensas), lo que permitió recoger validaciones más cercanas al uso real.
