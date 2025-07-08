@@ -3091,13 +3091,58 @@ Esta metodología nos permitirá validar los efectos de las innovaciones y prior
 
 #### 8.3.3.1. To-Be Sprint Backlogs
 
+| ID     | Title                               | Task ID  | Title                                                 | Description                                                                                             | Estimation (Hours) | Assigned To      | Status |
+| :----- | :---------------------------------- | :------- | :---------------------------------------------------- | :------------------------------------------------------------------------------------------------------ | :----------------- | :--------------- | :----- |
+| **TB01** | **Verificar cuenta con email**      | TASK-011 | BE: Crear endpoint para enviar email de verificación  | Desarrollar la lógica del backend para generar un token único y enviarlo al correo del usuario.         | 4                  | Amner Llamo      | To-do  |
+|        |                                     | TASK-012 | FE: Implementar UI para solicitar la verificación     | Añadir un botón o enlace en el perfil del usuario para que pueda solicitar el email de verificación.     | 2                  | Marcelo Garro    | To-do  |
+|        |                                     | TASK-013 | BE: Crear endpoint para confirmar token               | Desarrollar el endpoint que recibe el token desde el email y actualiza el estado del usuario a "verificado". | 3                  | Amner Llamo      | To-do  |
+|        |                                     | TASK-014 | FE: Mostrar insignia de verificado en perfil de usuario | Diseñar y mostrar una insignia visual en la pantalla de perfil del usuario cuando su cuenta está verificada. | 2                  | Marcelo Garro    | To-do  |
+| **TB02** | **Ver insignia de email verificado** | TASK-015 | BE: Incluir estado de verificación en API de anfitrión | Modificar la API que devuelve datos del anfitrión para incluir un campo booleano `is_verified`.        | 1                  | Lucio Yen        | To-do  |
+|        |                                     | TASK-016 | FE: Mostrar insignia en perfil de anfitrión           | En la vista de detalle de una cochera, mostrar la insignia de verificado junto al nombre del anfitrión. | 2                  | Sebastian Cachis | To-do  |
+| **TB03** | **Ver rating promedio del parking** | TASK-017 | BE: Calcular y exponer rating promedio en API         | La API de listado de cocheras debe devolver el promedio de calificaciones de cada una.                  | 3                  | Adriano Cruz     | To-do  |
+|        |                                     | TASK-018 | FE: Mostrar rating en estrellas en el listado         | Implementar un componente visual de estrellas para mostrar el rating promedio en cada tarjeta del listado. | 3                  | Lucio Yen        | To-do  |
+| **TB04** | **Calificar y comentar un parking** | TASK-019 | BE: Crear endpoint para recibir calificación y comentario | Desarrollar endpoint `POST /parkings/{id}/reviews` que guarde estrellas y texto asociados a una reserva. | 4                  | Amner Llamo      | To-do  |
+|        |                                     | TASK-020 | FE: Crear formulario de calificación y comentario     | Diseñar e implementar el modal o pantalla para que el usuario deje su calificación tras usar la cochera. | 4                  | Marcelo Garro    | To-do  |
+| **TB05** | **Leer comentarios recientes**      | TASK-021 | BE: Crear endpoint para obtener comentarios           | Desarrollar endpoint `GET /parkings/{id}/reviews` que devuelva los 3 comentarios más recientes.        | 2                  | Adriano Cruz     | To-do  |
+|        |                                     | TASK-022 | FE: Mostrar últimos comentarios en detalle de cochera | Implementar la sección en la vista de detalle para mostrar los comentarios obtenidos de la API.          | 3                  | Sebastian Cachis | To-do  |
+| **TB06** | **Reserva rápida con datos guardados** | TASK-023 | BE: Lógica de reserva en un paso                      | Crear un nuevo endpoint de reserva que utilice los datos de pago y vehículo ya guardados del usuario.   | 4                  | Lucio Yen        | To-do  |
+|        |                                     | TASK-024 | FE: Implementar botón de "Reserva Rápida"           | Añadir un botón que aparezca si el usuario tiene datos guardados y que llame a la nueva API.         | 3                  | Amner Llamo      | To-do  |
+| **TB07** | **Filtrar por precio mínimo y máximo** | TASK-025 | BE: Actualizar API de búsqueda para aceptar rango de precio | Modificar el endpoint de búsqueda para que pueda filtrar resultados por `min_price` y `max_price`.     | 2                  | Marcelo Garro    | To-do  |
+|        |                                     | TASK-026 | FE: Añadir controles de filtro de precio              | Implementar sliders o inputs en la UI de filtros para que el usuario defina el rango de precios.       | 3                  | Sebastian Cachis | To-do  |
+| **TB08** | **Filtrar por reputación**          | TASK-027 | BE: Actualizar API para filtrar por rating mínimo    | Modificar el endpoint de búsqueda para aceptar un parámetro `min_rating` (ej. `min_rating=4`).           | 2                  | Adriano Cruz     | To-do  |
+|        |                                     | TASK-028 | FE: Añadir control de filtro por reputación           | Añadir un checkbox o selector en la UI de filtros para "Mostrar solo 4 estrellas o más".                | 2                  | Lucio Yen        | To-do  |
+| **TB09** | **Filtrar por anfitriones verificados** | TASK-029 | BE: Actualizar API para filtrar por anfitrión verificado | Modificar el endpoint de búsqueda para aceptar un parámetro booleano `host_verified=true`.              | 2                  | Amner Llamo      | To-do  |
+|        |                                     | TASK-030 | FE: Añadir control de filtro por verificación         | Añadir un toggle o checkbox en la UI de filtros para "Mostrar solo anfitriones verificados".            | 2                  | Marcelo Garro    | To-do  |
+| **TB10** | **Ver progreso hacia recompensa**   | TASK-031 | BE: Endpoint para obtener progreso de recompensas     | Crear endpoint que devuelva el número de reservas completadas por el usuario para el ciclo de recompensa. | 3                  | Adriano Cruz     | To-do  |
+|        |                                     | TASK-032 | FE: Mostrar progreso en el perfil del usuario         | Crear un componente visual (ej. barra de progreso) para mostrar cuántas reservas faltan para el descuento. | 3                  | Sebastian Cachis | To-do  |
+| **TB11** | **Canjear recompensa por descuento** | TASK-033 | BE: Lógica para aplicar descuento en la reserva       | Modificar el proceso de reserva para validar si el usuario tiene un descuento disponible y aplicarlo.     | 4                  | Lucio Yen        | To-do  |
+|        |                                     | TASK-034 | FE: Opción para aplicar descuento en el checkout      | Añadir un checkbox o botón en el resumen de pago para que el usuario elija si quiere usar su descuento. | 3                  | Amner Llamo      | To-do  |
+
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
 ![Frontend Web](./../Assets/tobeAssets/to-be-frontend-landing.png)
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
-![Frontend Web](./../Assets/tobeAssets/tobe-frontend-web-deploy.png)
+TB01: Verificar cuenta con email
+- Como usuario, quiero verificar mi correo electrónico y ver una insignia en mi perfil, para que otros confíen en mí al interactuar en la app.
+
+![alt text](../Assets/8-3-3-3%20imgs/tb1.png)
+
+TB02: Ver insignia de email verificado
+- Como usuario, quiero ver claramente si un anfitrión tiene su correo verificado, para sentir más confianza al reservar una cochera.
+
+![alt text](../Assets/8-3-3-3%20imgs/tb2.png)
+
+TB03: Ver rating promedio del parking
+- Como usuario, quiero ver el promedio de estrellas en el listado, para comparar rápidamente opciones disponibles.
+
+![alt text](../Assets/8-3-3-3%20imgs/tb3.png)
+
+TB05: Leer comentarios recientes
+- Como usuario, quiero acceder a los tres comentarios más recientes de otros usuarios, para conocer sus experiencias previas.
+
+![alt text](../Assets/8-3-3-3%20imgs/tb5.png)
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
