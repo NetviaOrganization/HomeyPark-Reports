@@ -3148,27 +3148,27 @@ TB05: Leer comentarios recientes
 
 TB06: Reserva rápida con datos guardados  
 - Como usuario, quiero completar una reserva en un solo paso si ya tengo mis datos guardados, para ahorrar tiempo.  
-![alt text]()
+![alt text](../Assets/8-3-3-3%20imgs/tb6.png)
 
 TB07: Filtrar por precio mínimo y máximo  
 - Como usuario de la aplicación, quiero definir un rango de precio (mínimo y máximo) al buscar cocheras, para encontrar opciones adecuadas.  
-![alt text]()
+![alt text](../Assets/8-3-3-3%20imgs/tb7.png)
 
 TB08: Filtrar por reputación  
 - Como usuario, quiero ver solo anfitriones con 4 estrellas o más, para elegir opciones bien valoradas.  
-![alt text]()
+![alt text](../Assets/8-3-3-3%20imgs/tb8.png)
 
 TB09: Filtrar por anfitriones verificados  
 - Como usuario, quiero filtrar solo anfitriones con email verificado, para reservar con mayor seguridad.  
-![alt text]()
+![alt text](../Assets/8-3-3-3%20imgs/tb9.png)
 
 TB10: Ver progreso hacia recompensa  
 - Como usuario, quiero ver cuántas reservas me faltan para obtener un descuento, para saber cuándo puedo canjearlo.  
-![alt text]()
+![alt text](../Assets/8-3-3-3%20imgs/tb10.png)
 
 TB11: Canjear recompensa por descuento  
 - Como usuario, quiero aplicar un descuento del 20 % luego de completar 10 reservas, para pagar menos en mi próxima reserva.  
-![alt text]()
+![alt text](../Assets/8-3-3-3%20imgs/tb11.png)
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
@@ -3811,3 +3811,5 @@ El Comercio. (2024). Congestión vehicular en Lima: La ciudad más lenta de Amé
   Trello: https://trello.com/b/TghZeTMj/product-backlog-v2
 
   Documento Excel de Data Analytics: https://upcedupe-my.sharepoint.com/:x:/g/personal/u202213143_upc_edu_pe/ET7bioftaBBOrLQVqDSwmO0BJwtp3abdGaier6sWqG8O5g?e=W35Pql
+
+  Video about the Team: https://www.youtube.com/watch?v=UBQ4t5ALKN0&ab_channel=SebastianCachis
