@@ -3265,6 +3265,21 @@ TB11: Canjear recompensa por descuento
 
 #### 8.3.3.6. Team Collaboration Insights
 
+Durante el desarrollo del proyecto, el equipo trabajó de manera coordinada en tres frentes principales: frontend web, aplicación móvil nativa y backend API RESTful. A continuación, se presentan los aportes distribuidos por miembro del equipo, junto con una descripción general del enfoque de colaboración:
+
+#### **Frontend Web Application**
+
+<img src = "../Assets/Team-Coillaboration-Insights-Web.png">
+
+#### **Native Mobile Application**
+
+<img src = "../Assets/Team-Coillaboration-Insights-Mobile.png">
+
+#### **RESTful API**
+
+<img src = "../Assets/Team-Coillaboration-Insights-Service.png">
+
+
 ### 8.3.4. To-Be Validation Interviews
 
 #### 8.3.4.1. Diseño de Entrevistas
@@ -3712,9 +3727,6 @@ El 54.3 % de los usuarios indicó que **prefiere canjear manualmente los descu
 Los resultados de la encuesta validan de forma clara y consistente las hipótesis planteadas en las experiment cards de NetVia. Las funcionalidades propuestas y fueron valoradas de manera positiva por la mayoría de los encuestados. 
 
 Particularmente, se evidenció que la confianza en anfitriones verificados, la reputación visible, y la agilidad en el proceso de reserva son factores clave que inciden directamente en la decisión de uso y en la retención de usuarios. Asimismo, la alta aceptación del sistema de recompensas indica que los incentivos concretos son una vía efectiva para fomentar la recurrencia.
-
-En conjunto, la interpretación de los datos respalda la priorización de estas funcionalidades en el roadmap, y sugiere que mantener un enfoque centrado en la experiencia del usuario, la seguridad y la personalización será fundamental para el éxito de la plataforma en el mercado.
-
 
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
