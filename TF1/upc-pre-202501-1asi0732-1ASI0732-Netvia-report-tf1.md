@@ -3255,25 +3255,25 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top">[Nombre]</td>
+    <td valign="top">Jorge Ponce</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top">[Edad]</td>
+    <td valign="top">21</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top">[Ubicacion]</td>
+    <td valign="top">Lima</td>
   </tr>
   <tr>
-    <td valign="top"><b><img src="ruta-img"></b></td>
+    <td valign="top"><b><img src="./../Assets/interviewsPhotos/to-be-conductor-jorge.png"></b></td>
     <td valign="top">
-      [Descripcion]
+      Jorge destaca que la app es intuitiva y cumple bien su propósito, facilitando la búsqueda y reserva de cocheras. Sin embargo, muestra su molestia con el sistema de usuarios verificados, ya que considera que no siempre reflejan una mejor experiencia y generan desconfianza cuando el trato no es el esperado. Sugiere revisar los criterios de verificación o permitir que los usuarios puedan reportar inconsistencias en estos perfiles.
     </td>
   </tr>
   <tr>
-    <td valign="top">Duración entrevista  00:00-[00:00]</td>
-    <td valign="top"><a href="link" target="_blank">[link]</a></td>
+    <td valign="top">Duración entrevista  00:00-07:42</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c410_upc_edu_pe/EQRITqQhbLBCrIZtWIgbUJYBEcQK-PVho4w4PeMd_bEE3g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ogXRex" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c410_upc_edu_pe/EQRITqQhbLBCrIZtWIgbUJYBEcQK-PVho4w4PeMd_bEE3g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ogXRex</a></td>
   </tr>
   
   
@@ -3443,7 +3443,6 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
     <td valign="top">Duración entrevista  00:00-[00:00]</td>
     <td valign="top"><a href="link" target="_blank">[link]</a></td>
   </tr>
-
 
 </table>
 
