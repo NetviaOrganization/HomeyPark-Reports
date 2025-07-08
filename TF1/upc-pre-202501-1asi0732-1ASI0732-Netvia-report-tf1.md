@@ -2287,7 +2287,7 @@ Para obtener una retroalimentación valiosa, hemos diseñado un guion de entrevi
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top">Ricador Rivas</td>
+    <td valign="top">Ricardo Rivas</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
@@ -3175,20 +3175,22 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top">[Nombre]</td>
+    <td valign="top">Augusto Granados</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top">[Edad]</td>
+    <td valign="top">20</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top">[Ubicacion]</td>
+    <td valign="top">Lima</td>
   </tr>
   <tr>
-    <td valign="top"><b><img src="ruta-img"></b></td>
+    <td valign="top"><b><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/EaD5YB5Ok3lKoYk6V3XdXi4B6Qyk78EsIyWB4RXzb6gpLg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uEkLxF" target="_blank">
+  <img src="../Assets/interviewsPhotos/augustogranados.png" alt="Entrevista a Ricardo" style="width: 100%; max-width: 600px;">
+</a></b></td>
     <td valign="top">
-      [Descripcion]
+      Durante la entrevista, Augusto resaltó el potencial de nuestra app de estacionamiento y sugirió algunas mejoras clave. Recomendó incorporar un sistema de calificaciones y comentarios para los espacios, añadir una opción de reservas anticipadas y mejorar la visualización del mapa en tiempo real. Estas observaciones nos permitirán ofrecer una experiencia más completa y confiable a nuestros usuarios.
     </td>
   </tr>
 
@@ -3296,20 +3298,22 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top">[Nombre]</td>
+    <td valign="top">Ricardo Rivas</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top">[Edad]</td>
+    <td valign="top">20</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top">[Ubicacion]</td>
+    <td valign="top">Lima</td>
   </tr>
   <tr>
-    <td valign="top"><b><img src="ruta-img"></b></td>
+    <td valign="top"><b><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/Ef3iDP6Kf-VHh23eG--pjKUBs4-94J0i5UdzNshPSir55g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ajTGSG" target="_blank">
+  <img src="../Assets/interviewsPhotos/Ricardo-Final.png" alt="Entrevista a Ricardo" style="width: 100%; max-width: 600px;">
+</a></b></td>
     <td valign="top">
-      [Descripcion]
+      En una entrevista breve, Ricardo nos brindó valioso feedback sobre nuestra app de estacionamiento. Destacó la utilidad de la plataforma, pero recomendó implementar usuarios verificados para mayor seguridad, añadir filtros por rangos de precios para facilitar la búsqueda y optimizar detalles relacionados a la experiencia de uso. Sus sugerencias nos ayudarán a mejorar la confiabilidad y eficiencia del servicio.
     </td>
   </tr>
 
