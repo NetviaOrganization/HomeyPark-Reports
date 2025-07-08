@@ -3193,7 +3193,10 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
       Durante la entrevista, Augusto resaltó el potencial de nuestra app de estacionamiento y sugirió algunas mejoras clave. Recomendó incorporar un sistema de calificaciones y comentarios para los espacios, añadir una opción de reservas anticipadas y mejorar la visualización del mapa en tiempo real. Estas observaciones nos permitirán ofrecer una experiencia más completa y confiable a nuestros usuarios.
     </td>
   </tr>
-
+  <tr>
+    <td valign="top">Duración entrevista  00:00-10:24</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/EaD5YB5Ok3lKoYk6V3XdXi4B6Qyk78EsIyWB4RXzb6gpLg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uEkLxF" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/EaD5YB5Ok3lKoYk6V3XdXi4B6Qyk78EsIyWB4RXzb6gpLg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uEkLxF</a></td>
+  </tr>
   
   <tr>
     <th colspan="2" valign="top">Registro de entrevistas</th>
@@ -3217,8 +3220,34 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
     </td>
   </tr>
   <tr>
-    <td>URL:</td>
-    <td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EWN4MneNafJKiF04tNLU0A8BmnFlSMBEC6B2xbwGB3KVWw?e=HHuHP4</td>
+    <td valign="top">Duración entrevista  00:00-08:59</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EWN4MneNafJKiF04tNLU0A8BmnFlSMBEC6B2xbwGB3KVWw?e=HHuHP4" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EWN4MneNafJKiF04tNLU0A8BmnFlSMBEC6B2xbwGB3KVWw?e=HHuHP4</a></td>
+  </tr>
+  
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top">Fabrizio Buleje</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top">20 años</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top">Chorrillos</td>
+  </tr>
+  <tr>
+    <td valign="top"><b><img src="../Assets/Entrevista-Fabrizio-Staging.png"></b></td>
+    <td valign="top">
+      Fabrizio considera que los nuevos filtros, especialmente el de precio, mejoran mucho la experiencia al facilitar la búsqueda según su presupuesto. Valora la verificación de anfitriones y las opiniones de otros usuarios porque le dan confianza. Le parece útil el sistema de recompensas, aunque prefiere que los descuentos sean canjeables manualmente y sugiere añadir promociones por método de pago. También recomienda incluir filtros por distrito y mejorar la navegación hacia la página principal desde el logo.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  00:00-07:31</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EdKhDwZsTfFHkAsr94WkhuIBZHy2M1509A5Helhmu5m3tA?e=gK5V0d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EdKhDwZsTfFHkAsr94WkhuIBZHy2M1509A5Helhmu5m3tA?e=gK5V0d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></td>
   </tr>
 
   
@@ -3243,7 +3272,11 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
       [Descripcion]
     </td>
   </tr>
-
+  <tr>
+    <td valign="top">Duración entrevista  00:00-[00:00]</td>
+    <td valign="top"><a href="link" target="_blank">[link]</a></td>
+  </tr>
+  
   
   <tr>
     <th colspan="2" valign="top">Registro de entrevistas</th>
@@ -3266,30 +3299,11 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
       [Descripcion]
     </td>
   </tr>
-
+  <tr>
+    <td valign="top">Duración entrevista  00:00-[00:00]</td>
+    <td valign="top"><a href="link" target="_blank">[link]</a></td>
+  </tr>
   
-  <tr>
-    <th colspan="2" valign="top">Registro de entrevistas</th>
-  </tr>
-  <tr>
-    <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top">[Nombre]</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Edad</b></td>
-    <td valign="top">[Edad]</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Departamento</b></td>
-    <td valign="top">[Ubicacion]</td>
-  </tr>
-  <tr>
-    <td valign="top"><b><img src="ruta-img"></b></td>
-    <td valign="top">
-      [Descripcion]
-    </td>
-  </tr>
-
 </table>
 
 ---
@@ -3320,7 +3334,10 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
       En una entrevista breve, Ricardo nos brindó valioso feedback sobre nuestra app de estacionamiento. Destacó la utilidad de la plataforma, pero recomendó implementar usuarios verificados para mayor seguridad, añadir filtros por rangos de precios para facilitar la búsqueda y optimizar detalles relacionados a la experiencia de uso. Sus sugerencias nos ayudarán a mejorar la confiabilidad y eficiencia del servicio.
     </td>
   </tr>
-
+  <tr>
+    <td valign="top">Duración entrevista  00:00-09:05</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/Ef3iDP6Kf-VHh23eG--pjKUBs4-94J0i5UdzNshPSir55g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ajTGSG" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/Ef3iDP6Kf-VHh23eG--pjKUBs4-94J0i5UdzNshPSir55g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ajTGSG</a></td>
+  </tr>
   
   <tr>
     <th colspan="2" valign="top">Registro de entrevistas</th>
@@ -3344,8 +3361,8 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
     </td>
   </tr>
   <tr>
-  <td>URL:</td>
-    <td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EbLqkz7aEFFAjTqwD3_pGFcBz6tz6SnRogRGd0NktMdoGw?e=SU85fN</td>
+    <td valign="top">Duración entrevista  00:00-04:39</td>
+    <td valign="top"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EW40jWzkorhErF8MoKSIyEIBy-fT5CM8i_D9YgqGIxFeOA?e=g8VpYy" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EW40jWzkorhErF8MoKSIyEIBy-fT5CM8i_D9YgqGIxFeOA?e=g8VpYy</a></td>
   </tr>
 
   
@@ -3370,7 +3387,11 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
       [Descripcion]
     </td>
   </tr>
-
+  <tr>
+    <td valign="top">Duración entrevista  00:00-[00:00]</td>
+    <td valign="top"><a href="link" target="_blank">[link]</a></td>
+  </tr>
+  
   
   <tr>
     <th colspan="2" valign="top">Registro de entrevistas</th>
@@ -3393,7 +3414,11 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
       [Descripcion]
     </td>
   </tr>
-
+  <tr>
+    <td valign="top">Duración entrevista  00:00-[00:00]</td>
+    <td valign="top"><a href="link" target="_blank">[link]</a></td>
+  </tr>
+  
   
   <tr>
     <th colspan="2" valign="top">Registro de entrevistas</th>
@@ -3415,13 +3440,32 @@ Estas entrevistas permitirán identificar expectativas, fricciones y oportunidad
     <td valign="top">
       [Descripcion]
     </td>
+  </tr>  
+  <tr>
+    <td valign="top">Duración entrevista  00:00-[00:00]</td>
+    <td valign="top"><a href="link" target="_blank">[link]</a></td>
   </tr>
+  
 
 </table>
 
 ## 8.4. Experiment Aftermath & Analysis
 
 ### 8.4.1. Analysis and Interpretation of Results
+
+<img src = "../Assets/survey/surveyAge.png">
+<img src = "../Assets/survey/surveyGender.png">
+<img src = "../Assets/survey/surveyQuestion1.png">
+<img src = "../Assets/survey/surveyQuestion2.png">
+<img src = "../Assets/survey/surveyQuestion3.png">
+<img src = "../Assets/survey/surveyQuestion4.png">
+<img src = "../Assets/survey/surveyQuestion5.png">
+<img src = "../Assets/survey/surveyQuestion6.png">
+<img src = "../Assets/survey/surveyQuestion7.png">
+<img src = "../Assets/survey/surveyQuestion8.png">
+<img src = "../Assets/survey/surveyQuestion9.png">
+<img src = "../Assets/survey/surveyQuestion10.png">
+<img src = "../Assets/survey/surveyQuestion11.png">
 
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
@@ -3448,25 +3492,6 @@ Durante las sesiones de aprendizaje continuo, el equipo de NetVia aplicó un enf
   [https://forms.gle/3QTfdJmrTszpmbWbA](https://forms.gle/3QTfdJmrTszpmbWbA)
 
   <img src = "../Assets/Encuesta-Netvia.png">
-
-  **Resultados de la encuesta:**
-
-  <img src = "../Assets/survey/surveyNames.png">
-  <img src = "../Assets/survey/surveyAge.png">
-  <img src = "../Assets/survey/surveyGender.png">
-  <img src = "../Assets/survey/surveyQuestion1.png">
-  <img src = "../Assets/survey/surveyQuestion2.png">
-  <img src = "../Assets/survey/surveyQuestion3.png">
-  <img src = "../Assets/survey/surveyQuestion4.png">
-  <img src = "../Assets/survey/surveyQuestion5.png">
-  <img src = "../Assets/survey/surveyQuestion6.png">
-  <img src = "../Assets/survey/surveyQuestion7.png">
-  <img src = "../Assets/survey/surveyQuestion8.png">
-  <img src = "../Assets/survey/surveyQuestion9.png">
-  <img src = "../Assets/survey/surveyQuestion10.png">
-  <img src = "../Assets/survey/surveyQuestion11.png">
-  <img src = "../Assets/survey/surveyQuestion12.png">
-
 
 - **Servidor de pruebas (staging):**  
 
