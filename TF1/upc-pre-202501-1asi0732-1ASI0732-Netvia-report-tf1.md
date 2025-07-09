@@ -2852,31 +2852,29 @@ HomeyPark es una aplicación móvil diseñada para conectar a conductores que ne
 
 | **Question**                                                                                                             | **Confidence**                                                                | **Risk**                                                           | **Impact**                                                   | **Interest**                                                          | **Total Score** |
 | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------------------------- | --------------- |
-| ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para aumentar la seguridad?     | 7 – Estudios previos indican que la seguridad percibida mejora la conversión. | 2 – Riesgo bajo, requiere integración de validaciones estándar.    | 8 – Alto impacto en la confianza y en la adopción inicial.   | 7 – Usuarios expresaron preocupación por la seguridad en entrevistas. | **24**          |
+| ¿Aumentará la tasa de reservas si se añade una verificación de correo electrónico para aumentar la seguridad?            | 7 – Estudios previos indican que la verificación básica mejora la conversión. | 2 – Riesgo bajo, requiere integración de verificación de email.    | 8 – Alto impacto en la confianza y en la adopción inicial.   | 7 – Usuarios expresaron preocupación por la autenticidad de perfiles. | **24**          |
 | ¿Reducirá el abandono del proceso si se simplifica el flujo de reserva a menos de 3 minutos?                             | 6 – Se presume que el proceso actual puede generar fricción.                  | 2 – Riesgo bajo, requiere rediseño de interfaz.                    | 7 – Mejora la conversión directa.                            | 6 – Los usuarios valoran rapidez y simplicidad.                       | **21**          |
 | ¿Mejorará la confianza de los usuarios si se implementa un sistema visible de reputación con puntuaciones y comentarios? | 7 – Comúnmente valorado en plataformas de economía colaborativa.              | 3 – Riesgo medio por la moderación de contenido y posibles abusos. | 7 – Potencial fuerte en retención y percepción de seguridad. | 6 – Relevante para conductores y anfitriones.                         | **23**          |
-| ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, tamaño o nivel de seguridad?   | 6 – Los filtros suelen ser bien valorados por usuarios frecuentes.            | 2 – Riesgo bajo, funcionalidad estándar.                           | 6 – Mejora la experiencia de navegación.                     | 5 – Útil pero no prioritario para todos los usuarios.                 | **19**          |
-| ¿Aumentará el uso recurrente de la app si se implementa un sistema de puntos o recompensas por fidelidad?                | 5 – La efectividad depende del tipo de recompensa y perfil del usuario.       | 4 – Riesgo medio por implementación y mantenimiento del sistema.   | 7 – Puede incentivar el uso constante.                       | 6 – Moderadamente interesante para usuarios frecuentes.               | **22**          |
+| ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, puntuación y verificación?     | 6 – Los filtros suelen ser bien valorados por usuarios frecuentes.            | 2 – Riesgo bajo, funcionalidad estándar.                           | 6 – Mejora la experiencia de navegación.                     | 5 – Útil pero no prioritario para todos los usuarios.                 | **19**          |
+| ¿Aumentará el uso recurrente de la app si se implementa un sistema de recompensas por acumulación de reservas?           | 5 – La efectividad depende del tipo de recompensa y perfil del usuario.       | 4 – Riesgo medio por implementación y mantenimiento del sistema.   | 7 – Puede incentivar el uso constante.                       | 6 – Moderadamente interesante para usuarios frecuentes.               | **22**          |
 
 ### 8.1.4. Question Backlog
 
-| **Prioridad** (1,2,3,5,8) | **Pregunta**                                                                                                             |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| 5                         | ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para aumentar la seguridad?     |
-| 2                         | ¿Mejorará la confianza de los usuarios si se implementa un sistema visible de reputación con puntuaciones y comentarios? |
-| 1                         | ¿Reducirá el abandono del proceso si se simplifica el flujo de reserva a menos de 3 minutos?                             |
-| 3                         | ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, tamaño o nivel de seguridad?   |
-| 5                         | ¿Aumentará el uso recurrente de la app si se implementa un sistema de puntos o recompensas por fidelidad?                |
+| **Prioridad** (1,2,3,5,8) | **Pregunta**                                                                                                                       |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 5                         | ¿Aumentará la tasa de reservas si se añade una verificación de correo electrónico para aumentar la seguridad?                      |
+| 2                         | ¿Mejorará la confianza de los usuarios si se implementa un sistema visible de reputación con puntuaciones y comentarios?           |
+| 1                         | ¿Reducirá el abandono del proceso si se simplifica el flujo de reserva a menos de 3 minutos?                                       |
+| 3                         | ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, puntuación y verificación del anfitrión? |
+| 5                         | ¿Aumentará el uso recurrente de la app si se implementa un sistema de recompensas por acumulación de reservas?                     |
 
 ### 8.1.5. Experiment Cards
 
----
-
-| **Question**   | ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para aumentar la seguridad?                                                                                                                     |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Why**        | Muchos usuarios desconfían al reservar cocheras de personas desconocidas. Verificaciones visibles (identidad, fotos, reseñas) podrían generar más credibilidad, disminuir el miedo al fraude y fomentar una mayor adopción del servicio. |
-| **What**       | Implementar validación de identidad para anfitriones y conductores mediante documentos oficiales. Añadir también la opción de subir fotos reales del espacio y permitir calificaciones visibles para mejorar la percepción de seguridad. |
-| **Hypothesis** | Se espera que el 70% de los usuarios finalicen la reserva cuando el anfitrión esté verificado, en comparación con un 40% en perfiles no verificados.                                                                                     |
+| **Question**   | ¿Aumentará la tasa de reservas si se añade una verificación de correo electrónico para aumentar la seguridad?                                                                                                                         |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Why**        | Muchos usuarios desconfían al reservar cocheras de personas desconocidas. Verificaciones visibles como el correo verificado pueden generar más credibilidad, disminuir el miedo al fraude y fomentar una mayor adopción del servicio. |
+| **What**       | Implementar un sistema donde tanto anfitriones como conductores deban verificar su dirección de correo electrónico para poder operar en la plataforma. En el perfil de cada usuario aparecerá una insignia de "Email Verificado".     |
+| **Hypothesis** | Se espera que el 70 % de los usuarios finalicen la reserva cuando el anfitrión tenga verificado su correo electrónico, en comparación con un 40 % en perfiles no verificados.                                                         |
 
 ---
 
@@ -2896,112 +2894,112 @@ HomeyPark es una aplicación móvil diseñada para conectar a conductores que ne
 
 ---
 
-| **Question**   | ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, tamaño o nivel de seguridad?                                                                |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Why**        | Filtrar opciones ayuda a tomar decisiones más rápidas al reducir la sobrecarga de información y aumentar la relevancia de los resultados.                                             |
-| **What**       | Implementar filtros dinámicos para búsqueda de cocheras, permitiendo seleccionar por precio, medidas del espacio, nivel de seguridad, cercanía o tipo de cochera (techada o abierta). |
-| **Hypothesis** | Se espera una reducción del tiempo de decisión en al menos un 20% entre usuarios que utilizan los filtros.                                                                            |
+| **Question**   | ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, puntuación y verificación del anfitrión?                                                                                      |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Why**        | Filtrar por precio, rating y verificación permite a los usuarios enfocar su búsqueda en opciones que se ajustan a su presupuesto, nivel de confianza y reputación, reduciendo la sobrecarga de información irrelevante. |
+| **What**       | Implementar filtros dinámicos que permitan seleccionar cocheras por: rango de precio, calificación, y anfitriones con verificación visible. Estos filtros estarán disponibles en la interfaz de búsqueda de parkings.   |
+| **Hypothesis** | Se espera una reducción del tiempo de decisión en al menos un 20 % en la búsqueda de parkings entre usuarios que utilizan los filtros de precio, puntuación y verificación.                                             |
 
 ---
 
-| **Question**   | ¿Aumentará el uso recurrente de la app si se implementa un sistema de puntos o recompensas por fidelidad?                                                |
-| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Why**        | La fidelización a través de recompensas puede motivar a los usuarios a preferir la app como su opción principal para estacionamiento frecuente.          |
-| **What**       | Crear un sistema de puntos acumulables por cada reserva realizada, con opciones para canjearlos por descuentos o beneficios especiales dentro de la app. |
-| **Hypothesis** | Se espera que los usuarios con acceso al sistema de fidelización incrementen su frecuencia de uso en un 40%.                                             |
+| **Question**   | ¿Aumentará el uso recurrente de la app si se implementa un sistema de recompensas por acumulación de reservas?                                                                                                                                                                             |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Why**        | La fidelización mediante recompensas concretas incentiva el uso frecuente de la app, ya que los usuarios perciben un beneficio tangible por su recurrencia. Esto puede posicionar la plataforma como su primera opción al estacionar.                                                      |
+| **What**       | Implementar un sistema de recompensas donde los usuarios acumulen una reserva por cada uso completado. Al alcanzar 10 reservas, se otorgará automáticamente un cupón de 20 % de descuento aplicable en la siguiente reserva. El progreso se mostrará visualmente en el perfil del usuario. |
+| **Hypothesis** | Se espera que los usuarios con acceso al sistema de recompensas por acumulación de reservas incrementen su frecuencia de uso en un 40 % respecto a los que no lo tienen disponible.                                                                                                        |
 
 ## 8.2. Experiment Design
 
 ### 8.2.1. Hypotheses
 
-| **Question**        | ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para reforzar la seguridad?                                                                                 |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Belief**          | Muchos usuarios dudan al arrendar cocheras de personas desconocidas. Mostrar identificaciones verificadas, imágenes reales del espacio y reseñas podría generar confianza y reducir la desconfianza. |
-| **Hypothesis**      | Al menos el 70 % de las solicitudes de reserva se completarán cuando el anfitrión esté verificado.                                                                                                   |
-| **Null Hypothesis** | Las verificaciones de perfil no impactarán de manera significativa en la tasa de reservas.                                                                                                           |
+| **Question**        | ¿Aumentará la tasa de reservas si se añade una verificación de correo electrónico para aumentar la seguridad?                                                                       |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Belief**          | Muchos usuarios dudan al arrendar cocheras de personas desconocidas. Mostrar una insignia de verificación por correo electrónico puede generar confianza y reducir la desconfianza. |
+| **Hypothesis**      | Se espera que el 70 % de los usuarios finalicen la reserva cuando el anfitrión tenga verificado su correo electrónico, en comparación con un 40 % en perfiles no verificados.       |
+| **Null Hypothesis** | La verificación por email no impactará de manera significativa en la tasa de reservas.                                                                                              |
 
 | **Question**        | ¿Aumentará la confianza de los usuarios con un sistema de reputación basado en puntuaciones y comentarios visibles?                                   |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Belief**          | La transparencia en la reputación ayuda a los usuarios a evaluar con mayor seguridad a anfitriones y conductores, reduciendo la percepción de riesgo. |
-| **Hypothesis**      | Se incrementará en un 25 % la tasa de reservas de anfitriones con reputación de 4 estrellas o más.                                                    |
+| **Hypothesis**      | Se incrementará en un 25 % la tasa de reservas de anfitriones con reputación de 4 estrellas o más.                                                    |
 | **Null Hypothesis** | El sistema de reputación no provocará un cambio notable en la confianza ni en las reservas.                                                           |
 
 | **Question**        | ¿Se reducirá el abandono del proceso de reserva al simplificarlo para completarlo en menos de 3 minutos?                                    |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Belief**          | Procesos largos o complicados suelen provocar abandono antes de finalizar la reserva. Un flujo más directo podría mejorar las conversiones. |
-| **Hypothesis**      | El abandono del flujo de reserva disminuirá en al menos un 30 %.                                                                            |
+| **Hypothesis**      | El abandono del flujo de reserva disminuirá en al menos un 30 %.                                                                            |
 | **Null Hypothesis** | Reducir los pasos del flujo no influirá significativamente en la tasa de abandono.                                                          |
 
-| **Question**        | ¿Disminuirá el tiempo de decisión si los usuarios pueden filtrar cocheras por precio, tamaño o nivel de seguridad?                                       |
-| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Belief**          | El exceso de opciones puede dificultar la elección. Filtrar resultados ayuda a los usuarios a centrarse en lo que más les importa y agiliza la decisión. |
-| **Hypothesis**      | El tiempo medio de elección se reducirá en un 20 %.                                                                                                      |
-| **Null Hypothesis** | La introducción de filtros no modificará de forma significativa el tiempo de decisión.                                                                   |
+| **Question**        | ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, puntuación y verificación del anfitrión?                                                                   |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Belief**          | El exceso de opciones puede dificultar la elección. Filtrar por precio, reputación y verificación ayuda a centrarse en opciones relevantes y acelera la decisión.                                    |
+| **Hypothesis**      | El tiempo promedio desde la búsqueda hasta la selección de una cochera (clic en "Reservar") en la búsqueda de parkings se reducirá en al menos un 20 % para los usuarios que utilizan estos filtros. |
+| **Null Hypothesis** | La introducción de estos filtros no modificará de forma significativa el tiempo de decisión.                                                                                                         |
 
-| **Question**        | ¿Crecerá la frecuencia de uso de la aplicación si se ofrece un programa de puntos o recompensas?                     |
-| ------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| **Belief**          | Los incentivos por fidelidad suelen impulsar el uso recurrente al premiar el comportamiento deseado de los usuarios. |
-| **Hypothesis**      | Los usuarios con acceso al programa de recompensas aumentarán su uso en un 40 %.                                     |
-| **Null Hypothesis** | El sistema de recompensas no tendrá un efecto apreciable en la frecuencia de uso.                                    |
+| **Question**        | ¿Crecerá la frecuencia de uso de la aplicación si se implementa un sistema de recompensas por acumulación de reservas? |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **Belief**          | Los incentivos concretos por fidelidad suelen impulsar el uso recurrente al premiar el comportamiento deseado.         |
+| **Hypothesis**      | Los usuarios con acceso al sistema de recompensas por acumulación de reservas aumentarán su uso en un 40 %.            |
+| **Null Hypothesis** | El sistema de recompensas no tendrá un efecto apreciable en la frecuencia de uso.                                      |
 
 ### 8.2.2. Measures
 
-| **Question** | ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para reforzar la seguridad?    |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------- |
-| **Measure**  | Medir el porcentaje de reservas completadas por anfitriones verificados versus no verificados en un periodo de 30 días. |
+| **Question** | ¿Aumentará la tasa de reservas si se añade una verificación de correo electrónico para aumentar la seguridad?                         |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **Measure**  | Medir el porcentaje de reservas completadas por anfitriones con email verificado versus no verificados durante un periodo de 30 días. |
 
-| **Question** | ¿Aumentará la confianza de los usuarios con un sistema de reputación basado en puntuaciones y comentarios visibles?                 |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
-| **Measure**  | Registrar la tasa de reservas de anfitriones con reputación ≥4 estrellas y compararla con la de aquellos sin reseñas durante 1 mes. |
+| **Question** | ¿Mejorará la confianza de los usuarios con un sistema de reputación basado en puntuaciones y comentarios visibles?                             |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Measure**  | Registrar la tasa de reservas de anfitriones con reputación promedio ≥4 estrellas y compararla con la de aquellos sin reseñas durante 30 días. |
 
-| **Question** | ¿Se reducirá el abandono del proceso de reserva al simplificarlo para completarlo en menos de 3 minutos?                                    |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Measure**  | Calcular porcentaje de usuarios que inician y completan el flujo de reserva antes y después de la simplificación, en un plazo de 2 semanas. |
+| **Question** | ¿Reducirá el abandono del proceso si se simplifica el flujo de reserva a menos de 3 minutos?                                                  |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Measure**  | Calcular el porcentaje de usuarios que inician y completan el flujo de reserva antes y después del rediseño, durante un periodo de 2 semanas. |
 
-| **Question** | ¿Disminuirá el tiempo de decisión si los usuarios pueden filtrar cocheras por precio, tamaño o nivel de seguridad?                   |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **Measure**  | Medir el tiempo medio desde la búsqueda hasta la reserva para usuarios con y sin uso de filtros durante una muestra de 100 reservas. |
+| **Question** | ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, puntuación y verificación del anfitrión?                                              |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Measure**  | Medir el tiempo promedio desde el inicio de la búsqueda hasta el clic en “Reservar”, comparando usuarios con y sin uso de filtros, sobre una muestra de 50 búsquedas completas. |
 
-| **Question** | ¿Crecerá la frecuencia de uso de la aplicación si se ofrece un programa de puntos o recompensas?                                     |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **Measure**  | Comparar la frecuencia media de reservas por usuario antes y después de activar el programa de recompensas en un período de 60 días. |
+| **Question** | ¿Aumentará el uso recurrente de la app si se implementa un sistema de recompensas por acumulación de reservas?                                   |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Measure**  | Comparar la frecuencia media de reservas de parkings por usuario antes y después de activar el sistema de recompensas, en un periodo de 60 días. |
 
 ### 8.2.3. Conditions
 
-| **Question**               | ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para reforzar la seguridad?                                   |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Experimental Condition** | Anfitriones e inquilinos deberán completar el proceso de verificación de identidad, subir fotos reales y habilitar reseñas antes de permitir reservas. |
-| **Control Condition**      | Usuarios utilizan la aplicación con el flujo actual, sin verificación adicional ni reseñas visibles.                                                   |
+| **Question**               | ¿Aumentará la tasa de reservas si se añade una verificación de correo electrónico para aumentar la seguridad?  |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Experimental Condition** | Anfitriones deben verificar su correo electrónico para poder operar y se muestra una insignia en sus perfiles. |
+| **Control Condition**      | Usuarios utilizan la aplicación sin verificación de correo electrónico ni distintivo visible.                  |
 
-| **Question**               | ¿Aumentará la confianza de los usuarios con un sistema de reputación basado en puntuaciones y comentarios visibles? |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **Experimental Condition** | Tras cada reserva, usuarios pueden asignar estrellas y comentarios; perfiles muestran reputación acumulada.         |
-| **Control Condition**      | La aplicación no muestra puntuaciones ni comentarios en los perfiles de anfitriones.                                |
+| **Question**               | ¿Mejorará la confianza de los usuarios con un sistema de reputación basado en puntuaciones y comentarios visibles?              |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| **Experimental Condition** | Tras cada reserva, los usuarios pueden calificar con estrellas y dejar comentarios; los perfiles muestran reputación acumulada. |
+| **Control Condition**      | La aplicación no muestra puntuaciones ni comentarios en los perfiles de los usuarios.                                           |
 
-| **Question**               | ¿Se reducirá el abandono del proceso de reserva al simplificarlo para completarlo en menos de 3 minutos? |
-| -------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **Experimental Condition** | Nuevo flujo de reserva con máximo tres pantallas y campos prellenados cuando sea posible.                |
-| **Control Condition**      | Flujo de reserva actual con múltiples pasos y sin optimización de navegación.                            |
+| **Question**               | ¿Reducirá el abandono del proceso si se simplifica el flujo de reserva a menos de 3 minutos?      |
+| -------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Experimental Condition** | Nuevo flujo de reserva con un máximo de tres pantallas, campos prellenados y confirmación rápida. |
+| **Control Condition**      | Flujo actual con múltiples pasos, formularios extensos y sin optimización.                        |
 
-| **Question**               | ¿Disminuirá el tiempo de decisión si los usuarios pueden filtrar cocheras por precio, tamaño o nivel de seguridad? |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| **Experimental Condition** | Interfaz de búsqueda incluye filtros dinámicos para precio, dimensiones y nivel de seguridad.                      |
-| **Control Condition**      | Búsqueda básica sin opciones de filtrado avanzadas.                                                                |
+| **Question**               | ¿Reducirá el tiempo de decisión si se permite a los usuarios filtrar cocheras por precio, puntuación y verificación del anfitrión? |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Experimental Condition** | Interfaz de búsqueda con filtros dinámicos para precio, calificación promedio y verificación del anfitrión.                        |
+| **Control Condition**      | Búsqueda sin filtros avanzados; muestra todas las cocheras sin criterios de personalización.                                       |
 
-| **Question**               | ¿Crecerá la frecuencia de uso de la aplicación si se ofrece un programa de puntos o recompensas?       |
-| -------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Experimental Condition** | Todos los usuarios acumulan puntos por cada reserva, visibles en su perfil, canjeables por descuentos. |
-| **Control Condition**      | La aplicación opera sin sistema de puntos o recompensas.                                               |
+| **Question**               | ¿Aumentará el uso recurrente de la app si se implementa un sistema de recompensas por acumulación de reservas?                                                     |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Experimental Condition** | Los usuarios acumulan reservas de parkings; al llegar a 10 reservas obtienen automáticamente un cupón de 20 % de descuento. El progreso se visualiza en su perfil. |
+| **Control Condition**      | La aplicación opera sin ningún tipo de sistema de recompensas o beneficios por uso frecuente.                                                                      |
 
 ### 8.2.4. Scale Calculations and Decisions
 
-| Scale Calculation                                                                                                                                                                                          | Decision                                                                                     | Desfavorable | Aceptable | Ideal | Excelente |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------ | --------- | ----- | --------- |
-| Creemos que la implementación de verificaciones de identidad y reseñas incrementará las reservas en al menos un 70%. Verificaremos esta expectativa con los resultados obtenidos en un período de 30 días. | Implementar verificaciones y reseñas visibles como requisito para reservas.                  |              |           | X     |           |
-| Esperamos que la tasa de reservas de anfitriones con reputación mayor o igual a 4 estrellas aumente un 25% en comparación con aquellos sin reseñas. Evaluaremos esta predicción al finalizar el mes.       | Introducir y mantener activo el sistema visible de puntuaciones y comentarios.               |              |           | X     |           |
-| Prevemos una reducción mínima del 30% en la tasa de abandono del proceso de reserva al simplificarlo a un máximo de 3 minutos. Revisaremos esta métrica durante dos semanas.                               | Rediseñar el flujo actual hacia un proceso simplificado y ágil.                              |              |           |       | X         |
-| Proyectamos una disminución de al menos un 20% en el tiempo medio de decisión al utilizar filtros avanzados en la búsqueda. Esta hipótesis será evaluada sobre una muestra de 100 reservas.                | Implementar filtros avanzados para agilizar la decisión del usuario.                         |              | X         |       |           |
-| Estimamos que la frecuencia de uso aumentará en un 40% con la introducción del sistema de puntos y recompensas. La comparación se realizará sobre un período de 60 días.                                   | Desarrollar y activar un programa de fidelización mediante puntos canjeables por beneficios. |              |           | X     |           |
+| Scale Calculation                                                                                                                                                                                                                                                             | Decision                                                                                              | Desfavorable | Aceptable | Ideal | Excelente |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------ | --------- | ----- | --------- |
+| Creemos que la implementación de la verificación por correo electrónico y reseñas visibles permitirá que al menos el 70 % de las búsquedas se conviertan en reservas, frente a un 40 % en usuarios no verificados. Evaluaremos esta hipótesis durante un período de 30 días.  | Implementar la verificación por email y mostrar reseñas visibles como requisito para reservas.        |              |           | X     |           |
+| Esperamos que la tasa de reservas de anfitriones con reputación mayor o igual a 4 estrellas aumente en un 25 % respecto a los que no tienen reseñas. Evaluaremos esta predicción al finalizar el mes.                                                                         | Introducir y mantener activo el sistema visible de puntuaciones y comentarios.                        |              |           | X     |           |
+| Prevemos una reducción mínima del 30 % en la tasa de abandono del proceso de reserva al simplificarlo a un máximo de 3 minutos. Revisaremos esta métrica durante dos semanas.                                                                                                 | Rediseñar el flujo actual hacia un proceso simplificado y ágil.                                       |              |           |       | X         |
+| Proyectamos una disminución de al menos un 20 % en el tiempo promedio desde que el usuario inicia la búsqueda hasta que hace clic en “Reservar”, al usar filtros por precio, reputación y verificación. La medición se realizará sobre una muestra de 50 búsquedas completas. | Implementar filtros avanzados para agilizar la toma de decisión.                                      |              | X         |       |           |
+| Estimamos que la frecuencia de reservas de parkings aumentará en un 40 % con la implementación de un sistema de recompensas por acumulación de reservas. El impacto se evaluará en un período de 60 días.                                                                     | Activar un sistema de recompensas que otorgue un 20 % de descuento tras cada 10 reservas de parkings. |              |           | X     |           |
 
 ### 8.2.5. Methods Selection
 
