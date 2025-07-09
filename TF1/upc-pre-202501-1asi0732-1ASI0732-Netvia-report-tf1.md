@@ -3174,47 +3174,47 @@ TB11: Canjear recompensa por descuento
 
 TB01: Verificar cuenta con email  
 - Como usuario, quiero verificar mi correo electrónico y ver una insignia en mi perfil, para que otros confíen en mí al interactuar en la app.  
-![alt text]()
+![alt text](../Assets/8-3-3-4imgs/tb1.png)
 
 TB02: Ver insignia de email verificado  
 - Como usuario, quiero ver claramente si un anfitrión tiene su correo verificado, para sentir más confianza al reservar una cochera.  
-![alt text]()
+![alt text](../Assets/8-3-3-4imgs/tb2.png)
 
 TB03: Ver rating promedio del parking  
 - Como usuario, quiero ver el promedio de estrellas en el listado, para comparar rápidamente opciones disponibles.  
-![alt text]()
+![alt text](../Assets/8-3-3-4imgs/tb2.png)
 
 TB04: Calificar y comentar un parking  
 - Como usuario, quiero dejar una calificación en estrellas y un comentario después de usar una cochera, para ayudar a otros usuarios.  
-![alt text]()
+![alt text](../Assets/8-3-3-4imgs/tb4.png)
 
 TB05: Leer comentarios recientes  
 - Como usuario, quiero acceder a los tres comentarios más recientes de otros usuarios, para conocer sus experiencias previas.  
-![alt text]()
+![alt text](../Assets/8-3-3-4imgs/tb5.png)
 
 TB06: Reserva rápida con datos guardados  
 - Como usuario, quiero completar una reserva en un solo paso si ya tengo mis datos guardados, para ahorrar tiempo.  
-![alt text]()
+![alt text](../Assets/8-3-3-4imgs/tb6.png)
 
 TB07: Filtrar por precio mínimo y máximo  
 - Como usuario de la aplicación, quiero definir un rango de precio (mínimo y máximo) al buscar cocheras, para encontrar opciones adecuadas.  
-![alt text]()
+![alt text](../Assets/8-3-3-4imgs/tb7.png)
 
 TB08: Filtrar por reputación  
 - Como usuario, quiero ver solo anfitriones con 4 estrellas o más, para elegir opciones bien valoradas.  
-![alt text]()
+![alt text](../Assets/8-3-3-4imgs/tb7.png)
 
 TB09: Filtrar por anfitriones verificados  
 - Como usuario, quiero filtrar solo anfitriones con email verificado, para reservar con mayor seguridad.  
-![alt text]()
+![alt text](../Assets/8-3-3-4imgs/tb7.png)
 
 TB10: Ver progreso hacia recompensa  
 - Como usuario, quiero ver cuántas reservas me faltan para obtener un descuento, para saber cuándo puedo canjearlo.  
-![alt text]()
+![alt text](../Assets/8-3-3-4imgs/tb10.png)
 
 TB11: Canjear recompensa por descuento  
 - Como usuario, quiero aplicar un descuento del 20 % luego de completar 10 reservas, para pagar menos en mi próxima reserva.  
-![alt text]()
+![alt text](../Assets/8-3-3-4imgs/tb10.png)
 
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
